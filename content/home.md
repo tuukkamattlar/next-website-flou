@@ -10,5 +10,7 @@ items:
     name: Riskiruudukko
   - name: Joku muu paikka
     description: Sen kuvaus
+  - name: Joku muu projekti
+    description: Tämä lisättiin CMS:n kautta netistä t. tuukka
 ---
 a
