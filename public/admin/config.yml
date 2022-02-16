@@ -20,3 +20,16 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+    - label: "Tiimi"
+      name: "tiimi"
+      file: "content/tiimi.md"
+      fields:
+      - { label: "Nimi", name: "name", widget: "string"}
+      - { label: "Kuvaus", name: "description", widget: "markdown"}
+      - label: 'persons'
+        name: "persons"
+        widget: list
+        fields:
+          - { label: "Name", name: "name", widget: "string"}
+          - { label: "Description", name: "description", widget: "text"}
+          - {label: "Featured Image", name: "thumbnail", widget: "image", required: true}
