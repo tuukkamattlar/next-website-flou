@@ -1,3 +1,20 @@
+import styles from './styles/Header.module.css'
+
 export default function Header({ title }) {
-  return <h1 className="title">{title}</h1>
+  return (
+    <div className={styles.header}>
+      <div 
+        className={styles.imgLayer}
+        style={{
+        backgroundImage: "url(/img/tram.jpg)",
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: "cover",
+      }}
+      >
+      </div>
+      <div className={styles.title}>
+        <h1>{title}</h1>
+      </div>
+    </div>
+  )
 }

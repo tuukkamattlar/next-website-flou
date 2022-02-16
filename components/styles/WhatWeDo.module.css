@@ -1,0 +1,25 @@
+.skills {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+    overflow: hidden;
+    
+
+}
+
+.box>h3 {
+    background-color: aqua;
+}
+
+.box:hover {
+    background-color: beige;
+}

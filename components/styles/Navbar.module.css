@@ -1,0 +1,30 @@
+.mainNav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+  
+
+.name {
+    float: left;
+    font-size: 30px;
+}
+
+.links {
+    font-size: 20px;
+    
+}
+
+.links>nav>a {
+    padding-inline: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.links>nav>a:hover {
+    color: rgb(207, 207, 207);
+}

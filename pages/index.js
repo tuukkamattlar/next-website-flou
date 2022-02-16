@@ -1,34 +1,23 @@
 import Head from 'next/head'
 import Header from '@components/Header'
-import Footer from '@components/Footer'
+import WhatWeDoBlock from '@components/WhatWeDoBlock';
+import SmallRef from '@components/SmallRef';
 import { attributes, react as HomeContent } from '../content/home.md';
 
 export default function Home() {
-  let { title, cats } = attributes;
+  let { title, items } = attributes;
   return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-      </Head>
-
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-      <ul>
-            {cats.map((cat, k) => (
-              <li key={k}>
-                <h2>{cat.name}</h2>
-                <p>{cat.description}</p>
-              </li>
-            ))}
-          </ul>
-
-      <Footer />
+    <>      
+    <Head>
+      <title>FLOU</title>
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
+    <div>
+      <Header title="FLOU: joku iskulause?" />
+      <WhatWeDoBlock/>
+      <SmallRef items={items}/>
     </div>
+  </>
+    
   )
 }
