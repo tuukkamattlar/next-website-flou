@@ -8,7 +8,6 @@ items:
     name: Kruunusillat
   - description: Laskettiin tällanenki.
     name: Riskiruudukko
-cats:
   - name: Joku muu paikka
     description: Sen kuvaus
 ---
