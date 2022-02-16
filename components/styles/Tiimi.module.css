@@ -1,0 +1,57 @@
+.container {
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.container>div {
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+.bgimg {
+    filter: grayscale(100%);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    background-position: center;
+}
+
+.bgimg:hover {
+    box-shadow: 10px 8px 20px grey;
+    border-radius: 1%;
+    transition: all 0.3s ease-in-out;
+    background-position: 0px;
+}
+
+.title {
+    position: absolute;
+    bottom: 20px;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+    font-size: 50px;
+}
+
+.bgimg:hover>.title {
+    bottom: 200px;
+    transition: all 0.3s ease-in-out;
+}
+
+.main {
+    position: absolute;
+    bottom: -50px;
+    color: rgb(141, 138, 133);
+    transition: all 0.3s;
+}
+
+.bgimg:hover>.main {
+    bottom: 150px;
+    color: rgb(252, 247, 240);
+    transition: all 0.3s;
+}
