@@ -34,7 +34,7 @@ export default function NavBar() {
             <div className={styles.links}>
                 <nav>
                     {pages.map((val, i) => (
-                        <Link href={val.to}>{val.fi}</Link>
+                        <Link key={i} href={val.to}>{val.fi}</Link>
                     ) )}
                 </nav>
             </div>
