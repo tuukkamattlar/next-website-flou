@@ -5,7 +5,7 @@ export default function Tiimi({ items }) {
   return (
       <div className={styles.container} >
           {items.map((item, k) => (
-            <Link href='/matti' key={k}>
+            <Link href='/osaaja/esim' key={k}>
             <div 
             className={styles.bgimg} 
             style={{
