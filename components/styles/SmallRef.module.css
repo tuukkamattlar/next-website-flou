@@ -9,21 +9,35 @@
     position: relative;
 }
 
-.container>div {
+.bgLayer {
+    position: relative;
     margin: 20px;
     padding: 20px;
     width: 400px;
     height: 500px;
+    cursor: pointer;
 }
 
 .bgimg {
-    filter: grayscale(100%);
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    filter: grayscale(20%);
     overflow: hidden;
     transition: all 0.3s;
 }
 
-.bgimg:hover {
-    filter: grayscale(10%);
+.textLayer {
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.bgLayer:hover>.bgimg {
+    filter: grayscale(100%) blur(1px) brightness(70%);
     transform: scale(1.05, 1.05);
     box-shadow: 10px 8px 20px grey;
     border-radius: 1%;
@@ -38,9 +52,8 @@
     font-size: 50px;
 }
 
-.bgimg:hover>.title {
+.bgLayer:hover>.textLayer>.title {
     bottom: 200px;
-    font-size: 40px;
     transition: all 0.3s;
 }
 
@@ -51,7 +64,7 @@
     transition: all 0.3s;
 }
 
-.bgimg:hover>.main {
+.bgLayer:hover>.textLayer>.main {
     bottom: 150px;
     color: rgb(252, 247, 240);
     transition: all 0.3s;

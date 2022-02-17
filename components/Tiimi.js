@@ -1,9 +1,11 @@
 import styles from './styles/Tiimi.module.css'
+import Link from 'next/link'
 
 export default function Tiimi({ items }) {
   return (
       <div className={styles.container} >
           {items.map((item, k) => (
+            <Link href='/matti'>
             <div 
             key={k}
             className={styles.bgimg} 
@@ -20,6 +22,7 @@ export default function Tiimi({ items }) {
                     {item.description}
                 </p>
             </div>
+            </Link>
           ))}
       </div>
   )

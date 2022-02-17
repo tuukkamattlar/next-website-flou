@@ -14,6 +14,15 @@ export default function Home() {
     </Head>
     <div>
       <Header title="FLOU: joku iskulause?" />
+      <div style={{
+        background: "black",
+        color: "white",
+        fontSize: "50px",
+        textAlign: "center",
+        padding: "30px"
+      }}>
+        {title}
+      </div>
       <WhatWeDoBlock/>
       <SmallRef items={items}/>
     </div>

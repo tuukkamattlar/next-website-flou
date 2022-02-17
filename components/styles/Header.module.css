@@ -1,6 +1,6 @@
 .header{
   position: relative;
-  height: 1000px;
+  height: 80vh;
   width: 100%;
   overflow: hidden;
 }
@@ -10,11 +10,13 @@
   height: 1000px;
   width: 100%;
   filter: brightness(50%);
+  transform: scale(107%);
   transition: all 0.3s;
 }
 
-.header:hover>div {
-  transform: scale(1.05, 1.05);
+.header:hover>.imgLayer {
+  filter: blur(1px) brightness(50%);
+  transform: scale(1.10, 1.10);
   transition: all 0.3s;
 }
 
@@ -26,6 +28,7 @@
   height: 100%;
   width: 100%;
   display: table;
+  transition: all 0.3s;
 }
 
 .title>h1 {
