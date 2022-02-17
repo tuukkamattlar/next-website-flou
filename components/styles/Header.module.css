@@ -10,13 +10,27 @@
   height: 1000px;
   width: 100%;
   filter: brightness(50%);
-  transform: scale(107%);
+  animation: scaling 8s infinite;
   transition: all 0.3s;
+}
+@keyframes scaling {
+  from {
+    transform: scale(101%);
+  }
+  50% {
+    transform: scale(103%);
+  }
+  to {
+    transform: scale(101%);
+  }
 }
 
 .header:hover>.imgLayer {
   filter: blur(1px) brightness(50%);
-  transform: scale(1.10, 1.10);
+  transition: all 0.3s;
+}
+.header:hover>.title>h1 {
+  font-size: 30px;
   transition: all 0.3s;
 }
 
@@ -32,7 +46,9 @@
 }
 
 .title>h1 {
+  font-size: 25px;
   text-align: center;
   vertical-align:middle;
   display: table-cell;
+  transition: all 0.3s;
 }

@@ -5,9 +5,8 @@ export default function Tiimi({ items }) {
   return (
       <div className={styles.container} >
           {items.map((item, k) => (
-            <Link href='/matti'>
+            <Link href='/matti' key={k}>
             <div 
-            key={k}
             className={styles.bgimg} 
             style={{
                 backgroundImage: "url("+item.thumbnail+")",
