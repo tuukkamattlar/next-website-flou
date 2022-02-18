@@ -5,7 +5,7 @@ import SmallRef from '@components/SmallRef';
 import { attributes, react as HomeContent } from '../content/home.md';
 import AddBlock from '@components/addBlock';
 
-export default function Home() {
+export default function Home({lan}) {
   let { title, items } = attributes;
   return (
     <>      
@@ -14,7 +14,7 @@ export default function Home() {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <div>
-      <Header title="FLOU: joku iskulause?" />
+      <Header title={"FLOU: joku iskulause? Huom kieli: "+lan} />
       <WhatWeDoBlock/>
       <AddBlock/>
       <SmallRef items={items}/>
