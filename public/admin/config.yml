@@ -7,14 +7,6 @@ collections:
   - name: "frontpage"
     label: "Etusivun sisältö"
     files:
-    - label: "Headerin Kuva"
-      name: "headphoto"
-      widget: "image"
-      choose_url: true
-      default: "/img/heading.jpg"
-      media_library:
-        config:
-          multiple: true
     - label: "Osa 1"
       name: "part1"
       file: "content/home.md"
