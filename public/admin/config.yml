@@ -4,8 +4,8 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
-  - name: "frontpage"
-    label: "Etusivun sisältö"
+  - name: "Etusivun sisältö"
+    label: "Etusivu"
     files:
     - label: "Osa 1"
       name: "part1"
@@ -33,4 +33,3 @@ collections:
           - { label: "Name", name: "name", widget: "string"}
           - { label: "Description", name: "description", widget: "text"}
           - {label: "Featured Image", name: "thumbnail", widget: "image", required: true}
-  - name: "Projektit"
