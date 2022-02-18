@@ -5,7 +5,7 @@ export default function SmallRef({ items }) {
   return (
       <div className={styles.container} >
           {items.map((item, k) => (
-            <Link href='/projekti'>
+            <Link href='/projekti' key={k}>
             <div className={styles.bgLayer}>
               <div 
               key={k}

@@ -1,0 +1,36 @@
+.container {
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+
+.bgImg {
+    position: absolute;
+    height: 100%;
+    background-image: url('../../public/img/walk.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: 'no-repeat' !important;
+    background-position: center;
+    -webkit-filter: sepia(100%) hue-rotate(200deg) brightness(90%);
+    filter: sepia(100%) hue-rotate(200deg) brightness(90%);
+}
+
+.text {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: aliceblue;
+    padding: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text > h1{
+    transition: all 0.3s;
+}
+.text:hover > h1 {
+    font-size: 35px;
+    transition: all 0.3s;
+}

@@ -36,7 +36,7 @@ export default function WhatWeDoBlock() {
   return (
     <div className={styles.skills}>
         {skillist.map((val, i) => (
-            <div className={styles.box}>
+            <div className={styles.box} key={i}>
                 <h3>
                     {val.title.fi}
                 </h3>

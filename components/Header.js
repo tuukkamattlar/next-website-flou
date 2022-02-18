@@ -9,6 +9,7 @@ export default function Header({ title }) {
         backgroundImage: "url(/img/tram.jpg)",
         backgroundRepeat: 'no-repeat',
         backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
       >
       </div>
