@@ -6,7 +6,7 @@ export default function Header({ title }) {
       <div 
         className={styles.imgLayer}
         style={{
-        backgroundImage: "url(/img/tram.jpg)",
+        backgroundImage: "url(/img/heading.jpg)",
         backgroundRepeat: 'no-repeat',
         backgroundSize: "cover",
         backgroundPosition: "center",
