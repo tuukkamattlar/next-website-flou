@@ -19,7 +19,7 @@ export default function Tiimi({ items, lan }) {
                   {item.name}
                 </h2>
                 <p className={styles.main}>
-                    {item.description[lan]}
+                    {item.description.l}
                 </p>
             </div>
             </Link>
