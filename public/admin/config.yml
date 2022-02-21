@@ -31,6 +31,7 @@ collections:
         widget: list
         fields:
           - { label: "Name", name: "name", widget: "string"}
+            - label: 'description'
             name: "description"
             widget: list
             fields:
