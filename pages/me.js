@@ -6,7 +6,7 @@ export default function Me({lan}) {
     return(
         <div>
             <h2>{lan}</h2>
-            <Tiimi items={persons}/>
+            <Tiimi items={persons} lan={lan}/>
         </div>
     )
   }

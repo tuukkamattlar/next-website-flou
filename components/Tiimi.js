@@ -1,7 +1,8 @@
 import styles from './styles/Tiimi.module.css'
 import Link from 'next/link'
 
-export default function Tiimi({ items }) {
+export default function Tiimi({ items, lan }) {
+  console.log(items)
   return (
       <div className={styles.container} >
           {items.map((item, k) => (
@@ -18,7 +19,7 @@ export default function Tiimi({ items }) {
                   {item.name}
                 </h2>
                 <p className={styles.main}>
-                    {item.description}
+                    {item.description[lan]}
                 </p>
             </div>
             </Link>

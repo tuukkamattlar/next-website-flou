@@ -31,5 +31,9 @@ collections:
         widget: list
         fields:
           - { label: "Name", name: "name", widget: "string"}
-          - { label: "Description", name: "description", widget: "text"}
+            name: "description"
+            widget: list
+            fields:
+            - { label: "Suomeksi", name: "fi", widget: "text"}
+            - { label: "IN English", name: "en", widget: "text"}
           - { label: "Featured Image", name: "thumbnail", widget: "image", required: true}
