@@ -16,13 +16,14 @@
 
 .links {
     font-size: 20px;
-    
+    position: relative;
 }
 
 .links>nav>a {
     padding-inline: 20px;
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 .links>nav>a:hover {

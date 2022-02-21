@@ -32,4 +32,4 @@ collections:
         fields:
           - { label: "Name", name: "name", widget: "string"}
           - { label: "Description", name: "description", widget: "text"}
-          - {label: "Featured Image", name: "thumbnail", widget: "image", required: true}
+          - { label: "Featured Image", name: "thumbnail", widget: "image", required: true}

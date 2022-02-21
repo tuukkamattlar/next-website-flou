@@ -6,11 +6,11 @@ export default function Header({ title }) {
       <div 
         className={styles.imgLayer}
         style={{
-        backgroundImage: "url(/img/heading.jpg)",
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+          backgroundImage: "url(/img/heading.jpg)",
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
       </div>
       <div className={styles.title}>

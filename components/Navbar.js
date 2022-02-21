@@ -36,8 +36,8 @@ export default function NavBar({setLan, lan}) {
                     {pages.map((val, i) => (
                         <Link key={i} href={val.to}>{val[lan]}</Link>
                     ) )}
-                    <button onClick={() => setLan('fi')}>FI</button>
-                    <button onClick={() => setLan('en')}>EN</button>
+                    <a onClick={() => setLan('fi')}>FI</a>
+                    <a onClick={() => setLan('en')}>EN</a>
                 </nav>
             </div>
         </div>
