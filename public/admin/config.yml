@@ -4,7 +4,7 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
-  - name: "Etusivun sisältö"
+  - name: "Etusivu"
     label: "Etusivu"
     files:
     - label: "Osa 1"
@@ -20,6 +20,41 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+  - name: "FLOU"
+    label: "FLOU"
+    files:
+    - label: "Osa 1"
+      name: "part1"
+      file: "content/flou.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Items'
+          name: "items"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}
+  - name: "Osaaminen"
+    label: "Osaaminen"
+    files:
+    - label: "Osa 1"
+      name: "part1"
+      file: "content/competences.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Items'
+          name: "items"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}
+  - name: "Tiimi"
+    label: "Tiimi"
+    files:
     - label: "Tiimi"
       name: "tiimi"
       file: "content/tiimi.md"
@@ -36,5 +71,37 @@ collections:
               widget: list
               fields:
               - { label: "Suomeksi", name: "fi", widget: "text"}
-              - { label: "IN English", name: "en", widget: "text"}
+              - { label: "In English", name: "en", widget: "text"}
             - { label: "Featured Image", name: "thumbnail", widget: "image", required: true}
+  - name: "Blogi"
+    label: "Blogi"
+    files:
+    - label: "Osa 1"
+      name: "part1"
+      file: "content/blog.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Items'
+          name: "items"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}
+  - name: "Ota yhteyttä"
+    label: "Ota yhteyttä"
+    files:
+    - label: "Osa 1"
+      name: "part1"
+      file: "content/contact.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Items'
+          name: "items"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}
