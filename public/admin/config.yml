@@ -119,11 +119,11 @@ collections:
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
+        - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
         - label: 'Body'
-          name: 'bodyText'
+          name: 'body'
           widget: 'object'
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
-        - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
         - { label: "Täyttökuva", name: "fillIMG", widget: "image", required: true}
