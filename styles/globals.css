@@ -1,3 +1,31 @@
+/* FONTS */
+@font-face {
+  font-family: 'Futura Std';
+  src: url('./fonts/FuturaStd-Book.woff2') format('woff2'),
+      url('./fonts/FuturaStd-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('./fonts/FuturaStd-BoldOblique.woff2') format('woff2'),
+    url('./fonts/FuturaStd-BoldOblique.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('./fonts/FuturaStd-Bold.woff2') format('woff2'),
+    url('./fonts/FuturaStd-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* MOBILE BLOCKS */
 @media only screen and (max-width: 600px) {
   :root {
@@ -5,7 +33,6 @@
     --boxHeight: 300px;
     --boxTitleFont: 20px;
     --boxPadding: 0px;
-  
   }
 }
 /* DESKTOP BLOCKS */
@@ -23,7 +50,7 @@ body {
   color: rgb(46, 34, 34);
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+  font-family: Futura Std, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -40,10 +67,38 @@ main {
   align-items: center;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Futura Std;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 14px;
+  font-style: italic;
+}
+
+
 .minHeight {
   min-height: 100vh;
 }
-
 
 .container {
   height: 100vh;
@@ -51,5 +106,4 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }

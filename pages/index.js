@@ -1,12 +1,17 @@
-import Head from 'next/head'
-import Header from '@components/Header'
+import Head from 'next/head';
+import Header from '@components/Header';
 import WhatWeDoBlock from '@components/WhatWeDoBlock';
 import SmallRef from '@components/SmallRef';
 import { attributes, react as HomeContent } from '../content/home.md';
 import AddBlock from '@components/addBlock';
+import { useContext } from 'react';
+import { PageContext } from './_app';
 
-export default function Home({lan}) {
+export default function Home() {
   let { title, items } = attributes;
+
+  const { lan } = useContext(PageContext);
+
   return (
     <>
       <Head>
@@ -14,11 +19,11 @@ export default function Home({lan}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <Header title={"FLOU: joku iskulause? Huom kieli: "+lan} />
-        <WhatWeDoBlock/>
-        <AddBlock/>
-        <SmallRef items={items}/>
+        <Header title={title[lan]} />
+        <WhatWeDoBlock />
+        <AddBlock />
+        <SmallRef items={items} />
       </div>
     </>
-  )
+  );
 }
