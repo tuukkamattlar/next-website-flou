@@ -115,11 +115,13 @@ collections:
       fields:
         - label: 'Otsikko'
           name: 'title'
+          widget: 'object'
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
         - label: 'Leipäteksti'
           name: 'body'
+          widget: 'object'
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
