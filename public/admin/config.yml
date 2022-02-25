@@ -121,7 +121,7 @@ collections:
           - { label: "In English", name: "en", widget: "text"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
         - label: 'Leipateksti'
-          name: 'body'
+          name: 'bodyObject'
           widget: 'object'
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
