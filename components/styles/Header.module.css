@@ -49,10 +49,10 @@
   filter: blur(1px) brightness(50%);
   transition: all 0.3s;
 }
-.header:hover>.title>h1 {
+/* .header:hover>.title>h1 {
   font-size: 30px;
   transition: all 0.3s;
-}
+} */
 
 
 .title {
@@ -70,4 +70,5 @@
   vertical-align:middle;
   display: table-cell;
   transition: all 0.3s;
+  font-size: 30px;
 }
