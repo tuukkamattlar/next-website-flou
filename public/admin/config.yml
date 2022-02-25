@@ -116,7 +116,7 @@ collections:
         - label: 'Otsikko'
           name: 'title'
           widget: 'list'
-          max: 2
+          max: 1
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
@@ -124,7 +124,7 @@ collections:
         - label: 'Body'
           name: 'body'
           widget: 'list'
-          max: 2
+          max: 1
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
