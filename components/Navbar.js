@@ -40,9 +40,9 @@ export default function NavBar() {
 
   return (
     <div className={styles.mainNav}>
-      <div className={styles.name}>
+      <div className={styles.logo}>
         <Link href={'/'}>
-          <img src="/img/logo-white-1.svg" height="20" />
+          <img src="/img/logo-white-1.svg" height="30" />
         </Link>
       </div>
       <div className={styles.links}>

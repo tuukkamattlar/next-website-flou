@@ -4,7 +4,7 @@ export default function WhatWeDoBlock() {
     const skillist = [
         {
             title: {
-                fi: 'asia 1',
+                fi: 'Vaikutusten arviointi',
                 en: 'asia 2'
             },
             description: {
@@ -14,7 +14,7 @@ export default function WhatWeDoBlock() {
         },
         {
             title: {
-                fi: 'asia 2',
+                fi: 'Strategia',
                 en: 'asia 2'
             },
             description: {
@@ -24,7 +24,7 @@ export default function WhatWeDoBlock() {
         }
         ,{
             title: {
-                fi: 'asia 3',
+                fi: 'Riskienhallinta',
                 en: 'asia 2'
             },
             description: {

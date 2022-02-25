@@ -9,9 +9,11 @@
 }
   
 
-.name {
-    float: left;
-    font-size: 30px;
+.logo {
+    max-width: 75px;
+    position: absolute;
+    left: 30px;
+    top: 35px
 }
 
 .links {
