@@ -115,14 +115,16 @@ collections:
       fields:
         - label: 'Otsikko'
           name: 'title'
-          widget: object
+          widget: 'list'
+          max: 2
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
         - label: 'Body'
           name: 'body'
-          widget: object
+          widget: 'list'
+          max: 2
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
