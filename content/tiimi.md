@@ -12,4 +12,9 @@ persons:
     description:
       fi: Esim osaa tehdä kaikkea oikein hyvin
       en: Esim can also english
+  - name: JOku
+    description:
+      fi: sen nimi
+      en: nimi uusiks
+    thumbnail: img/heading.jpg
 ---
