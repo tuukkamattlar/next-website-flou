@@ -6,7 +6,7 @@ media_folder: public/img
 public_folder: img
 
 collections:
-  - name: "Etusivu"
+  - name: "Frontpage"
     label: "Etusivu"
     files:
     - label: "Osa 1"
@@ -44,7 +44,7 @@ collections:
 
 
 # Competences/skillset
-  - name: "Osaaminen"
+  - name: "Competences"
     label: "Osaaminen"
     files:
     - label: "Osa 1"
@@ -63,7 +63,7 @@ collections:
 
 
 # the team
-  - name: "Tiimi"
+  - name: "Team"
     label: "Tiimi"
     files:
     - label: "Tiimi"
@@ -87,7 +87,7 @@ collections:
 
 
 # the blog
-  - name: "Blogi"
+  - name: "Blog"
     label: "Blogi"
     files:
     - label: "Osa 1"
@@ -106,7 +106,7 @@ collections:
 
 
 # contact site content DONE
-  - name: "Ota yhteyttä"
+  - name: "Contact"
     label: "Ota yhteyttä"
     files:
     - label: "Ota Yhteyttä"
