@@ -119,6 +119,12 @@ collections:
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
+        - label: 'Väliotsikko'
+          name: 'subtitle'
+          widget: 'object'
+          fields:
+          - { label: "Suomeksi", name: "fi", widget: "text"}
+          - { label: "In English", name: "en", widget: "text"}
         - label: 'Leipäteksti'
           name: 'body'
           widget: 'object'
