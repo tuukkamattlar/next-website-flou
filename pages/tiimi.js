@@ -1,12 +1,12 @@
 import { attributes, react as HomeContent } from '../content/tiimi.md';
-import Tiimi from '@components/Tiimi';
+import Tiimilista from '@components/Tiimilista';
 
-export default function Me({lan}) {
+export default function Tiimi({lan}) {
     let { title, persons } = attributes;
     return(
         <div>
             <h2>{lan}</h2>
-            <Tiimi items={persons} lan={lan}/>
+            <Tiimilista items={persons} lan={lan}/>
         </div>
     )
   }

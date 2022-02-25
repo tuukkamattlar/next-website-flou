@@ -1,7 +1,7 @@
-export default function Contact({ title }) {
+export default function Contact({ title, lan }) {
     return(
         <div>
-            <h1>Yhteystiedot</h1>
+            <h1>Yhteystiedot {lan}</h1>
         </div>
     )
   }

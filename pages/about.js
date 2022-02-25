@@ -1,7 +1,7 @@
-export default function About({ title }) {
+export default function About({ title, lan }) {
     return(
         <div>
-            <h1>About</h1>
+            <h1>About {lan}</h1>
         </div>
     )
   }

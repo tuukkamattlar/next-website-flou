@@ -3,21 +3,30 @@ import styles from './styles/Navbar.module.css'
 
 export default function NavBar({setLan, lan}) {
 
+    // imo vois hardcodaa nää tänne, 
+    // koska jos noit lähtee webapin kautta muuttaa ni nykysellää menee hommat rikki :DD
+    
+    //TODO structure
     const pages = [
         {
-            fi: 'FLOU',
-            en: 'FLOU',
-            to: '/'
+            fi: 'Yritys',
+            en: 'Company',
+            to: '/about'
         },
         {
-            fi: 'Projektit',
-            en: 'Projects',
-            to: '/projektit'
+            fi: 'Osaaminen',
+            en: 'skills',
+            to: '/osaaminen'
         },
         {
-            fi: 'Me',
-            en: 'We',
-            to: '/me'
+            fi: 'Blogi',
+            en: 'Blog',
+            to: '/blogi'
+        },
+        {
+            fi: 'Tiimi',
+            en: 'Team',
+            to: '/tiimi'
         },
         {
             fi: 'Yhteystiedot',
@@ -29,7 +38,7 @@ export default function NavBar({setLan, lan}) {
     return(
         <div className={styles.mainNav}>
             <div className={styles.name}>
-                FLOU
+                <Link href={'/'}>FLOU</Link>
             </div>
             <div className={styles.links}>
                 <nav>

@@ -1,12 +1,12 @@
 import styles from './styles/Tiimi.module.css'
 import Link from 'next/link'
 
-export default function Tiimi({ items, lan }) {
+export default function Tiimilista({ items, lan }) {
   console.log(items)
   return (
       <div className={styles.container} >
           {items.map((item, k) => (
-            <Link href='/me/esim' key={k}>
+            <Link href='/osaaminen/esim' key={k}>
             <div 
             className={styles.bgimg} 
             style={{
