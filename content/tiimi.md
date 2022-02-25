@@ -17,4 +17,9 @@ persons:
       fi: sen nimi
       en: nimi uusiks
     thumbnail: img/heading.jpg
+  - name: test
+    description:
+      fi: suomeksi
+      en: englanniksi
+    thumbnail: img/hlokuva.jpg
 ---
