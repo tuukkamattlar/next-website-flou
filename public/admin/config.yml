@@ -111,7 +111,7 @@ collections:
     files:
     - label: "Header"
       name: "header"
-      file: "content/contactheader.md"
+      file: "content/contact.md"
       fields:
         - label: 'Otsikko'
           name: 'title'
@@ -121,7 +121,7 @@ collections:
           - { label: "In English", name: "en", widget: "text"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
         - label: 'Leipateksti'
-          name: 'leipa'
+          name: 'body'
           widget: 'object'
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
