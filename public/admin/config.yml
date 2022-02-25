@@ -1,10 +1,12 @@
 backend:
   name: git-gateway
   branch: main
+
 media_folder: public/img
 public_folder: img
+
 collections:
-  - name: "Etusivun sisältö"
+  - name: "Frontpage"
     label: "Etusivu"
     files:
     - label: "Osa 1"
@@ -20,6 +22,50 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+
+
+# FLOU - the company
+  - name: "FLOU"
+    label: "FLOU"
+    files:
+    - label: "Osa 1"
+      name: "part1"
+      file: "content/flou.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Items'
+          name: "items"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}
+
+
+# Competences/skillset
+  - name: "Competences"
+    label: "Osaaminen"
+    files:
+    - label: "Osa 1"
+      name: "part1"
+      file: "content/competences.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Items'
+          name: "items"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}
+
+
+# the team
+  - name: "Team"
+    label: "Tiimi"
+    files:
     - label: "Tiimi"
       name: "tiimi"
       file: "content/tiimi.md"
@@ -33,8 +79,51 @@ collections:
             - { label: "Name", name: "name", widget: "string"}
             - label: 'description'
               name: "description"
-              widget: list
+              widget: 'object'
               fields:
               - { label: "Suomeksi", name: "fi", widget: "text"}
-              - { label: "IN English", name: "en", widget: "text"}
+              - { label: "In English", name: "en", widget: "text"}
             - { label: "Featured Image", name: "thumbnail", widget: "image", required: true}
+
+
+# the blog
+  - name: "Blog"
+    label: "Blogi"
+    files:
+    - label: "Osa 1"
+      name: "part1"
+      file: "content/blog.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Items'
+          name: 'items'
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}
+
+
+# contact site content DONE
+  - name: "Contact"
+    label: "Ota yhteyttä"
+    files:
+    - label: "Ota Yhteyttä"
+      name: "contact"
+      file: "content/contact.md"
+      fields:
+        - label: 'Otsikko'
+          name: 'title'
+          widget: 'object'
+          fields:
+          - { label: "Suomeksi", name: "fi", widget: "text"}
+          - { label: "In English", name: "en", widget: "text"}
+        - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
+        - label: 'Body'
+          name: 'body'
+          widget: 'object'
+          fields:
+          - { label: "Suomeksi", name: "fi", widget: "text"}
+          - { label: "In English", name: "en", widget: "text"}
+        - { label: "Täyttökuva", name: "fillIMG", widget: "image", required: true}
