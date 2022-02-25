@@ -109,22 +109,24 @@ collections:
   - name: "Contact"
     label: "Ota yhteyttä"
     files:
-    - label: "Ota Yhteyttä"
-      name: "contact"
-      file: "content/contact.md"
+    - label: "Header"
+      name: "header"
+      file: "content/contactheader.md"
       fields:
         - label: 'Otsikko'
           name: 'title'
-          widget: 'list'
-          max: 1
+          widget: 'object'
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
-        - label: 'Body'
+    - label: "Leipäosuus"
+      name: "body"
+      file: "content/contactBody.md"
+      fields:
+        - label: 'Leipäteksti'
           name: 'body'
-          widget: 'list'
-          max: 1
+          widget: 'object'
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
