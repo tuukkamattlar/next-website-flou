@@ -1,8 +1,10 @@
 backend:
   name: git-gateway
   branch: main
+
 media_folder: public/img
 public_folder: img
+
 collections:
   - name: "Etusivu"
     label: "Etusivu"
@@ -20,6 +22,9 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+
+
+# FLOU - the company
   - name: "FLOU"
     label: "FLOU"
     files:
@@ -36,6 +41,9 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+
+
+# Competences/skillset
   - name: "Osaaminen"
     label: "Osaaminen"
     files:
@@ -52,6 +60,9 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+
+
+# the team
   - name: "Tiimi"
     label: "Tiimi"
     files:
@@ -73,6 +84,9 @@ collections:
               - { label: "Suomeksi", name: "fi", widget: "text"}
               - { label: "In English", name: "en", widget: "text"}
             - { label: "Featured Image", name: "thumbnail", widget: "image", required: true}
+
+
+# the blog
   - name: "Blogi"
     label: "Blogi"
     files:
@@ -89,6 +103,9 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+
+
+# contact site content
   - name: "Ota yhteyttä"
     label: "Ota yhteyttä"
     files:
