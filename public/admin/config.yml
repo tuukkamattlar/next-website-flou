@@ -120,12 +120,12 @@ collections:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
-    - label: "Leipäosuus"
+    - label: "Leipaosuus"
       name: "body"
       file: "content/contactBody.md"
       fields:
-        - label: 'Leipäteksti'
-          name: 'body'
+        - label: 'Leipateksti'
+          name: 'leipa'
           widget: 'object'
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
