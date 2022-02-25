@@ -98,7 +98,7 @@ collections:
         - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Body", name: "body", widget: "markdown"}
         - label: 'Items'
-          name: "items"
+          name: 'items'
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "string"}
@@ -109,16 +109,20 @@ collections:
   - name: "Ota yhteyttä"
     label: "Ota yhteyttä"
     files:
-    - label: "Osa 1"
-      name: "part1"
+    - label: "Ota Yhteyttä"
+      name: "contact"
       file: "content/contact.md"
       fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Items'
-          name: "items"
+        - label: 'Otsikko'
+          name: 'title'
           widget: list
           fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
+          - { label: "Suomeksi", name: "fi", widget: "text"}
+          - { label: "In English", name: "en", widget: "text"}
+        - label: 'Leipäteksti'
+          name: 'body'
+          widget: list
+          fields:
+          - { label: "Suomeksi", name: "fi", widget: "text"}
+          - { label: "In English", name: "en", widget: "text"}
+        - { label: "Kuva", name: "img", widget: "image", required: true}
