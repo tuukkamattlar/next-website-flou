@@ -97,7 +97,7 @@ collections:
         - label: 'Otsikko'
           name: 'title'
           widget: 'object'
-          description: 'Tähän blogisivun otsikko.'
+          summary: 'Tähän blogisivun otsikko.'
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
