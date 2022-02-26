@@ -3,9 +3,9 @@ import styles from './styles/Footer.module.css';
 export default function Footer() {
   return (
     <>
-      <footer id="footer" class="container-fluid">
+      <footer id="footer" className={styles.footer}>
         <div className={styles['row-centered']}>
-          <div className={styles['col-left'], styles['footerbox']}>
+          <div className={styles['col-left'] + ' ' + styles['footerbox']}>
             <p>
               FLOU Oy
               <br />
@@ -22,19 +22,19 @@ export default function Footer() {
               email. <a href="mailto:info@flou.io">info@flou.io</a>
             </p>
           </div>
-          <div className={styles['col-centered'], styles['footerbox']}>
+          <div className={styles['col-centered'] + ' ' + styles['footerbox']}>
             <p>
               FLOU muualla:
               <br />
               <a href="https://twitter.com/flou_ltd">
-                <img src="twitter.png" />
+                <img src="/img/twitter.png" />
               </a>
               <a href="https://fi.linkedin.com/company/floultd">
-                <img src="linkedin.png" />
+                <img src="/img/linkedin.png" />
               </a>
             </p>
           </div>
-          <div class="col-right footerbox">
+          <div className={styles['col-right'] + ' ' + styles['footerbox']}>
             <p>
               <a href="media.html">MEDIA</a>
               <br />
