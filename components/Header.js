@@ -1,6 +1,7 @@
 import { Icon } from '@blueprintjs/core';
 
 import NavBar from '@components/Navbar';
+import HomeSvg from './HomeSvg';
 import styles from './styles/Header.module.css';
 
 export default function Header({ title }) {
@@ -10,7 +11,7 @@ export default function Header({ title }) {
   return (
     <>
       <div className={styles.header}>
-        <img className={styles.svgLayer} src="/img/wave_white.svg" />
+        <HomeSvg className={styles.svgLayer} src="/img/wave_white.svg" />
         <NavBar />
 
         {/* <div 
