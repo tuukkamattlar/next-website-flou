@@ -2,7 +2,6 @@ import styles from './styles/Tiimi.module.css'
 import Link from 'next/link'
 
 export default function Tiimilista({ items, lan }) {
-  console.log(items)
   return (
       <div className={styles.container} >
           {items.map((item, k) => (

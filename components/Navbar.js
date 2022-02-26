@@ -14,7 +14,7 @@ export default function NavBar() {
     {
       fi: 'Yritys',
       en: 'Company',
-      to: '/about'
+      to: '/flou'
     },
     {
       fi: 'Osaaminen',

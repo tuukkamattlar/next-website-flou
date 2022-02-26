@@ -1,13 +1,31 @@
-import { attributes, react as HomeContent } from '../content/home.md';
-import SmallRef from '@components/SmallRef';
+import { attributes} from '../content/competences.md';
 
 export default function Projects({ title, lan }) {
-    let { k, items } = attributes;
+    let { title, headerIMG, description, items } = attributes;
     return(
-        <div style={{}}>
-            <h1>Projects {lan}</h1>
-            <SmallRef items={items}/>
+        <div >
+            <h1>{title[lan]}</h1>
+            <a>Headerin kuva:</a>
+            <img src={headerIMG} width={300}></img>
+            <p>{description[lan]}</p>
+            {items.map((v,k) => (
+                <div>
+                    <a>{v.title[lan]}</a>
+                    <img src={v.skillIMG} width={300}></img>
+                </div>
+            ))}
         </div>
     )
   }
-  
+
+/* KOODIN HAUTAUSMAA
+
+
+
+<SmallRef items={items}/>
+
+
+
+
+
+*/
