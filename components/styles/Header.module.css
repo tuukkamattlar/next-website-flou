@@ -1,4 +1,4 @@
-.header{
+.header {
   position: relative;
   height: 80vh;
   width: 100%;
@@ -9,10 +9,10 @@
   position: relative;
   height: 100%;
   width: 100%;
-  text-align:center;
+  text-align: center;
 }
 
-.vidLayer>video {
+.vidLayer > video {
   position: absolute;
   background-position: center;
   top: 0;
@@ -22,16 +22,19 @@
   margin: auto;
   min-height: 50%;
   min-width: 50%;
-  text-align:center;
+  text-align: center;
 }
 
-.header>.imgLayer {
+.header > .svgLayer {
   padding: 0px;
-  height: 1000px;
+  height: 140%;
   width: 100%;
-  filter: brightness(50%);
-  animation: scaling 8s infinite;
-  transition: all 0.3s;
+  background-size: contain;
+  background-position: bottom;
+  /* height: calc(100vh - 90px); */
+  position: absolute;
+  right: -30%;
+  bottom: 0px;
 }
 @keyframes scaling {
   from {
@@ -45,7 +48,7 @@
   }
 }
 
-.header:hover>.imgLayer {
+.header:hover > .imgLayer {
   filter: blur(1px) brightness(50%);
   transition: all 0.3s;
 }
@@ -54,21 +57,40 @@
   transition: all 0.3s;
 } */
 
+.titlewrapper {
+  display: flex;
+  -webkit-box-align: center;
+  justify-content: flex-end;
+  -webkit-box-pack: end;
+  padding: 36px 0;
+  position: absolute;
+  width: 85.27473%;
+  margin: 0 auto;
+  margin-left: 7.36264%;
+  height: calc(100vh - 90px);
+  align-items: center;
+}
 
 .title {
   color: rgb(255, 255, 255);
   position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  display: table;
-  transition: all 0.3s;
+  left: 0px;
+  top: 50%;
+  width: 50%;
+  display: block;
+  transform: translateY(-50%);
 }
 
-.title>h1 {
-  text-align: center;
-  vertical-align:middle;
-  display: table-cell;
-  transition: all 0.3s;
+.title > h1 {
+  /* text-align: center;
+  vertical-align: middle; */
+  /* display: table-row; */
   font-size: 30px;
+}
+
+.title > text {
+  /* text-align: center;
+  vertical-align: middle; */
+  /* display: table-row; */
+  font-size: 14px;
 }
