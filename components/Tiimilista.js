@@ -2,27 +2,43 @@ import styles from './styles/Tiimi.module.css'
 import Link from 'next/link'
 
 export default function Tiimilista({ items, lan }) {
+
   return (
       <div className={styles.container} >
           {items.map((item, k) => (
-            <Link href='/osaaminen/esim' key={k}>
-            <div 
-            className={styles.bgimg} 
-            style={{
-                backgroundImage: "url("+item.thumbnail+")",
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: "cover",
-              }}
-              >
-                <h2 className={styles.title} >
-                  {item.name}
-                </h2>
-                <p className={styles.main}>
-                    {item.description.l}
-                </p>
+            <div className={styles.personBox} key={k}>
+              <div className={styles.imgWrapper}>
+                <div
+                  className={styles.bgimg} 
+                  style={{
+                      backgroundImage: "url("+item.thumbnail+")",
+                      backgroundRepeat: 'no-repeat',
+                      backgroundSize: "cover",
+                  }}
+                >
+                </div>
+              </div>
+              <div className={styles.description}>
+                <h3>{item.name}</h3>
+                <h4>Titteli TODO</h4>
+                <p>{item.description[lan]}</p>
+                <div className={styles.contact}>
+                  <a href={"tel:"+item.phone}>{item.phone}</a>
+                  <a href={"mailto:"+item.email}>{item.email}</a>
+                </div>
+              </div>
             </div>
-            </Link>
           ))}
       </div>
   )
 }
+
+/* RIPYARD
+<div className={styles.skillset}>
+                  {item.skills.map((val, key) => (
+                    <a className={styles.skillBox}>{val[lan]}</a>
+                  ))}
+                </div>
+
+
+*/

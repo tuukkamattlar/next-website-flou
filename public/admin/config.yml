@@ -113,9 +113,16 @@ collections:
           name: "persons"
           widget: list
           fields:
-            - { label: "Nimi", name: "name", widget: "string"}
-            - { label: "Sähköposti", name: "email", widget: "string"}
-            - { label: "Puhelin", name: "phone", widget: "string"}
+            - { label: "Nimi", name: "name", widget: "string" required: true}
+            - label: 'Titteli'
+              name: 'role'
+              required: true
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
+            - { label: "Sähköposti", required: true, name: "email", widget: "string"}
+            - { label: "Puhelin", name: "phone", required: true, widget: "string"}
             - label: 'Osaamisalueet (yksi per listaelementti)'
               name: 'skills'
               widget: 'list'
