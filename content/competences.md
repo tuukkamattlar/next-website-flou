@@ -17,4 +17,64 @@ items:
     long:
       fi: ja osataan kertoa tarkemmin
       en: myös sekin englanniksi
+  - skillIMG: img/walk.jpg
+    title:
+      fi: Riskit
+      en: Risks
+    short:
+      fi: Osataan ratkoa riskiongelmia
+      en: myös englanniksi
+    long:
+      fi: ja osataan kertoa tarkemmin
+      en: myös sekin englanniksi
+  - skillIMG: img/walk.jpg
+    title:
+      fi: Riskit
+      en: Risks
+    short:
+      fi: Osataan ratkoa riskiongelmia
+      en: myös englanniksi
+    long:
+      fi: ja osataan kertoa tarkemmin
+      en: myös sekin englanniksi
+  - skillIMG: img/walk.jpg
+    title:
+      fi: Riskit
+      en: Risks
+    short:
+      fi: Osataan ratkoa riskiongelmia
+      en: myös englanniksi
+    long:
+      fi: ja osataan kertoa tarkemmin
+      en: myös sekin englanniksi
+  - skillIMG: img/walk.jpg
+    title:
+      fi: Riskit
+      en: Risks
+    short:
+      fi: Osataan ratkoa riskiongelmia
+      en: myös englanniksi
+    long:
+      fi: ja osataan kertoa tarkemmin
+      en: myös sekin englanniksi
+  - skillIMG: img/walk.jpg
+    title:
+      fi: Riskit
+      en: Risks
+    short:
+      fi: Osataan ratkoa riskiongelmia
+      en: myös englanniksi
+    long:
+      fi: ja osataan kertoa tarkemmin
+      en: myös sekin englanniksi
+  - skillIMG: img/walk.jpg
+    title:
+      fi: Riskit
+      en: Risks
+    short:
+      fi: Osataan ratkoa riskiongelmia
+      en: myös englanniksi
+    long:
+      fi: ja osataan kertoa tarkemmin
+      en: myös sekin englanniksi
 ---
