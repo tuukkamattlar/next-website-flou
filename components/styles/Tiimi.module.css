@@ -1,4 +1,22 @@
 .container {
+    justify-content: center;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    max-width: 1500px;
+    align-items: baseline;
+    margin: auto;
+}
+
+.imgWrapper{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.skillset {
     align-items: center;
     justify-content: center;
     height: fit-content;
@@ -8,51 +26,175 @@
     justify-content: center;
     position: relative;
 }
-
-.container>div {
-    margin: 20px;
-    padding: 20px;
-    width: 400px;
-    height: 500px;
-    cursor: pointer;
+.skillBox {
+    margin-inline: 4px;
+    padding: 2px;
+    background-color: rgb(41, 36, 66);
+    border-radius: 7px;
+    color: white;
 }
 
-.bgimg {
-    filter: grayscale(100%);
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-    background-position: center;
+.description {
+    text-align: center;
 }
 
-.bgimg:hover {
-    box-shadow: 10px 8px 20px grey;
-    border-radius: 1%;
-    transition: all 0.3s ease-in-out;
-    background-position: 0px;
+.description>* {
+    margin: 6px;
 }
 
-.title {
-    position: absolute;
-    bottom: 20px;
-    color: rgb(255, 255, 255);
-    transition: all 0.3s;
-    font-size: 50px;
+@media only screen and (max-width: 900px) {
+    .container {
+        padding: 10px;
+        padding-top: 30px;
+    }
+    .personBox {
+        margin: 10px;
+        width: 200px;
+    }
+    .bgimg {
+        height: 200px;
+    }
+    .skillset>a {
+        padding-inline: 10px;
+    }
+    .contact {
+        justify-content: center;
+        height: fit-content;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+    }
+    .contact>a {
+        padding-inline: 10px;
+        color: black;
+        font-size: small;
+    }
+
+    @media only screen and (min-width: 500px) {
+        .bgimg {
+            filter: grayscale(100%);
+            overflow: hidden;
+            transition: all 0.2s ease-in-out;
+            background-position: center;
+        }
+        
+        .imgWrapper:hover>.bgimg {
+            filter: grayscale(0%);
+            transform: scale(105%);
+            transition: all 0.2s ease-in-out;
+        }
+        
+    }
+    @media only screen and (max-width: 500px) {
+        .container {
+            padding: 0px;
+            padding-top: 30px;
+        }
+        .personBox {
+            margin: 10px;
+            width: 170px;
+        }
+        .bgimg {
+            height: 170px;
+        }
+        .contact {
+            justify-content: center;
+            height: fit-content;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+        }
+        .bgimg {
+            filter: grayscale(100%);
+            overflow: hidden;
+            background-position: center;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .container {
+            padding: 0px;
+            padding-top: 30px;
+        }
+        .personBox {
+            margin: 10px;
+            width: 250px;
+        }
+        .bgimg {
+            height: 250px;
+        }
+    }
 }
 
-.bgimg:hover>.title {
-    bottom: 200px;
-    transition: all 0.3s ease-in-out;
-}
 
-.main {
-    position: absolute;
-    bottom: -50px;
-    color: rgb(141, 138, 133);
-    transition: all 0.3s;
-}
 
-.bgimg:hover>.main {
-    bottom: 150px;
-    color: rgb(252, 247, 240);
-    transition: all 0.3s;
+
+
+@media only screen and (min-width: 900px) {
+    .container {
+        padding: 20px;
+    }
+    .personBox {
+        margin: 30px;
+        width: 230px;
+    }
+    .bgimg {
+        height: 230px;
+    }
+    .skillset>a {
+        padding-inline: 10px;
+    }
+    .contact {
+        margin-inline: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contact>a {
+        color: black;
+        font-size: small;
+    }
+    .bgimg {
+        filter: grayscale(100%);
+        overflow: hidden;
+        transition: all 0.2s ease-in-out;
+        background-position: center;
+    }
+    
+    .imgWrapper:hover>.bgimg {
+        filter: grayscale(0%);
+        transform: scale(105%);
+        transition: all 0.2s ease-in-out;
+    }
+    
+
+    @media only screen and (min-width: 1000px) {
+        .container {
+            padding: 20px;
+        }
+        .personBox {
+            margin: 30px;
+            width: 250px;
+        }
+        .bgimg {
+            height: 250px;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .container {
+            padding: 20px;
+        }
+        .personBox {
+            margin: 30px;
+            width: 300px;
+        }
+        .bgimg {
+            height: 300px;
+        }
+    }
+    
 }
