@@ -80,7 +80,7 @@
             background-position: center;
         }
         
-        .bgimg:hover {
+        .imgWrapper:hover>.bgimg {
             filter: grayscale(0%);
             transform: scale(105%);
             transition: all 0.2s ease-in-out;
@@ -164,7 +164,7 @@
         background-position: center;
     }
     
-    .bgimg:hover {
+    .imgWrapper:hover>.bgimg {
         filter: grayscale(0%);
         transform: scale(105%);
         transition: all 0.2s ease-in-out;
