@@ -13,6 +13,7 @@
 
 .imgWrapper{
     overflow: hidden;
+    border-radius: 50%;
 }
 
 .skillset {
@@ -130,7 +131,7 @@
 }
 
 .bgimg:hover {
-    border-radius: 1%;
-    transform: scale(107%);
+    filter: grayscale(0%);
+    transform: scale(105%);
     transition: all 0.2s ease-in-out;
 }
