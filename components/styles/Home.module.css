@@ -1,0 +1,21 @@
+.newscontainer {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.blogcontainer {
+  width: calc(100vw - 400px);
+  display: inline-block;
+}
+
+.twittercontainer {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  min-width: 380px;
+  position: relative;
+  top: 0px;
+  height: 1000px;
+}

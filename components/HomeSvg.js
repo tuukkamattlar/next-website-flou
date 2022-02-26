@@ -8,10 +8,6 @@ export default function HomeSvg({ src, className }) {
 
   const right = Math.min(0.00000005 * Math.pow(size.width - 2000, 3) + heightFactor, 0);
 
-  console.log(size.height);
-  console.log(size.width);
-  console.log(`${right}%`);
-
   return (
     <img
       style={{
