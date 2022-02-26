@@ -6,6 +6,7 @@ import { attributes, react as HomeContent } from '../content/home.md';
 import AddBlock from '@components/addBlock';
 import { useContext } from 'react';
 import { PageContext } from './_app';
+import HomeLayout from '@components/HomeLayout';
 
 export default function Home() {
   let { title, items } = attributes;
@@ -26,4 +27,8 @@ export default function Home() {
       </div>
     </>
   );
+}
+
+Home.getLayout = function getLayout(page) {
+  return <HomeLayout>{page}</HomeLayout>
 }
