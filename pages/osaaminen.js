@@ -1,6 +1,6 @@
 import { attributes} from '../content/competences.md';
 
-export default function Projects({ title, lan }) {
+export default function Projects({ lan }) {
     let { title, headerIMG, description, items } = attributes;
     return(
         <div >
@@ -9,7 +9,7 @@ export default function Projects({ title, lan }) {
             <img src={headerIMG} width={300}></img>
             <p>{description[lan]}</p>
             {items.map((v,k) => (
-                <div>
+                <div key={k}>
                     <a>{v.title[lan]}</a>
                     <img src={v.skillIMG} width={300}></img>
                 </div>
