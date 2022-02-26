@@ -42,7 +42,7 @@
     margin: 6px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .container {
         padding: 10px;
         padding-top: 30px;
@@ -51,10 +51,12 @@
         margin: 10px;
         width: 200px;
     }
+    .bgimg {
+        height: 200px;
+    }
     .skillset>a {
         padding-inline: 10px;
     }
-
     .contact {
         justify-content: center;
         height: fit-content;
@@ -70,6 +72,21 @@
         font-size: small;
     }
 
+    @media only screen and (min-width: 500px) {
+        .bgimg {
+            filter: grayscale(100%);
+            overflow: hidden;
+            transition: all 0.2s ease-in-out;
+            background-position: center;
+        }
+        
+        .bgimg:hover {
+            filter: grayscale(0%);
+            transform: scale(105%);
+            transition: all 0.2s ease-in-out;
+        }
+        
+    }
     @media only screen and (max-width: 500px) {
         .container {
             padding: 0px;
@@ -79,10 +96,9 @@
             margin: 10px;
             width: 170px;
         }
-        .skillset>a {
-            padding-inline: 10px;
+        .bgimg {
+            height: 170px;
         }
-        
         .contact {
             justify-content: center;
             height: fit-content;
@@ -92,20 +108,41 @@
             justify-content: center;
             position: relative;
         }
-        .contact>a {
-            color: black;
-            font-size: small;
+        .bgimg {
+            filter: grayscale(100%);
+            overflow: hidden;
+            background-position: center;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .container {
+            padding: 0px;
+            padding-top: 30px;
+        }
+        .personBox {
+            margin: 10px;
+            width: 250px;
+        }
+        .bgimg {
+            height: 250px;
         }
     }
 }
 
-@media only screen and (min-width: 800px) {
+
+
+
+
+@media only screen and (min-width: 900px) {
     .container {
         padding: 20px;
     }
     .personBox {
-        margin: 20px;
-        width: 300px;
+        margin: 30px;
+        width: 230px;
+    }
+    .bgimg {
+        height: 230px;
     }
     .skillset>a {
         padding-inline: 10px;
@@ -120,18 +157,44 @@
         color: black;
         font-size: small;
     }
-}
+    .bgimg {
+        filter: grayscale(100%);
+        overflow: hidden;
+        transition: all 0.2s ease-in-out;
+        background-position: center;
+    }
+    
+    .bgimg:hover {
+        filter: grayscale(0%);
+        transform: scale(105%);
+        transition: all 0.2s ease-in-out;
+    }
+    
 
-.bgimg {
-    height: 300px;
-    filter: grayscale(100%);
-    overflow: hidden;
-    transition: all 0.2s ease-in-out;
-    background-position: center;
-}
+    @media only screen and (min-width: 1000px) {
+        .container {
+            padding: 20px;
+        }
+        .personBox {
+            margin: 30px;
+            width: 250px;
+        }
+        .bgimg {
+            height: 250px;
+        }
+    }
 
-.bgimg:hover {
-    filter: grayscale(0%);
-    transform: scale(105%);
-    transition: all 0.2s ease-in-out;
+    @media only screen and (min-width: 1200px) {
+        .container {
+            padding: 20px;
+        }
+        .personBox {
+            margin: 30px;
+            width: 300px;
+        }
+        .bgimg {
+            height: 300px;
+        }
+    }
+    
 }
