@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer id="footer" class="container-fluid">
         <div className={styles['row-centered']}>
-          <div className={styles['col-left'], styles['footerbox']} class="col-left footerbox">
+          <div className={styles['col-left'], styles['footerbox']}>
             <p>
               FLOU Oy
               <br />
@@ -22,7 +22,7 @@ export default function Footer() {
               email. <a href="mailto:info@flou.io">info@flou.io</a>
             </p>
           </div>
-          <div class="col-centered footerbox">
+          <div className={styles['col-centered'], styles['footerbox']}>
             <p>
               FLOU muualla:
               <br />
