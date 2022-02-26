@@ -27,7 +27,7 @@ export default function Footer() {
               FLOU muualla:
               <br />
               <a href="https://twitter.com/flou_ltd">
-                <img src="/img/twitter.png" />
+                <img src="/img/twitter-white.svg" />
               </a>
               <a href="https://fi.linkedin.com/company/floultd">
                 <img src="/img/linkedin.png" />

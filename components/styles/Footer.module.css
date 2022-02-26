@@ -70,7 +70,6 @@
   width: 25px;
   margin-bottom: 20px;
   margin-top: 20px;
-  filter: saturate(1%);
 }
 .footer img:hover {
   filter: saturate(100%);
