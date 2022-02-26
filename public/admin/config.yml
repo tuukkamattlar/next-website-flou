@@ -51,15 +51,32 @@ collections:
       name: "part1"
       file: "content/competences.md"
       fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Items'
+        - { label: "Otsikko", name: "title", widget: "string"}
+        - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
+        - { label: "Lyhyt intro", name: "body", widget: "markdown"}
+        - label: 'Osaamisaluelistaus'
           name: "items"
           widget: list
           fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
+            - { label: "Osaamisalueen kuva", name: "skillIMG", widget: "image", required: true}
+            - label: 'Otsikko'
+              name: 'title'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "text"}
+              - { label: "In English", name: "en", widget: "text"}
+            - label: 'Lyhyt kuvaus'
+              name: 'short'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "text"}
+              - { label: "In English", name: "en", widget: "text"}
+            - label: 'Pitkä kuvaus'
+              name: 'long'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "markdown"}
+              - { label: "In English", name: "en", widget: "markdown"}
 
 
 # the team
@@ -70,20 +87,33 @@ collections:
       name: "tiimi"
       file: "content/tiimi.md"
       fields:
-        - { label: "Nimi", name: "name", widget: "string"}
-        - { label: "Kuvaus", name: "description", widget: "markdown"}
-        - label: 'persons'
+        - label: 'Otsikko'
+          name: 'title'
+          widget: 'object'
+          fields:
+          - { label: "Suomeksi", name: "fi", widget: "text"}
+          - { label: "In English", name: "en", widget: "text"}
+        - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
+        - label: 'FLOUlaiset'
           name: "persons"
           widget: list
           fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - label: 'description'
+            - { label: "Nimi", name: "name", widget: "string"}
+            - { label: "Sähköposti", name: "email", widget: "string"}
+            - { label: "Puhelin", name: "phone", widget: "string"}
+            - label: 'Osaamisalueet (yksi per listaelementti)'
+              name: 'skills'
+              widget: 'list'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "text"}
+              - { label: "In English", name: "en", widget: "text"}
+            - label: 'Lyhyt kuvaus'
               name: "description"
               widget: 'object'
               fields:
               - { label: "Suomeksi", name: "fi", widget: "text"}
               - { label: "In English", name: "en", widget: "text"}
-            - { label: "Featured Image", name: "thumbnail", widget: "image", required: true}
+            - { label: "Kuva", name: "profileIMG", widget: "image", required: true}
 
 
 # the blog
@@ -97,7 +127,6 @@ collections:
         - label: 'Otsikko'
           name: 'title'
           widget: 'object'
-          summary: 'Tähän blogisivun otsikko.'
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
@@ -106,27 +135,27 @@ collections:
           name: 'blogs'
           widget: 'list'
           fields:
-            - label: 'Otsikko'
+            - label: 'Blogin otsikko'
               name: 'title'
               widget: 'object'
               fields:
               - { label: "Suomeksi", name: "fi", widget: "text"}
               - { label: "In English", name: "en", widget: "text"}
             - { label: "Publish Date", name: "date", widget: "datetime" }
-            - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
-            - label: 'Lyhyt kuvaus'
+            - { label: "Blogin kuva", name: "img", widget: "image", required: true}
+            - label: 'Lyhyt kuvaus (max. 2 lausetta)'
               name: 'short'
               widget: 'object'
               fields:
               - { label: "Suomeksi", name: "fi", widget: "text"}
               - { label: "In English", name: "en", widget: "text"}
-            - label: 'Pitkä teksti'
+            - label: 'Pitkä blogiteksti'
               name: 'long'
               widget: 'object'
               fields:
-              - { label: "Suomeksi", name: "fi", widget: "text"}
-              - { label: "In English", name: "en", widget: "text"}
-            - label: 'Mukana tekemässä (email)'
+              - { label: "Suomeksi", name: "fi", widget: "markdown"}
+              - { label: "In English", name: "en", widget: "markdown"}
+            - label: 'Mukana tekemässä (anna sähköpostioisoite)'
               name: "email"
               widget: list
               fields:
@@ -152,6 +181,6 @@ collections:
           name: 'bodyObject'
           widget: 'object'
           fields:
-          - { label: "Suomeksi", name: "fi", widget: "text"}
-          - { label: "In English", name: "en", widget: "text"}
+          - { label: "Suomeksi", name: "fi", widget: "markdown"}
+          - { label: "In English", name: "en", widget: "markdown"}
         - { label: "Täyttökuva", name: "fillIMG", widget: "image", required: true}
