@@ -1,9 +1,9 @@
 import styles from './styles/SmallRef.module.css'
 import Link from 'next/link'
 
-export default function SmallRef({ items }) {
+export default function SmallRef({ items, forwardRef }) {
   return (
-      <div className={styles.container} >
+      <div className={styles.container} ref={forwardRef}>
           {items.map((item, k) => (
             <Link href='/projekti' key={k}>
             <div className={styles.bgLayer}>

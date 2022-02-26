@@ -4,7 +4,7 @@ import NavBar from '@components/Navbar';
 import HomeSvg from './HomeSvg';
 import styles from './styles/Header.module.css';
 
-export default function Header({ title }) {
+export default function HomeHeaderAndNav({ title }) {
   const placeholderTitle =
     'Tarjoamme palveluita liikennejärjestelmiin ja riskienhallintaan liittyvän päätöksenteon tueksi';
 

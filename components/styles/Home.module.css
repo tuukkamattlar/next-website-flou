@@ -3,19 +3,26 @@
   height: 100%;
   margin: 0 auto;
   position: relative;
+  background-color: rgb(239, 235, 225);
+
+  padding-bottom: 15px;
+  display: table;
 }
 
 .blogcontainer {
   width: calc(100vw - 400px);
-  display: inline-block;
+  display: table-cell;
+  margin-top: 0px;
+  top: 0px;
+  position: relative;
 }
 
 .twittercontainer {
-  display: inline-block;
+  display: table-cell;
   align-items: center;
   justify-content: center;
   min-width: 380px;
   position: relative;
-  top: 0px;
-  height: 1000px;
+  margin-top: 0px;
+  height: 100%
 }

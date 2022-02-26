@@ -20,12 +20,12 @@
     
     }
     
-    .box>h3 {
+    /* .box>h3 {
         background-color: aqua;
-    }
+    } */
     
     .box:hover {
-        background-color: beige;
+        background-color: #f2c7cf;
     }
 
 }
@@ -53,12 +53,11 @@
     
     }
     
-    .box>h3 {
+    /* .box>h3 {
         background-color: aqua;
-    }
+    } */
     
     .box:hover {
-        background-color: beige;
+        background-color: #f2c7cf;
     }
-
 }

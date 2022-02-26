@@ -1,5 +1,5 @@
 import { attributes } from '../content/flou.md';
-import Header from '@components/Header';
+import HomeHeaderAndNav from '@components/Header';
 import GeneralHeader from '@components/GeneralHeader';
 
 export default function Flou({ lan }) {

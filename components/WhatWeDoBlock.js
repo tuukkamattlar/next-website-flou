@@ -8,17 +8,17 @@ export default function WhatWeDoBlock() {
                 en: 'asia 2'
             },
             description: {
-                fi: 'agagagagagag agaihegoi weg weg',
+                fi: 'Palvelumme kattavat monipuolisesti eri vaikutuslajit ja niiden mallinnusmenetelmät. Tarvittaessa kehitämme olemassa olevan teoriapohjan perusteella uusia menetelmiä vastataksemme asiakkaidemme vaativimpiinkin kysymyksiin.',
                 en: 'asgfasg 2 asafg'
             }
         },
         {
             title: {
-                fi: 'Strategia',
+                fi: 'Strategiat',
                 en: 'asia 2'
             },
             description: {
-                fi: 'agagagagagag agaihegoi weg weg',
+                fi: 'Tuotamme tarvittavat tiedot päätöksenteon tueksi ja suunnitelmat strategioiden toteutuksiin. Palveluvalikoimaamme sisältyvät nykytila-analyysit, tulevaisuuskuvatyöt, toimenpiteiden suunnittelu ja toimeenpanon tuki.',
                 en: 'asgfasg 2 asafg'
             }
         }
@@ -28,13 +28,13 @@ export default function WhatWeDoBlock() {
                 en: 'asia 2'
             },
             description: {
-                fi: 'agagagagagag agaihegoi weg weg',
+                fi: 'Riskienhallintaosaamisemme kattaa rakennushankkeen riskien arvioinnin ja kyberturvallisuuden. Kehitämme kustomoidut tilannekuvapalvelut riskien hallinnan tueksi.',
                 en: 'asgfasg 2 asafg'
             }
         }
     ]
   return (
-    <div className={styles.skills}>
+    <div className={`${styles.skills} powder`}>
         {skillist.map((val, i) => (
             <div className={styles.box} key={i}>
                 <h3>
