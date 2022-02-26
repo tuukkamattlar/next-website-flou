@@ -28,16 +28,16 @@ collections:
   - name: "FLOU"
     label: "FLOU"
     files:
-    - label: "Osa 1"
-      name: "part1"
+    - label: "FLOU"
+      name: "flou"
       file: "content/flou.md"
       fields:
         - label: 'Otsikko'
           name: 'title'
           widget: 'object'
           fields:
-          - { label: "Suomeksi", name: "fi", widget: "text"}
-          - { label: "In English", name: "en", widget: "text"}
+          - { label: "Suomeksi", name: "fi", widget: "string"}
+          - { label: "In English", name: "en", widget: "string"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
         - label: 'Kuvaus'
           name: 'description'
@@ -52,13 +52,23 @@ collections:
   - name: "Competences"
     label: "Osaaminen"
     files:
-    - label: "Osa 1"
+    - label: "Osaaminen - sivu"
       name: "part1"
       file: "content/competences.md"
       fields:
-        - { label: "Otsikko", name: "title", widget: "string"}
+        - label: 'Otsikko'
+          name: 'title'
+          widget: 'object'
+          fields:
+          - { label: "Suomeksi", name: "fi", widget: "string"}
+          - { label: "In English", name: "en", widget: "string"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
-        - { label: "Lyhyt intro", name: "body", widget: "markdown"}
+        - label: 'Lyhyt yleisesittely'
+          name: 'description'
+          widget: 'object'
+          fields:
+          - { label: "Suomeksi", name: "fi", widget: "string"}
+          - { label: "In English", name: "en", widget: "string"}
         - label: 'Osaamisaluelistaus'
           name: "items"
           widget: list
@@ -68,8 +78,8 @@ collections:
               name: 'title'
               widget: 'object'
               fields:
-              - { label: "Suomeksi", name: "fi", widget: "text"}
-              - { label: "In English", name: "en", widget: "text"}
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
             - label: 'Lyhyt kuvaus'
               name: 'short'
               widget: 'object'
@@ -96,8 +106,8 @@ collections:
           name: 'title'
           widget: 'object'
           fields:
-          - { label: "Suomeksi", name: "fi", widget: "text"}
-          - { label: "In English", name: "en", widget: "text"}
+          - { label: "Suomeksi", name: "fi", widget: "string"}
+          - { label: "In English", name: "en", widget: "string"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
         - label: 'FLOUlaiset'
           name: "persons"
@@ -133,8 +143,8 @@ collections:
           name: 'title'
           widget: 'object'
           fields:
-          - { label: "Suomeksi", name: "fi", widget: "text"}
-          - { label: "In English", name: "en", widget: "text"}
+          - { label: "Suomeksi", name: "fi", widget: "string"}
+          - { label: "In English", name: "en", widget: "string"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
         - label: 'Blogit'
           name: 'blogs'
@@ -144,8 +154,8 @@ collections:
               name: 'title'
               widget: 'object'
               fields:
-              - { label: "Suomeksi", name: "fi", widget: "text"}
-              - { label: "In English", name: "en", widget: "text"}
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
             - { label: "Publish Date", name: "date", widget: "datetime" }
             - { label: "Blogin kuva", name: "img", widget: "image", required: true}
             - label: 'Lyhyt kuvaus (max. 2 lausetta)'
@@ -179,8 +189,8 @@ collections:
           name: 'title'
           widget: 'object'
           fields:
-          - { label: "Suomeksi", name: "fi", widget: "text"}
-          - { label: "In English", name: "en", widget: "text"}
+          - { label: "Suomeksi", name: "fi", widget: "string"}
+          - { label: "In English", name: "en", widget: "string"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
         - label: 'Leipateksti'
           name: 'bodyObject'
