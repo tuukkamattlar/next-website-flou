@@ -1,0 +1,38 @@
+.header {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.imgLayer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transform: scale(100%);
+  filter: brightness(70%);
+  transition: all 0.3s;
+}
+
+.header:hover > .imgLayer {
+  transition: all 0.3s;
+  transform: scale(101%);
+}
+
+.title {
+  height: 100%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  display: block;
+  text-align: center;
+  top: 60%;
+  transform: translateY(-40%);
+}
+
+.title > h1 {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 60px;
+}
+

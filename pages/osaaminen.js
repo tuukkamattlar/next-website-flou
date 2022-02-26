@@ -1,12 +1,12 @@
 import { attributes} from '../content/competences.md';
+import GeneralHeader from '@components/GeneralHeader';
 
 export default function Projects({ lan }) {
     let { title, headerIMG, description, items } = attributes;
     return(
         <div >
+            <GeneralHeader title={title} img={headerIMG} lan={lan} description={description}/>
             <h1>{title[lan]}</h1>
-            <a>Headerin kuva:</a>
-            <img src={headerIMG} width={300}></img>
             <p>{description[lan]}</p>
             {items.map((v,k) => (
                 <div key={k}>
