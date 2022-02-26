@@ -100,25 +100,36 @@ collections:
           fields:
           - { label: "Suomeksi", name: "fi", widget: "text"}
           - { label: "In English", name: "en", widget: "text"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
-        - label: 'Lyhyt kuvaus'
-          name: 'short'
-          widget: 'object'
+        - label: 'Blogit'
+          name: 'blogs'
+          widget: 'list'
           fields:
-          - { label: "Suomeksi", name: "fi", widget: "text"}
-          - { label: "In English", name: "en", widget: "text"}
-        - label: 'Pitkä teksti'
-          name: 'long'
-          widget: 'object'
-          fields:
-          - { label: "Suomeksi", name: "fi", widget: "text"}
-          - { label: "In English", name: "en", widget: "text"}
-        - label: 'Mukana tekemässä (email)'
-          name: "email"
-          widget: list
-          fields:
-            - { label: "email", name: "name", widget: "string"}
+            - label: 'Otsikko'
+              name: 'title'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "text"}
+              - { label: "In English", name: "en", widget: "text"}
+            - { label: "Publish Date", name: "date", widget: "datetime" }
+            - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
+            - label: 'Lyhyt kuvaus'
+              name: 'short'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "text"}
+              - { label: "In English", name: "en", widget: "text"}
+            - label: 'Pitkä teksti'
+              name: 'long'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "text"}
+              - { label: "In English", name: "en", widget: "text"}
+            - label: 'Mukana tekemässä (email)'
+              name: "email"
+              widget: list
+              fields:
+                - { label: "email", name: "name", widget: "string"}
 
 
 # contact site content DONE
