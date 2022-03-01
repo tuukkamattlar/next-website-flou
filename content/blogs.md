@@ -44,6 +44,7 @@ blogs:
       en: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
         päätöksenteolle
     img: img/pexels-pixabay-62623.jpg
+    url: lentovero
   - date: 2022-02-16T19:19:51.814Z
     title:
       fi: Lentoverot Suomessa
@@ -84,4 +85,5 @@ blogs:
       en: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
         päätöksenteolle
     img: img/pexels-pixabay-62623.jpg
+    url: toinen lentovero
 ---
