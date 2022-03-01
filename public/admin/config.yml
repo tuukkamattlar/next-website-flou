@@ -113,7 +113,7 @@ collections:
           name: "persons"
           widget: list
           fields:
-            - { label: "Nimi", name: "name", widget: "string" required: true}
+            - { label: "Nimi", name: "name", widget: "string", required: true}
             - label: 'Titteli'
               name: 'role'
               required: true
