@@ -157,7 +157,7 @@ collections:
           name: 'blogs'
           widget: 'list'
           fields:
-            - {label: "url", name: "url", widget: "string"}
+            - {label: "url - lyhyt ja ei välejä", name: "url", widget: "string"}
             - label: 'Blogin otsikko'
               name: 'title'
               widget: 'object'
