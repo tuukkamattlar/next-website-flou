@@ -1,31 +1,48 @@
 .mainNav {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
 }
-  
 
 .logo {
-    max-width: 75px;
-    position: absolute;
-    left: 30px;
-    top: 35px
+  max-width: 75px;
+  position: absolute;
+  left: 30px;
+  top: 35px;
+}
+
+.menubutton {
+  max-width: 75px;
+  position: absolute;
+  right: 30px;
+  top: 35px;
 }
 
 .links {
-    position: relative;
+  position: relative;
+  visibility: hidden;
 }
 
-.links>nav>a {
-    padding-inline: 20px;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
+.links > nav > a {
+  padding-inline: 20px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
-.links>nav>a:hover {
-    color: rgb(207, 207, 207);
+.links > nav > a:hover {
+  color: rgb(207, 207, 207);
+}
+
+/* FOR SMALL (<750px) SCREEN AND WINDOW WIDTHS */
+@media only screen and (min-width: 750px) {
+  .menubutton {
+    visibility: hidden;
+  }
+  .links {
+      visibility: visible;
+  }
 }

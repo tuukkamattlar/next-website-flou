@@ -76,6 +76,7 @@
   left: 0px;
   top: 50%;
   width: 50%;
+  min-width: 600px;
   display: block;
   transform: translateY(-50%);
 }
@@ -92,4 +93,12 @@
   vertical-align: middle; */
   /* display: table-row; */
   font-size: 14px;
+}
+
+/* FOR SMALL (<750px) SCREEN AND WINDOW WIDTHS */
+@media only screen and (max-width: 750px) {
+  .title {
+    width: 100%;
+    max-width: 600px;
+  }
 }

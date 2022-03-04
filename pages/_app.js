@@ -1,4 +1,8 @@
 import '@styles/globals.css';
+// Load css files for blueprintjs
+import 'normalize.css';
+import '@blueprintjs/core/lib/css/blueprint.css';
+
 import Head from 'next/head';
 import Script from 'next/script';
 import NavBar from '@components/Navbar';

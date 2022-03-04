@@ -13,17 +13,6 @@ export default function HomeHeaderAndNav({ title }) {
       <div className={styles.header}>
         <HomeSvg className={styles.svgLayer} src="/img/wave_white.svg" />
         <NavBar />
-
-        {/* <div 
-        className={styles.imgLayer}
-        style={{
-          backgroundImage: "url(/img/heading.jpg)",
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-      </div> */}
         <div className={styles.titlewrapper}>
           <div className={styles.title}>
             <h1>{placeholderTitle}</h1>
