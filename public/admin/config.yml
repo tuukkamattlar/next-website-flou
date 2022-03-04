@@ -113,7 +113,7 @@ collections:
           name: "persons"
           widget: list
           fields:
-            - { label: "Nimi", name: "name", widget: "string" required: true}
+            - { label: "Nimi", name: "name", widget: "string", required: true}
             - label: 'Titteli'
               name: 'role'
               required: true
@@ -157,6 +157,7 @@ collections:
           name: 'blogs'
           widget: 'list'
           fields:
+            - {label: "url - lyhyt ja ei välejä", name: "url", widget: "string"}
             - label: 'Blogin otsikko'
               name: 'title'
               widget: 'object'

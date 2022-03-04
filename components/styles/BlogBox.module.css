@@ -1,0 +1,88 @@
+/* COMMON */
+.container {
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    max-width: 1600px;
+}
+.bgLayer {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+    width: 400px;
+    cursor: pointer;
+}
+
+
+
+.bgimg {
+    width: var(--boxWidth);
+    height: var(--boxHeight);
+    position: absolute;
+    filter: grayscale(20%);
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.textLayer {
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+    width: var(--boxWidth);
+    height: var(--boxHeight);
+    overflow: hidden;
+}
+.title {
+    position: absolute;
+    bottom: 40px;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+    font-size: var(--boxTitleFont);
+}
+
+.main {
+    position: absolute;
+    bottom: -50px;
+    color: rgb(141, 138, 133);
+    transition: all 0.3s;
+}
+/* FOR SMALL (<600px) SCREENS */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* FOR MEDIUM (>600px) SCREENS */ 
+
+@media only screen and (min-width: 600px) {
+    .bgLayer:hover>.bgimg {
+        -webkit-filter: sepia(100%) hue-rotate(220deg) brightness(50%);
+        filter: sepia(100%) hue-rotate(220deg) brightness(30%);
+        /*filter: grayscale(100%) blur(1px) brightness(60%);*/
+        transform: scale(1.02, 1.02);
+        transition: all 0.3s;
+    }    
+    
+    .bgLayer:hover>.textLayer>.title {
+        bottom: 200px;
+        transition: all 0.3s;
+    }
+        
+    .bgLayer:hover>.textLayer>.main {
+        bottom: 150px;
+        color: rgb(252, 247, 240);
+        transition: all 0.3s;
+    }
+
+    /* FOR LARGE (>1200px) SCREENS */ 
+    @media only screen and (min-width: 1200px) {
+
+    }
+}
+

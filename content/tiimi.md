@@ -11,7 +11,7 @@ persons:
     description:
       fi: Esim osaa tehdä kaikkea oikein hyvin
       en: Esim can also english
-    email: esim@kukka.fi
+    email: tuomo.lapp@flou.io
     phone: "040040404004"
     skills:
       - fi: laskea
