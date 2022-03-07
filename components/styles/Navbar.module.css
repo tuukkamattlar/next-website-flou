@@ -21,6 +21,10 @@
   top: 35px;
 }
 
+.drawer {
+  background-color: rgb(41, 36, 66) !important;
+}
+
 .links {
   position: relative;
   visibility: hidden;
@@ -38,11 +42,11 @@
 }
 
 /* FOR SMALL (<750px) SCREEN AND WINDOW WIDTHS */
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 900px) {
   .menubutton {
     visibility: hidden;
   }
   .links {
-      visibility: visible;
+    visibility: visible;
   }
 }

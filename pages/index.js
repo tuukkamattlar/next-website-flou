@@ -10,9 +10,12 @@ import { useContext, useEffect, useRef, useState } from 'react';
 import { PageContext } from './_app';
 import HomeLayout from '@components/HomeLayout';
 import styles from '@components/styles/Home.module.css';
+import useWindowSize from '@components/hooks/useWindowSize';
 
 export default function Home() {
-  let { title, items } = attributes;
+  const { title, items } = attributes;
+
+  const size = useWindowSize();
 
   const ref = useRef();
   const { lan } = useContext(PageContext);
@@ -50,8 +53,9 @@ export default function Home() {
           <div className={styles.blogcontainer}>
             <SmallRef items={items} forwardRef={ref} />
           </div>
-          <div className={styles.twittercontainer} style={{height: twitterHeight}}>
-            <TwitterTimelineEmbed {...twitterProps} />
+
+          <div className={styles.twittercontainer} style={{ height: twitterHeight }}>
+            {size.width > 1250 ? <TwitterTimelineEmbed {...twitterProps} /> : ''}
           </div>
         </div>
       </div>

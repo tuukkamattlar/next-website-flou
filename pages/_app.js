@@ -15,7 +15,7 @@ export const PageContext = createContext(null);
 function Application({ Component, pageProps }) {
   const [lan, setLan] = useState('fi');
 
-  const getLayout = Component.getLayout || ((page) => <Layout>{page}</Layout>);
+  const getLayout = Component.getLayout || ((page) => <Layout >{page}</Layout>);
 
   return (
     <>

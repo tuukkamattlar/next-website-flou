@@ -1,18 +1,17 @@
-import Head from 'next/head';
-import Script from 'next/script';
 import NavBar from '@components/Navbar';
 import Footer from '@components/Footer';
 import React from 'react';
 
 export default function Layout({ children }) {
-
+  /**  The name of the page: forces the Navbar to re-render after navigating to another page */
+  const pageKey = children?.type?.name;
   return (
     <>
-        <div className="minHeight">
-          <NavBar />
-          {children}
-        </div>
-        <Footer />
+      <div className="minHeight">
+        <NavBar key={pageKey} />
+        {children}
+      </div>
+      <Footer />
     </>
   );
 }

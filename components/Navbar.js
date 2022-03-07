@@ -1,12 +1,11 @@
+import React from 'react';
 import Link from 'next/link';
-import { Button, Drawer, Icon, Menu, MenuItem, Position } from '@blueprintjs/core';
+import { Button, Drawer, Icon, Menu, MenuDivider, MenuItem, Position } from '@blueprintjs/core';
 import { PageContext } from 'pages/_app';
 import { useContext, useState } from 'react';
 import styles from './styles/Navbar.module.css';
-import useWindowSize from './hooks/useWindowSize';
 
 export default function NavBar() {
-  const size = useWindowSize();
   const { lan, setLan } = useContext(PageContext);
   const [drawerOpen, setDrawer] = useState(false);
 
@@ -22,7 +21,7 @@ export default function NavBar() {
     },
     {
       fi: 'Osaaminen',
-      en: 'skills',
+      en: 'Skills',
       to: '/osaaminen'
     },
     {
@@ -42,26 +41,43 @@ export default function NavBar() {
     }
   ];
 
+  const homepage = {
+    fi: 'Etusivu',
+    en: 'Homepage',
+    to: '/'
+  };
+
+  const NextMenuItem = React.forwardRef(({ onClick, href, text }, ref) => {
+    return <MenuItem href={href} onClick={onClick} ref={ref} text={text} />;
+  });
+
   return (
     <>
       <Drawer
         isOpen={drawerOpen}
-        title={'Menu'}
+        title={
+          <Link href={'/'}>
+            <img src="/img/logo-white-1.svg" height="30" style={{ cursor: 'pointer' }} />
+          </Link>
+        }
         position={Position.TOP}
         onClose={() => setDrawer(!drawerOpen)}
+        size="280px"
+        className={`bp3-dark ${styles.drawer}`}
       >
         <div>
-          <Menu>
+          <Menu className={`${styles.drawer}`}>
+            <Link key={0} href={homepage.to} passHref>
+              <NextMenuItem text={homepage[lan]} />
+            </Link>
             {pages.map((val, i) => (
-              <MenuItem
-                key={i}
-                text={
-                  <Link key={i} href={val.to}>
-                    {val[lan]}
-                  </Link>
-                }
-              />
+              <Link key={i} href={val.to} passHref>
+                <NextMenuItem text={val[lan]} />
+              </Link>
             ))}
+            <MenuDivider title={'Kieli'} />
+            <MenuItem key="fi" onClick={() => setLan('fi')} text="FI" disabled={lan === 'fi'} />
+            <MenuItem key="en" onClick={() => setLan('en')} text="EN" disabled={lan === 'en'} />
           </Menu>
         </div>
       </Drawer>
