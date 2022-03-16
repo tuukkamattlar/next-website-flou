@@ -28,7 +28,7 @@ export default function Home() {
 
   useEffect(() => {
     setHeightTweetsDiv();
-  }, []);
+  }, [size.width]);
 
   const twitterProps = {
     sourceType: 'profile',
@@ -40,6 +40,8 @@ export default function Home() {
     transparent: true
   };
 
+  console.log(twitterHeight);
+
   return (
     <>
       <Head>
@@ -49,6 +51,9 @@ export default function Home() {
       <div>
         <HomeHeaderAndNav title={title[lan]} />
         <WhatWeDoBlock />
+        <div className={`${styles.newstitle} powder`}>
+          <h2>Tuoreimpia kuulumisia</h2>
+        </div>
         <div className={styles.newscontainer}>
           <div className={styles.blogcontainer}>
             <SmallRef items={items} forwardRef={ref} />

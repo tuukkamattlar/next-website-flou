@@ -1,63 +1,67 @@
+.container {
+  width: 100%;
+  background-color: white;
+}
+
 /*
     FOR SMALL SCREENS
 */
 @media only screen and (max-width: 600px) {
-    .skills {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .box {
-        width: 300px;
-        height: 300px;
-        text-align: center;
-        vertical-align: middle;
-        padding: 20px;
-        overflow: hidden;
-        
-    
-    }
-    
-    /* .box>h3 {
+  .skills {
+    max-width: 900px;
+    display: table;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .box {
+    width: 300px;
+    min-height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+    overflow: hidden;
+    display: table-cell;
+  }
+
+  /* .box>h3 {
         background-color: aqua;
     } */
-    
-    .box:hover {
-        background-color: #f2c7cf;
-    }
 
+  .box:hover {
+    background-color: #f2c7cf;
+  }
 }
 
 /*
     FOR MEDIUM SCREENS
-*/ 
+*/
 
 @media only screen and (min-width: 600px) {
-    .skills {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .box {
-        width: 300px;
-        height: 300px;
-        text-align: center;
-        vertical-align: middle;
-        padding: 20px;
-        overflow: hidden;
-        
-    
-    }
-    
-    /* .box>h3 {
+  .skills {
+    max-width: 900px;
+    display: table;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .box {
+    width: 300px;
+    min-height: 300px;
+    text-align: center;
+    vertical-align: top;
+    padding: 20px;
+    overflow: hidden;
+    display: table-cell;
+  }
+
+  /* .box>h3 {
         background-color: aqua;
     } */
-    
-    .box:hover {
-        background-color: #f2c7cf;
-    }
+
+  .box:hover {
+    background-color: #f2c7cf;
+  }
 }

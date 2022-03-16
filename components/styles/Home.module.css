@@ -1,3 +1,14 @@
+.newstitle {
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  /* background-color: white; */
+}
+
+.newstitle > h2 {
+  font-size: 30px;
+}
+
 .newscontainer {
   width: 100%;
   height: 100%;
@@ -30,12 +41,12 @@
 /* FOR SMALL (<900px) SCREENS */
 @media only screen and (max-width: 1250px) {
   .blogcontainer {
-    width: 100vw;
-    min-width: 100vw;
+    width: 100%;
   }
 
   .twittercontainer {
     visibility: hidden;
     width: 0vw;
+    min-width: 0vw;
   }
 }
