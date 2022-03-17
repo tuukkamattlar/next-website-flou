@@ -6,7 +6,6 @@ import getConfig from 'next/config'
 
 export default function BlogView({ blogItem, lan }) {
     const fixedBlogContent = blogItem.long[lan].replace("](img/", "](../img/")
-    console.log(blogItem)
     const backButton = {fi: "Takaisin", en: "Back"}
   return (
       <div className={styles.container} >
