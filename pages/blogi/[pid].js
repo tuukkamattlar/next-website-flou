@@ -1,13 +1,17 @@
 import { useRouter } from 'next/router'
 import { attributes } from '../../content/blogs.md';
 import { attributesTeam } from '../../content/tiimi.md';
+import BlogView from '@components/BlogView';
 import Link from 'next/link'
 import GeneralHeader from '@components/GeneralHeader'
 import { useEffect, useState } from 'react';
 import GetBlogTeam from '@components/BlogTeam';
+import Markdown from 'markdown-to-jsx';
+import React from 'react';
 
 
 export default function SingleBlog({ lan }) {
+
     const [loading, setLoading] = useState(true)
     const [blogItem, setBlogItem] = useState({})
     const router = useRouter()
@@ -24,8 +28,8 @@ export default function SingleBlog({ lan }) {
     }
     useEffect(()=> {
         filterBlog()
-        
     })
+
     return(
         <div className='powder'>
             { 
@@ -37,11 +41,7 @@ export default function SingleBlog({ lan }) {
             :
             <>
                 <GeneralHeader title={blogItem.title} img={blogItem.img} lan={lan} description={blogItem.title}/>
-                <Link href='/blogi'><a>Takaisin</a></Link>
-                <h2>TODO content</h2>
-                <p>
-                    {blogItem.long[lan]}
-                </p>
+                <BlogView blogItem={blogItem} lan={lan}/>
             </>
             }
         </div>
