@@ -39,9 +39,7 @@ export default function Home() {
     autoHeight: true,
     transparent: true
   };
-
-  console.log(twitterHeight);
-
+  
   return (
     <>
       <Head>
