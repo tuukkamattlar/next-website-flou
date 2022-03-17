@@ -1,4 +1,5 @@
 import { Icon } from '@blueprintjs/core';
+import Link from 'next/link';
 
 import NavBar from '@components/Navbar';
 import HomeSvg from './HomeSvg';
@@ -16,12 +17,18 @@ export default function HomeHeaderAndNav({ title }) {
         <div className={styles.titlewrapper}>
           <div className={styles.title}>
             <h1>{placeholderTitle}</h1>
-            <h3>
-              Tutustu asiakkaiden oppeihin <Icon color="white" icon="arrow-right" />
-            </h3>
-            <h3>
-              Lue lentoveroselvityksen tuloksista <Icon color="white" icon="arrow-right" />
-            </h3>
+
+            <Link href={'/blogi/lentovero'}>
+              <h3>
+                Tutustu asiakkaiden oppeihin <Icon icon="arrow-right" />
+              </h3>
+            </Link>
+
+            <Link href={'/blogi/lentovero'}>
+              <h3>
+                Lue lentoveroselvityksen tuloksista <Icon icon="arrow-right" />
+              </h3>
+            </Link>
           </div>
         </div>
       </div>

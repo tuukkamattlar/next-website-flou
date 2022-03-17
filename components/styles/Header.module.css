@@ -76,7 +76,6 @@
   left: 0px;
   top: 50%;
   width: 50%;
-  min-width: 600px;
   display: block;
   transform: translateY(-50%);
 }
@@ -95,10 +94,24 @@
   font-size: 14px;
 }
 
+.title > h3:hover {
+  color: #f2c7cf;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
 /* FOR SMALL (<750px) SCREEN AND WINDOW WIDTHS */
 @media only screen and (max-width: 750px) {
   .title {
     width: 100%;
     max-width: 600px;
+  }
+}
+
+/* FOR LARGE (<750px) SCREEN AND WINDOW WIDTHS */
+@media only screen and (min-width: 750px) {
+  .title {
+    min-width: 600px;
   }
 }

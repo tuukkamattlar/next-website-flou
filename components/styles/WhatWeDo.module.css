@@ -3,6 +3,12 @@
   background-color: white;
 }
 
+.box:hover {
+  background-color: #f2c7cf;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
 /*
     FOR SMALL SCREENS
 */
@@ -27,10 +33,6 @@
   /* .box>h3 {
         background-color: aqua;
     } */
-
-  .box:hover {
-    background-color: #f2c7cf;
-  }
 }
 
 /*
@@ -54,13 +56,5 @@
     padding: 20px;
     overflow: hidden;
     display: table-cell;
-  }
-
-  /* .box>h3 {
-        background-color: aqua;
-    } */
-
-  .box:hover {
-    background-color: #f2c7cf;
   }
 }
