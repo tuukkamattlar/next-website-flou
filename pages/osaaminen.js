@@ -7,12 +7,10 @@ export default function Projects({ lan }) {
     return(
         <div className='powder'>
             <GeneralHeader title={title} img={headerIMG} lan={lan} description={description}/>
-            <p>{description[lan]}</p>¨
             <SkillCategoryBox items={items} lan={lan}/>
         </div>
     )
   }
-
 /* KOODIN HAUTAUSMAA
 
 

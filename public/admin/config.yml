@@ -73,6 +73,7 @@ collections:
           name: "items"
           widget: list
           fields:
+            - {label: "url - lyhyt ja ei välejä", name: "url", widget: "string"}
             - { label: "Osaamisalueen kuva", name: "skillIMG", widget: "image", required: true}
             - label: 'Otsikko'
               name: 'title'
