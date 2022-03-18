@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Markdown from 'markdown-to-jsx';
 
 export default function FlouPage({ item, lan }) {
-  console.log(item);
   return (
     <div className="powder">
       <div className={styles.container}>

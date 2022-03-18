@@ -1,0 +1,30 @@
+/* COMMON */
+.container {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    min-height: 500px;
+}
+.container>div {
+    padding-top: 50px;
+}
+.container>div>div>div>p {
+    padding-top: 20px;
+}
+
+
+/* FOR SMALL (<600px) SCREENS */
+@media only screen and (max-width: 800px) {
+    
+}
+
+/* FOR MEDIUM (>600px) SCREENS */ 
+
+@media only screen and (min-width: 800px) {
+    .container{
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+

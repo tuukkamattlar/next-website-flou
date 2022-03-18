@@ -42,7 +42,7 @@ export default function WhatWeDoBlock() {
     <div className={styles.container}>
       <div className={`${styles.skills} `}>
         {skillist.map((val, i) => (
-          <Link href={val.link}>
+          <Link href={val.link} key={i}>
             <div className={styles.box} key={i}>
               <h3>{val.title.fi}</h3>
               <p>{val.description.fi}</p>

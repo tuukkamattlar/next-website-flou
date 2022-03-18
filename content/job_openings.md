@@ -3,7 +3,7 @@ openings:
   - publishdate: 2022-03-18T11:46:02.351Z
     timeperiod:
       starttime: 2022-03-18T11:46:02.361Z
-      endtime: 2022-05-26T10:46:02.376Z
+      endtime: ""
     title:
       fi: Avoin hakemus
       en: Open application

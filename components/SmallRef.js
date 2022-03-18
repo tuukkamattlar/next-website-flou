@@ -8,7 +8,6 @@ export default function SmallRef({ items, forwardRef }) {
             <Link href='/projekti' key={k}>
             <div className={styles.bgLayer}>
               <div 
-              key={k}
               className={styles.bgimg} 
               style={{
                   backgroundImage: "url(/img/tram.jpg)",

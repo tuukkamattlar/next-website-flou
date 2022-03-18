@@ -277,7 +277,7 @@ collections:
               widget: 'object'
               fields:
               - { label: "Alkuaika", name: "starttime", widget: "date"}
-              - { label: "Loppuaika", name: "endtime", widget: "date" required: false}
+              - { label: "Loppuaika", name: "endtime", widget: "date", required: false}
             - label: 'Kuvaus'
               name: 'description'
               widget: 'object'
