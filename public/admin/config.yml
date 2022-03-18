@@ -236,7 +236,7 @@ collections:
     files:
     - label: "Kuvaus"
       name: "description"
-      file: "job_description/flou.md"
+      file: "content/job_description.md"
       fields:
         - label: 'Otsikko'
           name: 'title'
@@ -259,7 +259,7 @@ collections:
           - { label: "In English", name: "en", widget: "markdown"}
     - label: "Avoimet työpaikat"
       name: "openings"
-      file: "job_openings/flou.md"
+      file: "content/job_openings.md"
       fields:
         - label: 'Avoimet haut'
           name: 'openings'
