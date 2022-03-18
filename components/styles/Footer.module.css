@@ -67,13 +67,22 @@
   color: #efebe1;
 }
 
+.footer a:hover {
+  color: #f2c7cf;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
 .footer img {
   width: 25px;
   margin-bottom: 20px;
   margin-top: 10px;
 }
 .footer img:hover {
-  filter: saturate(100%);
+  cursor: pointer;
+  transition: all 0.2s;
+  filter: invert(25%) sepia(39%) saturate(182%) hue-rotate(301deg) brightness(106%) contrast(90%);
 }
 
 .media {

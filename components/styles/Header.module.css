@@ -98,7 +98,11 @@
   color: #f2c7cf;
   text-decoration: underline;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.2s;
+}
+
+.highlight {
+  color: #b59ed4;
 }
 
 /* FOR SMALL (<750px) SCREEN AND WINDOW WIDTHS */

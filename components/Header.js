@@ -6,8 +6,11 @@ import HomeSvg from './HomeSvg';
 import styles from './styles/Header.module.css';
 
 export default function HomeHeaderAndNav({ title }) {
-  const placeholderTitle =
-    'Tarjoamme palveluita liikennejärjestelmiin ja riskienhallintaan liittyvän päätöksenteon tueksi';
+  const placeholderTitle = (
+    <span>
+      Tarjoamme palveluita <span className={styles.highlight}>liikennejärjestelmiin ja riskienhallintaan</span> liittyvän päätöksenteon tueksi
+    </span>
+  );
 
   return (
     <>
@@ -18,9 +21,9 @@ export default function HomeHeaderAndNav({ title }) {
           <div className={styles.title}>
             <h1>{placeholderTitle}</h1>
 
-            <Link href={'/blogi/lentovero'}>
+            <Link href={'/tiimi'}>
               <h3>
-                Tutustu asiakkaiden oppeihin <Icon icon="arrow-right" />
+                Tutustu meidän tiimiin <Icon icon="arrow-right" />
               </h3>
             </Link>
 
