@@ -5,11 +5,10 @@ title:
 headerIMG: img/walk.jpg
 description:
   fi: >-
-    Olemme itsenäinen strategiseen liikennesuunnitteluun ja riskienhallintaan
-    erikoistunut konsulttitoimisto. Työssämme korostuu kokonaisvaltainen kaikki
-    liikennemuodot käsittävät liikennejärjestelmäymmärrys. Teknologia on meille
-    väline, ei tavoite. Projekteissa näkökulmat vaihtelevat asiakastarpeiden
-    mukaan kasautumisesta kyberturvallisuuteen.
+    ## Mikä on FLOU?
+
+
+    Olemme itsenäinen strategiseen liikennesuunnitteluun ja riskienhallintaan erikoistunut konsulttitoimisto. Työssämme korostuu kokonaisvaltainen kaikki liikennemuodot käsittävät liikennejärjestelmäymmärrys. Teknologia on meille väline, ei tavoite. Projekteissa näkökulmat vaihtelevat asiakastarpeiden mukaan kasautumisesta kyberturvallisuuteen.
 
 
     Meidät valitaan kumppaniksi kokonaisvaltaisen näkökulman, laskennallisen osaamisen ja innostuvan luonteen takia. Työtavoissamme korostuvat innovatiivisuus, sitoutuminen ja eri sidosryhmien osallistavuus.
