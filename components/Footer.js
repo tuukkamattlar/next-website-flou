@@ -40,7 +40,7 @@ export default function Footer() {
             <p>
               <a href="media.html">MEDIA</a>
               <br />
-              <a href="ura.html">URA FLOUSSA</a>
+              <Link href={'/jobs'}>TYÖPAIKAT</Link>
               <br />
               <Link href={'/yhteystiedot'}>YHTEYSTIEDOT</Link>
             </p>
