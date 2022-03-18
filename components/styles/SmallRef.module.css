@@ -60,8 +60,8 @@
 
 @media only screen and (min-width: 600px) {
     .bgLayer:hover>.bgimg {
-        -webkit-filter: sepia(100%) hue-rotate(220deg) brightness(50%);
-        filter: sepia(100%) hue-rotate(220deg) brightness(30%);
+        -webkit-filter: invert(25%) sepia(39%) saturate(182%) hue-rotate(301deg) brightness(56%) contrast(90%);
+        filter: invert(25%) sepia(39%) saturate(182%) hue-rotate(301deg) brightness(56%) contrast(90%);
         /*filter: grayscale(100%) blur(1px) brightness(60%);*/
         transform: scale(1.02, 1.02);
         transition: all 0.3s;

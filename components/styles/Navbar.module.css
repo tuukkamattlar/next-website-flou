@@ -17,7 +17,7 @@
 .logo:hover {
   cursor: pointer;
   transition: all 0.2s;
-  filter: invert(25%) sepia(39%) saturate(182%) hue-rotate(301deg) brightness(106%) contrast(90%);
+  filter: invert(25%) sepia(100%) saturate(182%) hue-rotate(301deg) brightness(106%) contrast(90%);
 }
 
 .menubutton {
