@@ -12,7 +12,7 @@ export default function FlouPage({ item, lan }) {
             <img src={item.bodyIMG}></img>
           </div>
         <div className={styles.timeline}>
-          <h1>FLOU:n historia</h1>
+          <h1>{{fi: "FLOU:n historia", en: "History of FLOU"}[lan]}</h1>
           {item.timeline.map((value, index) => (
             <div key={index} className={styles.yearBlock}>
               <h1>{value.year} </h1>
