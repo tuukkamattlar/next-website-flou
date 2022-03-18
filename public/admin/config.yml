@@ -229,3 +229,52 @@ collections:
           - { label: "Suomeksi", name: "fi", widget: "markdown"}
           - { label: "In English", name: "en", widget: "markdown"}
         - { label: "Täyttökuva", name: "fillIMG", widget: "image", required: true}
+
+# FLOU - the company
+  - name: "Jobs"
+    label: "Avoimet työpaikat"
+    files:
+    - label: "Kuvaus"
+      name: "description"
+      file: "job_description/flou.md"
+      fields:
+        - label: 'Otsikko'
+          name: 'title'
+          widget: 'object'
+          fields:
+          - { label: "Suomeksi", name: "fi", widget: "string"}
+          - { label: "In English", name: "en", widget: "string"}
+        - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
+        - label: 'Infoteksti'
+          name: 'description'
+          widget: 'object'
+          fields:
+          - { label: "Suomeksi", name: "fi", widget: "markdown"}
+          - { label: "In English", name: "en", widget: "markdown"}
+    - label: "Avoimet työpaikat"
+      name: "openings"
+      file: "job_openings/flou.md"
+      fields:
+        - label: 'Avoimet haut'
+          name: 'openings'
+          widget: 'list'
+          fields:
+            - label: 'Otsikko'
+              name: 'title'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
+            - { label: "Publish Date", name: "publishdate", widget: "datetime" }
+            - label: 'Hakuaika'
+              name: 'timeperiod'
+              widget: 'object'
+              fields:
+              - { label: "Alkuaika", name: "starttime", widget: "datetime"}
+              - { label: "Loppuaika", name: "endtime", widget: "datetime"}
+            - label: 'Kuvaus'
+              name: 'description'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "markdown"}
+              - { label: "In English", name: "en", widget: "markdown"}
