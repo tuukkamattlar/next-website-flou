@@ -20,8 +20,6 @@ export default function Footer() {
           </div>
           <div className={styles['col-centered'] + ' ' + styles['footerbox']}>
             <p>
-              FLOU muualla:
-              <br />
               <a href="https://twitter.com/flou_ltd">
                 <img src="/img/twitter-white.svg" />
               </a>
