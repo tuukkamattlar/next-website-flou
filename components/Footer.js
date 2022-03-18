@@ -11,17 +11,11 @@ export default function Footer() {
             <p>
               FLOU Oy
               <br />
-              2733757-8
-              <br />
               <a href="https://goo.gl/maps/BPSCtrcfcuUDTqcF6">
                 Köydenpunojankatu 2a D,
                 <br />
                 00180 Helsinki
               </a>
-              <br />
-              tel. <a href="tel:+358503778123">+358 50 377 8123</a>
-              <br />
-              email. <a href="mailto:info@flou.io">info@flou.io</a>
             </p>
           </div>
           <div className={styles['col-centered'] + ' ' + styles['footerbox']}>
