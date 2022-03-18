@@ -4,7 +4,105 @@ title:
   en: FLOU
 headerIMG: img/walk.jpg
 description:
-  fi: Yleinen kuvaus
+  fi: >-
+    Olemme itsenäinen strategiseen liikennesuunnitteluun ja riskienhallintaan
+    erikoistunut konsulttitoimisto. Työssämme korostuu kokonaisvaltainen kaikki
+    liikennemuodot käsittävät liikennejärjestelmäymmärrys. Teknologia on meille
+    väline, ei tavoite. Projekteissa näkökulmat vaihtelevat asiakastarpeiden
+    mukaan kasautumisesta kyberturvallisuuteen.
+
+
+    Meidät valitaan kumppaniksi kokonaisvaltaisen näkökulman, laskennallisen osaamisen ja innostuvan luonteen takia. Työtavoissamme korostuvat innovatiivisuus, sitoutuminen ja eri sidosryhmien osallistavuus.
+
+
+    Uskomme, että tulevaisuuden ratkaisut edellyttävät monitieteistä analyyttisyyttä ja rohkeaa asennetta. Kun maailma ympärillä on muutoksessa, korostuu tietoon
+
+    perustuva päätöksenteko entisestään. Me selvitämme asiakkaillemme vaikutukset riippumattomasti. Uskomme, että vastuullinen toimija tunnistaa tosiasiat, hallitsee riskit, varautuu uhkiin, ymmärtää taloudellisen ja sosiaalisen vaikutuksen, kestävyyden vaatimukset ja ison kuvan - ja toimii oikean tiedon pohjalta. Tässä työssä me olemme paras kumppanisi.
   en: General description
-bodyIMG: img/tram.jpg
+bodyIMG: img/01_kuvitus_flou_park.png
+timetile:
+  - year: 2016
+    yeardescription:
+      fi: Perustusvuosi
+      en: The year of foundation
+    events:
+      - event:
+          fi: "FLOU perustetaan ratkomaan liikennejärjestelmään liittyviä kysymyksiä. Oma
+            kehitystyö uusien liikkumispalveluiden analytiikan saralla alkaa.
+            Ensimmäisinä asiakasprojekteina analysoidaan Helsingin
+            kantakaupungin joukkoliikenteen suunnitelmia, rataliikenteen
+            ohjauksen palveluita ja kehitetään liikkuminen palveluna -konseptin
+            tietoarkkitehtuuria. "
+          en: in english
+  - year: 2017
+    events:
+      - event:
+          fi: Yhdessä HSL:n kanssa selvitetään liikenteen uusien palvelujen ja
+            yhteiskäyttöautoautojen roolia yhdyskunnassa. Vaikutusarvioinnin eri
+            näkökulmat korostuvat omaisuudenhallintaa ja liikennehankkeiden
+            hankearviointia käsittelevissä kehittämistöissä, joita tehdään
+            yhdessä Liikenneviraston kanssa. Robottiautokokeilu SOHJOA Baltic
+            alkaa kuudessa kaupungissa.
+          en: english
+    yeardescription:
+      fi: Ensimmäiset selvitystyöt
+      en: First projects
+  - year: 2018
+    events:
+      - event:
+          fi: Liikennesuunnittelija, IT-guru, matemaatikko ja valtiotieteilijä ratkovat
+            liikennejärjestelmän haasteita jo 26 eri projektissa, jotka
+            ulottuvat Tartosta Vieremälle. Yhteistyö tiedemaailman kanssa
+            vahvistuu, kun FLOU valitaan vetämään 12 hankepartnerin tutkimusta
+            liikenteen maankäyttövaikutuksista.
+          en: in english
+    yeardescription:
+      fi: FLOU kasvaa
+      en: FLOU grows
+  - year: 2019
+    events:
+      - event:
+          fi: Liikennepoliittissa tavoitteissa korostuvat yhä kokonaisvaltaisemman
+            kestävyyden eri aspektit. Ruuhkamaksuja, vähäpäästövyöhykkeitä ja
+            tieverkon sähköistämistä tutkitaan toimenpiteinä liikenteen
+            päästöjen vähentämiseksi. Selvitämme maan arvon hyödyntämistä
+            liikenteen rahoituskeinona. Kehitämme liikenteen sosiaalisten
+            vaikutusten arviointia yhdessä HSL:n kanssa.
+          en: english
+    yeardescription:
+      fi: FLOU työskentelee ulkomailla
+      en: FLOU takes projects abroad
+  - year: 2020
+    events:
+      - event:
+          fi: Voitamme tarjouskilpailun Tallinnan seudun joukkoliikenteen suunnittelusta.
+            Ensimmäinen allianssiprojektimme käynnistyy Kalasatamasta Pasilaan
+            -hankkeen muodossa liikennesuunnittelun, vastuullisuuden ja
+            riskienhallinnan parissa. Muutto Hietalahdenrantaan suurempiin
+            tiloihin.
+          en: english
+    yeardescription:
+      fi: Uusi toimisto
+      en: A new office
+  - year: 2021
+    events:
+      - event:
+          fi: Selvitämme lentoveron vaikutuksia. Älyliikennerintamalla suunnitellaan
+            Helsingin seudun ja koko valtakunnan seuraavia toimenpiteitä
+            liikenteen automaation mahdollistamiseksi. Pääsemme hyödyntämään
+            mallinnusosaamistamme mm. alueellisen junaliikenteen,
+            paloasemaverkoston, kanavien vedenkorkeuden ja ratojen
+            käyttäjämaksujen arvioinnissa.
+          en: english
+    yeardescription:
+      fi: Projektien määrä kasvaa
+      en: The number of projects grows
+  - year: 2022
+    events:
+      - event:
+          fi: "Maaliskuussa 2022 alussa FLOUlaisia on jo 12. "
+          en: english
+    yeardescription:
+      fi: FLOU laajenee
+      en: FLOU expands
 ---
