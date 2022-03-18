@@ -9,7 +9,7 @@ export default function Footer() {
         <div className={styles['row-centered']}>
           <div className={styles['col-left'] + ' ' + styles['footerbox']}>
             <p>
-              FLOU Oy
+              FLOU
               <br />
               <a href="https://goo.gl/maps/BPSCtrcfcuUDTqcF6">
                 Köydenpunojankatu 2a D,
