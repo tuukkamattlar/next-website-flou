@@ -20,7 +20,7 @@ description:
     perustuva päätöksenteko entisestään. Me selvitämme asiakkaillemme vaikutukset riippumattomasti. Uskomme, että vastuullinen toimija tunnistaa tosiasiat, hallitsee riskit, varautuu uhkiin, ymmärtää taloudellisen ja sosiaalisen vaikutuksen, kestävyyden vaatimukset ja ison kuvan - ja toimii oikean tiedon pohjalta. Tässä työssä me olemme paras kumppanisi.
   en: General description
 bodyIMG: img/01_kuvitus_flou_park.png
-timetile:
+timeline:
   - year: 2016
     yeardescription:
       fi: Perustusvuosi

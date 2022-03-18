@@ -6,18 +6,72 @@
     height: fit-content;
     min-height: 500px;
 }
+.container>div>p {
+    padding-top: 20px;
+}
+
+
 /* FOR SMALL (<600px) SCREENS */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
+    .timeline>div {
+        padding-top: 20px;
+    }
+    .markdownDiv{
+        padding-top: 0px;
+    }
+    .markdownDiv>p {
+        padding-top: 20px;
+    }
+    .infoText>img {
+        width: 100%;
+    }
+    .timeline>div>h1 {
+        text-align: center;
+        font-size: 50px;
+    }
     
 }
 
 /* FOR MEDIUM (>600px) SCREENS */ 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
     .container{
         max-width: 1200px;
         margin: auto;
-        background-color: bisque;
     }
+    .timeline>div {
+        padding-top: 20px;
+    }
+    .infoText {
+        width: 100%;
+        height: 500px;
+    }
+    .markdownDiv{
+        height: 100%;
+        width: 50%;
+        float: left;
+        padding-top: 50px;
+    }
+    .markdownDiv>p {
+        padding-top: 20px;
+    }
+    .infoText>img {
+        float: right;
+        width: 50%;
+    }
+    .yearBlock {
+        margin: 20px;
+        padding: 20px;
+        height: max-content;
+    }
+
+    .yearBlock>h1 {
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-right: 20px;
+        float: left;
+        font-size: 50px;
+    }
+    
 }
 
