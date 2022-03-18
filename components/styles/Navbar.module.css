@@ -28,6 +28,7 @@
 .links {
   position: relative;
   visibility: hidden;
+  overflow: hidden;
 }
 
 .links > nav > a {

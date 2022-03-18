@@ -10,6 +10,7 @@
   width: 100%;
   transform: scale(100%);
   filter: brightness(70%);
+  background-color: black;
   transition: all 0.3s;
 }
 
@@ -22,6 +23,7 @@
   height: 100%;
   width: 100%;
   color: rgb(255, 255, 255);
+
   position: absolute;
   display: block;
   text-align: center;
@@ -34,4 +36,3 @@
   vertical-align: middle;
   font-size: 60px;
 }
-

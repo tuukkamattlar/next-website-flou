@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import styles from './styles/Footer.module.css';
 
 export default function Footer() {
@@ -40,9 +42,7 @@ export default function Footer() {
               <br />
               <a href="ura.html">URA FLOUSSA</a>
               <br />
-              <a href="tietosuojaseloste.pdf">TIETOSUOJA</a>
-              <br />
-              <a href="yhteystiedot.html">YHTEYSTIEDOT</a>
+              <Link href={'/yhteystiedot'}>YHTEYSTIEDOT</Link>
             </p>
           </div>
         </div>
