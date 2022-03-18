@@ -52,13 +52,53 @@
     transition: all 0.3s;
 }
 /* FOR SMALL (<600px) SCREENS */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
+    .container {
+        padding: 10px;
+    }
+    .bgLayer {
+        position: relative;
+        padding: 0px;
+        margin: 10px;
+        height: 500px;
+        width: 300px;
+        cursor: pointer;
+    }
     
+    .bgimg {
+        width: 300px;
+        height: var(--boxHeight);
+        position: absolute;
+        filter: grayscale(10%) brightness(70%);
+        overflow: hidden;
+        transition: all 0.3s;
+    }
+    
+    .textLayer {
+        position: absolute;
+        top: 0px;
+        padding: 10px;
+        width: 300px;
+        height: var(--boxHeight);
+        overflow: hidden;
+    }
+    .title {
+        position: absolute;
+        bottom: 150px;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+    
+    .main {
+        position: absolute;
+        bottom: -50px;
+        color: rgb(141, 138, 133);
+    }
 }
 
 /* FOR MEDIUM (>600px) SCREENS */ 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
     .bgLayer:hover>.bgimg {
         -webkit-filter: sepia(100%) hue-rotate(220deg) brightness(50%);
         filter: sepia(100%) hue-rotate(220deg) brightness(30%);

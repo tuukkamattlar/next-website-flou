@@ -5,7 +5,7 @@ export default function SkillCategoryBox({ items, lan }) {
   return (
       <div className={styles.container} >
           {items.map((item, k) => (
-            <Link href={'/osaaminen/'+item.title['fi']} key={k}>
+            <Link href={'/osaaminen/'+item.url} key={k}>
             <div className={styles.bgLayer}>
               <div 
               key={k}
