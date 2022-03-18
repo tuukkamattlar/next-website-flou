@@ -251,6 +251,12 @@ collections:
           fields:
           - { label: "Suomeksi", name: "fi", widget: "markdown"}
           - { label: "In English", name: "en", widget: "markdown"}
+        - label: 'Kontakti'
+          name: 'contact'
+          widget: 'object'
+          fields:
+          - { label: "Suomeksi", name: "fi", widget: "markdown"}
+          - { label: "In English", name: "en", widget: "markdown"}
     - label: "Avoimet työpaikat"
       name: "openings"
       file: "job_openings/flou.md"
