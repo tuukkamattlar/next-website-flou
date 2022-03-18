@@ -47,11 +47,11 @@ blogs:
     url: lentovero
   - date: 2022-02-16T19:19:51.814Z
     title:
-      fi: Lentoverot Suomessa
-      en: Air travel taxes in Finland
+      fi: Automaation tiekartta
+      en: Automation
     long:
       fi: >-
-        Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa
+        ### Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa
         poliittiselle päätöksenteolle
 
 
@@ -75,15 +75,15 @@ blogs:
 
         Tiedote: <https://tietokayttoon.fi/-/10616/tutkimus-tarjoaa-uutta-tietoa-lentoveron-toteutusvaihtoehdoista-ja-vaikutuksista-suomessa>
 
+
+
         Raportti: <https://urn.fi/URN:ISBN:978-952-383-346-3>
       en: Same in English
     email:
       - name: tuomo.lapp@flou.io
     short:
-      fi: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
-        päätöksenteolle
-      en: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
-        päätöksenteolle
+      fi: Mikä on automaation tiekartta?
+      en: What is this?
     img: img/pexels-pixabay-62623.jpg
-    url: toinen lentovero
+    url: automaatiotiekartta
 ---
