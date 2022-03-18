@@ -10,7 +10,7 @@
   width: 100%;
   transform: scale(100%);
   filter: brightness(70%);
-  background-color: black;
+  background-color: rgb(41, 36, 66);
   transition: all 0.3s;
 }
 
