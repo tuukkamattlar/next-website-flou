@@ -6,7 +6,7 @@ import { attributes } from '../content/job_openings.md';
 export default function OpenJobs({lan }) {
   function timeStampper(input){
     if(!input){
-      return(0)
+      return('')
     }
     const y = input.split('-')[0]
     const m = input.split('-')[1]
