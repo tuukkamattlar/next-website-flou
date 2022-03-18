@@ -62,11 +62,11 @@ collections:
             widget: list
             fields:
             - label: 'Tapahtuma'
-                  name: 'event'
-                  widget: 'object'
-                  fields:
-                  - { label: "Suomeksi", name: "fi", widget: "string"}
-                  - { label: "In English", name: "en", widget: "string"}
+              name: 'event'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
 
 
 # Competences/skillset
