@@ -270,8 +270,8 @@ collections:
               name: 'timeperiod'
               widget: 'object'
               fields:
-              - { label: "Alkuaika", name: "starttime", widget: "datetime"}
-              - { label: "Loppuaika", name: "endtime", widget: "datetime"}
+              - { label: "Alkuaika", name: "starttime", widget: "date"}
+              - { label: "Loppuaika", name: "endtime", widget: "date"}
             - label: 'Kuvaus'
               name: 'description'
               widget: 'object'
