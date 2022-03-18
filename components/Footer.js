@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
           <div className={styles['col-right'] + ' ' + styles['footerbox']}>
             <p>
-              <a href="media.html">MEDIA</a>
+              <Link href={'/media'}>MEDIA</Link>
               <br />
               <Link href={'/jobs'}>TYÖPAIKAT</Link>
               <br />
