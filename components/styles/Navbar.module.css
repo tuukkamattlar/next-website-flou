@@ -44,8 +44,12 @@
   cursor: pointer;
 }
 
+.highlight {
+  color: #b59ed4 !important
+}
+
 .links > nav > a:hover {
-  color: #f2c7cf;
+  color: #f2c7cf !important;
   text-decoration: underline;
   cursor: pointer;
   transition: all 0.2s;

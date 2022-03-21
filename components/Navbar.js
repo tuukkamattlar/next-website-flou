@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { Button, Drawer, Icon, Menu, MenuDivider, MenuItem, Position } from '@blueprintjs/core';
 import { PageContext } from 'pages/_app';
 import { useContext, useState } from 'react';
@@ -8,6 +9,7 @@ import styles from './styles/Navbar.module.css';
 export default function NavBar() {
   const { lan, setLan } = useContext(PageContext);
   const [drawerOpen, setDrawer] = useState(false);
+  const router = useRouter();
 
   // imo vois hardcodaa nää tänne,
   // koska jos noit lähtee webapin kautta muuttaa ni nykysellää menee hommat rikki :DD
@@ -47,8 +49,16 @@ export default function NavBar() {
     to: '/'
   };
 
-  const NextMenuItem = React.forwardRef(({ onClick, href, text }, ref) => {
-    return <MenuItem href={href} onClick={onClick} ref={ref} text={text} />;
+  const NextMenuItem = React.forwardRef(({ onClick, href, text, isActive }, ref) => {
+    return (
+      <MenuItem
+        href={href}
+        onClick={onClick}
+        ref={ref}
+        text={text}
+        className={isActive ? styles.highlight : undefined}
+      />
+    );
   });
 
   return (
@@ -72,7 +82,7 @@ export default function NavBar() {
             </Link>
             {pages.map((val, i) => (
               <Link key={i} href={val.to} passHref>
-                <NextMenuItem text={val[lan]} />
+                <NextMenuItem text={val[lan]} isActive={router.pathname.startsWith(val.to)} />
               </Link>
             ))}
             <MenuDivider title={'Kieli'} />
@@ -91,7 +101,9 @@ export default function NavBar() {
           <nav>
             {pages.map((val, i) => (
               <Link key={i} href={val.to}>
-                {val[lan]}
+                <a className={router.pathname.startsWith(val.to) ? styles.highlight : undefined}>
+                  {val[lan]}
+                </a>
               </Link>
             ))}
             <a onClick={() => setLan('fi')}>FI</a>
