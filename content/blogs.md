@@ -106,4 +106,41 @@ blogs:
       en: english
     email:
       - name: taina.haapamaki@flou.io
+  - date: 2021-12-20T13:13:39.875Z
+    url: SUMP
+    title:
+      fi: SUMP-toimintamalli
+      en: SUMP framework
+    long:
+      fi: >-
+        Viime viikolla julkaistu komission ehdotus TEN-T-uudistuksesta vahvistaa
+        toimintamallin asemaa TEN-T-verkolla ja Suomessa MAL-sopimusseuduilla.
+        Selvitimme MAL-verkoston ja Liikenne- ja viestintävirasto Traficomin
+        kanssa toimintamallin nykytilaa Suomessa.
+
+
+        Kestävän kaupunkiliikkumisen suunnittelumalli, nk. SUMP-toimintamalli (SUMP=Sustainable Urban Mobility Plan), on kokonaisvaltainen, koko toiminnallisen kaupunkiseudun kattava pitkän aikavälin strateginen suunnitelma, jonka tavoitteena on varmistaa kestävä, kilpailukykyinen ja resurssitehokas kaupunkiliikenne. Eräissä EU-hankkeissa ja investointien rahoitusmekanismeissa voidaan vaatia, että hakevalla alueella on olemassa SUMP-suunnitelma. Tämä on kasvava motivaattori SUMP-suunnitelmien laatimiseen myös Suomessa. Myös vireillä olevassa maankäyttö- ja rakennuslain uudistuksessa esillä ollut mahdollinen kaupunkiseutusuunnitelma voi luoda uutta raamia myös kestävän liikkumisen suunnittelulle. 
+
+
+        Esiselvityksessä tarkasteltiin SUMP-toimintamallia, kartoitettiin Suomessa laadittuja SUMP-suunnitelmia ja luotiin tilannekuva SUMP-suunnittelun ja -toteutusmallin laajuudesta erilaisilla kaupunkiseuduilla Suomessa. Esiselvitys nosti esiin kysymyksiä, joiden tiimoilta pohdintaa ja keskustelua SUMP-suunnittelun ja toimintamallin soveltuvuudesta Suomeen on tarpeen jatkaa.
+
+
+        MAL-verkoston tiedote: <https://mal-verkosto.fi/2021/12/21/4343/>
+
+
+        Esitys MAL-verkoston vuosiseminaarissa: <https://mal-verkosto.fi/wp-content/uploads/2021/12/SUMP_esitysmateriaali.pdf>
+
+
+        Loppuraportti: <https://mal-verkosto.fi/wp-content/uploads/2021/12/2021-12-20_SUMP_raportti.pdf>
+      en: english
+    email:
+      - name: taina.haapamaki@flou.io
+    short:
+      fi: Kestävän kaupunkiliikkumisen suunnittelumalli, nk. SUMP-toimintamalli
+        (SUMP=Sustainable Urban Mobility Plan), on kokonaisvaltainen, koko
+        toiminnallisen kaupunkiseudun kattava pitkän aikavälin strateginen
+        suunnitelma, jonka tavoitteena on varmistaa kestävä, kilpailukykyinen ja
+        resurssitehokas kaupunkiliikenne
+      en: english
+    img: img/flou_bridge.png
 ---
