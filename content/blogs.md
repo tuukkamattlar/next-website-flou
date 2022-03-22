@@ -20,6 +20,9 @@ blogs:
         Laadimme Valtioneuvoston kanslialle hallitusohjelman mukaisen selvityksen, jossa tarkasteltiin lentoliikenteen päästöjen vähentämistä verotuksen avulla. Tutkimuksessa selvitettiin lentoveron erilaisia toteutusvaihtoehtoja, vaihtoehtojen vaikutuksia lentomatkojen ja lentoliikenteen päästöjen määrään sekä vaikutuksia Suomen taloudelle. Kyseessä oli ensimmäinen kattava tutkimus aiheesta Suomessa.
 
 
+        > Tarkastellut vaihtoehdot vähentäisivät lentomatkustusta 1,6–2,8 %
+
+
         ![airplane](img/pexels-pixabay-62623.jpg "Lentovero fi")
 
 
