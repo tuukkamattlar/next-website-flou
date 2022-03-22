@@ -51,8 +51,7 @@ blogs:
       en: paikkatieto
     long:
       fi: >-
-        ### Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa
-        poliittiselle päätöksenteolle
+        ### Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
 
 
         Pelastustoimen ja siviilivalmiuden suorituskyky ja suunnitteluperusteet -hankekokonaisuuden tavoitteena oli selvittää, miten pelastustoimen ja siviilivalmiuden suorituskyky ja palvelut nykytilassa vastaavat toimintaympäristöä, riskejä ja asiakastarpeita, sekä luoda menettely- ja toimintatapoja muutoksiin vastaamiseksi. Osana hanketta vastasimme paloasemaverkoston suunnittelua tukevan riskiruudukkoennusteen laskemisesta yhdessä Kaupunkitutkimus TA Oy:n kanssa
@@ -64,7 +63,7 @@ blogs:
         Sisäministeriön suorituskykyhankkeen loppuraportit on julkaistu.
       en: Same in English
     email:
-      - name: tuomo.lapp@flou.io
+      - name: oliver.heinonen@flou.io
     short:
       fi: Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
       en: What is this?
