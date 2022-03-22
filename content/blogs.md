@@ -69,4 +69,38 @@ blogs:
       en: What is this?
     img: img/pexels-inga-seliverstova-3243241.jpg
     url: paloasemien-paikatietoanalyysi
+  - date: 2022-01-13T13:04:40.285Z
+    url: digitaaliset-liikennesaannot
+    title:
+      fi: Liikennesäännöt digitalisoituvat
+      en: Digital traffic rules
+    img: img/flou_arrows.png
+    long:
+      fi: >-
+        Yhä useammassa verkottuneessa ajoneuvossa on käytössä palvelu tai
+        sovellus, jolle voi esittää vallitsevat liikennesäännöt myös
+        digitaalisesti. Tällä on vaikutusta mm. liikenneturvallisuuteen,
+        sujuvuuteen ja infran elinkaaren hallintaan. Tulevaisuudessa
+        digitaalisista liikennesäännöistä muodostuu edellytys liikenteen
+        täysimittaiselle automaatiolle.
+
+
+        Selvitimme digitalisoitujen liikennesääntöjen ja -rajoitusten toteuttamistapoja ja muodostimme tiekartan suositeltavista toimenpiteistä edellytysten parantamiseksi. Jatkotoimenpidesuosituksia ovat tietotarpeiden tunnistaminen ja priorisointi, prosessikuvaus ja vastuutahojen määrittely, tieliikennelain esittäminen koneluettavassa esitysmuodossa sekä kolme eri palvelukokeilua. 
+
+
+        Selvitystyö on osa NordicWay 3 -projektia.
+
+
+        Selvitys laadittiin yhteistyössä Traficon Oy:n, Ramboll Finland Oy:n ja MHR Consulting Oy:n kanssa.
+
+
+        Raportti: [https://www.doria.fi/bitstream/handle/10024/183693/vj_2022-9_digitalisoitujen_liikennesaantojen_web.pdf ](https://www.doria.fi/bitstream/handle/10024/183693/vj_2022-9_digitalisoitujen_liikennesaantojen_web.pdf)
+      en: english
+    short:
+      fi: Selvitimme digitalisoitujen liikennesääntöjen ja -rajoitusten
+        toteuttamistapoja ja muodostimme tiekartan suositeltavista
+        toimenpiteistä edellytysten parantamiseksi
+      en: english
+    email:
+      - name: taina.haapamaki@flou.io
 ---
