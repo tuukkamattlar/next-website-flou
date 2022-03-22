@@ -1,7 +1,10 @@
 import styles from './styles/BlogBox.module.css'
 import Link from 'next/link'
+import { useState, useEffect } from 'react'
 
 export default function BlogBox({ items, lan }) {
+  const [years, setYears] = useState([])
+
   return (
       <div className={styles.container} >
           {items.map((item, k) => (

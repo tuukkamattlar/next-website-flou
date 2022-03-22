@@ -40,7 +40,7 @@ export default function SingleBlog({ lan }) {
             </div>
             :
             <>
-                <GeneralHeader title={blogItem.title} img={blogItem.img} lan={lan} description={blogItem.title}/>
+                <GeneralHeader title={blogItem.title} img={blogItem.img} lan={lan} description={''}/>
                 <BlogView blogItem={blogItem} lan={lan}/>
             </>
             }
