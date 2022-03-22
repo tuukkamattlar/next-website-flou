@@ -11,7 +11,7 @@ export default function Tiimilista({ items, lan }) {
                 <div
                   className={styles.bgimg} 
                   style={{
-                      backgroundImage: "url("+item.thumbnail+")",
+                      backgroundImage: "url("+item.profileIMG+")",
                       backgroundRepeat: 'no-repeat',
                       backgroundSize: "cover",
                   }}
