@@ -4,6 +4,30 @@ title:
   en: Blogs
 headerIMG: img/pexels-aleksejs-bergmanis-681335.jpg
 blogs:
+  - date: 2022-02-09T19:19:51.814Z
+    title:
+      fi: Paloasemaverkoston paikkatietoanalyysi
+      en: paikkatieto
+    long:
+      fi: >-
+        ### Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
+
+
+        Pelastustoimen ja siviilivalmiuden suorituskyky ja suunnitteluperusteet -hankekokonaisuuden tavoitteena oli selvittää, miten pelastustoimen ja siviilivalmiuden suorituskyky ja palvelut nykytilassa vastaavat toimintaympäristöä, riskejä ja asiakastarpeita, sekä luoda menettely- ja toimintatapoja muutoksiin vastaamiseksi. Osana hanketta vastasimme paloasemaverkoston suunnittelua tukevan riskiruudukkoennusteen laskemisesta yhdessä Kaupunkitutkimus TA Oy:n kanssa
+
+
+        Onnettomuusennusteiden laadinnassa tulee hyödyntää pelastustoimen omien tilasto- ja paikkatietoaineistojen lisäksi toimintaympäristöä kuvaavia tilasto- ja paikkatietoaineistoja. Onnettomuusennusteisiin vaikuttavista, toimintaympäristöä kuvaavista tekijöistä on löydettävissä eroja onnettomuustyypeittäin. Entistä laajemman, niin sisällöllisesti kuin ajallisesti, aineiston käyttö tuottaa paremman onnettomuuksien esiintymisen ennusteen ja mahdollistaa yhdenmukaisen riskitason laskennan.
+
+
+        Sisäministeriön suorituskykyhankkeen loppuraportit on julkaistu.
+      en: Same in English
+    email:
+      - name: oliver.heinonen@flou.io
+    short:
+      fi: Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
+      en: What is this?
+    img: img/pexels-inga-seliverstova-3243241.jpg
+    url: paloasemien-paikatietoanalyysi
   - date: 2022-02-16T19:19:51.814Z
     title:
       fi: Lentoverot Suomessa
@@ -48,30 +72,6 @@ blogs:
         päätöksenteolle
     img: img/flou_plane.png
     url: lentovero
-  - date: 2022-02-09T19:19:51.814Z
-    title:
-      fi: Paloasemaverkoston paikkatietoanalyysi
-      en: paikkatieto
-    long:
-      fi: >-
-        ### Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
-
-
-        Pelastustoimen ja siviilivalmiuden suorituskyky ja suunnitteluperusteet -hankekokonaisuuden tavoitteena oli selvittää, miten pelastustoimen ja siviilivalmiuden suorituskyky ja palvelut nykytilassa vastaavat toimintaympäristöä, riskejä ja asiakastarpeita, sekä luoda menettely- ja toimintatapoja muutoksiin vastaamiseksi. Osana hanketta vastasimme paloasemaverkoston suunnittelua tukevan riskiruudukkoennusteen laskemisesta yhdessä Kaupunkitutkimus TA Oy:n kanssa
-
-
-        Onnettomuusennusteiden laadinnassa tulee hyödyntää pelastustoimen omien tilasto- ja paikkatietoaineistojen lisäksi toimintaympäristöä kuvaavia tilasto- ja paikkatietoaineistoja. Onnettomuusennusteisiin vaikuttavista, toimintaympäristöä kuvaavista tekijöistä on löydettävissä eroja onnettomuustyypeittäin. Entistä laajemman, niin sisällöllisesti kuin ajallisesti, aineiston käyttö tuottaa paremman onnettomuuksien esiintymisen ennusteen ja mahdollistaa yhdenmukaisen riskitason laskennan.
-
-
-        Sisäministeriön suorituskykyhankkeen loppuraportit on julkaistu.
-      en: Same in English
-    email:
-      - name: oliver.heinonen@flou.io
-    short:
-      fi: Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
-      en: What is this?
-    img: img/pexels-inga-seliverstova-3243241.jpg
-    url: paloasemien-paikatietoanalyysi
   - date: 2022-01-13T13:04:40.285Z
     url: digitaaliset-liikennesaannot
     title:
@@ -143,4 +143,41 @@ blogs:
         resurssitehokas kaupunkiliikenne
       en: english
     img: img/flou_bridge.png
+  - date: 2021-09-29T12:17:09.778Z
+    url: liikenteen-megahankkeet
+    title:
+      fi: Liikenteen megahankkeet valokeilassa
+      en: english
+    img: img/flou_bridge.png
+    long:
+      fi: >-
+        Poliittinen tahto on tärkein voimavara hankkeen toteutumiselle.
+        Projektiorganisaatioilla tulee olla selkeä strategia hankkeen
+        edistämiseksi poliittisessa järjestelmässä vaihe vaiheelta. Analyysien
+        uskottavuudella on merkitystä ja sillä voidaan kerätä poliittista
+        pääomaa hankkeeseen. Analyyseilla voidaan ja pitää saada poliittista
+        pääomaa hankkeisiin. Siltarumpupolitiikalla voi olla merkitystä, kun
+        hankkeet hyödyttävät enimmäkseen tiettyjä alueita. Kuljetuskysynnän
+        yliarviointi ja investointikustannusten aliarviointi ovat suuria riskejä
+        liikenteen infrastruktuurihankkeen onnistunut toteuttaminen. 
+
+
+        Liikenne-ennusteet ja investointikustannukset tulee tarkastaa asiakkaasta täysin riippumattoman asiantuntijaelimen toimesta, rahoittajat sekä suunnittelusta ja alustavista laskelmista vastaavat.
+
+        Kustannus-hyötyanalyysin arviointimenetelmien tulisi olla standardoituja tai valvottuja. Käyttäjähyödyt ovat merkittävin hyötyerä kustannus-hyötyanalyysissä ja saattaa olla kannustimia liioitella se arvioinnissa.
+
+
+        Laajempien vaikutusten arviointiin tulee laatia ohjeet sisältäen ohjeet alueelliselle
+
+        saavutettavuuden muutosten analysointi. Hankkeista, joissa henkilöliikenteellä on tärkeä rooli, tulisi vaatia laajempaa vaikutusta, alkaen
+
+        ainakin yritysten, työmarkkinoiden, maankäytön ja väestön alueellisten muutosten näkökulmasta.
+      en: english
+    email:
+      - name: taina.haapamaki@flou.io
+    short:
+      fi: Liikenne-ennusteet ja investointikustannukset tulee tarkastaa asiakkaasta
+        täysin riippumattoman asiantuntijaelimen toimesta, rahoittajat sekä
+        suunnittelusta ja alustavista laskelmista vastaavat
+      en: english
 ---
