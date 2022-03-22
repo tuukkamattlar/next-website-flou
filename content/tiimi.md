@@ -18,7 +18,10 @@ persons:
         en: compute
       - fi: kirjoittaa
         en: write
-    profileIMG: img/hlokuva.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
+    role:
+      en: Managing director
+      fi: Toiminnanjohtaja
   - thumbnail: img/hlokuva.jpg
     name: Esim Osaaja 2
     description:
@@ -26,7 +29,7 @@ persons:
       en: Esim can also english
     email: flou@flou.io
     phone: "135151251"
-    profileIMG: img/walk.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
     skills:
       - fi: emme
         en: emme
@@ -34,6 +37,9 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
+    role:
+      fi: "1"
+      en: "1"
   - thumbnail: img/hlokuva.jpg
     name: Esim Osaaja 2
     description:
@@ -41,7 +47,7 @@ persons:
       en: Esim can also english
     email: flou@flou.io
     phone: "135151251"
-    profileIMG: img/walk.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
     skills:
       - fi: emme
         en: emme
@@ -49,6 +55,9 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
+    role:
+      fi: "1"
+      en: "1"
   - thumbnail: img/hlokuva.jpg
     name: Esim Osaaja 2
     description:
@@ -56,7 +65,7 @@ persons:
       en: Esim can also english
     email: flou@flou.io
     phone: "135151251"
-    profileIMG: img/walk.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
     skills:
       - fi: emme
         en: emme
@@ -64,6 +73,9 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
+    role:
+      fi: "1"
+      en: "1"
   - thumbnail: img/hlokuva.jpg
     name: Esim Osaaja 2
     description:
@@ -71,7 +83,7 @@ persons:
       en: Esim can also english
     email: flou@flou.io
     phone: "135151251"
-    profileIMG: img/walk.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
     skills:
       - fi: emme
         en: emme
@@ -79,6 +91,9 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
+    role:
+      en: "1"
+      fi: "1"
   - thumbnail: img/hlokuva.jpg
     name: Esim Osaaja 2
     description:
@@ -86,7 +101,7 @@ persons:
       en: Esim can also english
     email: flou@flou.io
     phone: "135151251"
-    profileIMG: img/walk.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
     skills:
       - fi: emme
         en: emme
@@ -94,6 +109,9 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
+    role:
+      fi: "1"
+      en: "1"
   - thumbnail: img/hlokuva.jpg
     name: Esim Osaaja 2
     description:
@@ -101,7 +119,7 @@ persons:
       en: Esim can also english
     email: flou@flou.io
     phone: "135151251"
-    profileIMG: img/walk.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
     skills:
       - fi: emme
         en: emme
@@ -109,6 +127,9 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
+    role:
+      fi: "1"
+      en: "1"
   - thumbnail: img/hlokuva.jpg
     name: Esim Osaaja 2
     description:
@@ -116,7 +137,7 @@ persons:
       en: Esim can also english
     email: flou@flou.io
     phone: "135151251"
-    profileIMG: img/walk.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
     skills:
       - fi: emme
         en: emme
@@ -124,6 +145,9 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
+    role:
+      fi: "1"
+      en: "1"
   - thumbnail: img/hlokuva.jpg
     name: Esim Osaaja 2
     description:
@@ -131,7 +155,7 @@ persons:
       en: Esim can also english
     email: flou@flou.io
     phone: "135151251"
-    profileIMG: img/walk.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
     skills:
       - fi: emme
         en: emme
@@ -139,6 +163,9 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
+    role:
+      fi: "1"
+      en: "1"
   - thumbnail: img/hlokuva.jpg
     name: Esim Osaaja 2
     description:
@@ -146,7 +173,7 @@ persons:
       en: Esim can also english
     email: flou@flou.io
     phone: "135151251"
-    profileIMG: img/walk.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
     skills:
       - fi: emme
         en: emme
@@ -154,4 +181,7 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
+    role:
+      fi: "1"
+      en: "1"
 ---
