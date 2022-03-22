@@ -1,7 +1,7 @@
 ---
 title:
-  fi: Täällä blogeja
-  en: Here are some blogs
+  fi: Blogit
+  en: Blogs
 headerIMG: img/pexels-aleksejs-bergmanis-681335.jpg
 blogs:
   - date: 2022-02-16T19:19:51.814Z
