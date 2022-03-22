@@ -43,7 +43,7 @@ blogs:
         päätöksenteolle
       en: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
         päätöksenteolle
-    img: img/pexels-pixabay-62623.jpg
+    img: img/flou_plane.png
     url: lentovero
   - date: 2022-02-09T19:19:51.814Z
     title:
