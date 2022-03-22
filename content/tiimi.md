@@ -41,11 +41,11 @@ persons:
       fi: "1"
       en: "1"
   - thumbnail: img/hlokuva.jpg
-    name: Esim Osaaja 2
+    name: Tuomo Lapp
     description:
       fi: Esim osaa tehdä kaikkea oikein hyvin
       en: Esim can also english
-    email: flou@flou.io
+    email: tuomo.lapp@flou.io
     phone: "135151251"
     profileIMG: img/pexels-stefan-stefancik-91227.jpg
     skills:

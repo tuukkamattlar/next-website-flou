@@ -18,11 +18,12 @@
     height: 500px;
     width: 400px;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .bgimg {
-    width: var(--boxWidth);
-    height: var(--boxHeight);
+    width: 100%;
+    height: 50%;
     position: absolute;
     filter: grayscale(10%) brightness(70%);
     overflow: hidden;
@@ -31,18 +32,20 @@
 
 .textLayer {
     position: absolute;
-    top: 0px;
+    top: 50%;
     padding: 10px;
     width: var(--boxWidth);
     height: var(--boxHeight);
     overflow: hidden;
+    background-color: rgb(23, 23, 80);
 }
 .title {
+    max-width: 100%;
     position: absolute;
-    bottom: 40px;
     color: rgb(255, 255, 255);
     transition: all 0.3s;
     font-size: var(--boxTitleFont);
+    word-wrap: break-word;
 }
 
 .main {
@@ -51,6 +54,10 @@
     color: rgb(141, 138, 133);
     transition: all 0.3s;
 }
+.bgLayer:hover>.textLayer> h2{
+    color: rgb(151, 85, 212);
+}
+
 /* FOR SMALL (<600px) SCREENS */
 @media only screen and (max-width: 900px) {
     .container {
@@ -107,16 +114,6 @@
         transition: all 0.3s;
     }    
     
-    .bgLayer:hover>.textLayer>.title {
-        bottom: 200px;
-        transition: all 0.3s;
-    }
-        
-    .bgLayer:hover>.textLayer>.main {
-        bottom: 150px;
-        color: rgb(252, 247, 240);
-        transition: all 0.3s;
-    }
 
     /* FOR LARGE (>1200px) SCREENS */ 
     @media only screen and (min-width: 1200px) {

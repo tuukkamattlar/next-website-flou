@@ -2,6 +2,9 @@
   position: relative;
   width: 100%;
   overflow: hidden;
+  height: 30vw;
+  min-height: 300px;
+  max-height: 500px;
 }
 
 .imgLayer {

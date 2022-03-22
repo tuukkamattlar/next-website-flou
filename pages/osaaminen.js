@@ -4,15 +4,26 @@ import SkillCategoryBox from '@components/SkillCategoryBox';
 
 export default function Projects({ lan }) {
     let { title, headerIMG, description, items } = attributes;
+    const areas = [{
+        title: "Vaikutusten arviointi",
+        description: "Taloudelliset arviot jne"
+    },{
+        title: "Strategia",
+        description: "Taloudelliset arviot jne"
+    },{
+        title: "Riskienhallinta",
+        description: "Taloudelliset arviot jne"
+    }]
     return(
         <div className='powder'>
             <GeneralHeader title={title} img={headerIMG} lan={lan} description={description}/>
+            <div className="min-height-page">
             <SkillCategoryBox items={items} lan={lan}/>
+            </div>
         </div>
     )
   }
 /* KOODIN HAUTAUSMAA
-
 
 
 <SmallRef items={items}/>

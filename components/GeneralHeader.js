@@ -5,7 +5,7 @@ export default function GeneralHeader({ title, img, lan, description }) {
   const sizing = useWindowSize()
   const heightForHeader = sizing.height*0.5
   return (
-      <div className={styles.header} style={{height: heightForHeader+"px"}}>
+      <div className={styles.header} >
         <div 
             className={styles.imgLayer}
             style={{
