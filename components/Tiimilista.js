@@ -20,7 +20,7 @@ export default function Tiimilista({ items, lan }) {
               </div>
               <div className={styles.description}>
                 <h3>{item.name}</h3>
-                <h4>Titteli TODO</h4>
+                <h4>{item.role[lan]}</h4>
                 <p>{item.description[lan]}</p>
                 <div className={styles.contact}>
                   <a href={"tel:"+item.phone}>{item.phone}</a>
