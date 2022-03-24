@@ -99,11 +99,11 @@ collections:
           widget: list
           fields:
             - label: 'Otsikko'
-                name: 'title'
-                widget: 'object'
-                fields:
-                - { label: "Suomeksi", name: "fi", widget: "string"}
-                - { label: "In English", name: "en", widget: "string"}
+              name: 'title'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
             - {label: "url - lyhyt ja ei välejä", name: "url", widget: "string"}
             - { label: "Osaamisalueen kuva", name: "skillIMG", widget: "image", required: true}
             - label: 'Lyhyt kuvaus'
