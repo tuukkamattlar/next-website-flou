@@ -135,6 +135,7 @@ blogs:
       en: english
     email:
       - name: taina.haapamaki@flou.io
+      - name: siiri.korhonen@flou.io
     short:
       fi: Kestävän kaupunkiliikkumisen suunnittelumalli, nk. SUMP-toimintamalli
         (SUMP=Sustainable Urban Mobility Plan), on kokonaisvaltainen, koko
