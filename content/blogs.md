@@ -23,6 +23,9 @@ blogs:
       en: Same in English
     email:
       - name: oliver.heinonen@flou.io
+        role:
+          fi: Projektipäällikkö
+          en: Project manager
     short:
       fi: Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
       en: What is this?
@@ -65,6 +68,9 @@ blogs:
       en: Same in English
     email:
       - name: tuomo.lapp@flou.io
+        role:
+          fi: Projektipäällikkö
+          en: Project manager
     short:
       fi: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
         päätöksenteolle
@@ -106,6 +112,9 @@ blogs:
       en: english
     email:
       - name: taina.haapamaki@flou.io
+        role:
+          fi: Projektipäällikkö
+          en: Project manager
   - date: 2021-12-20T13:13:39.875Z
     url: SUMP
     title:
@@ -135,7 +144,13 @@ blogs:
       en: english
     email:
       - name: taina.haapamaki@flou.io
+        role:
+          fi: Projektipäällikkö
+          en: Project manager
       - name: siiri.korhonen@flou.io
+        role:
+          fi: Asiantuntija
+          en: Specialist
     short:
       fi: Kestävän kaupunkiliikkumisen suunnittelumalli, nk. SUMP-toimintamalli
         (SUMP=Sustainable Urban Mobility Plan), on kokonaisvaltainen, koko
@@ -176,6 +191,9 @@ blogs:
       en: english
     email:
       - name: taina.haapamaki@flou.io
+        role:
+          fi: Projektipäällikkö
+          en: Project manager
     short:
       fi: Liikenne-ennusteet ja investointikustannukset tulee tarkastaa asiakkaasta
         täysin riippumattoman asiantuntijaelimen toimesta, rahoittajat sekä
