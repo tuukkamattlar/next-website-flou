@@ -191,7 +191,7 @@ persons:
     description:
       fi: "1"
       en: "1"
-    profileIMG: img/hlokuva.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
     skills:
       - fi: "1"
         en: "1"
@@ -207,5 +207,5 @@ persons:
     description:
       fi: "1"
       en: "1"
-    profileIMG: img/hlokuva.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
 ---
