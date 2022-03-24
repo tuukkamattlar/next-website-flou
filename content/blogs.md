@@ -2,6 +2,18 @@
 title:
   fi: Blogit
   en: Blogs
+description:
+  fi: >-
+    Teemme jatkuvasti töitä uusien haasteiden kanssa. Osasta projekteistamme
+    kirjoitamme myös lyhyitä blogitekstejä, joiden kautta toimintaamme ja
+    osaamiseemme voi tutustua paremmin.
+
+
+    Lisää
+  en: |-
+    English
+
+    Another
 headerIMG: img/pexels-aleksejs-bergmanis-681335.jpg
 blogs:
   - date: 2022-02-09T19:19:51.814Z
