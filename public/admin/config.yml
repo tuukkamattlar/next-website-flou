@@ -123,11 +123,11 @@ collections:
               widget: list
               fields:
                 - label: 'Otsikko'
-                    name: 'title'
-                    widget: 'object'
-                    fields:
-                    - { label: "Suomeksi", name: "fi", widget: "string"}
-                    - { label: "In English", name: "en", widget: "string"}
+                  name: 'title'
+                  widget: 'object'
+                  fields:
+                  - { label: "Suomeksi", name: "fi", widget: "string"}
+                  - { label: "In English", name: "en", widget: "string"}
                 - label: 'Kuvaus'
                   name: 'description'
                   widget: 'object'
