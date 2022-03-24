@@ -73,9 +73,9 @@ collections:
   - name: "Competences"
     label: "Osaaminen"
     files:
-    - label: "Osaaminen - sivu"
-      name: "part1"
-      file: "content/competences.md"
+    - label: "Osaaminen - sivun sisältö"
+      name: "pagecontent"
+      file: "content/competence_content.md"
       fields:
         - label: 'Otsikko'
           name: 'title'
@@ -90,18 +90,22 @@ collections:
           fields:
           - { label: "Suomeksi", name: "fi", widget: "string"}
           - { label: "In English", name: "en", widget: "string"}
+    - label: "Osaaminen - osa-alueet"
+      name: "sections"
+      file: "content/competences_list.md"
+      fields:
         - label: 'Osaamisaluelistaus'
           name: "items"
           widget: list
           fields:
+            - label: 'Otsikko'
+                name: 'title'
+                widget: 'object'
+                fields:
+                - { label: "Suomeksi", name: "fi", widget: "string"}
+                - { label: "In English", name: "en", widget: "string"}
             - {label: "url - lyhyt ja ei välejä", name: "url", widget: "string"}
             - { label: "Osaamisalueen kuva", name: "skillIMG", widget: "image", required: true}
-            - label: 'Otsikko'
-              name: 'title'
-              widget: 'object'
-              fields:
-              - { label: "Suomeksi", name: "fi", widget: "string"}
-              - { label: "In English", name: "en", widget: "string"}
             - label: 'Lyhyt kuvaus'
               name: 'short'
               widget: 'object'
@@ -114,6 +118,39 @@ collections:
               fields:
               - { label: "Suomeksi", name: "fi", widget: "markdown"}
               - { label: "In English", name: "en", widget: "markdown"}
+            - label: 'Alakategoriat'
+              name: "subcategories"
+              widget: list
+              fields:
+                - label: 'Otsikko'
+                    name: 'title'
+                    widget: 'object'
+                    fields:
+                    - { label: "Suomeksi", name: "fi", widget: "string"}
+                    - { label: "In English", name: "en", widget: "string"}
+                - label: 'Kuvaus'
+                  name: 'description'
+                  widget: 'object'
+                  fields:
+                  - { label: "Suomeksi", name: "fi", widget: "text"}
+                  - { label: "In English", name: "en", widget: "text"}
+                - label: 'Esimerkkiprojektit'
+                  name: 'projects'
+                  widget: 'list'
+                  fields:
+                  - label: 'Otsikko'
+                    name: 'title'
+                    widget: 'object'
+                    fields:
+                    - { label: "Suomeksi", name: "fi", widget: "string"}
+                    - { label: "In English", name: "en", widget: "string"}
+                  - { label: "Osaamisalueen kuva", name: "skillIMG", widget: "image", required: true}
+                  - label: 'Kuvaus'
+                    name: 'description'
+                    widget: 'object'
+                    fields:
+                    - { label: "Suomeksi", name: "fi", widget: "text"}
+                    - { label: "In English", name: "en", widget: "text"}
 
 
 # the team

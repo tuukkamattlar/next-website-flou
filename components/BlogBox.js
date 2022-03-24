@@ -5,7 +5,6 @@ import Markdown from 'markdown-to-jsx';
 
 export default function BlogBox({ items, description, lan }) {
   const [years, setYears] = useState([])
-  console.log(items)
   return (
       <div className={styles.container} >
         <div className={styles.intro}>
