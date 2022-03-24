@@ -178,8 +178,8 @@ collections:
           name: 'description'
           widget: 'object'
           fields:
-          - { label: "Suomeksi", name: "fi", widget: "text"}
-          - { label: "In English", name: "en", widget: "text"}
+          - { label: "Suomeksi", name: "fi", widget: "markdown"}
+          - { label: "In English", name: "en", widget: "markdown"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
         - label: 'Blogit'
           name: 'blogs'
