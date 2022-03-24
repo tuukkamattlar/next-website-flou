@@ -19,6 +19,11 @@
     display: inline;
   }
 
+.team {
+    padding-top: 20px;
+    text-align: center;
+}
+
 /* FOR SMALL (<600px) SCREENS */
 @media only screen and (max-width: 900px) {
     .container {

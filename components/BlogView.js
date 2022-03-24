@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Markdown from 'markdown-to-jsx';
 import path from 'path'
 import getConfig from 'next/config'
+import BlogPersons from './BlogPersons';
 import { attributes } from '../content/tiimi.md';
 import { useState, useEffect } from 'react';
 
@@ -16,7 +17,8 @@ export default function BlogView({ blogItem, lan }) {
           try {
             if(blogItem.email[blogMaker].name === attributes.persons[personnel].email){
               const addTo = attributes.persons[personnel]
-              setPersonsMaking([...personsMaking, addTo])
+              console.log(addTo)
+              setPersonsMaking(personsMaking => [...personsMaking, addTo])
             }
           } catch (error) {
             //alert('problems')
@@ -28,6 +30,7 @@ export default function BlogView({ blogItem, lan }) {
 
     useEffect(() => {
       matchEmails();
+      console.log(personsMaking)
     }, []);
   return (
       <div className={styles.container} >
@@ -36,12 +39,7 @@ export default function BlogView({ blogItem, lan }) {
           <Markdown>{fixedBlogContent}</Markdown>
           <div className={styles.team}>
             <h2>Mukana tekemässä</h2>
-            {personsMaking.map((value,key) => (
-                <>
-                  <img src={value.profileIMG.replace('img/', '../img/')} style={{width: "200px"}}/>
-                  <h4 key={key}>{value.name}</h4>
-                </>
-            ))}
+            <BlogPersons persons={personsMaking} lan={lan}/>
           </div>
       </div>
   )

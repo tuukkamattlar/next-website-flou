@@ -1,0 +1,41 @@
+.container {
+    justify-content: center;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    max-width: 1500px;
+    align-items: baseline;
+    margin: auto;
+}
+.person {
+    text-align: center;
+    margin: 5px;
+}
+
+.profileImage {
+    margin: auto;
+    text-align: center;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.person > p,.person >h4 {
+    margin: 3px;
+}
+
+/* FOR SMALL (<600px) SCREENS */
+@media only screen and (max-width: 900px) {
+    
+}
+
+/* FOR MEDIUM (>600px) SCREENS */ 
+
+@media only screen and (min-width: 900px) {
+
+}
+

@@ -205,6 +205,12 @@ collections:
               widget: list
               fields:
                 - { label: "email", name: "name", widget: "string"}
+                - label: 'Rooli'
+                  name: 'role'
+                  widget: 'object'
+                  fields:
+                  - { label: "Suomeksi", name: "fi", widget: "string"}
+                  - { label: "In English", name: "en", widget: "string"}
 
 
 # contact site content DONE
