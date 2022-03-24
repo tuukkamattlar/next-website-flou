@@ -17,7 +17,7 @@ export default function BlogView({ blogItem, lan }) {
           try {
             if(blogItem.email[blogMaker].name === attributes.persons[personnel].email){
               const addTo = attributes.persons[personnel]
-              console.log(addTo)
+              addTo.roleInProject = blogItem.email[blogMaker].role
               setPersonsMaking(personsMaking => [...personsMaking, addTo])
             }
           } catch (error) {
@@ -30,7 +30,6 @@ export default function BlogView({ blogItem, lan }) {
 
     useEffect(() => {
       matchEmails();
-      console.log(personsMaking)
     }, []);
   return (
       <div className={styles.container} >

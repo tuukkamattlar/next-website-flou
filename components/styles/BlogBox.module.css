@@ -1,5 +1,7 @@
 /* COMMON */
 .container {
+    margin: 10px;
+    padding: 10px;
     align-items: center;
     justify-content: center;
     height: fit-content;
@@ -8,171 +10,134 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.intro {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;
+}
+
+
+.bgLayer {
+    background-color: rgb(151, 145, 151);
+    height: 400px;
+    width: 350px;
+    position: relative;
+    margin: 5px;
+    padding: 0px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.bgimg {
+    background-position: center;
+    background-repeat: 'no-repeat';
+    background-size: "cover";
+    height: 50%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.textLayer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+.title {
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 10px;
+}
 
 .main {
-    position: absolute;
-    bottom: -50px;
-    color: rgb(141, 138, 133);
+    padding-top: 10px;
+    padding-inline: 10px;
+    color: rgb(255, 255, 255);
     transition: all 0.3s;
 }
 
+.bgLayer:hover> .textLayer>.title {
+    color: rgb(151, 149, 149);
+    transition: all 0.3s;
+}
+
+.bgLayer>.bgimg {
+    transition: all 0.3s;
+}
+
+.bgLayer:hover>.bgimg {
+    -webkit-filter: sepia(100%) hue-rotate(220deg) brightness(50%);
+    filter: sepia(100%) hue-rotate(220deg) brightness(30%);
+    /*filter: grayscale(100%) blur(1px) brightness(60%);*/
+    transition: all 0.3s;
+}    
+
+
 /* FOR SMALL (<900px) SCREENS */
-@media only screen and (max-width: 900px) {
-    .title {
-        position: absolute;
-        bottom: 40px;
-        color: rgb(255, 255, 255);
-        transition: all 0.3s;
-        font-size: 30px;
-    }
-    .container {
-        margin: 10px;
-        padding: 10px;
-        min-height: 500px;
-    }
+@media only screen and (max-width: 1200px) {
     .bgLayer {
-        position: relative;
-        margin: 0px;
-        padding: 10px;
         height: 400px;
-        width: 300px;
-        overflow: hidden;
-        cursor: pointer;
+        width: 250px;
+        margin: 5px;
+        padding: 0px;
+
     }
-    
-    .bgimg {
-        width: 300px;
-        height: 400px;
-        position: absolute;
-        -webkit-filter: sepia(100%) hue-rotate(220deg) brightness(50%);
-        filter: sepia(100%) hue-rotate(220deg) brightness(30%);
-        overflow: hidden;
+    .intro>p {
+        max-width: 700px;
+        margin: auto;
     }
 
-    .textLayer {
-        position: absolute;
-        top: 0px;
-        padding: 10px;
-        width: 300px;
-        height: 400px;
-        overflow: hidden;
-    }
-    .bgLayer>.textLayer>.title {
-        bottom: 230px;
-        transition: all 0.3s;
-    }
-    .bgLayer>.textLayer>.main {
-        bottom: 100px;
-        color: rgb(252, 247, 240);
-        transition: all 0.3s;
-    }
-    @media only screen and (max-width:700px) {
-        .title {
-            text-align: center;
-            padding: 7px;
-            font-size: 20px;
-        }
+    @media only screen and (max-width: 900px) { 
         .container {
-            padding: 0px;
             margin: 0px;
+            padding: 0px;
+        }
+        .intro>p {
+            max-width: 600px;
+            margin: auto;
         }
         .bgLayer {
-            position: relative;
-            margin: 0px;
-            padding: 0px;
             height: 400px;
             width: 50%;
-            overflow: hidden;
-            cursor: pointer;
+            margin: 0px;
+            padding: 0px;
+    
+        }
+        .title {
+            font-size: initial;
         }
         
-        .bgimg {
-            width: 100%;
-            height: 400px;
-            position: absolute;
-            overflow: hidden;
-            transition: all 0.3s;
+        @media only screen and (max-width: 400px) { 
+            .bgLayer {
+                height: 400px;
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+        
+            }
         }
-    
-        .textLayer {
-            text-align: center;
-            position: absolute;
-            top: 0px;
-            padding: 5px;
-            width: 100%;
-            height: 400px;
-            overflow: hidden;
-        }
-        .bgLayer>.textLayer>.title {
-            bottom: 230px;
-            transition: all 0.3s;
-        }
-        .bgLayer>.textLayer>.main {
-            color: rgb(252, 247, 240);
-            transition: all 0.3s;
-        }
+        
     }
+    
 }
 
 /* FOR SMALLER SCREENS */ 
 
-@media only screen and (min-width: 900px) {
-    .title {
-        position: absolute;
-        bottom: 40px;
-        color: rgb(255, 255, 255);
-        transition: all 0.3s;
-        font-size: 40px;
-    }
+@media only screen and (min-width: 1200px) {
+
     .container {
-        margin: 10px;
-        padding: 10px;
-        max-width: 1600px;
-    }
-    .bgLayer {
-        position: relative;
-        margin: 0px;
-        padding: 10px;
-        height: 500px;
-        width: 400px;
-        overflow: hidden;
-        cursor: pointer;
-    }
+        max-width: 1500px;
+        margin: auto;
     
-    .bgimg {
-        width: 400px;
-        height: 500px;
-        position: absolute;
-        filter: grayscale(30%) brightness(50%);
-        overflow: hidden;
-        transition: all 0.3s;
     }
-
-    .textLayer {
-        position: absolute;
-        top: 0px;
-        padding: 10px;
-        width: 400px;
-        height: 500px;
-        overflow: hidden;
+    .intro {
+        padding: 50px;
     }
-    .bgLayer:hover>.bgimg {
-        -webkit-filter: sepia(100%) hue-rotate(220deg) brightness(50%);
-        filter: sepia(100%) hue-rotate(220deg) brightness(30%);
-        /*filter: grayscale(100%) blur(1px) brightness(60%);*/
-        transition: all 0.3s;
-    }    
-    
-    .bgLayer:hover>.textLayer>.title {
-        bottom: 200px;
-        transition: all 0.3s;
-    }
+    .intro>p {
+        max-width: 900px;
+        margin: auto;
         
-    .bgLayer:hover>.textLayer>.main {
-        bottom: 150px;
-        color: rgb(252, 247, 240);
-        transition: all 0.3s;
     }
-
 }
 

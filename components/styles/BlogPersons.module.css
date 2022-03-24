@@ -24,7 +24,7 @@
     overflow: hidden;
     border-radius: 50%;
 }
-.person > p,.person >h4 {
+.person > p,.person >h4, .person>h5 {
     margin: 3px;
 }
 
