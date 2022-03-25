@@ -182,10 +182,10 @@ collections:
               name: 'category'
               widget: 'relation'
               multiple: true
-              collection: 'competence_sections'
-              searchFields: ['category']
-              valueField: 'category.*.url'
-              displayFields: ['category.*.url']
+              collection: 'Team'
+              searchFields: ['tiimi']
+              valueField: 'tiimi.*.title.fi'
+              displayFields: ['tiimi.*.title.fi']
 
 
 # the team
