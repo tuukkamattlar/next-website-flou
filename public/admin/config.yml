@@ -84,12 +84,12 @@ collections:
           - { label: "Suomeksi", name: "fi", widget: "string"}
           - { label: "In English", name: "en", widget: "string"}
         - { label: "Headerin kuva", name: "headerIMG", widget: "image", required: true}
-        - label: 'Lyhyt yleisesittely'
+        - label: 'Yleisesittely'
           name: 'description'
           widget: 'object'
           fields:
-          - { label: "Suomeksi", name: "fi", widget: "string"}
-          - { label: "In English", name: "en", widget: "string"}
+          - { label: "Suomeksi", name: "fi", widget: "markdown"}
+          - { label: "In English", name: "en", widget: "markdown"}
     - label: "Osaaminen - osa-alueet"
       name: "competence_sections"
       file: "content/competences_list.md"
