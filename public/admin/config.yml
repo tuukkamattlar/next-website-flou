@@ -151,7 +151,40 @@ collections:
                     fields:
                     - { label: "Suomeksi", name: "fi", widget: "text"}
                     - { label: "In English", name: "en", widget: "text"}
-
+    - label: "Osaaminen - Projektireferenssit"
+      name: "refs"
+      file: "content/competences_refs.md"
+      fields:
+        - label: 'Referenssiprojektit'
+          name: "refs"
+          widget: list
+          fields:
+            - label: 'Otsikko'
+              name: 'title'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
+            - { label: "Kuva", name: "skillIMG", widget: "image", required: true}
+            - label: 'Lyhyt kuvaus'
+              name: 'short'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "text"}
+              - { label: "In English", name: "en", widget: "text"}
+            - label: 'Asiakas'
+              name: 'customer'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
+            - label: 'Specialist'
+              name: 'specialist'
+              widget: 'relation'
+              collection: 'tiimi'
+              searchFields: ['persons']
+              valueField: 'persons.*.email'
+              displayFields: ['persons.*.name']
 
 
 # the team
