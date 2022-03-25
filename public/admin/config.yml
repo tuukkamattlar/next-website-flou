@@ -183,13 +183,13 @@ collections:
               widget: select
               multiple: true
               options:
-              - label: "Post Author"
-                name: "author"
-                widget: "relation"
-                collection: "sections"
-                search_fields: "url"
-                value_field: "url"
-                display_fields: "url"
+                - label: "Post Author"
+                  name: "author"
+                  widget: "relation"
+                  collection: "sections"
+                  search_fields: "url"
+                  value_field: "url"
+                  display_fields: "url"
 
 
 # the team
