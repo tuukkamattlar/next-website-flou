@@ -12,4 +12,20 @@ refs:
       en: Helsinki
     category:
       - strategia
+      - riskienhallinta
+      - vaikutusten_arviointi
+  - title:
+      fi: Projekti 2
+      en: P 2
+    skillIMG: img/pexels-pixabay-62623.jpg
+    short:
+      fi: Lentovero vaikuttaa
+      en: english
+    customer:
+      fi: VN
+      en: VN
+    category:
+      - strategia
+      - riskienhallinta
+      - vaikutusten_arviointi
 ---
