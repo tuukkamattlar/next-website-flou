@@ -183,6 +183,7 @@ collections:
               widget: 'relation'
               multiple: true
               collection: 'Team'
+              file: "tiimi"
               searchFields: ['tiimi']
               valueField: 'tiimi.*.title.fi'
               displayFields: ['tiimi.*.title.fi']
