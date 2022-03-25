@@ -2,7 +2,7 @@
 category:
   - title:
       fi: Strategia
-      en: hyvii hommii
+      en: Strategy
     url: strategia
     skillIMG: img/flou_arrows.png
     short:
@@ -13,8 +13,8 @@ category:
       en: a
     subcategories:
       - title:
-          fi: strategia isolla S:llä
-          en: s
+          fi: Strategia
+          en: Strategy
         description:
           fi: s
           en: s
@@ -26,4 +26,19 @@ category:
             description:
               fi: a
               en: a
+        id: strategia
+      - id: optimointi_ja_hinnoittelu
+        title:
+          fi: Optimointi ja hinnoittelu
+          en: Optimization and pricing
+        description:
+          fi: a
+          en: a
+      - id: vastuullisuus
+        title:
+          fi: Vastuullisuus
+          en: Responsibility
+        description:
+          fi: a
+          en: a
 ---
