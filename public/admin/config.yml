@@ -166,7 +166,7 @@ collections:
               name: 'category'
               widget: 'select'
               multiple: true
-              options: ["ennusteet", "vastuullisuus", "riskit", "taloudelliset", "strategia", "tilannekuva", "vaikutukset", "optimointi_ja_hinnoittelu", "kyber"]
+              options: ["strategia", "vaikutusten_arviointi", "riskienhallinta"]
 
 
 # the team
