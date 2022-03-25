@@ -91,7 +91,7 @@ collections:
           - { label: "Suomeksi", name: "fi", widget: "string"}
           - { label: "In English", name: "en", widget: "string"}
     - label: "Osaaminen - osa-alueet"
-      name: "sections"
+      name: "competence_sections"
       file: "content/competences_list.md"
       fields:
         - label: 'Osaamisaluelistaus'
@@ -178,13 +178,14 @@ collections:
               fields:
               - { label: "Suomeksi", name: "fi", widget: "string"}
               - { label: "In English", name: "en", widget: "string"}
-            - label: 'Specialist'
-              name: 'specialist'
+            - label: 'Kategoria'
+              name: 'category'
               widget: 'relation'
-              collection: 'tiimi'
-              searchFields: ['persons']
-              valueField: 'persons.*.email'
-              displayFields: ['persons.*.name']
+              multiple: true
+              collection: 'Competences'
+              searchFields: ['Competences.competence_sections.category']
+              valueField: 'category.*.url'
+              displayFields: ['category.*.url']
 
 
 # the team
