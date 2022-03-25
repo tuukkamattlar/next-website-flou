@@ -1,4 +1,4 @@
-import styles from './styles/SkillPageContent.module.css'
+import styles from './styles/ReferenceProjects.module.css'
 import { attributes} from '../content/competences_refs.md';
 import Link from 'next/link'
 import RefProjectBox from './RefProjectBox';
