@@ -122,6 +122,7 @@ collections:
               name: "subcategories"
               widget: list
               fields:
+                - {label: "id - lyhyt ja ei välejä.", name: "id", widget: "string"}
                 - label: 'Otsikko'
                   name: 'title'
                   widget: 'object'
@@ -180,13 +181,9 @@ collections:
               - { label: "In English", name: "en", widget: "string"}
             - label: 'Kategoria'
               name: 'category'
-              widget: 'relation'
+              widget: 'select'
               multiple: true
-              collection: 'Team'
-              file: "tiimi"
-              searchFields: ['persons.*.name']
-              valueField: ['persons.*.name']
-              displayFields: ['persons.*.name']
+              options: ["ennusteet", "vastuullisuus", "riskit", "taloudelliset", "strategia", "tilannekuva", "vaikutukset", "optimointi_ja_hinnoittelu", "kyber"]
 
 
 # the team
