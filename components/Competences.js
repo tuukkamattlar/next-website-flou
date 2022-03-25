@@ -1,4 +1,4 @@
-import styles from './styles/SkillCategoryBox.module.css'
+import styles from './styles/Competences.module.css'
 import Link from 'next/link'
 import { attributes} from '../content/competences_list.md';
 

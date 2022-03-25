@@ -9,7 +9,7 @@ export default function Projects({ lan }) {
         <div className='powder'>
             <GeneralHeader title={title} img={headerIMG} lan={lan} description={''}/>
             <div className="min-height-page">
-            <Markdown>{description[lan]}</Markdown>
+            <Markdown className='generalContainer'>{description[lan]}</Markdown>
             <Competences lan={lan}/>
             </div>
         </div>

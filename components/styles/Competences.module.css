@@ -1,0 +1,81 @@
+/* COMMON */
+.container {
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 1300px;
+}
+.bgLayer {
+    position: relative;
+    padding: 0px;
+    margin: 10px;
+    height: 400px;
+    width: 350px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.bgimg {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    filter: grayscale(10%) brightness(70%);
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.textLayer {
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    background-color: rgb(23, 23, 80);
+}
+.title {
+    max-width: 100%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+    font-size: 30px;
+    word-wrap: break-word;
+}
+
+.main {
+    position: absolute;
+    bottom: -50px;
+    color: rgb(141, 138, 133);
+    transition: all 0.3s;
+}
+.bgLayer:hover>.textLayer> h2{
+    color: rgb(151, 85, 212);
+}
+
+/* FOR SMALL (<600px) SCREENS */
+@media only screen and (max-width: 900px) {
+
+    @media only screen and (max-width: 500px) {
+        .container {
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        .bgLayer {
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+}
+
+/* FOR MEDIUM (>600px) SCREENS */ 
+
+@media only screen and (min-width: 900px) {
+}
+
