@@ -183,7 +183,7 @@ collections:
               widget: 'relation'
               multiple: true
               collection: 'Competences'
-              searchFields: ['Competences.competence_sections.category']
+              searchFields: ['competence_sections.category']
               valueField: 'category.*.url'
               displayFields: ['category.*.url']
 
