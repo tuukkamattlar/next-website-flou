@@ -186,7 +186,7 @@ collections:
               file: "tiimi"
               searchFields: ['persons.*.name']
               valueField: ['persons.*.name']
-              displayFields: "persons.*.name"
+              displayFields: ['persons.*.name']
 
 
 # the team
