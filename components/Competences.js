@@ -1,10 +1,12 @@
 import styles from './styles/SkillCategoryBox.module.css'
 import Link from 'next/link'
+import { attributes} from '../content/competences_list.md';
 
-export default function SkillCategoryBox({ items, lan }) {
+export default function Competences({ lan }) {
+  console.log(attributes)
   return (
       <div className={styles.container} >
-          {items.map((item, k) => (
+          {attributes.category.map((item, k) => (
             <Link href={'/osaaminen/'+item.url} key={k}>
             <div className={styles.bgLayer}>
               <div 

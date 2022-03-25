@@ -1,31 +1,23 @@
-import { attributes} from '../content/competences.md';
+import { attributes} from '../content/competence_content.md';
 import GeneralHeader from '@components/GeneralHeader';
-import SkillCategoryBox from '@components/SkillCategoryBox';
+import Competences from '@components/Competences';
+import Markdown from 'markdown-to-jsx';
 
 export default function Projects({ lan }) {
     let { title, headerIMG, description, items } = attributes;
-    const areas = [{
-        title: "Vaikutusten arviointi",
-        description: "Taloudelliset arviot jne"
-    },{
-        title: "Strategia",
-        description: "Taloudelliset arviot jne"
-    },{
-        title: "Riskienhallinta",
-        description: "Taloudelliset arviot jne"
-    }]
     return(
         <div className='powder'>
-            <GeneralHeader title={title} img={headerIMG} lan={lan} description={description}/>
+            <GeneralHeader title={title} img={headerIMG} lan={lan} description={''}/>
             <div className="min-height-page">
-            <SkillCategoryBox items={items} lan={lan}/>
+            <Markdown>{description[lan]}</Markdown>
+            <Competences lan={lan}/>
             </div>
         </div>
     )
   }
 /* KOODIN HAUTAUSMAA
 
-
+<SkillCategoryBox items={items} lan={lan}/>
 <SmallRef items={items}/>
             <h1>{title[lan]}</h1>
             <p>{description[lan]}</p>

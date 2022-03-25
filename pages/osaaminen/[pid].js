@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react';
-import { attributes } from '../../content/competences.md';
+import { attributes } from '../../content/competences_list.md';
 import GeneralHeader from '@components/GeneralHeader';
-import SkillPageContent from '@components/SkillPageContent';
+import ReferenceProjects from '@components/ReferenceProjects';
 
 
 export default function SkillArea({ lan }) {
@@ -11,15 +11,14 @@ export default function SkillArea({ lan }) {
     const [skillarea, setSkillarea] = useState({})
     const [loading, setLoading] = useState(true)
     useEffect(() => {
-        for(let i=0; i < attributes.items.length; i++){
+        for(let i=0; i < attributes.category.length; i++){
             if(pid){
-                if( attributes.items[i].url.toLowerCase() === pid.toLowerCase() ){
-                    setSkillarea(attributes.items[i])
+                if( attributes.category[i].url.toLowerCase() === pid.toLowerCase() ){
+                    setSkillarea(attributes.category[i])
                     setLoading(false)
                     return(0)
                 }
             }
-
         }
     });
     return(
@@ -29,9 +28,10 @@ export default function SkillArea({ lan }) {
         </div>
         :
         <div>
-            <GeneralHeader title={skillarea.title} img={skillarea.skillIMG} lan={lan} description={skillarea.short}/>
+            <GeneralHeader title={skillarea.title} img={skillarea.skillIMG} lan={lan} description={''}/>
             <div className='powder'>
-                <SkillPageContent  item = {skillarea} lan={lan}/>
+                <div>Kun {skillarea.long[lan]}</div>
+                <ReferenceProjects  item = {skillarea} lan={lan}/>
             </div>
         </div>
     )
