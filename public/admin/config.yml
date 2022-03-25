@@ -183,7 +183,7 @@ collections:
               widget: 'relation'
               multiple: true
               collection: 'Team'
-              file: "tiimi"
+              file: "content/tiimi"
               searchFields: ['persons.*.name']
               valueField: ['persons.*.name']
               displayFields: ['persons.*.name']
