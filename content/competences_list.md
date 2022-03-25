@@ -67,4 +67,11 @@ category:
         description:
           fi: a
           en: a
+      - id: vaikutukset
+        title:
+          fi: Vaikutusten arvionti
+          en: a
+        description:
+          fi: a
+          en: a
 ---
