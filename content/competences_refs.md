@@ -22,7 +22,7 @@ refs:
       fi: Lentovero vaikuttaa
       en: english
     customer:
-      fi: VN
+      fi: Vationeuvosto
       en: VN
     category:
       - strategia
