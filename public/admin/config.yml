@@ -95,7 +95,7 @@ collections:
       file: "content/competences_list.md"
       fields:
         - label: 'Osaamisaluelistaus'
-          name: "items"
+          name: "category"
           widget: list
           fields:
             - label: 'Otsikko'
@@ -165,18 +165,31 @@ collections:
               fields:
               - { label: "Suomeksi", name: "fi", widget: "string"}
               - { label: "In English", name: "en", widget: "string"}
-            - { label: "Osaamisalueen kuva", name: "skillIMG", widget: "image", required: true}
+            - { label: "Kuva", name: "skillIMG", widget: "image", required: true}
             - label: 'Lyhyt kuvaus'
               name: 'short'
               widget: 'object'
               fields:
               - { label: "Suomeksi", name: "fi", widget: "text"}
               - { label: "In English", name: "en", widget: "text"}
+            - label: 'Asiakas'
+              name: 'customer'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
             - label: 'Kategoriat'
               name: "categories"
               widget: select
               multiple: true
-              options: ["kun", "ata"]
+              options:
+              - label: "Post Author"
+                name: "author"
+                widget: "relation"
+                collection: "sections"
+                search_fields: "url"
+                value_field: "url"
+                display_fields: "url"
 
 
 # the team
