@@ -135,23 +135,6 @@ collections:
                   fields:
                   - { label: "Suomeksi", name: "fi", widget: "text"}
                   - { label: "In English", name: "en", widget: "text"}
-                - label: 'Esimerkkiprojektit'
-                  name: 'projects'
-                  widget: 'list'
-                  fields:
-                  - label: 'Otsikko'
-                    name: 'title'
-                    widget: 'object'
-                    fields:
-                    - { label: "Suomeksi", name: "fi", widget: "string"}
-                    - { label: "In English", name: "en", widget: "string"}
-                  - { label: "Osaamisalueen kuva", name: "skillIMG", widget: "image", required: true}
-                  - label: 'Kuvaus'
-                    name: 'description'
-                    widget: 'object'
-                    fields:
-                    - { label: "Suomeksi", name: "fi", widget: "text"}
-                    - { label: "In English", name: "en", widget: "text"}
     - label: "Osaaminen - Projektireferenssit"
       name: "refs"
       file: "content/competences_refs.md"
