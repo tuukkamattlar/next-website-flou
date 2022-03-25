@@ -184,9 +184,9 @@ collections:
               multiple: true
               collection: 'Team'
               file: "content/tiimi"
-              searchFields: ['persons.*.name']
-              valueField: ['persons.*.name']
-              displayFields: ['persons.*.name']
+              searchFields: ['tiimi.persons.*.name']
+              valueField: ['tiimi.persons.*.name']
+              displayFields: ['tiimi.persons.*.name']
 
 
 # the team
