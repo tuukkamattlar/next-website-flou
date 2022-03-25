@@ -53,6 +53,13 @@ category:
       fi: a
       en: a
     subcategories:
+      - id: vaikutukset
+        title:
+          fi: Vaikutusten arvionti
+          en: a
+        description:
+          fi: a
+          en: a
       - id: ennusteet_ja_mallit
         title:
           fi: Ennusteet ja mallit
@@ -67,10 +74,36 @@ category:
         description:
           fi: a
           en: a
-      - id: vaikutukset
+  - title:
+      fi: Riskienhallinta
+      en: Risk management
+    url: riskienhallinta
+    skillIMG: img/flou_arrows.png
+    short:
+      fi: a
+      en: a
+    long:
+      fi: a
+      en: a
+    subcategories:
+      - id: riskit
         title:
-          fi: Vaikutusten arvionti
+          fi: Riskienhallinta
+          en: Risk management
+        description:
+          fi: a
           en: a
+      - id: tilannekuva
+        title:
+          fi: Tilannekuva
+          en: a
+        description:
+          fi: a
+          en: a
+      - id: kyber
+        title:
+          fi: Kyberturvallisuus
+          en: Cyber security
         description:
           fi: a
           en: a
