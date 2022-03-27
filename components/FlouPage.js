@@ -8,7 +8,16 @@ export default function FlouPage({ item, lan }) {
       <div className={styles.container}>
         <div className={styles.infoText}>
           <Markdown className={styles.markdownDiv}>{item.description[lan]}</Markdown>
-          <img src={item.bodyIMG}></img>
+          <div 
+              className={styles.imgLayer}
+              style={{
+              backgroundImage: "url(/"+item.bodyIMG+")",
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              }}
+          >
+          </div>
         </div>
         <div className={styles.timeline}>
           <h1>{{fi: "FLOU:n historia", en: "History of FLOU"}[lan]}</h1>

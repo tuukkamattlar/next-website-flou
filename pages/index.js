@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 import HomeHeaderAndNav from '@components/Header';
-import WhatWeDoBlock from '@components/WhatWeDoBlock';
+import FrontpageCompetences from '@components/FrontpageCompetences';
 import SmallRef from '@components/SmallRef';
 import { attributes, react as HomeContent } from '../content/home.md';
 import AddBlock from '@components/addBlock';
@@ -48,7 +48,7 @@ export default function Home() {
       </Head>
       <div>
         <HomeHeaderAndNav title={title[lan]} />
-        <WhatWeDoBlock />
+        <FrontpageCompetences lan={lan} />
         <div className={`${styles.newstitle} powder`}>
           <h2>Tuoreimpia kuulumisia</h2>
         </div>

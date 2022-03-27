@@ -1,8 +1,8 @@
 import Link from 'next/link';
-
 import styles from './styles/WhatWeDo.module.css';
+import { attributes } from '../content/competences_list.md';
 
-export default function WhatWeDoBlock() {
+export default function FrontpageCompetences({lan}) {
   const skillist = [
     {
       title: {
@@ -50,6 +50,16 @@ export default function WhatWeDoBlock() {
           </Link>
         ))}
       </div>
+      <div className={`${styles.skills} `}>
+      {attributes.category.map((val, i) => (
+          <Link href={'osaaminen/'+val.url} key={i}>
+            <div className={styles.box} key={i}>
+              <h3>{val.title[lan]}</h3>
+              <p>{val.short[lan]}</p>
+            </div>
+          </Link>
+        ))}
+        </div>
     </div>
   );
 }
