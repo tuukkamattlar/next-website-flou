@@ -2,6 +2,10 @@
   width: 100%;
   background-color: white;
 }
+.heading {
+  padding-top: 30px;
+  text-align: center;
+}
 
 .box:hover {
   background-color: #f2c7cf;

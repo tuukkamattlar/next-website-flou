@@ -1,65 +1,21 @@
 import Link from 'next/link';
-import styles from './styles/WhatWeDo.module.css';
+import styles from './styles/FrontpageCompetences.module.css';
 import { attributes } from '../content/competences_list.md';
 
 export default function FrontpageCompetences({lan}) {
-  const skillist = [
-    {
-      title: {
-        fi: 'Vaikutusten arviointi',
-        en: 'asia 2'
-      },
-      description: {
-        fi: 'Palvelumme kattavat monipuolisesti eri vaikutuslajit ja niiden mallinnusmenetelmät. Tarvittaessa kehitämme olemassa olevan teoriapohjan perusteella uusia menetelmiä vastataksemme asiakkaidemme vaativimpiinkin kysymyksiin.',
-        en: 'asgfasg 2 asafg'
-      },
-      link: '/osaaminen/Vaikutusten%20arviointi'
-    },
-    {
-      title: {
-        fi: 'Strategiat',
-        en: 'asia 2'
-      },
-      description: {
-        fi: 'Tuotamme tarvittavat tiedot päätöksenteon tueksi ja suunnitelmat strategioiden toteutuksiin. Palveluvalikoimaamme sisältyvät nykytila-analyysit, tulevaisuuskuvatyöt, toimenpiteiden suunnittelu ja toimeenpanon tuki.',
-        en: 'asgfasg 2 asafg'
-      },
-      link: '/osaaminen/Strategia'
-    },
-    {
-      title: {
-        fi: 'Riskienhallinta',
-        en: 'asia 2'
-      },
-      description: {
-        fi: 'Riskienhallintaosaamisemme kattaa rakennushankkeen riskien arvioinnin ja kyberturvallisuuden. Kehitämme kustomoidut tilannekuvapalvelut riskien hallinnan tueksi.',
-        en: 'asgfasg 2 asafg'
-      },
-      link: '/osaaminen/Riskienhallinta'
-    }
-  ];
   return (
     <div className={styles.container}>
+      <h1 className={styles.heading}>{{"fi": "Osaamisemme", "en": "Our competences"}[lan]}</h1>
       <div className={`${styles.skills} `}>
-        {skillist.map((val, i) => (
-          <Link href={val.link} key={i}>
-            <div className={styles.box} key={i}>
-              <h3>{val.title.fi}</h3>
-              <p>{val.description.fi}</p>
-            </div>
-          </Link>
-        ))}
+        {attributes.category.map((val, i) => (
+            <Link href={'osaaminen/'+val.url} key={i}>
+              <div className={styles.box} key={i}>
+                <h3>{val.title[lan]}</h3>
+                <p>{val.short[lan]}</p>
+              </div>
+            </Link>
+          ))}
       </div>
-      <div className={`${styles.skills} `}>
-      {attributes.category.map((val, i) => (
-          <Link href={'osaaminen/'+val.url} key={i}>
-            <div className={styles.box} key={i}>
-              <h3>{val.title[lan]}</h3>
-              <p>{val.short[lan]}</p>
-            </div>
-          </Link>
-        ))}
-        </div>
     </div>
   );
 }
