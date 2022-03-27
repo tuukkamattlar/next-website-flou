@@ -1,9 +1,10 @@
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react';
+import Markdown from 'markdown-to-jsx';
 import { attributes } from '../../content/competences_list.md';
 import GeneralHeader from '@components/GeneralHeader';
 import ReferenceProjects from '@components/ReferenceProjects';
-
+import styles from '../../components/styles/CompetencePage.module.css'
 
 export default function SkillArea({ lan }) {
     const router = useRouter()
@@ -27,15 +28,24 @@ export default function SkillArea({ lan }) {
             Loading
         </div>
         :
-        <div>
+        <>
             <GeneralHeader title={skillarea.title} img={skillarea.skillIMG} lan={lan} description={''}/>
             <div className='powder'>
-                <div>Kun {skillarea.long[lan]}</div>
-                <ReferenceProjects  item = {skillarea} lan={lan}/>
+                <div className={styles.container}>
+                    <div><Markdown>{skillarea.long[lan]}</Markdown></div>
+                    <h1>Kategoriat TODO</h1>
+                    <div className={styles.subcategories}>
+                        {skillarea.subcategories.map((val,ind) => (
+                            <div key={ind} className={styles.subcategory}>
+                                <h4>{val.title[lan]}</h4>
+                                <p>{val.description[lan]}</p>
+                            </div>
+                        ))}
+                    </div>
+                    <h1>Projekteja TODO</h1>
+                    <ReferenceProjects  item = {skillarea} lan={lan}/>
+                </div>
             </div>
-        </div>
+        </>
     )
   }
-  
-
-  // 
