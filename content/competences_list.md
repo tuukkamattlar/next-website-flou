@@ -1,15 +1,60 @@
 ---
 category:
   - title:
-      fi: Strategia
-      en: Strategy
+      fi: Vaikutusten arviointi
+      en: A
+    url: vaikutusten_arviointi
+    skillIMG: img/flou_bridge.png
+    short:
+      fi: Palvelumme kattavat monipuolisesti eri vaikutuslajit ja niiden
+        mallinnusmenetelmät. Tarvittaessa kehitämme olemassa olevan teoriapohjan
+        perusteella uusia menetelmiä vastataksemme asiakkaidemme vaativimpiinkin
+        kysymyksiin.
+      en: a
+    long:
+      fi: Palvelumme kattavat monipuolisesti eri vaikutuslajit ja niiden
+        mallinnusmenetelmät. Tarvittaessa kehitämme olemassa olevan teoriapohjan
+        perusteella uusia menetelmiä vastataksemme asiakkaidemme vaativimpiinkin
+        kysymyksiin.
+      en: english
+    subcategories:
+      - id: vaikutukset
+        title:
+          fi: Vaikutusten arvionti
+          en: a
+        description:
+          fi: a
+          en: a
+      - id: ennusteet_ja_mallit
+        title:
+          fi: Ennusteet ja mallit
+          en: Forecasts and models
+        description:
+          fi: aa
+          en: a
+      - id: taloudelliset_arvioinnit
+        title:
+          fi: Taloudelliset arvioinnit
+          en: Ec
+        description:
+          fi: a
+          en: a
+  - title:
+      fi: Strategiat
+      en: Strategies
     url: strategia
     skillIMG: img/flou_arrows.png
     short:
-      fi: a
+      fi: Tuotamme tarvittavat tiedot päätöksenteon tueksi ja suunnitelmat
+        strategioiden toteutuksiin. Palveluvalikoimaamme sisältyvät
+        nykytila-analyysit, tulevaisuuskuvatyöt, toimenpiteiden suunnittelu ja
+        toimeenpanon tuki.
       en: a
     long:
-      fi: a
+      fi: Tuotamme tarvittavat tiedot päätöksenteon tueksi ja suunnitelmat
+        strategioiden toteutuksiin. Palveluvalikoimaamme sisältyvät
+        nykytila-analyysit, tulevaisuuskuvatyöt, toimenpiteiden suunnittelu ja
+        toimeenpanon tuki.
       en: a
     subcategories:
       - title:
@@ -42,48 +87,19 @@ category:
           fi: a
           en: a
   - title:
-      fi: Vaikutusten arviointi
-      en: a
-    url: vaikutusten_arviointi
-    skillIMG: img/flou_bridge.png
-    short:
-      fi: a
-      en: a
-    long:
-      fi: a
-      en: a
-    subcategories:
-      - id: vaikutukset
-        title:
-          fi: Vaikutusten arvionti
-          en: a
-        description:
-          fi: a
-          en: a
-      - id: ennusteet_ja_mallit
-        title:
-          fi: Ennusteet ja mallit
-          en: Forecasts and models
-        description:
-          fi: aa
-          en: a
-      - id: taloudelliset_arvioinnit
-        title:
-          fi: Taloudelliset arvioinnit
-          en: Ec
-        description:
-          fi: a
-          en: a
-  - title:
       fi: Riskienhallinta
       en: Risk management
     url: riskienhallinta
     skillIMG: img/flou_arrows.png
     short:
-      fi: a
+      fi: Riskienhallintaosaamisemme kattaa rakennushankkeen riskien arvioinnin ja
+        kyberturvallisuuden. Kehitämme kustomoidut tilannekuvapalvelut riskien
+        hallinnan tueksi.
       en: a
     long:
-      fi: a
+      fi: Riskienhallintaosaamisemme kattaa rakennushankkeen riskien arvioinnin ja
+        kyberturvallisuuden. Kehitämme kustomoidut tilannekuvapalvelut riskien
+        hallinnan tueksi.
       en: a
     subcategories:
       - id: riskit
