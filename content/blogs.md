@@ -85,9 +85,9 @@ blogs:
           en: Project manager
     short:
       fi: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
-        päätöksenteolle
+        päätöksenteolle.
       en: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
-        päätöksenteolle
+        päätöksenteolle.
     img: img/flou_plane.png
     url: lentovero
   - date: 2022-01-13T13:04:40.285Z
