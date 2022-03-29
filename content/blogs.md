@@ -32,7 +32,17 @@ blogs:
 
 
         Sisäministeriön suorituskykyhankkeen loppuraportit on julkaistu.
-      en: Same in English
+      en: >-
+        **The fire station network of the future is based on geoinformation**
+
+
+        The "Performance and Planning Criteria of Rescue Services and Civil Preparedness"-project had the goal of identifying how the current system responds to the operating environment, risks and customer needs, and to develop procedures and policies to respond to changes in the future. As part of the project, we were responsible for the calculation of a risk forecast grid to support the planning of the fire station network, in cooperation with City Research TA Ltd.
+
+
+        In addition to the rescue services' own statistical and spatial data sets, the accident forecasts must also make use of statistical and spatial data sets describing the operational environment. Differences can be found between the different types of accidents as regards the environmental factors that influence the accident forecasts. The use of a wider range of data, both in terms of content and over time, provides a better prediction of accident occurrence and allows a consistent risk level to be calculated.
+
+
+        The final reports of the Ministry of the Interior's performance project have been published.
     email:
       - name: oliver.heinonen@flou.io
         role:
@@ -40,7 +50,7 @@ blogs:
           en: Project manager
     short:
       fi: Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
-      en: What is this?
+      en: The fire station network of the future is based on geoinformation
     img: img/pexels-inga-seliverstova-3243241.jpg
     url: paloasemien-paikatietoanalyysi
   - date: 2022-02-16T19:19:51.814Z
