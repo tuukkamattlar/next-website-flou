@@ -265,6 +265,14 @@ collections:
               widget: list
               fields:
                 - { label: "email", name: "name", widget: "string"}
+                - label: "Email2"
+                  name: "mail2"
+                  widget: "relation"
+                  collection: "Team"
+                  file: "tiimi"
+                  search_fields: ["persons.*.email"]
+                  display_fields: ["persons.*.email"]
+                  value_field: "persons.*.email"
                 - label: 'Rooli'
                   name: 'role'
                   widget: 'object'
