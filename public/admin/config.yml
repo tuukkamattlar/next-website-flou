@@ -173,9 +173,9 @@ collections:
               collection: "competence_sections"
               multiple: true
               file: "category"
-              search_fields: ["url"]
-              display_fields: ["url"]
-              value_field: "url"
+              search_fields: ["*.url"]
+              display_fields: ["*.url"]
+              value_field: "*.url"
 
 
 # the team
