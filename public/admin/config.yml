@@ -271,7 +271,7 @@ collections:
                   file: "tiimi"
                   search_fields: ["tiimi.persons.*.name"]
                   display_fields: ["tiimi.persons.*.name"]
-                  value_field: ["tiimi.persons.*.name"]
+                  value_field: "tiimi.persons.*.name"
                 - label: 'Rooli'
                   name: 'role'
                   widget: 'object'
