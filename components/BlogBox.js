@@ -2,9 +2,14 @@ import styles from './styles/BlogBox.module.css'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import Markdown from 'markdown-to-jsx';
+import { attributes } from '../content/blogs.md';
 
-export default function BlogBox({ items, description, lan }) {
+export default function BlogBox({ items = attributes.blogs, description = attributes.description, lan, maxLen = -1 }) {
   const [years, setYears] = useState([])
+  if(maxLen > 0){
+    items = items.slice(0, maxLen)
+  }
+  
   return (
       <div className={styles.container} >
         <div className={styles.intro}>

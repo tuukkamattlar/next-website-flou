@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { attributes} from '../content/competences_list.md';
 
 export default function Competences({ lan }) {
-  console.log(attributes)
   return (
       <div className={styles.container} >
           {attributes.category.map((item, k) => (
@@ -26,6 +25,8 @@ export default function Competences({ lan }) {
                   <p className={styles.main}>
                       {item.short[lan]}
                   </p>
+              </div>
+              <div className={styles.fade}>
               </div>
             </div>
             </Link>

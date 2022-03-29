@@ -1,4 +1,8 @@
-.container > h1, .container > dvh2 {
+.container {
+    overflow: hidden;
+}
+
+.container > h1, .container > h2, .container>div > h3 {
     text-align: center;
 }
 
@@ -24,7 +28,7 @@
     text-align: center;
 }
 
-/* FOR SMALL (<600px) SCREENS */
+
 @media only screen and (max-width: 900px) {
     .container {
         margin: auto;
@@ -47,13 +51,19 @@
     .team > * {
         text-align: center;
     }
+    @media only screen and (max-width: 500px) {
+        .container > div > p {
+            margin: 10px;
+            padding: 10px;
+        }
+
+    }
 }
 
-/* FOR MEDIUM (>600px) SCREENS */ 
 
 @media only screen and (min-width: 900px) {
     .container {
-        max-width: 900px;
+        max-width: 800px;
         margin: auto;
         padding-bottom: 50px;
         padding-top: 20px;

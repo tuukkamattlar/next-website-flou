@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react';
 
 export default function RefProjectBox({ item, lan }) {
-  console.log(item.skillIMG)
   return (
       <div className={styles.project}>
         <div 

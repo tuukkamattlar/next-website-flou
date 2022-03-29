@@ -10,7 +10,7 @@
 /* FOR SMALL (<600px) SCREENS */
 @media only screen and (max-width: 900px) {
     .container{
-        padding: 0px;
+        padding: 20px;
     }
     .timeline>div {
         padding-top: 20px;

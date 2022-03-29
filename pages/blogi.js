@@ -6,8 +6,8 @@ export default function Blogi({ lan }) {
     let { title, description, headerIMG, blogs } = attributes;
     return(
         <div className='powder'>
-            <GeneralHeader title={title} img={headerIMG} lan={lan} description={''}/>
-            <BlogBox items={blogs} lan={lan} description={description} />
+            <GeneralHeader title={attributes.title} img={attributes.headerIMG} lan={lan}/>
+            <BlogBox lan={lan} />
         </div>
     )
   }

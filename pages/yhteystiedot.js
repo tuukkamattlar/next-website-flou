@@ -6,7 +6,10 @@ export default function Contact({ lan }) {
     return(
         <div>
             <GeneralHeader title={attributes.title} img={attributes.headerIMG} lan={lan} description={''}/>
-            <ContactInfo item={attributes} lan={lan}/>
+            <div className='powder'>
+                <ContactInfo item={attributes} lan={lan}/>
+            </div>
+            
         </div>
     )
   }

@@ -19,7 +19,6 @@ export default function ReferenceProjects({ item, lan }) {
 
   useEffect(()=> {
     filterRefs()
-    console.log(projects)
   }, [])
   return (
       <div className={styles.container} >

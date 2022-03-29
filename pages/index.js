@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
-
+import BlogBox from '@components/BlogBox';
 import HomeHeaderAndNav from '@components/Header';
 import FrontpageCompetences from '@components/FrontpageCompetences';
 import SmallRef from '@components/SmallRef';
@@ -54,7 +54,7 @@ export default function Home() {
         </div>
         <div className={styles.newscontainer}>
           <div className={styles.blogcontainer}>
-            <SmallRef items={items} forwardRef={ref} />
+            <BlogBox lan={lan} maxLen={3}/>
           </div>
 
           <div className={styles.twittercontainer} style={{ height: twitterHeight }}>
