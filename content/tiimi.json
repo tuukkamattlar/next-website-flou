@@ -1,0 +1,43 @@
+{
+  "title": {
+    "fi": "a",
+    "en": "a"
+  },
+  "headerIMG": "img/pexels-inga-seliverstova-3243241.jpg",
+  "persons": [
+    {
+      "name": "Aa",
+      "role": {
+        "fi": "a",
+        "en": "a"
+      },
+      "email": "a",
+      "phone": "12",
+      "skills": [
+        {
+          "fi": "1",
+          "en": "1"
+        }
+      ],
+      "description": {
+        "fi": "1",
+        "en": "1"
+      },
+      "profileIMG": "img/01_kuvitus_flou_park.png"
+    },
+    {
+      "name": "bb",
+      "role": {
+        "fi": "b",
+        "en": "b"
+      },
+      "email": "b",
+      "phone": "1",
+      "description": {
+        "fi": "1",
+        "en": "1"
+      },
+      "profileIMG": "img/flou_arrows.png"
+    }
+  ]
+}
