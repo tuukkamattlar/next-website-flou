@@ -2,7 +2,7 @@
 title:
   fi: FLOU
   en: FLOU
-headerIMG: img/walk.jpg
+headerIMG: img/flou_street.png
 description:
   fi: >-
     ## Mikä on FLOU?
