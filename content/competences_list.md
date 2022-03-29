@@ -90,7 +90,7 @@ category:
       fi: Riskienhallinta
       en: Risk management
     url: riskienhallinta
-    skillIMG: img/flou_arrows.png
+    skillIMG: img/flou_street.png
     short:
       fi: Riskienhallintaosaamisemme kattaa rakennushankkeen riskien arvioinnin ja
         kyberturvallisuuden. Kehitämme kustomoidut tilannekuvapalvelut riskien
