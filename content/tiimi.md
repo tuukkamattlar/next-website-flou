@@ -4,7 +4,7 @@ description: Kuvauksia tiimistä
 title:
   fi: Tiimi
   en: The Team
-headerIMG: img/tram.jpg
+headerIMG: img/flou_bridge.png
 persons:
   - thumbnail: img/heading.jpg
     name: Taina Haapamäki
