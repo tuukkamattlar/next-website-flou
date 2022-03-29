@@ -2,7 +2,7 @@
 title:
   fi: FLOU
   en: FLOU
-headerIMG: img/walk.jpg
+headerIMG: img/flou_street.png
 description:
   fi: >-
     ## Mikä on FLOU?
@@ -18,7 +18,7 @@ description:
 
     perustuva päätöksenteko entisestään. Me selvitämme asiakkaillemme vaikutukset riippumattomasti. Uskomme, että vastuullinen toimija tunnistaa tosiasiat, hallitsee riskit, varautuu uhkiin, ymmärtää taloudellisen ja sosiaalisen vaikutuksen, kestävyyden vaatimukset ja ison kuvan - ja toimii oikean tiedon pohjalta. Tässä työssä me olemme paras kumppanisi.
   en: General description
-bodyIMG: img/01_kuvitus_flou_park.png
+bodyIMG: img/flou_street.png
 timeline:
   - year: 2022
     events:
