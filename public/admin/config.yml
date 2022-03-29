@@ -268,7 +268,6 @@ collections:
                   name: "author"
                   widget: "relation"
                   collection: "Team"
-                  file: "content/tiimi"
                   search_fields: ["tiimi.persons.*.name"]
                   display_fields: ["tiimi.persons.*.name"]
                   value_field: "tiimi.persons.*.name"
