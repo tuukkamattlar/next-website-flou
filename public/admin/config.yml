@@ -264,9 +264,8 @@ collections:
               name: "email"
               widget: list
               fields:
-                - { label: "email", name: "name", widget: "string"}
-                - label: "Email2"
-                  name: "mail2"
+                - label: "email"
+                  name: "name"
                   widget: "relation"
                   collection: "Team"
                   file: "tiimi"
