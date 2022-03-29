@@ -26,5 +26,5 @@ bodyObject:
     00180 Helsinki
 
     Finland
-fillIMG: img/01_kuvitus_flou_park.png
+fillIMG: img/flou_park.png
 ---
