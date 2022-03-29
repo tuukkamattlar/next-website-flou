@@ -175,7 +175,7 @@ collections:
     files:
     - label: "Tiimi"
       name: "tiimi"
-      file: "content/tiimi.json"
+      file: "content/tiimi.md"
       create: true
       fields:
         - label: 'Otsikko'
