@@ -168,14 +168,14 @@ collections:
               multiple: true
               options: ["strategia", "vaikutusten_arviointi", "riskienhallinta"]
             - label: "Kategoria2"
-                name: "category"
-                widget: "relation"
-                collection: "competence_sections"
-                multiple: true
-                file: "category"
-                search_fields: ["persons.*.url"]
-                display_fields: ["persons.*.url"]
-                value_field: "persons.*.url"
+              name: "category"
+              widget: "relation"
+              collection: "competence_sections"
+              multiple: true
+              file: "category"
+              search_fields: ["persons.*.url"]
+              display_fields: ["persons.*.url"]
+              value_field: "persons.*.url"
 
 
 # the team
