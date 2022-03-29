@@ -2,7 +2,7 @@
 title:
   fi: Osaaminen
   en: Competences
-headerIMG: img/01_kuvitus_flou_park.png
+headerIMG: img/flou_bridge.png
 description:
   fi: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
