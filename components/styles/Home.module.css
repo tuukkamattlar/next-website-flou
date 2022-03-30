@@ -28,6 +28,17 @@
   position: relative;
 }
 
+.blogboxcontainer {
+  align-items: center;
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -30px;
+  position: absolute;
+}
+
 .twittercontainer {
   display: table-cell;
   align-items: center;

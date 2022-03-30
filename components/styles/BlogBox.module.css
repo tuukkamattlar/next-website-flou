@@ -1,156 +1,146 @@
 /* COMMON */
+
+/* Container used for the div element one level up the hierarchy.
+--> index.js has its own styles for the div */
 .container {
-    margin: 10px;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .intro {
-    width: 100%;
-    min-height: 200px;
-    padding: 20px;
+  width: 100%;
+  min-height: 200px;
+  padding: 20px;
 }
 
-
 .bgLayer {
-    height: 400px;
-    width: 350px;
-    position: relative;
-    margin: 5px;
-    padding: 0px;
-    overflow: hidden;
-    cursor: pointer;
+  height: 400px;
+  width: 350px;
+  position: relative;
+  margin: 5px;
+  padding: 0px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .bgimg {
-    background-position: center;
-    background-repeat: 'no-repeat';
-    background-size: "cover";
-    height: 50%;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+  background-position: center;
+  background-repeat: 'no-repeat';
+  background-size: 'cover';
+  height: 50%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
-.textLayer{
-    background-color: rgb(41, 36, 66);
-    width: 100%;
-    height: 50%;
-    margin: 0px;
-    padding: 0px;
+.textLayer {
+  background-color: rgb(41, 36, 66);
+  width: 100%;
+  height: 50%;
+  margin: 0px;
+  padding: 0px;
 }
 .title {
-    color: rgb(255, 255, 255);
-    margin: 0px;
-    padding: 10px;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 10px;
 }
 
 .main {
-    padding-top: 10px;
-    padding-inline: 10px;
-    color: rgb(255, 255, 255);
-    transition: all 0.3s;
+  padding-top: 10px;
+  padding-inline: 10px;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s;
 }
 
-.bgLayer:hover> .textLayer>.title {
-    color: rgb(151, 149, 149);
-    transition: all 0.3s;
+.bgLayer:hover > .textLayer > .title {
+  color: #f2c7cf;
+  transition: all 0.3s;
 }
 
-.bgLayer>.bgimg {
-    transition: all 0.3s;
+.bgLayer > .bgimg {
+  transition: all 0.3s;
 }
 
-.bgLayer:hover>.bgimg {
-    -webkit-filter: sepia(100%) hue-rotate(220deg) brightness(50%);
-    filter: sepia(100%) hue-rotate(220deg) brightness(30%);
-    /*filter: grayscale(100%) blur(1px) brightness(60%);*/
-    transition: all 0.3s;
-}    
-
+.bgLayer:hover > .bgimg {
+  -webkit-filter: invert(25%) sepia(39%) saturate(182%) hue-rotate(301deg) brightness(56%)
+    contrast(90%);
+  filter: invert(25%) sepia(39%) saturate(182%) hue-rotate(301deg) brightness(56%) contrast(90%);
+  /*filter: grayscale(100%) blur(1px) brightness(60%);*/
+  transition: all 0.3s;
+}
 
 /* FOR SMALL (<900px) SCREENS */
 @media only screen and (max-width: 1200px) {
+  .bgLayer {
+    height: 400px;
+    width: 250px;
+    margin: 5px;
+    padding: 0px;
+  }
+  .intro > div {
+    max-width: 700px;
+    margin: auto;
+  }
+  .intro > div > p {
+    padding-top: 15px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .container {
+      margin: 0px;
+      padding: 0px;
+    }
+    .intro > div {
+      max-width: 600px;
+      margin: auto;
+    }
     .bgLayer {
+      height: 400px;
+      width: 50%;
+      margin: 0px;
+      padding: 0px;
+    }
+    .title {
+      font-size: initial;
+    }
+    .intro > div > p {
+      padding-top: 10px;
+    }
+
+    @media only screen and (max-width: 400px) {
+      .bgLayer {
         height: 400px;
-        width: 250px;
-        margin: 5px;
+        width: 100%;
+        margin: 0px;
         padding: 0px;
-
+      }
+      .intro > div > p {
+        padding-top: 5px;
+      }
     }
-    .intro>div {
-        max-width: 700px;
-        margin: auto;
-    }
-    .intro>div>p {
-        padding-top: 15px;
-    }
-
-    @media only screen and (max-width: 900px) { 
-        .container {
-            margin: 0px;
-            padding: 0px;
-        }
-        .intro>div {
-            max-width: 600px;
-            margin: auto;
-        }
-        .bgLayer {
-            height: 400px;
-            width: 50%;
-            margin: 0px;
-            padding: 0px;
-    
-        }
-        .title {
-            font-size: initial;
-        }
-        .intro>div>p {
-            padding-top: 10px;
-        }
-    
-        
-        @media only screen and (max-width: 400px) { 
-            .bgLayer {
-                height: 400px;
-                width: 100%;
-                margin: 0px;
-                padding: 0px;
-        
-            }
-            .intro>div>p {
-                padding-top: 5px;
-            }
-        
-        }
-        
-    }
-    
+  }
 }
 
-/* FOR SMALLER SCREENS */ 
+/* FOR SMALLER SCREENS */
 
 @media only screen and (min-width: 1200px) {
-
-    .container {
-        max-width: 1500px;
-        margin: auto;
-    
-    }
-    .intro {
-        padding: 50px;
-    }
-    .intro>div {
-        max-width: 900px;
-        margin: auto;
-        
-    }
-    .intro>div>p {
-        padding-top: 15px;
-    }
+  .container {
+    max-width: 1500px;
+    margin: auto;
+  }
+  .intro {
+    padding: 50px;
+  }
+  .intro > div {
+    max-width: 900px;
+    margin: auto;
+  }
+  .intro > div > p {
+    padding-top: 15px;
+  }
 }
-

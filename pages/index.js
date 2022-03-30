@@ -23,6 +23,7 @@ export default function Home() {
 
   const setHeightTweetsDiv = () => {
     const height = ref?.current?.clientHeight;
+    console.log(height);
     setTwitterHeight(height);
   };
 
@@ -39,7 +40,7 @@ export default function Home() {
     autoHeight: true,
     transparent: true
   };
-  
+
   return (
     <>
       <Head>
@@ -54,7 +55,9 @@ export default function Home() {
         </div>
         <div className={styles.newscontainer}>
           <div className={styles.blogcontainer}>
-            <BlogBox lan={lan} maxLen={3}/>
+            <div className={styles.blogboxcontainer} ref={ref}>
+              <BlogBox lan={lan} maxLen={6} />
+            </div>
           </div>
 
           <div className={styles.twittercontainer} style={{ height: twitterHeight }}>

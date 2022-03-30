@@ -11,7 +11,7 @@ export default function BlogBox({ items = attributes.blogs, description = attrib
   }
   
   return (
-      <div className={styles.container} >
+      <>
         <div className={styles.intro}>
           <Markdown>{description[lan]}</Markdown>
         </div>
@@ -39,6 +39,6 @@ export default function BlogBox({ items = attributes.blogs, description = attrib
             </div>
             </Link>
           ))}
-      </div>
+      </>
   )
 }
