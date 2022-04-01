@@ -18,7 +18,7 @@ persons:
         en: compute
       - fi: kirjoittaa
         en: write
-    profileIMG: img/pexels-stefan-stefancik-91227.jpg
+    profileIMG: img/taina.jpg
     role:
       en: Managing director
       fi: Toiminnanjohtaja
@@ -29,7 +29,7 @@ persons:
       en: a
     email: sami.makinen@flou.io
     phone: "1"
-    profileIMG: img/pexels-stefan-stefancik-91227.jpg
+    profileIMG: img/sami.jpg
     skills:
       - fi: emme
         en: emme
@@ -63,7 +63,7 @@ persons:
       en: "1"
     email: oliver.heinonen@flou.io
     phone: "1"
-    profileIMG: img/pexels-stefan-stefancik-91227.jpg
+    profileIMG: img/oliver.jpg
     skills:
       - fi: emme
         en: emme
@@ -117,7 +117,7 @@ persons:
       en: a
     email: tommi.kantala@flou.io
     phone: "1"
-    profileIMG: img/pexels-stefan-stefancik-91227.jpg
+    profileIMG: img/tommi.jpg
     skills:
       - fi: emme
         en: emme
@@ -153,7 +153,7 @@ persons:
       en: a
     email: siiri.korhonen@flou.io
     phone: "1"
-    profileIMG: img/pexels-stefan-stefancik-91227.jpg
+    profileIMG: img/siiri.jpg
     skills:
       - fi: emme
         en: emme
@@ -171,7 +171,7 @@ persons:
       en: Esim can also english
     email: tuukka.mattlar@flou.io
     phone: a
-    profileIMG: img/pexels-stefan-stefancik-91227.jpg
+    profileIMG: img/tuukka.jpg
     skills:
       - fi: emme
         en: emme
@@ -191,7 +191,7 @@ persons:
     description:
       fi: "1"
       en: "1"
-    profileIMG: img/pexels-stefan-stefancik-91227.jpg
+    profileIMG: img/elias.jpg
     skills:
       - fi: "1"
         en: "1"
