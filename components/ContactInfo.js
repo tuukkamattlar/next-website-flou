@@ -6,7 +6,15 @@ export default function ContactInfo({ item, lan }) {
   return (
       <div className={styles.container}>
         <div className={styles.infoText}>
-          <Markdown className={styles.markdownDiv}>{item.bodyObject[lan]}</Markdown>
+          <div className={styles.markdownDiv}>
+          <Markdown >{item.bodyObject[lan]}</Markdown>
+          <div className={styles.urls}>
+            <h1>{{fi: "Linkkejä", en: "Shortcuts"}[lan]}</h1>
+            {item.urls.map((value,index) => (
+              <h4><Link href={value.url}>{value.name[lan]}</Link></h4>
+            ))}
+          </div>
+          </div>
           <img src={item.fillIMG}></img>
         </div>
       </div>
