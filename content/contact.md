@@ -2,23 +2,15 @@
 title:
   fi: Ota yhteyttä
   en: Contact us
-headerIMG: img/walk.jpg
+headerIMG: img/flou_cykler.png
 bodyObject:
   fi: |-
-    ### Ota yhteyttä
-
-
-
     ### Osoite
 
     Köydenpunojankatu 2a D, 5. krs
 
     00180 Helsinki
   en: |-
-    ### Contact us
-
-
-
     ### Address
 
     Köydenpunojankatu 2a D, 5. krs
@@ -27,4 +19,13 @@ bodyObject:
 
     Finland
 fillIMG: img/flou_park.png
+urls:
+  - url: jobs
+    name:
+      fi: Ura
+      en: Jobs
+  - url: media
+    name:
+      fi: Media
+      en: Media
 ---
