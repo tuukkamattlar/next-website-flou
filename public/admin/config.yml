@@ -302,6 +302,17 @@ collections:
           - { label: "Suomeksi", name: "fi", widget: "markdown"}
           - { label: "In English", name: "en", widget: "markdown"}
         - { label: "Täyttökuva", name: "fillIMG", widget: "image", required: true}
+        - label: 'Linkit'
+          name: "urls"
+          widget: list
+          fields:
+            - {label: "Osoite", name: "url", widget: "string"}
+            - label: 'Kuvaus'
+              name: 'name'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
 
 # FLOU - the company
   - name: "Jobs"
