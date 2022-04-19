@@ -4,12 +4,21 @@ title:
   en: Blogs
 description:
   fi: >-
-    Teemme jatkuvasti töitä uusien haasteiden kanssa. Osasta projekteistamme
-    kirjoitamme myös lyhyitä blogitekstejä, joiden kautta toimintaamme ja
-    osaamiseemme voi tutustua paremmin.
+    
+
+    Teemme jatkuvasti töitä uusien haasteiden kanssa. Osasta projekteistamme kirjoitamme myös lyhyitä blogitekstejä, joiden kautta toimintaamme ja osaamiseemme voi tutustua paremmin.
 
 
     Lisää
+
+
+    ```html
+
+    <div id="esimerkki">
+      koodiesimerkki
+    </div>
+
+    ```
   en: |-
     English
 
