@@ -10,15 +10,6 @@ description:
 
 
     Lisää
-
-
-    ```html
-
-    <div id="esimerkki">
-      koodiesimerkki
-    </div>
-
-    ```
   en: |-
     English
 
