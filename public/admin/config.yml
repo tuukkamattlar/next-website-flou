@@ -368,3 +368,34 @@ collections:
               fields:
               - { label: "Suomeksi", name: "fi", widget: "markdown"}
               - { label: "In English", name: "en", widget: "markdown"}
+
+
+  - name: "SEO"
+    label: "SEO"
+    files:
+    - label: "Yhteiset metatagit"
+      name: "metatags"
+      file: "content/SEO/metatags.md"
+      fields:
+        - label: 'Tagit'
+          name: "metatags"
+          widget: list
+          fields:
+            - { label: "Property", name: "property", widget: "string"}
+            - { label: "Content", name: "content", widget: "string"}
+    - label: "Etusivu"
+      name: "frontpage"
+      file: "content/SEO/frontpage.md"
+      fields:
+        - label: 'Metatagit'
+          name: "metatags"
+          widget: list
+          fields:
+            - { label: "Property", name: "property", widget: "string"}
+            - { label: "Content", name: "content", widget: "string"}
+        - label: 'OGP'
+          name: "ogp"
+          widget: list
+          fields:
+            - { label: "Property", name: "property", widget: "string"}
+            - { label: "Content", name: "content", widget: "string"}

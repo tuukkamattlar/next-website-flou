@@ -11,6 +11,7 @@ import { PageContext } from './_app';
 import HomeLayout from '@components/HomeLayout';
 import styles from '@components/styles/Home.module.css';
 import useWindowSize from '@components/hooks/useWindowSize';
+import SEO from '@components/metacomponents/SEO';
 
 export default function Home() {
   const { title, items } = attributes;
@@ -41,12 +42,36 @@ export default function Home() {
     transparent: true
   };
 
+  const metadata = {
+    title: "PAGE TITLE",
+    keywords: "FLOU, liikenne, traffic, Helsinki, consultancy",
+    description: "FLOU - Strategista liikennesuunnittelua",
+    image: "/favicon.ico"
+  }
+
+  const OGdata = [
+    {
+      property: "og:title",
+      content: "FLOU"
+    },
+    {
+      property: "og:title",
+      content: "FLOU"
+    },
+  ]
+
   return (
     <>
-      <Head>
+      {/*<Head>
         <title>FLOU</title>
         <link rel="icon" href="/favicon.ico" />
+        <SEO metadata={metadata} ogdata={ogdata}/>
+        {ogdata.map((value, index) => (
+        <meta property={value.property} content={value.content} key={index} />
+        )) 
       </Head>
+      */}
+      <SEO metadata={metadata} OGdata={OGdata}/>
       <div>
         <HomeHeaderAndNav title={title[lan]} />
         <FrontpageCompetences lan={lan} />
