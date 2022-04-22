@@ -11,6 +11,7 @@ import { PageContext } from './_app';
 import HomeLayout from '@components/HomeLayout';
 import styles from '@components/styles/Home.module.css';
 import useWindowSize from '@components/hooks/useWindowSize';
+import { attributes as seoContent } from '../content/SEO/frontpage.md';
 import SEO from '@components/metacomponents/SEO';
 
 export default function Home() {
@@ -24,7 +25,6 @@ export default function Home() {
 
   const setHeightTweetsDiv = () => {
     const height = ref?.current?.clientHeight;
-    console.log(height);
     setTwitterHeight(height);
   };
 
@@ -41,25 +41,6 @@ export default function Home() {
     autoHeight: true,
     transparent: true
   };
-
-  const metadata = {
-    title: "PAGE TITLE",
-    keywords: "FLOU, liikenne, traffic, Helsinki, consultancy",
-    description: "FLOU - Strategista liikennesuunnittelua",
-    image: "/favicon.ico"
-  }
-
-  const OGdata = [
-    {
-      property: "og:title",
-      content: "FLOU"
-    },
-    {
-      property: "og:title",
-      content: "FLOU"
-    },
-  ]
-
   return (
     <>
       {/*<Head>
@@ -71,7 +52,7 @@ export default function Home() {
         )) 
       </Head>
       */}
-      <SEO metadata={metadata} OGdata={OGdata}/>
+      <SEO title={title["fi"]} OGimage={seoContent.OGPimg} metadata={seoContent.metatags} OGdata={seoContent.ogp} keywords={seoContent.keywords}/>
       <div>
         <HomeHeaderAndNav title={title[lan]} />
         <FrontpageCompetences lan={lan} />

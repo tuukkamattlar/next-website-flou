@@ -1,17 +1,26 @@
 import React from "react";
 import Head from "next/head";
+import { attributes as seoContent } from '../../content/SEO/metatags.md';
 
-export default function SEO({metadata, OGdata}) {
+// TODO!!
+
+export default function SEO({title, metadata, OGdata, OGimage, keywords}) {
+  const combinedKeywords = keywords.concat(keywords).concat(seoContent.keywords)
+  const metadataCombined = metadata.concat(OGdata)
   return (
     <Head>
-      <title>{metadata.title}</title>
+      <title>{title}</title>
       <link rel="icon" href="/favicon.ico" />
-      <meta name="keywords" content={metadata.keywords} />
+      <meta 
+        property="keywords"
+        content={combinedKeywords.map((value) => (" "+value.keyword))} 
+      />
       <meta name="description" content={metadata.description} />
       <meta name="image" content={metadata.image} />
-      {OGdata.map((value, index) => (
+      {metadataCombined.map((value, index) => (
         <meta property={value.property} content={value.content} key={index} />
       )) }
+      <meta name="og:image" content={OGimage} />
     </Head>
   )
 }
