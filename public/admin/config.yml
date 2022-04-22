@@ -384,6 +384,11 @@ collections:
           fields:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
+        - label: 'Keywords'
+          name: "keywords"
+          widget: list
+          fields:
+            - { label: "Keyword", name: "keyword", widget: "string"}
     # FRONTPAGE
     - label: "Etusivu"
       name: "frontpage"
@@ -395,6 +400,11 @@ collections:
           fields:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
+        - label: 'Keywords'
+          name: "keywords"
+          widget: list
+          fields:
+            - { label: "Keyword", name: "keyword", widget: "string"}
         - label: 'OGP'
           name: "ogp"
           widget: list
@@ -413,6 +423,11 @@ collections:
           fields:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
+        - label: 'Keywords'
+          name: "keywords"
+          widget: list
+          fields:
+            - { label: "Keyword", name: "keyword", widget: "string"}
         - label: 'OGP'
           name: "ogp"
           widget: list
@@ -431,6 +446,11 @@ collections:
           fields:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
+        - label: 'Keywords'
+          name: "keywords"
+          widget: list
+          fields:
+            - { label: "Keyword", name: "keyword", widget: "string"}
         - label: 'OGP'
           name: "ogp"
           widget: list
@@ -449,6 +469,11 @@ collections:
               fields:
                 - { label: "Property", name: "property", widget: "string"}
                 - { label: "Content", name: "content", widget: "string"}
+            - label: 'Keywords'
+              name: "keywords"
+              widget: list
+              fields:
+                - { label: "Keyword", name: "keyword", widget: "string"}
             - label: 'OGP'
               name: "ogp"
               widget: list
@@ -466,6 +491,11 @@ collections:
               fields:
                 - { label: "Property", name: "property", widget: "string"}
                 - { label: "Content", name: "content", widget: "string"}
+            - label: 'Keywords'
+              name: "keywords"
+              widget: list
+              fields:
+                - { label: "Keyword", name: "keyword", widget: "string"}
             - label: 'OGP'
               name: "ogp"
               widget: list
@@ -483,6 +513,11 @@ collections:
               fields:
                 - { label: "Property", name: "property", widget: "string"}
                 - { label: "Content", name: "content", widget: "string"}
+            - label: 'Keywords'
+              name: "keywords"
+              widget: list
+              fields:
+                - { label: "Keyword", name: "keyword", widget: "string"}
             - label: 'OGP'
               name: "ogp"
               widget: list
@@ -500,6 +535,11 @@ collections:
           fields:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
+        - label: 'Keywords'
+          name: "keywords"
+          widget: list
+          fields:
+            - { label: "Keyword", name: "keyword", widget: "string"}
         - label: 'OGP'
           name: "ogp"
           widget: list
@@ -518,6 +558,11 @@ collections:
           fields:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
+        - label: 'Keywords'
+          name: "keywords"
+          widget: list
+          fields:
+            - { label: "Keyword", name: "keyword", widget: "string"}
         - label: 'OGP'
           name: "ogp"
           widget: list
