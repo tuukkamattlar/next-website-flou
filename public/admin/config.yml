@@ -377,7 +377,7 @@ collections:
       name: "metatags"
       file: "content/SEO/metatags.md"
       fields:
-        - label: 'Tagit'
+        - label: 'Tagi'
           name: "metatags"
           widget: list
           fields:
@@ -399,3 +399,122 @@ collections:
           fields:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
+        - { label: "OGP:n kuva", name: "OGPimg", widget: "image", required: true}
+    - label: "Yritys"
+      name: "company"
+      file: "content/SEO/company.md"
+      fields:
+        - label: 'Metatagit'
+          name: "metatags"
+          widget: list
+          fields:
+            - { label: "Property", name: "property", widget: "string"}
+            - { label: "Content", name: "content", widget: "string"}
+        - label: 'OGP'
+          name: "ogp"
+          widget: list
+          fields:
+            - { label: "Property", name: "property", widget: "string"}
+            - { label: "Content", name: "content", widget: "string"}
+        - { label: "OGP:n kuva", name: "OGPimg", widget: "image", required: true}
+    - label: "Osaaminen"
+      name: "competences"
+      file: "content/SEO/competences.md"
+      fields:
+        - label: 'Metatagit'
+          name: "metatags"
+          widget: list
+          fields:
+            - { label: "Property", name: "property", widget: "string"}
+            - { label: "Content", name: "content", widget: "string"}
+        - label: 'OGP'
+          name: "ogp"
+          widget: list
+          fields:
+            - { label: "Property", name: "property", widget: "string"}
+            - { label: "Content", name: "content", widget: "string"}
+        - { label: "OGP:n kuva", name: "OGPimg", widget: "image", required: true}
+        - label: 'OGP vaikuttaminen' 
+          name: 'ogp_vaikuttaminen'
+          widget: 'object'
+          fields:
+            - label: 'Metatagit'
+              name: "metatags"
+              widget: list
+              fields:
+                - { label: "Property", name: "property", widget: "string"}
+                - { label: "Content", name: "content", widget: "string"}
+            - label: 'OGP'
+              name: "ogp"
+              widget: list
+              fields:
+                - { label: "Property", name: "property", widget: "string"}
+                - { label: "Content", name: "content", widget: "string"}
+        - label: 'OGP strategia' 
+          name: 'ogp_strategy'
+          widget: 'object'
+          fields:
+            - label: 'Metatagit'
+              name: "metatags"
+              widget: list
+              fields:
+                - { label: "Property", name: "property", widget: "string"}
+                - { label: "Content", name: "content", widget: "string"}
+            - label: 'OGP'
+              name: "ogp"
+              widget: list
+              fields:
+                - { label: "Property", name: "property", widget: "string"}
+                - { label: "Content", name: "content", widget: "string"}
+        - label: 'OGP riskit' 
+          name: 'ogp_risks'
+          widget: 'object'
+          fields:
+            - label: 'Metatagit'
+              name: "metatags"
+              widget: list
+              fields:
+                - { label: "Property", name: "property", widget: "string"}
+                - { label: "Content", name: "content", widget: "string"}
+            - label: 'OGP'
+              name: "ogp"
+              widget: list
+              fields:
+                - { label: "Property", name: "property", widget: "string"}
+                - { label: "Content", name: "content", widget: "string"}
+    - label: "Tiimi"
+      name: "team"
+      file: "content/SEO/team.md"
+      fields:
+        - label: 'Metatagit'
+          name: "metatags"
+          widget: list
+          fields:
+            - { label: "Property", name: "property", widget: "string"}
+            - { label: "Content", name: "content", widget: "string"}
+        - label: 'OGP'
+          name: "ogp"
+          widget: list
+          fields:
+            - { label: "Property", name: "property", widget: "string"}
+            - { label: "Content", name: "content", widget: "string"}
+        - { label: "OGP:n kuva", name: "OGPimg", widget: "image", required: true}
+    - label: "Yhteystiedot"
+      name: "contact"
+      file: "content/SEO/contact.md"
+      fields:
+        - label: 'Metatagit'
+          name: "metatags"
+          widget: list
+          fields:
+            - { label: "Property", name: "property", widget: "string"}
+            - { label: "Content", name: "content", widget: "string"}
+        - label: 'OGP'
+          name: "ogp"
+          widget: list
+          fields:
+            - { label: "Property", name: "property", widget: "string"}
+            - { label: "Content", name: "content", widget: "string"}
+        - { label: "OGP:n kuva", name: "OGPimg", widget: "image", required: true}
+
+
