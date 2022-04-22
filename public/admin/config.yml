@@ -369,10 +369,11 @@ collections:
               - { label: "Suomeksi", name: "fi", widget: "markdown"}
               - { label: "In English", name: "en", widget: "markdown"}
 
-
+# SEO
   - name: "SEO"
     label: "SEO"
     files:
+    # COMMON
     - label: "Yhteiset metatagit"
       name: "metatags"
       file: "content/SEO/metatags.md"
@@ -383,6 +384,7 @@ collections:
           fields:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
+    # FRONTPAGE
     - label: "Etusivu"
       name: "frontpage"
       file: "content/SEO/frontpage.md"
@@ -400,6 +402,7 @@ collections:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
         - { label: "OGP:n kuva", name: "OGPimg", widget: "image", required: true}
+    # ABOUT / COMPANY
     - label: "Yritys"
       name: "company"
       file: "content/SEO/company.md"
@@ -417,6 +420,7 @@ collections:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
         - { label: "OGP:n kuva", name: "OGPimg", widget: "image", required: true}
+    # COMPETENCES
     - label: "Osaaminen"
       name: "competences"
       file: "content/SEO/competences.md"
@@ -434,6 +438,7 @@ collections:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
         - { label: "OGP:n kuva", name: "OGPimg", widget: "image", required: true}
+        # OGP VAIKUTTAMINEN
         - label: 'OGP vaikuttaminen' 
           name: 'ogp_vaikuttaminen'
           widget: 'object'
@@ -450,6 +455,7 @@ collections:
               fields:
                 - { label: "Property", name: "property", widget: "string"}
                 - { label: "Content", name: "content", widget: "string"}
+        # OGP STRATEGIA
         - label: 'OGP strategia' 
           name: 'ogp_strategy'
           widget: 'object'
@@ -466,6 +472,7 @@ collections:
               fields:
                 - { label: "Property", name: "property", widget: "string"}
                 - { label: "Content", name: "content", widget: "string"}
+        # OGP RISKIT
         - label: 'OGP riskit' 
           name: 'ogp_risks'
           widget: 'object'
@@ -482,6 +489,7 @@ collections:
               fields:
                 - { label: "Property", name: "property", widget: "string"}
                 - { label: "Content", name: "content", widget: "string"}
+    # TEAM
     - label: "Tiimi"
       name: "team"
       file: "content/SEO/team.md"
@@ -499,6 +507,7 @@ collections:
             - { label: "Property", name: "property", widget: "string"}
             - { label: "Content", name: "content", widget: "string"}
         - { label: "OGP:n kuva", name: "OGPimg", widget: "image", required: true}
+    # CONTACT
     - label: "Yhteystiedot"
       name: "contact"
       file: "content/SEO/contact.md"
