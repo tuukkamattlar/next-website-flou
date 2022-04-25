@@ -52,7 +52,13 @@ export default function Home() {
         )) 
       </Head>
       */}
-      <SEO title={title["fi"]} OGimage={seoContent.OGPimg} metadata={seoContent.metatags} OGdata={seoContent.ogp} keywords={seoContent.keywords}/>
+      <SEO 
+        title={'FLOU'} 
+        OGimage={seoContent.OGPimg} 
+        metadata={seoContent.metatags} 
+        OGdata={seoContent.ogp} 
+        keywords={seoContent.keywords}
+      />
       <div>
         <HomeHeaderAndNav title={title[lan]} />
         <FrontpageCompetences lan={lan} />

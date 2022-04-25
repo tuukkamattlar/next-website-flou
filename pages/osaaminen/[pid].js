@@ -5,6 +5,9 @@ import { attributes } from '../../content/competences_list.md';
 import GeneralHeader from '@components/GeneralHeader';
 import ReferenceProjects from '@components/ReferenceProjects';
 import styles from '../../components/styles/CompetencePage.module.css'
+import { attributes as seoContent } from '../../content/SEO/competences.md';
+import SEO from '@components/metacomponents/SEO';
+
 
 export default function SkillArea({ lan }) {
     const router = useRouter()
@@ -22,6 +25,7 @@ export default function SkillArea({ lan }) {
             }
         }
     });
+    const filteredSEOContent = seoContent[skillarea.url]
     return(
         loading ? 
         <div>
@@ -29,6 +33,13 @@ export default function SkillArea({ lan }) {
         </div>
         :
         <>
+            <SEO 
+                title={'FLOU - '+skillarea.title["fi"]} 
+                OGimage={filteredSEOContent.OGPimg} 
+                metadata={filteredSEOContent.metatags} 
+                OGdata={filteredSEOContent.ogp} 
+                keywords={filteredSEOContent.keywords}
+            />
             <GeneralHeader title={skillarea.title} img={skillarea.skillIMG} lan={lan} description={''}/>
             <div className='powder'>
                 <div className={styles.container}>

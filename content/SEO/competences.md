@@ -13,7 +13,7 @@ ogp:
   - property: og:title
     content: FLOU
 OGPimg: img/flou_bridge.png
-ogp_vaikuttaminen:
+vaikutusten_arviointi:
   metatags:
     - property: description
       content: Strategista liikennesuunnittelua
@@ -25,7 +25,7 @@ ogp_vaikuttaminen:
   ogp:
     - property: og:title
       content: FLOU - Vaikutusten arviointi
-ogp_strategy:
+strategia:
   ogp:
     - property: og:title
       content: FLOU -  Strategia
@@ -37,7 +37,7 @@ ogp_strategy:
     - keyword: strategia
     - keyword: strateginen suunnittelu
     - keyword: strateginen kaupunkisuunnittelu
-ogp_risks:
+riskienhallinta:
   ogp:
     - property: og:title
       content: FLOU - Riskienhallinta
