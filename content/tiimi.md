@@ -6,182 +6,192 @@ title:
   en: The Team
 headerIMG: img/flou_bridge.png
 persons:
-  - thumbnail: img/heading.jpg
-    name: Taina Haapamäki
-    description:
-      fi: a
-      en: a
-    email: taina.haapamaki@flou.io
-    phone: +358 50 377 8123
-    skills:
-      - fi: laskea
-        en: compute
+  - skills:
+      - fi: Mallinnus
+        en: Modeling
       - fi: kirjoittaa
         en: write
-    profileIMG: img/taina.jpg
+    align: visible
+    name: Taina Haapamäki
+    thumbnail: img/heading.jpg
+    phone: +358 50 377 8123
     role:
       en: Managing director
       fi: Toiminnanjohtaja
-  - thumbnail: img/hlokuva.jpg
-    name: Sami Mäkinen
+    profileIMG: img/taina.jpg
+    email: taina.haapamaki@flou.io
     description:
       fi: a
       en: a
-    email: sami.makinen@flou.io
-    phone: "1"
-    profileIMG: img/sami.jpg
-    skills:
+  - skills:
       - fi: emme
         en: emme
       - fi: kahvinkeitto
         en: making coffee
+    align: visible
+    name: Sami Mäkinen
+    thumbnail: img/hlokuva.jpg
+    phone: "1"
     role:
       fi: Projektipäällikkö
       en: Project manager
-  - thumbnail: img/hlokuva.jpg
-    name: Tuomo Lapp
+    profileIMG: img/sami.jpg
+    email: sami.makinen@flou.io
     description:
       fi: a
       en: a
-    email: tuomo.lapp@flou.io
-    phone: "1"
-    profileIMG: img/pexels-stefan-stefancik-91227.jpg
-    skills:
+  - skills:
       - fi: emme
         en: emme
       - fi: kahvinkeitto
         en: making coffee
       - fi: kokkaus
         en: making food
+    align: visible
+    name: Tuomo Lapp
+    thumbnail: img/hlokuva.jpg
+    phone: "1"
     role:
       fi: Projektipäällikkö
       en: Project manager
-  - thumbnail: img/hlokuva.jpg
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
+    email: tuomo.lapp@flou.io
+    description:
+      fi: a
+      en: a
+  - skills:
+      - fi: emme
+        en: emme
+      - fi: kahvinkeitto
+        en: making coffee
+      - fi: kokkaus
+        en: making food
+    align: visible
     name: Oliver Heinonen
+    thumbnail: img/hlokuva.jpg
+    phone: "1"
+    role:
+      fi: Projektipäällikkö
+      en: Project manager
+    profileIMG: img/oliver.jpg
+    email: oliver.heinonen@flou.io
     description:
       fi: "1"
       en: "1"
-    email: oliver.heinonen@flou.io
-    phone: "1"
-    profileIMG: img/oliver.jpg
-    skills:
+  - skills:
       - fi: emme
         en: emme
       - fi: kahvinkeitto
         en: making coffee
       - fi: kokkaus
         en: making food
-    role:
-      fi: Projektipäällikkö
-      en: Project manager
-  - thumbnail: img/hlokuva.jpg
+    align: visible
     name: Christoph Krause
-    description:
-      fi: Esim osaa tehdä kaikkea oikein hyvin
-      en: Esim can also english
+    thumbnail: img/hlokuva.jpg
+    phone: "1"
+    role:
+      fi: Projektipäällikkö
+      en: Project manager
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
     email: christoph.krause@flou.io
-    phone: "1"
-    profileIMG: img/pexels-stefan-stefancik-91227.jpg
-    skills:
+    description:
+      fi: Esim osaa tehdä kaikkea oikein hyvin
+      en: Esim can also english
+  - skills:
       - fi: emme
         en: emme
       - fi: kahvinkeitto
         en: making coffee
       - fi: kokkaus
         en: making food
-    role:
-      fi: Projektipäällikkö
-      en: Project manager
-  - thumbnail: img/hlokuva.jpg
+    align: visible
     name: Pekka Iikkanen
-    description:
-      fi: Esim osaa tehdä kaikkea oikein hyvin
-      en: Esim can also english
-    email: pekka.iikkanen@flou.io
+    thumbnail: img/hlokuva.jpg
     phone: "1"
-    profileIMG: img/pexels-stefan-stefancik-91227.jpg
-    skills:
-      - fi: emme
-        en: emme
-      - fi: kahvinkeitto
-        en: making coffee
-      - fi: kokkaus
-        en: making food
     role:
       fi: Projektipäällikkö
       en: Project manager
-  - thumbnail: img/hlokuva.jpg
-    name: Tommi Kantala
-    description:
-      fi: a
-      en: a
-    email: tommi.kantala@flou.io
-    phone: "1"
-    profileIMG: img/tommi.jpg
-    skills:
-      - fi: emme
-        en: emme
-      - fi: kahvinkeitto
-        en: making coffee
-      - fi: kokkaus
-        en: making food
-    role:
-      en: Consultant
-      fi: Konsultti
-  - thumbnail: img/hlokuva.jpg
-    name: Christoffer Weckström
-    description:
-      fi: a
-      en: a
-    email: christoffer.weckstrom@flou.io
-    phone: "1"
     profileIMG: img/pexels-stefan-stefancik-91227.jpg
-    skills:
-      - fi: emme
-        en: emme
-      - fi: kahvinkeitto
-        en: making coffee
-      - fi: kokkaus
-        en: making food
-    role:
-      fi: Konsultti
-      en: Consultant
-  - thumbnail: img/hlokuva.jpg
-    name: Siiri Korhonen
-    description:
-      fi: a
-      en: a
-    email: siiri.korhonen@flou.io
-    phone: "1"
-    profileIMG: img/siiri.jpg
-    skills:
-      - fi: emme
-        en: emme
-      - fi: kahvinkeitto
-        en: making coffee
-      - fi: kokkaus
-        en: making food
-    role:
-      fi: Analyytikko
-      en: Analyst
-  - thumbnail: img/hlokuva.jpg
-    name: Tuukka Mattlar
+    email: pekka.iikkanen@flou.io
     description:
       fi: Esim osaa tehdä kaikkea oikein hyvin
       en: Esim can also english
-    email: tuukka.mattlar@flou.io
-    phone: a
-    profileIMG: img/tuukka.jpg
-    skills:
+  - skills:
       - fi: emme
         en: emme
       - fi: kahvinkeitto
         en: making coffee
       - fi: kokkaus
         en: making food
+    align: visible
+    name: Tommi Kantala
+    thumbnail: img/hlokuva.jpg
+    phone: "1"
+    role:
+      en: Consultant
+      fi: Konsultti
+    profileIMG: img/tommi.jpg
+    email: tommi.kantala@flou.io
+    description:
+      fi: a
+      en: a
+  - skills:
+      - fi: emme
+        en: emme
+      - fi: kahvinkeitto
+        en: making coffee
+      - fi: kokkaus
+        en: making food
+    align: hidden
+    name: Christoffer Weckström
+    thumbnail: img/hlokuva.jpg
+    phone: "1"
+    role:
+      fi: Konsultti
+      en: Consultant
+    profileIMG: img/pexels-stefan-stefancik-91227.jpg
+    email: christoffer.weckstrom@flou.io
+    description:
+      fi: a
+      en: a
+  - skills:
+      - fi: emme
+        en: emme
+      - fi: kahvinkeitto
+        en: making coffee
+      - fi: kokkaus
+        en: making food
+    align: visible
+    name: Siiri Korhonen
+    thumbnail: img/hlokuva.jpg
+    phone: "1"
     role:
       fi: Analyytikko
       en: Analyst
+    profileIMG: img/siiri.jpg
+    email: siiri.korhonen@flou.io
+    description:
+      fi: a
+      en: a
+  - skills:
+      - fi: emme
+        en: emme
+      - fi: kahvinkeitto
+        en: making coffee
+      - fi: kokkaus
+        en: making food
+    align: visible
+    name: Tuukka Mattlar
+    thumbnail: img/hlokuva.jpg
+    phone: a
+    role:
+      fi: Analyytikko
+      en: Analyst
+    profileIMG: img/tuukka.jpg
+    email: tuukka.mattlar@flou.io
+    description:
+      fi: Esim osaa tehdä kaikkea oikein hyvin
+      en: Esim can also english
   - name: Elias Axelsson
     role:
       fi: Konsultti
@@ -195,6 +205,7 @@ persons:
     skills:
       - fi: "1"
         en: "1"
+    align: visible
   - name: Aapo Salonen
     role:
       fi: Analyytikko
@@ -208,4 +219,5 @@ persons:
       fi: "1"
       en: "1"
     profileIMG: img/aapo.jpg
+    align: visible
 ---
