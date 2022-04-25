@@ -12,7 +12,7 @@ keywords:
 ogp:
   - property: og:title
     content: FLOU
-OGPimg: img/flou_bridge.png
+OGPimg: img/wave_big_whiteonplum_ssm.png
 vaikutusten_arviointi:
   metatags:
     - property: description
