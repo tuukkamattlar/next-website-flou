@@ -10,5 +10,5 @@ keywords:
 ogp:
   - property: og:title
     content: FLOUlaiset
-OGPimg: img/flou_crossway.png
+OGPimg: img/wave_big_whiteonplum_ssm.png
 ---
