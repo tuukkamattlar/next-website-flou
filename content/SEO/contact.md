@@ -9,5 +9,5 @@ keywords:
 ogp:
   - property: og:title
     content: FLOU - Ota yhteyttä
-OGPimg: img/flou_arrows.png
+OGPimg: img/wave_big_whiteonplum_ssm.png
 ---
