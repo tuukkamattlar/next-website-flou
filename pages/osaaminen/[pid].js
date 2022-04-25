@@ -35,7 +35,7 @@ export default function SkillArea({ lan }) {
         <>
             <SEO 
                 title={'FLOU - '+skillarea.title["fi"]} 
-                OGimage={filteredSEOContent.OGPimg.replace("](img/", "](../img/")} 
+                OGimage={seoContent.OGPimg.replace("](img/", "](../img/")} 
                 metadata={filteredSEOContent.metatags} 
                 OGdata={filteredSEOContent.ogp} 
                 keywords={filteredSEOContent.keywords}
