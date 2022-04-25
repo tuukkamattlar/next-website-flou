@@ -8,6 +8,8 @@ import { useEffect, useState } from 'react';
 import GetBlogTeam from '@components/BlogTeam';
 import Markdown from 'markdown-to-jsx';
 import React from 'react';
+import SEO from '@components/metacomponents/SEO';
+import { attributes as seoContent } from '../../content/SEO/competences.md';
 
 
 export default function SingleBlog({ lan }) {
@@ -31,19 +33,28 @@ export default function SingleBlog({ lan }) {
     })
 
     return(
-        <div className='powder'>
-            { 
-            loading
-            ? 
-            <div>
-                Loading or not found
+        <>
+            <div className='powder'>
+                { 
+                loading
+                ? 
+                <div>
+                    Loading or not found
+                </div>
+                :
+                <>
+                    <SEO 
+                        title={'FLOU - '+blogItem.title[lan]} 
+                        OGimage={blogItem.img} 
+                        metadata={seoContent.metatags} 
+                        OGdata={seoContent.ogp} 
+                        keywords={seoContent.keywords}
+                    />
+                    <GeneralHeader title={blogItem.title} img={blogItem.img} lan={lan} description={''}/>
+                    <BlogView blogItem={blogItem} lan={lan}/>
+                </>
+                }
             </div>
-            :
-            <>
-                <GeneralHeader title={blogItem.title} img={blogItem.img} lan={lan} description={''}/>
-                <BlogView blogItem={blogItem} lan={lan}/>
-            </>
-            }
-        </div>
+        </>
     )
 }

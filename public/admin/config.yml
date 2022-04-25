@@ -286,6 +286,24 @@ collections:
                   fields:
                   - { label: "Suomeksi", name: "fi", widget: "string"}
                   - { label: "In English", name: "en", widget: "string"}
+            - label: "Metadata ja SEO"
+              name: 'seo'
+              widget: 'object'
+              fields:
+              - label: 'Keywords'
+                name: 'keywords'
+                widget: list
+                fields:
+                  - { label: "Keyword", name: "keyword", widget: "string"}
+              - label: 'Metatagit'
+                name: "metatags"
+                widget: list
+                fields:
+                  - { label: "Property", name: "property", widget: "string"}
+                  - { label: "Content", name: "content", widget: "string"}
+              - { label: "OGP ", name: "fi", widget: "string"}
+              - { label: "OGP:n kuva", name: "OGPimg", widget: "image", required: true}
+
 
 
 # contact site content DONE
