@@ -9,5 +9,5 @@ keywords:
 ogp:
   - property: og:title
     content: FLOU yrityksenä
-OGPimg: img/flou_park.png
+OGPimg: img/wave_big_whiteonplum_ssm.png
 ---
