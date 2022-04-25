@@ -11,7 +11,7 @@ persons:
         en: Modeling
       - fi: kirjoittaa
         en: write
-    align: visible
+    visibility: visible
     name: Taina Haapamäki
     thumbnail: img/heading.jpg
     phone: +358 50 377 8123
@@ -28,7 +28,7 @@ persons:
         en: emme
       - fi: kahvinkeitto
         en: making coffee
-    align: visible
+    visibility: visible
     name: Sami Mäkinen
     thumbnail: img/hlokuva.jpg
     phone: "1"
@@ -47,7 +47,7 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    align: visible
+    visibility: visible
     name: Tuomo Lapp
     thumbnail: img/hlokuva.jpg
     phone: "1"
@@ -66,7 +66,7 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    align: visible
+    visibility: visible
     name: Oliver Heinonen
     thumbnail: img/hlokuva.jpg
     phone: "1"
@@ -85,7 +85,7 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    align: visible
+    visibility: visible
     name: Christoph Krause
     thumbnail: img/hlokuva.jpg
     phone: "1"
@@ -104,7 +104,7 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    align: visible
+    visibility: visible
     name: Pekka Iikkanen
     thumbnail: img/hlokuva.jpg
     phone: "1"
@@ -123,7 +123,7 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    align: visible
+    visibility: visible
     name: Tommi Kantala
     thumbnail: img/hlokuva.jpg
     phone: "1"
@@ -142,7 +142,7 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    align: hidden
+    visibility: hidden
     name: Christoffer Weckström
     thumbnail: img/hlokuva.jpg
     phone: "1"
@@ -161,7 +161,7 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    align: visible
+    visibility: visible
     name: Siiri Korhonen
     thumbnail: img/hlokuva.jpg
     phone: "1"
@@ -180,7 +180,7 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    align: visible
+    visibility: visible
     name: Tuukka Mattlar
     thumbnail: img/hlokuva.jpg
     phone: a
@@ -205,7 +205,7 @@ persons:
     skills:
       - fi: "1"
         en: "1"
-    align: visible
+    visibility: visible
   - name: Aapo Salonen
     role:
       fi: Analyytikko
@@ -219,5 +219,5 @@ persons:
       fi: "1"
       en: "1"
     profileIMG: img/aapo.jpg
-    align: visible
+    visibility: visible
 ---

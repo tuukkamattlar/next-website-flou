@@ -191,7 +191,7 @@ collections:
           fields:
             - { label: "Nimi", name: "name", widget: "string", required: true}
             - label: "Näkyy tiimissä?"
-              name: "align"
+              name: "visibility"
               widget: "select"
               options:
                 - { label: "Näkyvissä", value: "visible" }

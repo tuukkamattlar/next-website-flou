@@ -2,10 +2,23 @@ import styles from './styles/Tiimi.module.css'
 import Link from 'next/link'
 
 export default function Tiimilista({ items, lan }) {
-
+  
+  function filter(unfilteredList) {
+    const filteredList = []
+    for(let i = 0; i < unfilteredList.length; i++) {
+      const visible = ( unfilteredList[i].visibility === 'visible')
+      if(visible){
+        filteredList.push(unfilteredList[i])
+      }
+    }
+    return filteredList
+  }
+  const filteredItems = filter(items)
   return (
       <div className={styles.container} >
-          {items.map((item, k) => (
+          {
+          // map begins
+          filteredItems.map((item, k) => (
             <div className={styles.personBox} key={k}>
               <div className={styles.imgWrapper}>
                 <div
@@ -28,7 +41,9 @@ export default function Tiimilista({ items, lan }) {
                 </div>
               </div>
             </div>
-          ))}
+          ))
+          // map ends
+          }
       </div>
   )
 }
