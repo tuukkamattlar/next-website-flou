@@ -9,13 +9,15 @@ import GetBlogTeam from '@components/BlogTeam';
 import Markdown from 'markdown-to-jsx';
 import React from 'react';
 import SEO from '@components/metacomponents/SEO';
-import { attributes as seoContent } from '../../content/SEO/competences.md';
+//import { attributes as seoContent } from '../../content/SEO/competences.md';
 
 
 export default function SingleBlog({ lan }) {
 
     const [loading, setLoading] = useState(true)
     const [blogItem, setBlogItem] = useState({})
+
+
     const router = useRouter()
     const { pid } = router.query
     let { blogs } = attributes;
@@ -34,7 +36,7 @@ export default function SingleBlog({ lan }) {
     const OGdata = [
         {
             property: "og:title",
-            content: seoContent.OGPtitle
+            content: attributes
         }
     ]
 
@@ -51,10 +53,10 @@ export default function SingleBlog({ lan }) {
                 <>
                     <SEO 
                         title={'FLOU - '+blogItem.title[lan]} 
-                        OGimage={blogItem.img} 
-                        metadata={seoContent.metatags} 
-                        OGdata={OGdata} 
-                        keywords={seoContent.keywords}
+                        OGimage={blogItem.seo.OGPimg.replace("](img/", "](../img/")} 
+                        metadata={[{property: "description",content: blogItem.short['fi']}]}
+                        OGdata={[]} 
+                        keywords={blogItem.seo.keywords ? blogItem.seo.keywords : []}
                     />
                     <GeneralHeader title={blogItem.title} img={blogItem.img} lan={lan} description={''}/>
                     <BlogView blogItem={blogItem} lan={lan}/>
