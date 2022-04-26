@@ -16,10 +16,16 @@ description:
     Another
 headerIMG: img/pexels-aleksejs-bergmanis-681335.jpg
 blogs:
-  - date: 2022-02-09T19:19:51.814Z
+  - img: img/pexels-inga-seliverstova-3243241.jpg
+    date: 2022-02-09T19:19:51.814Z
+    url: paloasemien-paikatietoanalyysi
+    visibility: visible
     title:
       fi: Paloasemaverkoston paikkatietoanalyysi
       en: paikkatieto
+    short:
+      fi: Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
+      en: The fire station network of the future is based on geoinformation
     long:
       fi: >-
         ### Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
@@ -48,15 +54,21 @@ blogs:
         role:
           fi: Projektipäällikkö
           en: Project manager
-    short:
-      fi: Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
-      en: The fire station network of the future is based on geoinformation
-    img: img/pexels-inga-seliverstova-3243241.jpg
-    url: paloasemien-paikatietoanalyysi
-  - date: 2022-02-16T19:19:51.814Z
+    seo:
+      OGPtitle: Paloasemaverkoston paikkatietoanalyysi
+      OGPimg: img/wave_big_whiteonplum_ssm.png
+  - img: img/flou_plane.png
+    date: 2022-02-16T19:19:51.814Z
+    url: lentovero
+    visibility: visible
     title:
       fi: Lentoverot Suomessa
       en: Air travel taxes in Finland
+    short:
+      fi: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
+        päätöksenteolle.
+      en: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
+        päätöksenteolle.
     long:
       fi: >-
         Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa
@@ -93,19 +105,21 @@ blogs:
         role:
           fi: Projektipäällikkö
           en: Project manager
-    short:
-      fi: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
-        päätöksenteolle.
-      en: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
-        päätöksenteolle.
-    img: img/flou_plane.png
-    url: lentovero
-  - date: 2022-01-13T13:04:40.285Z
+    seo:
+      OGPtitle: Lentoverot Suomessa
+      OGPimg: img/wave_big_whiteonplum_ssm.png
+  - img: img/flou_arrows.png
+    date: 2022-01-13T13:04:40.285Z
     url: digitaaliset-liikennesaannot
+    visibility: visible
     title:
       fi: Liikennesäännöt digitalisoituvat
       en: Digital traffic rules
-    img: img/flou_arrows.png
+    short:
+      fi: Selvitimme digitalisoitujen liikennesääntöjen ja -rajoitusten
+        toteuttamistapoja ja muodostimme tiekartan suositeltavista
+        toimenpiteistä edellytysten parantamiseksi
+      en: english
     long:
       fi: >-
         Yhä useammassa verkottuneessa ajoneuvossa on käytössä palvelu tai
@@ -127,21 +141,28 @@ blogs:
 
         Raportti: [https://www.doria.fi/bitstream/handle/10024/183693/vj_2022-9_digitalisoitujen_liikennesaantojen_web.pdf ](https://www.doria.fi/bitstream/handle/10024/183693/vj_2022-9_digitalisoitujen_liikennesaantojen_web.pdf)
       en: english
-    short:
-      fi: Selvitimme digitalisoitujen liikennesääntöjen ja -rajoitusten
-        toteuttamistapoja ja muodostimme tiekartan suositeltavista
-        toimenpiteistä edellytysten parantamiseksi
-      en: english
     email:
       - name: taina.haapamaki@flou.io
         role:
           fi: Projektipäällikkö
           en: Project manager
-  - date: 2021-12-20T13:13:39.875Z
+    seo:
+      OGPtitle: Liikennesäännöt digitalisoituvat
+      OGPimg: img/wave_big_whiteonplum_ssm.png
+  - img: img/flou_bridge.png
+    date: 2021-12-20T13:13:39.875Z
     url: SUMP
+    visibility: visible
     title:
       fi: SUMP-toimintamalli
       en: SUMP framework
+    short:
+      fi: Kestävän kaupunkiliikkumisen suunnittelumalli, nk. SUMP-toimintamalli
+        (SUMP=Sustainable Urban Mobility Plan), on kokonaisvaltainen, koko
+        toiminnallisen kaupunkiseudun kattava pitkän aikavälin strateginen
+        suunnitelma, jonka tavoitteena on varmistaa kestävä, kilpailukykyinen ja
+        resurssitehokas kaupunkiliikenne
+      en: english
     long:
       fi: >-
         Viime viikolla julkaistu komission ehdotus TEN-T-uudistuksesta vahvistaa
@@ -173,20 +194,24 @@ blogs:
         role:
           fi: Asiantuntija
           en: Specialist
-    short:
-      fi: Kestävän kaupunkiliikkumisen suunnittelumalli, nk. SUMP-toimintamalli
-        (SUMP=Sustainable Urban Mobility Plan), on kokonaisvaltainen, koko
-        toiminnallisen kaupunkiseudun kattava pitkän aikavälin strateginen
-        suunnitelma, jonka tavoitteena on varmistaa kestävä, kilpailukykyinen ja
-        resurssitehokas kaupunkiliikenne
-      en: english
-    img: img/flou_bridge.png
-  - date: 2021-09-29T12:17:09.778Z
+    seo:
+      keywords:
+        - keyword: sump
+      metatag_description: []
+      OGPtitle: SUMP-toimintamalli
+      OGPimg: img/wave_big_whiteonplum_ssm.png
+  - img: img/flou_bridge.png
+    date: 2021-09-29T12:17:09.778Z
     url: liikenteen-megahankkeet
+    visibility: visible
     title:
       fi: Liikenteen megahankkeet valokeilassa
       en: english
-    img: img/flou_bridge.png
+    short:
+      fi: Liikenne-ennusteet ja investointikustannukset tulee tarkastaa asiakkaasta
+        täysin riippumattoman asiantuntijaelimen toimesta, rahoittajat sekä
+        suunnittelusta ja alustavista laskelmista vastaavat
+      en: english
     long:
       fi: >-
         Poliittinen tahto on tärkein voimavara hankkeen toteutumiselle.
@@ -216,9 +241,10 @@ blogs:
         role:
           fi: Projektipäällikkö
           en: Project manager
-    short:
-      fi: Liikenne-ennusteet ja investointikustannukset tulee tarkastaa asiakkaasta
-        täysin riippumattoman asiantuntijaelimen toimesta, rahoittajat sekä
-        suunnittelusta ja alustavista laskelmista vastaavat
-      en: english
+    seo:
+      OGPtitle: Liikenteen megahankkeet valokeilassa
+      OGPimg: img/wave_big_whiteonplum_ssm.png
+      keywords:
+        - keyword: liikenteen megahankkeet
+        - keyword: large projects
 ---
