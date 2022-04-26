@@ -5,8 +5,12 @@ import { attributes as seoContent } from '../../content/SEO/metatags.md';
 // TODO!!
 
 export default function SEO({title, metadata, OGdata, OGimage, keywords}) {
+  const siteName= {
+      property: "og:site_name",
+      content: "FLOU"
+  }
   const combinedKeywords = keywords.concat(keywords).concat(seoContent.keywords)
-  const metadataCombined = metadata.concat(OGdata)
+  const metadataCombined = metadata.concat(OGdata).concat(siteName)
   return (
     <Head>
       <title>{title}</title>

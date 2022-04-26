@@ -295,13 +295,13 @@ collections:
                 widget: list
                 fields:
                   - { label: "Keyword", name: "keyword", widget: "string"}
-              - label: 'Metatagit'
-                name: "metatags"
+              - label: 'Lyhyt kuvaus'
+                name: "metatag_description"
                 widget: list
                 fields:
-                  - { label: "Property", name: "property", widget: "string"}
+                  - { label: "Property", name: "property", widget: "string", detfault: "description"}
                   - { label: "Content", name: "content", widget: "string"}
-              - { label: "OGP ", name: "fi", widget: "string"}
+              - { label: "OGP title", name: "OGPtitle", widget: "string"}
               - { label: "OGP:n kuva", name: "OGPimg", widget: "image", required: true}
 
 

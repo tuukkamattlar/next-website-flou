@@ -31,6 +31,12 @@ export default function SingleBlog({ lan }) {
     useEffect(()=> {
         filterBlog()
     })
+    const OGdata = [
+        {
+            property: "og:title",
+            content: seoContent.OGPtitle
+        }
+    ]
 
     return(
         <>
@@ -47,7 +53,7 @@ export default function SingleBlog({ lan }) {
                         title={'FLOU - '+blogItem.title[lan]} 
                         OGimage={blogItem.img} 
                         metadata={seoContent.metatags} 
-                        OGdata={seoContent.ogp} 
+                        OGdata={OGdata} 
                         keywords={seoContent.keywords}
                     />
                     <GeneralHeader title={blogItem.title} img={blogItem.img} lan={lan} description={''}/>
