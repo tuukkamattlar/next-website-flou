@@ -1,6 +1,6 @@
 // Components
 import GeneralHeader from "@components/GeneralHeader";
-import FullWidthTextModule from "@components/general_components/FullWidthText";
+import FullWidthTextModule from "@components/general_components/FullWidthTextModule";
 import TextAndImageModule from "@components/general_components/TextAndImageModule";
 import TitleModule from "@components/general_components/TitleModule";
 
