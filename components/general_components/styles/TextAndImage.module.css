@@ -1,0 +1,23 @@
+.container {
+    background-color: white;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text {
+    width: 500px;
+}
+
+.imageHiddenMobile {
+    visibility: hidden;
+}
+
+.imageShownMobile {
+ width: 500px;   
+}
+
+.imageShownMobile>img {
+    height: 300px;
+}
