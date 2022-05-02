@@ -18,7 +18,6 @@ export default function Contact({ lan }) {
             <div className='powder'>
                 <ContactInfo item={attributes} lan={lan}/>
             </div>
-            
         </>
     )
   }
