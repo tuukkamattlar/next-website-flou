@@ -9,7 +9,7 @@ export default function FrontpageNews({lan}) {
     <div className={general.pageHeightBox}>
         <div className={styles.container}>
         <h1 className={styles.heading}>{{"fi": "Tuoreimpia kuulumisia", "en": "Latest news"}[lan]}</h1>
-        <BlogBox lan={lan} maxLen={1} />
+        <BlogBox lan={lan} maxLen={4} />
         </div>
     </div>
   );
