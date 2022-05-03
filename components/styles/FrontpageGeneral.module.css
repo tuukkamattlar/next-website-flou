@@ -1,6 +1,14 @@
-.container {
+.pageHeightBox {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
+  overflow: hidden;
+  border-style: dashed;
 }
+
 /*
     FOR SMALL SCREENS
 */
