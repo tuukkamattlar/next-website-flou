@@ -2,7 +2,7 @@
 name: Tiimi
 description: Kuvauksia tiimistä
 title:
-  fi: Tiimi
+  fi: Tiimimme
   en: The Team
 headerIMG: img/flou_bridge.png
 persons:
@@ -11,10 +11,10 @@ persons:
         en: Modeling
       - fi: kirjoittaa
         en: write
-    visibility: visible
     name: Taina Haapamäki
     thumbnail: img/heading.jpg
     phone: +358 50 377 8123
+    visibility: visible
     role:
       en: Managing director
       fi: Toiminnanjohtaja
@@ -28,10 +28,10 @@ persons:
         en: emme
       - fi: kahvinkeitto
         en: making coffee
-    visibility: visible
     name: Sami Mäkinen
     thumbnail: img/hlokuva.jpg
     phone: "1"
+    visibility: visible
     role:
       fi: Projektipäällikkö
       en: Project manager
@@ -47,10 +47,10 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    visibility: visible
     name: Tuomo Lapp
     thumbnail: img/hlokuva.jpg
     phone: "1"
+    visibility: visible
     role:
       fi: Projektipäällikkö
       en: Project manager
@@ -66,10 +66,10 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    visibility: visible
     name: Oliver Heinonen
     thumbnail: img/hlokuva.jpg
     phone: "1"
+    visibility: visible
     role:
       fi: Projektipäällikkö
       en: Project manager
@@ -85,10 +85,10 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    visibility: visible
     name: Christoph Krause
     thumbnail: img/hlokuva.jpg
     phone: "1"
+    visibility: visible
     role:
       fi: Projektipäällikkö
       en: Project manager
@@ -104,10 +104,10 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    visibility: visible
     name: Pekka Iikkanen
     thumbnail: img/hlokuva.jpg
     phone: "1"
+    visibility: visible
     role:
       fi: Projektipäällikkö
       en: Project manager
@@ -123,10 +123,10 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    visibility: visible
     name: Tommi Kantala
     thumbnail: img/hlokuva.jpg
     phone: "1"
+    visibility: visible
     role:
       en: Consultant
       fi: Konsultti
@@ -142,10 +142,10 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    visibility: hidden
     name: Christoffer Weckström
     thumbnail: img/hlokuva.jpg
     phone: "1"
+    visibility: hidden
     role:
       fi: Konsultti
       en: Consultant
@@ -161,10 +161,10 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    visibility: visible
     name: Siiri Korhonen
     thumbnail: img/hlokuva.jpg
     phone: "1"
+    visibility: visible
     role:
       fi: Analyytikko
       en: Analyst
@@ -180,10 +180,10 @@ persons:
         en: making coffee
       - fi: kokkaus
         en: making food
-    visibility: visible
     name: Tuukka Mattlar
     thumbnail: img/hlokuva.jpg
     phone: a
+    visibility: visible
     role:
       fi: Analyytikko
       en: Analyst
