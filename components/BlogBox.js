@@ -1,39 +1,31 @@
 import blogBoxes from './styles/BlogBox.module.css'
 import Link from 'next/link'
-import { attributes as blogs } from '../content/blogs.md';
 
-export default function BlogBox({ items = blogs.blogs, lan, maxLen = -1 }) {
-  //const [years, setYears] = useState([])
-  if(maxLen > 0){
-    items = items.slice(0, maxLen)
-  }
-  
+
+export default function BlogBox({ item, lan }) {
+  // TODO: editoitavaa on
   return (
-      <div className={blogBoxes.container}>
-          {items.map((item, k) => (
-            <Link href={'/blogi/'+item.url} key={k}>
-            <div className={blogBoxes.box}>
-              <div 
-                key={k}
-                className={blogBoxes.bgimg}
-                style={{
-                    backgroundImage: "url(/"+item.img+")",
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: "cover",
-                    }}
-                >
-              </div>
-              <div className={blogBoxes.textLayer}>
-                <h2 className={blogBoxes.title} >
-                    {item.title[lan]}
-                  </h2>
-                  <p className={blogBoxes.mainText}>
-                      {item.short[lan]}
-                  </p>
-              </div>
+        <Link href={'/blogi/'+item.url}>
+          <div className={blogBoxes.box}>
+            <div 
+              className={blogBoxes.bgimg}
+              style={{
+                  backgroundImage: "url(/"+item.img+")",
+                  backgroundRepeat: 'no-repeat',
+                  backgroundSize: "cover",
+                  }}
+              >
             </div>
-            </Link>
-          ))}
-      </div>
+            <div className={blogBoxes.textLayer}>
+              <h2 className={blogBoxes.title} >
+                  {item.title[lan]}
+                </h2>
+                <p className={blogBoxes.mainText}>
+                    {item.short[lan]}
+                </p>
+            </div>
+          </div>
+        </Link>
+
   )
 }

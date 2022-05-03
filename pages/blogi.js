@@ -1,6 +1,6 @@
 import { attributes } from '../content/blogs.md';
 import GeneralHeader from '@components/GeneralHeader';
-import BlogBox from '@components/BlogBox';
+import BlogBox from '@components/BlogBoxes';
 import styles from '@components/styles/BlogBox.module.css';
 import { attributes as seoContent } from '../content/SEO/frontpage.md';
 import SEO from '@components/metacomponents/SEO';
