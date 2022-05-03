@@ -1,0 +1,24 @@
+.container {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+}
+
+.ball {
+    margin-inline: 20px;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ball > * {
+    color: rgb(255, 255, 255);
+}
