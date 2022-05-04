@@ -8,7 +8,7 @@ import styles from './styles/Header.module.css';
 export default function HomeHeaderAndNav({ title }) {
   const placeholderTitle = (
     <span>
-      Lasse testaa!!! <br/>Tarjoamme palveluita <span className={styles.highlight}>liikennejärjestelmiin ja riskienhallintaan</span> liittyvän päätöksenteon tueksi
+      Tarjoamme palveluita <span className={styles.highlight}>liikennejärjestelmiin ja riskienhallintaan</span> liittyvän päätöksenteon tueksi
     </span>
   );
 
