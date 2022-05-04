@@ -11,6 +11,9 @@ import React from 'react';
 import SEO from '@components/metacomponents/SEO';
 //import { attributes as seoContent } from '../../content/SEO/competences.md';
 
+// Styles
+import GeneralCSS from '@components/general_components/styles/General.module.css'
+
 
 export default function SingleBlog({ lan }) {
 
@@ -42,7 +45,7 @@ export default function SingleBlog({ lan }) {
 
     return(
         <>
-            <div className='powder'>
+            <div className={GeneralCSS.container}>
                 { 
                 loading
                 ? 

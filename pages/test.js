@@ -10,7 +10,7 @@ import { attributes as flou} from '../content/flou.md';
 import { attributes as categories} from '../content/competences_list.md';
 
 // Styles
-import GeneralCSS from '../components/general_components/styles/General.module.css'
+import GeneralCSS from '@components/general_components/styles/General.module.css'
 
 export default function Test({lan}) {
   return (

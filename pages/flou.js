@@ -1,12 +1,20 @@
-import { attributes } from '../content/flou.md';
-import HomeHeaderAndNav from '@components/Header';
+// Components
+import TextAndImageModule from "@components/general_components/TextAndImageModule";
+import TitleModule from "@components/general_components/TitleModule";
 import GeneralHeader from '@components/GeneralHeader';
-import FlouPage from '@components/FlouPage';
-import { attributes as seoContent } from '../content/SEO/company.md';
+import FlouHistory from '@components/FlouHistory';
 import SEO from '@components/metacomponents/SEO';
 
+// Content
+import { attributes as seoContent } from '../content/SEO/company.md';
+import { attributes as flou } from '../content/flou.md';
+
+// Styles
+import GeneralCSS from '../components/general_components/styles/General.module.css'
+
+
+
 export default function Flou({ lan }) {
-    let {title, headerIMG, description, bodyIMG} = attributes
     const titleCompany = {fi: "Yrityksenä", en: "As a company"}
     return(
         <>
@@ -17,8 +25,21 @@ export default function Flou({ lan }) {
                 OGdata={seoContent.ogp} 
                 keywords={seoContent.keywords}
             />
-            <GeneralHeader title={title} img={headerIMG} lan={lan} description={''}/>
-            <FlouPage item={attributes} lan={lan}/>
+            <GeneralHeader title={flou.title} img={flou.headerIMG} lan={lan} description={''}/>
+            <div className={GeneralCSS.container}>
+                <TitleModule 
+                    title={flou.title} 
+                    lan={lan}
+                />
+                <TextAndImageModule 
+                    lan={lan}
+                    image={flou.headerIMG} 
+                    imagealt={'img alt'}
+                    text = {flou.description}
+                    hideIfMobile = {false}
+                    />
+                <FlouHistory item={flou} lan={lan}/>
+            </div>
         </>
     )
   }

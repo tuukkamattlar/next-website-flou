@@ -1,7 +1,7 @@
 import styles from './styles/Tiimi.module.css'
 import Link from 'next/link'
 
-export default function Tiimilista({ items, lan }) {
+export default function TeamList({ items, lan }) {
   
   function filter(unfilteredList) {
     const filteredList = []
