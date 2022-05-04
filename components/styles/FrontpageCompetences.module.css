@@ -1,6 +1,29 @@
 .container {
   background-color: white;
+ 
+  width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.bgtriangle {
+       background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);
+}
+
+
+.heading {
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    color: #292442;
+}
+
+
+
 /*
     FOR SMALL SCREENS
 */

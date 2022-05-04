@@ -11,15 +11,43 @@
 
 .ball {
     margin-inline: 20px;
-    background-color: black;
-    height: 300px;
-    width: 300px;
+    background-color: #292442;
+    height: 27rem;
+    width: 27rem;
     border-radius: 50%;
     text-align: center;
-    padding-top: 50px;
+    display: flex;
     cursor: pointer;
+    flex-direction: column;
+    justify-content: start;
+    transition: transform 250ms, background 250ms, color 250ms;
+    color: rgb(255, 255, 255);
+
+}
+
+.ball:hover {
+   
+      transform: translateY(-2vw);
+      background-color: #f2c7cf;
+      color: #292442 ;
 }
 
 .ball > * {
-    color: rgb(255, 255, 255);
+    
+}
+
+.ball h3 {
+    font-size: 2rem;
+    width: 80%;
+    display: block;
+    margin:  0 auto 0;
+    margin-top: 6vw;
+    min-height: 5vw;
+}
+.ball p {
+    font-size: 1.2rem;
+     width: 90%;
+    display: block;
+    margin:  0 auto 0;
+    hyphens: auto;
 }

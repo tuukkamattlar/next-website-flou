@@ -1,17 +1,23 @@
 .mainNav {
-  width: 100%;
+  width: 80vw;
   height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: aliceblue;
+  margin-left: 5vw;
+  margin-right: 15vw;
+  margin-top: 30px;
 }
 
 .logo {
-  max-width: 75px;
-  position: absolute;
-  left: 30px;
-  top: 35px;
+  width: 20vw;
+}
+
+.logo > img {
+  width: 20vw; 
+  cursor: pointer;
+
 }
 
 .logo:hover {
@@ -35,6 +41,8 @@
   position: relative;
   visibility: hidden;
   overflow: hidden;
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }
 
 .links > nav > a {
@@ -42,6 +50,7 @@
   text-decoration: none;
   color: white;
   cursor: pointer;
+
 }
 
 .highlight {
@@ -50,7 +59,7 @@
 
 .links > nav > a:hover {
   color: #f2c7cf !important;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
   transition: all 0.2s;
 }

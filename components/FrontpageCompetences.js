@@ -8,7 +8,7 @@ import ShortBallsModule from './general_components/ShortBallsModule';
 export default function FrontpageCompetences({lan}) {
   return (
     <div className={general.pageHeightBox}>
-      <div className={styles.container}>
+      <div className={styles.container + " " +styles.bgtriangle}>
         <h1 className={styles.heading}>{{"fi": "Osaamisemme", "en": "Our competences"}[lan]}</h1>
             <ShortBallsModule 
             categories={categories.category}

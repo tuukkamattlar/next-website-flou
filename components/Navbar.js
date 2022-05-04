@@ -94,7 +94,7 @@ export default function NavBar() {
       <div className={styles.mainNav}>
         <div className={styles.logo}>
           <Link href={'/'}>
-            <img src="/img/logo-white-1.svg" height="30" style={{ cursor: 'pointer' }} />
+            <img src="/img/logo-white-1.svg"  style={{ cursor: 'pointer' }} />
           </Link>
         </div>
         <div className={styles.links}>
