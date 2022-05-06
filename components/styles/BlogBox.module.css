@@ -69,3 +69,61 @@
    
   overflow: hidden;
 }
+
+
+
+
+/*
+    FOR SMALL SCREENS
+*/
+@media only screen and (max-width: 700px) {
+ .container {
+  align-items: center;
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  gap: 1vw;
+  padding-bottom: 5vw;
+  background-color: #fff;
+}
+.box {
+  width: 80vw;
+  height: 40vw;
+  position: relative;
+  
+  padding: 0px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: rgba(4,4,4,0.1);
+}
+.box {
+  display: none;
+  margin-bottom: 20px;
+}
+.box:nth-of-type(1) {
+  display: block;
+}
+.box:nth-of-type(2) {
+  display: block;
+}
+.box:nth-of-type(3) {
+  display: block;
+}
+.mainText {
+  
+  color: rgb(255, 255, 255);
+  transition: all 0.3s;
+  font-size: 1.1rem;
+  padding: 1vw;
+  padding-top: 0;
+  max-height: 12vw;
+  text-overflow: ellipsis;
+   
+  overflow: hidden;
+}
+}

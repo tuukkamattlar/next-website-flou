@@ -18,8 +18,7 @@
 }
 
 .header:hover > .imgLayer {
-  transition: all 0.3s;
-  transform: scale(101%);
+  
 }
 
 .title {

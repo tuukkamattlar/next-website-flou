@@ -132,7 +132,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 /* MOBILE BLOCKS */
@@ -142,6 +142,10 @@ p {
     padding-top: 20px;
     padding-inline: 20px;
   }
+  html {
+  
+  font-size: 16px;
+}
 }
 /* DESKTOP BLOCKS */
 @media only screen and (min-width: 700px) {

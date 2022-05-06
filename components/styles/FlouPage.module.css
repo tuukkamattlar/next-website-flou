@@ -31,7 +31,7 @@
 
 
 /* FOR SMALL (<800px) SCREENS */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     .timeline>div {
         padding-top: 20px;
     }
@@ -49,6 +49,9 @@
         text-align: center;
         font-size: 40px;
     }
+    .yearBlock {
+    flex-direction: column;
+}
 }
 
 /* FOR MEDIUM (>800px) SCREENS */ 

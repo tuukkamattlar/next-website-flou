@@ -51,3 +51,58 @@
     margin:  0 auto 0;
     hyphens: auto;
 }
+
+/* FOR SMALL (<700px) SCREENS */
+@media only screen and (max-width: 700px) {
+  .blogcontainer {
+    width: 100%;
+  }
+
+  .twittercontainer {
+    visibility: hidden;
+    width: 0vw;
+    min-width: 0vw;
+  }
+  .ball {
+    margin-inline: 20px;
+    background-color: #292442;
+    height: 50vw;
+    width: 50vw;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: transform 250ms, background 250ms, color 250ms;
+    color: rgb(255, 255, 255);
+
+}
+.ball h3 {
+    font-size: 1.4rem;
+    width: 80%;
+    display: block;
+    margin:  0 auto 0;
+    margin-top: 0vw;
+    min-height: 5vw;
+}
+.ball p {
+    font-size: 0.9rem;
+     width: 90%;
+    display: block;
+    margin:  0 auto 0;
+    hyphens: auto;
+}
+.container {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+}
+
+}

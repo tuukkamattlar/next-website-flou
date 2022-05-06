@@ -57,6 +57,28 @@ transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
 
 .drawer {
   background-color: rgb(41, 36, 66) !important;
+  z-index: 999999;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 10vh;
+  text-align: center;
+}
+.bp3-heading {
+  display: none;
+}
+.drawer a {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+.drawer h6 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-weight: normal;
 }
 
 .links {
@@ -92,6 +114,7 @@ transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
   color: white;
   cursor: pointer;
 
+
 }
 
 .highlight {
@@ -113,4 +136,31 @@ transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
   .links {
     visibility: visible;
   }
+
+}
+@media only screen and (max-width: 700px) {
+.bp3-heading {
+  display: none;
+}
+.drawer img {
+  display: none;
+}
+.mainNav {
+  width: 90vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 30px;
+   position: relative;
+  z-index: 9999;
+ 
+   position: fixed;
+   transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
+}
+
+
 }

@@ -20,6 +20,7 @@
     font-size: 3rem;
     text-align: center;
     color: #292442;
+    width: 100%;
 }
 
 
@@ -27,8 +28,14 @@
 /*
     FOR SMALL SCREENS
 */
-@media only screen and (max-width: 600px) {
-  
+@media only screen and (max-width: 700px) {
+  .heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    color: #292442;
+    width: 100%;
+}
 }
 
 /*
