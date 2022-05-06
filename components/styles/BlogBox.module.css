@@ -91,6 +91,14 @@
   padding-bottom: 5vw;
   background-color: #fff;
 }
+.title {
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 1vw;
+  font-size: 1.3rem;
+  padding-bottom: 0.5vw;
+  line-height: 1;
+}
 .box {
   width: 80vw;
   height: 40vw;
@@ -125,5 +133,16 @@
   text-overflow: ellipsis;
    
   overflow: hidden;
+}
+.bgimg {
+display: none;
+
+}
+.textLayer {
+  background-color: rgb(41, 36, 66);
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 20px;
 }
 }

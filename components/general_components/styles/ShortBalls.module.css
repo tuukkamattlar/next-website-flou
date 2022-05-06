@@ -64,24 +64,25 @@
     min-width: 0vw;
   }
   .ball {
-    margin-inline: 20px;
+    margin-inline: 10px;
     background-color: #292442;
-    height: 50vw;
-    width: 50vw;
+    height: 37vw;
+    width: 37vw;
     border-radius: 50%;
     text-align: center;
     display: flex;
     cursor: pointer;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 20px;
+
+   
     transition: transform 250ms, background 250ms, color 250ms;
     color: rgb(255, 255, 255);
 
 }
 .ball h3 {
-    font-size: 1.4rem;
-    width: 80%;
+    font-size: 1rem;
+    width: 90%;
     display: block;
     margin:  0 auto 0;
     margin-top: 0vw;
@@ -93,15 +94,18 @@
     display: block;
     margin:  0 auto 0;
     hyphens: auto;
+    display: none;
 }
 .container {
     padding-top: 0px;
     padding-bottom: 20px;
     text-align: center;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+
 
 }
 
