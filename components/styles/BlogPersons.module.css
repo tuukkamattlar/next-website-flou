@@ -15,12 +15,24 @@
     margin: 5px;
 }
 
+.person a {
+    color: #000;
+    font-size: 1rem;
+}
+
+.person h4 {
+   font-size: 1.6rem;
+}
+.person p {
+   font-size: 1rem;
+}
+
 .profileImage {
     margin: auto;
     text-align: center;
     background-position: center;
-    width: 100px;
-    height: 100px;
+    width: 12rem;
+    height: 12rem;
     overflow: hidden;
     border-radius: 50%;
 }

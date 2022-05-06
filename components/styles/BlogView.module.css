@@ -27,6 +27,9 @@
     padding-top: 20px;
     text-align: center;
 }
+.container > h1 {
+    font-size: 3rem;
+}
 
 
 @media only screen and (max-width: 900px) {
