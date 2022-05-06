@@ -7,7 +7,7 @@
 }
 
 .text {
-    width: 500px;
+    width: 40vw;
 }
 
 .imageHiddenMobile {
@@ -15,9 +15,24 @@
 }
 
 .imageShownMobile {
- width: 500px;   
+ width: 35vw;
+ margin-left: 5vw; 
 }
 
 .imageShownMobile>img {
-    height: 300px;
+   width: 100%;
+   height: auto;
+
+}
+.container h1 {
+    font-size: 3rem;
+    display: none;
+}
+.container h2 {
+    font-size: 2rem;
+     display: none;
+}
+.container p {
+    font-size: 1.3rem;
+    
 }

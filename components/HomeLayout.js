@@ -8,9 +8,9 @@ export default function HomeLayout({ children }) {
 
   return (
     <>
-        <div className="minHeight">
+        
           {children}
-        </div>
+      
         <Footer />
     </>
   );

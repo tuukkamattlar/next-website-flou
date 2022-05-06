@@ -15,8 +15,12 @@ export default function Home() {
 
   const ref = useRef();
   const { lan } = useContext(PageContext);
+ 
+ if (typeof window === "undefined") { /* we're on the server */ }
 
-
+    else {
+  document.body.classList.add('home');
+}
   return (
     <>
       <SEO 
@@ -26,12 +30,12 @@ export default function Home() {
         OGdata={seoContent.ogp}
         keywords={seoContent.keywords}
       />
-      <div>
+     
         <HomeHeaderAndNav title={title[lan]} />
         <FrontpageCompetences lan={lan} />
         <FrontpageNews lan={lan}/>
         <FrontpageTwitter/>
-      </div>
+      
     </>
   );
 }
@@ -39,3 +43,5 @@ export default function Home() {
 Home.getLayout = function getLayout(page) {
   return <HomeLayout>{page}</HomeLayout>;
 };
+
+

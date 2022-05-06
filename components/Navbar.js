@@ -61,6 +61,53 @@ export default function NavBar() {
     );
   });
 
+  if (typeof window === "undefined") { /* we're on the server */ }
+
+    else {
+
+let firstHandlerScroll = debounce(handleScroll, 20);
+window.addEventListener('scroll',firstHandlerScroll);
+var scroller = document.getElementById('__next');
+scroller.addEventListener('scroll',firstHandlerScroll);
+
+function handleScroll(){
+      let scrollPosition = scroller.pageYOffset || scroller.scrollY || scroller.scrollTop ;
+       let scrollPosition2 = window.pageYOffset || window.scrollY || window.scrollTop ;
+      
+       if(scrollPosition >=50 || scrollPosition2 >=50){
+        
+         /* add scrolled class to nav */
+
+
+          var element = document.getElementsByClassName(styles.mainNav);
+          element[0].classList.add(styles.scrolled);
+
+   console.log('more than 50 ' +element[0].classList);
+       } 
+       else {
+         console.log('less than 50');
+      
+        var element = document.getElementsByClassName(styles.mainNav);
+        element[0].classList.remove(styles.scrolled);
+         }
+   }
+   
+   function debounce(fn, delay) {
+      let timer = null;
+      return function () {
+        clearTimeout(timer);
+        timer = setTimeout(function () {
+          fn();
+        }, delay);
+      };
+    }
+
+}
+
+
+  
+
+
   return (
     <>
       <Drawer
@@ -119,3 +166,8 @@ export default function NavBar() {
     </>
   );
 }
+
+
+
+
+

@@ -1,14 +1,21 @@
 /* COMMON */
 .container {
-    padding: 20px;
+   padding-top: 5vw;
+   padding-bottom: 5vw;
     align-items: center;
     justify-content: center;
     height: fit-content;
-    min-height: 500px;
+   
+
 }
 
 .urls {
-    padding-top: 20px;
+   
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+     padding-top: 5vw;
+   padding-bottom: 5vw;
 }
 .urls>h4 {
     margin-top: 0px;
@@ -28,7 +35,7 @@
 /* FOR SMALL (<600px) SCREENS */
 @media only screen and (max-width: 900px) {
     .container{
-        padding: 20px;
+      
     }
     .timeline>div {
         padding-top: 20px;

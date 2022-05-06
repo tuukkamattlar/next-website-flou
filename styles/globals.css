@@ -59,10 +59,12 @@ body {
 
 
 html {
-  scroll-snap-type: y mandatory;
+  
   font-size: 1vw;
 }
-
+.home {
+  
+}
 * {
   box-sizing: border-box;
 }
@@ -104,12 +106,24 @@ h4 {
   font-style: italic;
 }
 
-.minHeight {
-  min-height: 100vh;
+.home #__next {
+   scroll-snap-type: y mandatory;
+   overflow: scroll;
+   height: 100vh;
+}
+p {
+  font-size: 1.3rem;
 }
 
-.minHeight > div > div {
+.minHeight {
+  height: auto;
+
+
+}
+
+.home #__next > div {
   scroll-snap-align: start;
+
 }
 
 .container {
@@ -118,6 +132,7 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 /* MOBILE BLOCKS */

@@ -9,6 +9,7 @@
     max-width: 1400px;
     align-items: baseline;
     margin: auto;
+    padding-top: 5rem;
 }
 
 .imgWrapper{
@@ -40,6 +41,13 @@
 
 .description>* {
     margin: 6px;
+}
+.description p {
+    display: none;
+}
+.description .contact {
+    flex-direction: column;
+    font-size: 1rem;
 }
 
 @media only screen and (max-width: 900px) {
@@ -75,7 +83,7 @@
     .contact>a {
         padding-inline: 10px;
         color: black;
-        font-size: small;
+        
     }
 
     @media only screen and (max-width: 500px) {
@@ -103,8 +111,9 @@
 
 @media only screen and (min-width: 900px) {
     .container {
-        padding: 20px;
-        max-width: 800px;
+       padding-top: 5rem;
+        max-width: 80rem;
+        padding-bottom: 5rem;
     }
     .personBox {
         margin: 20px;
@@ -124,7 +133,7 @@
     }
     .contact>a {
         color: black;
-        font-size: small;
+      
     }
     .bgimg {
         filter: grayscale(100%);
@@ -141,7 +150,7 @@
     
     @media only screen and (min-width: 1500px) {
         .container {
-            padding: 15px;
+        
             max-width: 1200px;
         }
         .personBox {

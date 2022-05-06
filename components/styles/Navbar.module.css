@@ -8,6 +8,28 @@
   margin-left: 5vw;
   margin-right: 15vw;
   margin-top: 30px;
+   position: relative;
+  z-index: 9999;
+ 
+   position: fixed;
+   transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
+}
+
+.home .mainNav {
+  width: 80vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  margin-left: 5vw;
+  margin-right: 15vw;
+  margin-top: 30px;
+   position: relative;
+  z-index: 9999;
+  background-color: #29244!important;
+   position: fixed;
+   transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
 }
 
 .logo {
@@ -17,7 +39,7 @@
 .logo > img {
   width: 20vw; 
   cursor: pointer;
-
+transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
 }
 
 .logo:hover {
@@ -44,6 +66,25 @@
   font-size: 1.4rem;
   text-transform: uppercase;
 }
+
+.scrolled {
+  width: 100vw;
+  position: fixed;
+  z-index: 9999;
+  margin: 0;
+  top: 0;
+  position: fixed;
+  background-color: #292442;
+  height: 60px;
+}
+.scrolled .logo > img {
+  width: 120px;
+  margin-left: 25px;
+}
+.scrolled .links {
+    font-size: 1.1rem;
+}
+
 
 .links > nav > a {
   padding-inline: 20px;

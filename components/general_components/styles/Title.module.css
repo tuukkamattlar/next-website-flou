@@ -6,4 +6,10 @@
 }
 .container > h1 {
     text-align: center;
+
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    color: #292442;
+
 }

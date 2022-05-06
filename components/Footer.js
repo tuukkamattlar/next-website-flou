@@ -3,6 +3,9 @@ import Link from 'next/link';
 import styles from './styles/Footer.module.css';
 
 export default function Footer() {
+
+
+
   return (
     <>
       <footer id="footer" className={styles.footer}>
@@ -42,3 +45,5 @@ export default function Footer() {
     </>
   );
 }
+
+
