@@ -53,7 +53,11 @@
 }
 
 .bgtriangle {
-       background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);
+       /*background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);*/
+}
+
+.home .bgtriangle {
+    background: initial!important;
 }
 
 

@@ -4,17 +4,14 @@
 }
 
 .content {
-  width: 900px;
+  width: 100vw;
   margin: auto;
 }
 
 .media {
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: 100px;
-  width: 900px;
+padding: 5vw;
+  width: 90vw;
+  margin: 5vw;
 }
 .black {
   background: #efebe1;
@@ -34,13 +31,13 @@
 }
 
 .media img {
-  height: 200px;
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 80vw;
+  height: auto;
+  padding: 2vw;
+  max-width: 400px;
+  
 }
 
 .media h1 {
-  font-size: 100px;
+  font-size: 2rem;
 }
