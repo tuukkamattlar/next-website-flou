@@ -159,7 +159,8 @@ function handleScroll(){
         </div>
         <div className={styles.menubutton}>
           <Button onClick={() => setDrawer(!drawerOpen)} minimal>
-            <Icon icon="menu" color="white" />
+            
+            <img src="/img/bars-waves.svg" className={styles.waves} />
           </Button>
         </div>
       </div>

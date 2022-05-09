@@ -4,7 +4,7 @@ import { attributes} from '../content/competences_list.md';
 
 export default function Competences({ lan }) {
   return (
-      <div className={styles.container} >
+      <div className={styles.container + " " +styles.bgtriangle} >
           {attributes.category.map((item, k) => (
             <Link href={'/osaaminen/'+item.url} key={k}>
             <div className={styles.bgLayer}>

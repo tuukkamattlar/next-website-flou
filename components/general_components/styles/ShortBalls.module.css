@@ -52,6 +52,11 @@
     hyphens: auto;
 }
 
+.bgtriangle {
+       background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);
+}
+
+
 /* FOR SMALL (<700px) SCREENS */
 @media only screen and (max-width: 700px) {
   .blogcontainer {

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function ShortBallsModule({categories, lan}) {
     return (
-            <div className={ShortBallsCSS.container}>
+            <div className={ShortBallsCSS.container + " " +ShortBallsCSS.bgtriangle}>
             {categories.map((value, index) => (
                 <Link href={'/osaaminen/'+value.url} key={index}>
                 <div className={ShortBallsCSS.ball}>
