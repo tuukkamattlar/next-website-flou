@@ -9,6 +9,7 @@ export default function ShortBallsModule({categories, lan}) {
                 <div className={ShortBallsCSS.ball}>
                     <h3>{value.title[lan]}</h3>
                     <p>{value.short[lan]}</p>
+                    <img src="img/arrow-waved.svg"  className={ShortBallsCSS.arrow} />
                 </div>
                 </Link>
             ))}
