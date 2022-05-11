@@ -57,7 +57,7 @@ blogs:
     seo:
       OGPtitle: Paloasemaverkoston paikkatietoanalyysi
       OGPimg: img/wave_big_whiteonplum_ssm.png
-  - img: img/flou_plane.png
+  - img: img/pexels-pixabay-62623.jpg
     date: 2022-02-16T19:19:51.814Z
     url: lentovero
     visibility: visible
