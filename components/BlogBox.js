@@ -23,6 +23,7 @@ export default function BlogBox({ item, lan }) {
                 <p className={blogBoxes.mainText}>
                     {item.short[lan]}
                 </p>
+                 <img src="img/arrow-waved.svg"  className={blogBoxes.arrow} />
             </div>
           </div>
         </Link>
