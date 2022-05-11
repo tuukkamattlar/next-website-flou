@@ -15,7 +15,7 @@ export default function HomeSvg({ src, className }) {
           padding: '0px',
           backgroundSize: 'contain',
           backgroundPosition: 'bottom',
-          height: 1 * size.height,
+          height: 0.9 * size.height,
           position: 'absolute',
           padding: '0px',
           bottom: '0px',

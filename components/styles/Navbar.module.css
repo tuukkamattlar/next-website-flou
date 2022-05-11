@@ -1,12 +1,12 @@
 .mainNav {
-  width: 80vw;
+  width: 90vw;
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: aliceblue;
   margin-left: 5vw;
-  margin-right: 15vw;
+  margin-right: 5vw;
   margin-top: 30px;
    position: relative;
   z-index: 9999;
@@ -16,14 +16,14 @@
 }
 
 .home .mainNav {
-  width: 80vw;
+  width: 90vw;
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: aliceblue;
   margin-left: 5vw;
-  margin-right: 15vw;
+  margin-right: 5vw;
   margin-top: 30px;
    position: relative;
   z-index: 9999;
@@ -50,7 +50,7 @@ transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
 
 .menubutton {
   max-width: 75px;
-  
+  display: none;
  
 }
 
@@ -92,7 +92,7 @@ transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
 
 .links {
   position: relative;
-  visibility: hidden;
+ 
   overflow: hidden;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -138,16 +138,7 @@ transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
 }
 
 
-/* FOR SMALL (<750px) SCREEN AND WINDOW WIDTHS */
-@media only screen and (min-width: 900px) {
-  .menubutton {
-    visibility: hidden;
-  }
-  .links {
-    visibility: visible;
-  }
-
-}
+ 
 @media only screen and (max-width: 700px) {
 .bp3-heading {
   display: none;
@@ -167,10 +158,16 @@ transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
   margin-top: 00px;
    position: relative;
   z-index: 9999;
- 
+   
    position: fixed;
    transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
 }
+.links {
+  display: none;
+}
+  .menubutton {
+    display: block;
+  }
 .scrolled {
    margin-left: 0vw;
   margin-right: 0vw;
