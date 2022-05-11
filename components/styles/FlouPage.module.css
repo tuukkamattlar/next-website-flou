@@ -15,18 +15,31 @@
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 5vw;
+    background: #fff url('/img/wave-vertical.svg') center repeat-y; 
+    
+    padding-bottom: 5vw;
 }
 .timeline h1 {
     text-align: center;
-
+background-color: #fff;
     text-transform: uppercase;
     font-size: 3rem;
     text-align: center;
     color: #292442;
+    line-height: 6rem;
+
 }
 
 .yearBlock {
     display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: #fff;
+    border: 1px solid #292442;
+}
+
+.yearBlock:nth-of-type(odd) {
+    border: 1px solid #292442;
 }
 
 
@@ -83,7 +96,7 @@
         width: 50%;
     }
     .yearBlock {
-        margin: 30px;
+       
         padding: 20px;
         height: max-content;
     }
