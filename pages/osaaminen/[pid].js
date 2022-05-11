@@ -1,12 +1,22 @@
+// Components
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react';
 import Markdown from 'markdown-to-jsx';
-import { attributes } from '../../content/competences_list.md';
 import GeneralHeader from '@components/GeneralHeader';
 import ReferenceProjects from '@components/ReferenceProjects';
-import styles from '../../components/styles/CompetencePage.module.css'
-import { attributes as seoContent } from '../../content/SEO/competences.md';
 import SEO from '@components/metacomponents/SEO';
+import TextAndImageModule from "@components/general_components/TextAndImageModule";
+import TitleModule from "@components/general_components/TitleModule";
+
+
+// Content
+import { attributes as seoContent } from '../../content/SEO/competences.md';
+import { attributes } from '../../content/competences_list.md';
+
+
+// Styles
+import GeneralCSS from '../../components/general_components/styles/General.module.css'
+import styles from '../../components/styles/CompetencePage.module.css'
 
 
 export default function SkillArea({ lan }) {
@@ -41,6 +51,19 @@ export default function SkillArea({ lan }) {
                 keywords={filteredSEOContent.keywords}
             />
             <GeneralHeader title={skillarea.title} img={skillarea.skillIMG} lan={lan} description={''}/>
+            <div className={GeneralCSS.container}>
+                <TitleModule 
+                    title={skillarea.title} 
+                    lan={lan}
+                />
+                <TextAndImageModule 
+                    lan={lan}
+                    image={skillarea.skillIMG.replace("img/", "../img/")} 
+                    imagealt={'img alt'}
+                    text = {skillarea.long}
+                    hideIfMobile = {false}
+                    />
+            </div>
             <div className='powder'>
                 <div className={styles.container}>
                     <div><Markdown>{skillarea.long[lan]}</Markdown></div>
