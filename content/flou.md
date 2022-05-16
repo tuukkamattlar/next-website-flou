@@ -5,10 +5,11 @@ title:
 headerIMG: img/flou_street.png
 description:
   fi: >-
-    ## Mikä on FLOU?
-
-
-    Olemme itsenäinen strategiseen liikennesuunnitteluun ja riskienhallintaan erikoistunut konsulttitoimisto. Työssämme korostuu kokonaisvaltainen kaikki liikennemuodot käsittävät liikennejärjestelmäymmärrys. Teknologia on meille väline, ei tavoite. Projekteissa näkökulmat vaihtelevat asiakastarpeiden mukaan kasautumisesta kyberturvallisuuteen.
+    Olemme itsenäinen strategiseen liikennesuunnitteluun ja riskienhallintaan
+    erikoistunut konsulttitoimisto. Työssämme korostuu kokonaisvaltainen kaikki
+    liikennemuodot käsittävät liikennejärjestelmäymmärrys. Teknologia on meille
+    väline, ei tavoite. Projekteissa näkökulmat vaihtelevat asiakastarpeiden
+    mukaan kasautumisesta kyberturvallisuuteen.
 
 
     Meidät valitaan kumppaniksi kokonaisvaltaisen näkökulman, laskennallisen osaamisen ja innostuvan luonteen takia. Työtavoissamme korostuvat innovatiivisuus, sitoutuminen ja eri sidosryhmien osallistavuus.
@@ -18,13 +19,12 @@ description:
 
     perustuva päätöksenteko entisestään. Me selvitämme asiakkaillemme vaikutukset riippumattomasti. Uskomme, että vastuullinen toimija tunnistaa tosiasiat, hallitsee riskit, varautuu uhkiin, ymmärtää taloudellisen ja sosiaalisen vaikutuksen, kestävyyden vaatimukset ja ison kuvan - ja toimii oikean tiedon pohjalta. Tässä työssä me olemme paras kumppanisi.
   en: >-
-    **What is FLOU?**\
+    We are an independent consultancy specializing in strategic transportation
+    planning and risk management. Our work highlights a holistic understanding
+    of the transport system, encompassing all modes of mobility. For us,
+    technology is a tool, not an objective. The scope of our projects varies
+    wildly according to client needs, from congestion to cyber security.
 
-    \
-
-    We are an independent consultancy specializing in strategic transportation planning and risk management. Our work highlights a holistic understanding of the transport system, encompassing all modes of mobility. For us, technology is a tool, not an objective. The scope of our projects varies wildly according to client needs, from congestion to cyber security.\
-
-    \
 
     We are chosen as a partner because of our holistic perspective, computational expertise and enthusiastic nature. Our working methods emphasize innovation, engagement and inclusiveness of different stakeholders.
 
