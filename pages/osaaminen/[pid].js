@@ -15,19 +15,20 @@ import { attributes as competencesList } from '../../content/competences_list.md
 
 
 // Styles
-import GeneralCSS from '../../components/general_components/styles/General.module.css'
-import styles from '../../components/styles/CompetencePage.module.css'
+import GeneralCSS from '@components/general_components/styles/General.module.css'
+import styles from '@components/styles/CompetencePage.module.css'
 
 
 export default function SkillArea({ lan }) {
-    const router = useRouter()
-    const { pid } = router.query
-    console.log(pid)
-    console.log(competencesList)
+    
     const [skillarea, setSkillarea] = useState({})
     const [loading, setLoading] = useState(true)
     const [filteredSEOContent, setFilteredSEOContent] = useState({})
-    useEffect(() => {
+
+    const router = useRouter()
+    const { pid } = router.query
+
+    function filterSearch(){
         for(let i=0; i < competencesList.category.length; i++){
             if(pid){
                 if( competencesList.category[i].url.toLowerCase() === pid.toLowerCase() ){
@@ -38,6 +39,10 @@ export default function SkillArea({ lan }) {
                 }
             }
         }
+    }
+
+    useEffect(() => {
+        filterSearch()
     });
     return(
         loading ? 
