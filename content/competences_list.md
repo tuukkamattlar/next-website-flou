@@ -2,7 +2,7 @@
 category:
   - title:
       fi: Vaikutusten arviointi
-      en: A
+      en: Impact assessment
     url: vaikutusten_arviointi
     skillIMG: img/flou_bridge.png
     short:
@@ -10,13 +10,17 @@ category:
         mallinnusmenetelmät. Tarvittaessa kehitämme olemassa olevan teoriapohjan
         perusteella uusia menetelmiä vastataksemme asiakkaidemme vaativimpiinkin
         kysymyksiin.
-      en: a
+      en: Our services cover a wide range of impact types and their modelling methods.
+        If necessary, we develop new methods based on existing theory to answer
+        even the most challenging questions of our clients.
     long:
       fi: Palvelumme kattavat monipuolisesti eri vaikutuslajit ja niiden
         mallinnusmenetelmät. Tarvittaessa kehitämme olemassa olevan teoriapohjan
         perusteella uusia menetelmiä vastataksemme asiakkaidemme vaativimpiinkin
         kysymyksiin.
-      en: english
+      en: Our services cover a wide range of impact types and their modelling methods.
+        If necessary, we develop new methods based on existing theory to answer
+        even the most challenging questions of our clients.
     subcategories:
       - id: vaikutukset
         title:
@@ -49,13 +53,19 @@ category:
         strategioiden toteutuksiin. Palveluvalikoimaamme sisältyvät
         nykytila-analyysit, tulevaisuuskuvatyöt, toimenpiteiden suunnittelu ja
         toimeenpanon tuki.
-      en: a
+      en: We produce the necessary information to support decision-making and plans
+        for implementing strategies. Our range of services includes present
+        state analysis, future mapping, action planning and implementation
+        support.
     long:
       fi: Tuotamme tarvittavat tiedot päätöksenteon tueksi ja suunnitelmat
         strategioiden toteutuksiin. Palveluvalikoimaamme sisältyvät
         nykytila-analyysit, tulevaisuuskuvatyöt, toimenpiteiden suunnittelu ja
         toimeenpanon tuki.
-      en: a
+      en: We produce the necessary information to support decision-making and plans
+        for implementing strategies. Our range of services includes present
+        state analysis, future mapping, action planning and implementation
+        support.
     subcategories:
       - title:
           fi: Strategia
@@ -95,12 +105,16 @@ category:
       fi: Riskienhallintaosaamisemme kattaa rakennushankkeen riskien arvioinnin ja
         kyberturvallisuuden. Kehitämme kustomoidut tilannekuvapalvelut riskien
         hallinnan tueksi.
-      en: a
+      en: "Our expertise in risk management covers the cost-benefit analysis of
+        construction projects and cyber security. We develop customized snapshot
+        services to support risk management. "
     long:
       fi: Riskienhallintaosaamisemme kattaa rakennushankkeen riskien arvioinnin ja
         kyberturvallisuuden. Kehitämme kustomoidut tilannekuvapalvelut riskien
         hallinnan tueksi.
-      en: a
+      en: Our expertise in risk management covers the cost-benefit analysis of
+        construction projects and cyber security. We develop customized snapshot
+        services to support risk management.
     subcategories:
       - id: riskit
         title:
