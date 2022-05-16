@@ -11,7 +11,7 @@ import TitleModule from "@components/general_components/TitleModule";
 
 // Content
 import { attributes as seoContent } from '../../content/SEO/competences.md';
-import { attributes } from '../../content/competences_list.md';
+import { attributes as competencesList } from '../../content/competences_list.md';
 
 
 // Styles
@@ -22,25 +22,35 @@ import styles from '../../components/styles/CompetencePage.module.css'
 export default function SkillArea({ lan }) {
     const router = useRouter()
     const { pid } = router.query
+    console.log(pid)
+    console.log(competencesList)
     const [skillarea, setSkillarea] = useState({})
     const [loading, setLoading] = useState(true)
+    const [filteredSEOContent, setFilteredSEOContent] = useState({})
     useEffect(() => {
-        for(let i=0; i < attributes.category.length; i++){
+        for(let i=0; i < competencesList.category.length; i++){
             if(pid){
-                if( attributes.category[i].url.toLowerCase() === pid.toLowerCase() ){
-                    setSkillarea(attributes.category[i])
+                if( competencesList.category[i].url.toLowerCase() === pid.toLowerCase() ){
+                    setSkillarea(competencesList.category[i])
+                    setFilteredSEOContent(seoContent[competencesList.category[i].url])
                     setLoading(false)
                     return(0)
                 }
             }
         }
     });
-    const filteredSEOContent = seoContent[skillarea.url]
     return(
         loading ? 
-        <div>
-            Loading
-        </div>
+        <>
+            <GeneralHeader title={{en: '', fi: ''}} img={''} lan={lan} description={''}/>
+            <div className={GeneralCSS.container}>
+                <TitleModule 
+                    title={{en: '404 not found', fi: '404 ei sivua'}} 
+                    lan={lan}
+                />
+            </div>
+        </>
+
         :
         <>
             <SEO 
