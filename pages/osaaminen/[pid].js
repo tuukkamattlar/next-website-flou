@@ -50,7 +50,7 @@ export default function SkillArea({ lan }) {
             <GeneralHeader title={{en: '', fi: ''}} img={''} lan={lan} description={''}/>
             <div className={GeneralCSS.container}>
                 <TitleModule 
-                    title={{en: '404 not found', fi: '404 ei sivua'}} 
+                    title={{en: 'Page is loading', fi: 'Sivu latautuu'}} 
                     lan={lan}
                 />
             </div>
