@@ -17,7 +17,19 @@ description:
     Uskomme, että tulevaisuuden ratkaisut edellyttävät monitieteistä analyyttisyyttä ja rohkeaa asennetta. Kun maailma ympärillä on muutoksessa, korostuu tietoon
 
     perustuva päätöksenteko entisestään. Me selvitämme asiakkaillemme vaikutukset riippumattomasti. Uskomme, että vastuullinen toimija tunnistaa tosiasiat, hallitsee riskit, varautuu uhkiin, ymmärtää taloudellisen ja sosiaalisen vaikutuksen, kestävyyden vaatimukset ja ison kuvan - ja toimii oikean tiedon pohjalta. Tässä työssä me olemme paras kumppanisi.
-  en: General description
+  en: >-
+    **What is FLOU?**\
+
+    \
+
+    We are an independent consultancy specializing in strategic transportation planning and risk management. Our work highlights a holistic understanding of the transport system, encompassing all modes of mobility. For us, technology is a tool, not an objective. The scope of our projects varies wildly according to client needs, from congestion to cyber security.\
+
+    \
+
+    We are chosen as a partner because of our holistic perspective, computational expertise and enthusiastic nature. Our working methods emphasize innovation, engagement and inclusiveness of different stakeholders.
+
+
+    We believe that the solutions of future require a multidisciplinary analytical approach and a bold attitude. As the world around us changes, the importance of scientifically informed decision-making is paramount. We provide our clients with independent, unbiased impact assessments. We believe that a responsible actor identifies the facts, manages risks, anticipates threats, understands the economic and social impact, sustainability requirements and the big picture - and acts on the right information. In this work, we are your best partner.
 bodyIMG: img/flou_street.png
 timeline:
   - year: 2022
