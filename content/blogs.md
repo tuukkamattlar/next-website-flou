@@ -154,7 +154,8 @@ blogs:
       fi: Selvitimme digitalisoitujen liikennesääntöjen ja -rajoitusten
         toteuttamistapoja ja muodostimme tiekartan suositeltavista
         toimenpiteistä edellytysten parantamiseksi
-      en: english
+      en: We explored ways to implement digitalized traffic rules and restrictions and
+        developed a roadmap of recommended measures to improve conditions.
     long:
       fi: >-
         Yhä useammassa verkottuneessa ajoneuvossa on käytössä palvelu tai
@@ -175,7 +176,21 @@ blogs:
 
 
         Raportti: [https://www.doria.fi/bitstream/handle/10024/183693/vj_2022-9_digitalisoitujen_liikennesaantojen_web.pdf ](https://www.doria.fi/bitstream/handle/10024/183693/vj_2022-9_digitalisoitujen_liikennesaantojen_web.pdf)
-      en: english
+      en: >-
+        More and more connected vehicles have a service or application that
+        allows them to display the prevailing traffic rules digitally. This has
+        implications for road safety, traffic flow and infrastructure lifecycle
+        management, among others. In the future, digital traffic rules will be a
+        prerequisite for full automation of traffic.
+
+
+        We explored ways to implement digital traffic rules and restrictions and developed a roadmap of recommended measures to improve the conditions. Recommendations for further action include identification and prioritization of information needs, process mapping and definition of responsibilities, presentation of the road traffic law in a machine-readable format and three different service experiments. 
+
+
+        The study is part of the NordicWay 3 project.
+
+
+        The study was made in cooperation with Traficom Oy, Ramboll Finland Oy and MHR Consulting Oy.
     email:
       - name: taina.haapamaki@flou.io
         role:
@@ -197,7 +212,10 @@ blogs:
         toiminnallisen kaupunkiseudun kattava pitkän aikavälin strateginen
         suunnitelma, jonka tavoitteena on varmistaa kestävä, kilpailukykyinen ja
         resurssitehokas kaupunkiliikenne
-      en: english
+      en: The Sustainable Urban Mobility Plan (SUMP) is a comprehensive, long-term
+        strategic plan covering the entire functional urban area, with the aim
+        of ensuring sustainable, competitive and resource-efficient urban
+        mobility.
     long:
       fi: >-
         Viime viikolla julkaistu komission ehdotus TEN-T-uudistuksesta vahvistaa
@@ -219,7 +237,18 @@ blogs:
 
 
         Loppuraportti: <https://mal-verkosto.fi/wp-content/uploads/2021/12/2021-12-20_SUMP_raportti.pdf>
-      en: english
+      en: >-
+        The Commission proposal on TEN-T reform, published last week,
+        strengthens the role of this approach on the TEN-T network and in
+        Finland in the MAL agreement areas. Together with the MAL network and
+        the Finnish Transport and Communications Agency Traficom, we examined
+        the current status of the operating model in Finland.
+
+
+        The SUMP (Sustainable Urban Mobility Plan) is a comprehensive, long-term strategic plan covering the entire functional urban area, with the aim of ensuring sustainable, competitive and resource-efficient urban mobility. Some EU projects and investment funding mechanisms may require the applicant region to have a SUMP in place. This is a growing motivator for the development of SUMPs also in Finland. A possible urban mobility plan, which is currently being considered in the reform of the Land Use and Building Act (MRL), could also create a new framework for sustainable mobility planning. 
+
+
+        The preliminary study examined the SUMP operating model, mapped SUMP plans developed in Finland and created a snapshot of the extent of SUMP planning and implementation in different urban areas in Finland. The preliminary study raised questions that need to be further discussed and debated on the suitability of SUMP planning and the SUMP approach in Finland.
     email:
       - name: taina.haapamaki@flou.io
         role:
