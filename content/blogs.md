@@ -270,12 +270,14 @@ blogs:
     visibility: visible
     title:
       fi: Liikenteen megahankkeet valokeilassa
-      en: english
+      en: Transportation megaprojects in the spotlight
     short:
       fi: Liikenne-ennusteet ja investointikustannukset tulee tarkastaa asiakkaasta
         täysin riippumattoman asiantuntijaelimen toimesta, rahoittajat sekä
         suunnittelusta ja alustavista laskelmista vastaavat
-      en: english
+      en: Transport forecasts and investment costs must be reviewed by an expert body
+        that is completely independent of the client, the financiers and those
+        responsible for the planning and preliminary calculations.
     long:
       fi: >-
         Poliittinen tahto on tärkein voimavara hankkeen toteutumiselle.
@@ -286,20 +288,35 @@ blogs:
         pääomaa hankkeisiin. Siltarumpupolitiikalla voi olla merkitystä, kun
         hankkeet hyödyttävät enimmäkseen tiettyjä alueita. Kuljetuskysynnän
         yliarviointi ja investointikustannusten aliarviointi ovat suuria riskejä
-        liikenteen infrastruktuurihankkeen onnistunut toteuttaminen. 
+        liikenteen infrastruktuurihankkeen onnistuneelle toteuttamiselle.
 
 
         Liikenne-ennusteet ja investointikustannukset tulee tarkastaa asiakkaasta täysin riippumattoman asiantuntijaelimen toimesta, rahoittajat sekä suunnittelusta ja alustavista laskelmista vastaavat.
 
-        Kustannus-hyötyanalyysin arviointimenetelmien tulisi olla standardoituja tai valvottuja. Käyttäjähyödyt ovat merkittävin hyötyerä kustannus-hyötyanalyysissä ja saattaa olla kannustimia liioitella se arvioinnissa.
+        Kustannus-hyötyanalyysin arviointimenetelmien tulisi olla standardoituja tai valvottuja. Käyttäjähyödyt ovat merkittävin hyötyerä kustannus-hyötyanalyysissä ja saattaa olla kannustimia liioitella sen arvioinnissa.
 
 
-        Laajempien vaikutusten arviointiin tulee laatia ohjeet sisältäen ohjeet alueelliselle
+        Laajempien vaikutusten arviointiin tulee laatia ohjeistus, sisältäen ohjeet alueelliselle
 
-        saavutettavuuden muutosten analysointi. Hankkeista, joissa henkilöliikenteellä on tärkeä rooli, tulisi vaatia laajempaa vaikutusta, alkaen
+        saavutettavuuden muutosten analysoinnille. Hankkeista, joissa henkilöliikenteellä on tärkeä rooli, tulisi vaatia laajempaa vaikutusten arviointia, alkaen ainakin yritysten, työmarkkinoiden, maankäytön ja väestön alueellisten muutosten näkökulmasta.
+      en: >-
+        Political will is the most important factor in making a project happen.
+        Project organizations need to have a clear strategy to promote the
+        project in the political system step by step. The credibility of the
+        analyses matters and can help in building political capital for the
+        project. Analyses can and should be used to generate political capital
+        for projects. Pork barrel politics can play a role when projects mostly
+        benefit certain regions. Overestimating transport demand and
+        underestimating investment costs are major risks to the successful
+        completion of a transport infrastructure project. 
 
-        ainakin yritysten, työmarkkinoiden, maankäytön ja väestön alueellisten muutosten näkökulmasta.
-      en: english
+
+        Transport forecasts and investment costs should be checked by an expert body that is completely independent of the client, the financiers and those responsible for planning and preliminary calculations.
+
+        Cost-benefit analysis evaluation methods should be standardized or controlled. User benefits are the most important benefit in CBA and there may be incentives to overstate this in the evaluation.
+
+
+        Guidelines should be developed for the assessment of wider impacts, including guidance for regional analysis of changes in accessibility. For projects where passenger transport plays an important role, a broader impact assessment should be required, starting from businesses, the labour market, land use and population, at least in terms of spatial changes.
     email:
       - name: taina.haapamaki@flou.io
         role:
