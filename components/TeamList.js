@@ -1,5 +1,6 @@
-import styles from './styles/Tiimi.module.css'
+import teamstyles from './styles/Tiimi.module.css'
 import Link from 'next/link'
+import FullWidthTextModule from './general_components/FullWidthTextModule'
 
 export default function TeamList({ items, lan }) {
   
@@ -13,16 +14,30 @@ export default function TeamList({ items, lan }) {
     }
     return filteredList
   }
+
   const filteredItems = filter(items)
+  const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+  
+  const introText = {
+    fi: "Klikkaa kopioidaksesi sähköpostiosoite",
+    en: "Click email to copy email address"
+  }
+
+
   return (
-      <div className={styles.container} >
+      <div className={teamstyles.container} >
+        <FullWidthTextModule
+          lan={lan}
+          text={introText}
+
+        />
           {
           // map begins
           filteredItems.map((item, k) => (
-            <div className={styles.personBox} key={k}>
-              <div className={styles.imgWrapper}>
+            <div className={teamstyles.personBox} key={k}>
+              <div className={teamstyles.imgWrapper}>
                 <div
-                  className={styles.bgimg} 
+                  className={teamstyles.bgimg} 
                   style={{
                       backgroundImage: "url("+item.profileIMG+")",
                       backgroundRepeat: 'no-repeat',
@@ -31,13 +46,13 @@ export default function TeamList({ items, lan }) {
                 >
                 </div>
               </div>
-              <div className={styles.description}>
+              <div className={teamstyles.description}>
                 <h3>{item.name}</h3>
                 <h4>{item.role[lan]}</h4>
                 <p>{item.description[lan]}</p>
-                <div className={styles.contact}>
+                <div className={teamstyles.contact}>
                   <a href={"tel:"+item.phone}>{item.phone}</a>
-                  <a href={"mailto:"+item.email}>{item.email}</a>
+                  <a onClick={() => copyToClipboard(item.email)}>{item.email}</a>
                 </div>
               </div>
             </div>
