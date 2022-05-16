@@ -10,8 +10,13 @@ description:
 
 
     Lisää
-  en: |-
-    English
+  en: >-
+    We are constantly working on new challenges. We write blogposts from some of
+    our projects, which offer a better look into our work and areas of
+    expertise. 
+
+
+    \
 
     Another
 headerIMG: img/pexels-aleksejs-bergmanis-681335.jpg
@@ -22,10 +27,10 @@ blogs:
     visibility: visible
     title:
       fi: Paloasemaverkoston paikkatietoanalyysi
-      en: paikkatieto
+      en: Geospatial analysis of the fire station network
     short:
-      fi: Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
-      en: The fire station network of the future is based on geoinformation
+      fi: Tulevaisuuden paloasemaverkosto perustuu paikkatietoon.
+      en: The fire station network of the future is based on geoinformation.
     long:
       fi: >-
         ### Tulevaisuuden paloasemaverkosto perustuu paikkatietoon
@@ -67,8 +72,9 @@ blogs:
     short:
       fi: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
         päätöksenteolle.
-      en: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
-        päätöksenteolle.
+      en: |-
+        Air travel taxes - Yes or No? 
+        Expert analysis lays the groundwork for political decision-making. 
     long:
       fi: >-
         Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa
@@ -99,7 +105,36 @@ blogs:
         Tiedote: <https://tietokayttoon.fi/-/10616/tutkimus-tarjoaa-uutta-tietoa-lentoveron-toteutusvaihtoehdoista-ja-vaikutuksista-suomessa>
 
         Raportti: <https://urn.fi/URN:ISBN:978-952-383-346-3>
-      en: Same in English
+      en: >-
+        Air travel tax - Yes or No?\
+
+        Expert analysis lays the groundwork for political decision-making. 
+
+
+        In 2018, aviation accounted for 2.7% of all carbon dioxide emissions from human activity. It accounted for 12.3% of transport emissions. In Finland, aviation emissions amounted to 2.4 million tonnes of carbon dioxide, which was 4.5% of all carbon dioxide emissions in Finland.
+
+
+        We compiled a report for the Finnish Government which examined the impact of implementing an air travel tax. The study examined the different options for implementing an aviation tax, the impact of the options on the emissions and volume of air travel, and the effects on the Finnish economy. This was the first comprehensive study on the subject in Finland.
+
+
+        > The examined options would reduce air travel by 1,6–2,8 %
+
+
+        ![airplane](img/pexels-pixabay-62623.jpg "Lentovero fi")
+
+
+        The options considered would reduce air travel by 1.6-2.8% and air transport emissions by 1.8-2.3%. However, the air tax would weaken the Finnish economy and GDP would fall by 0.02-0.05%. The cost of emission reductions would be between €470 and €710/CO2t if the tax is refunded to households by reducing other taxes, and between €870 and €1,000/CO2t if it is not.
+
+
+        Comparison with other emission reduction measures is complicated by the different measurement methods. For example, the figures are not comparable with emission trading prices. Similar overall assessments should be made for other climate measures.
+
+
+        The study was carried out in cooperation by FLOU Oy, Incredible LCC and Merit Economics.
+
+
+        Article (in Finnish): <https://tietokayttoon.fi/-/10616/tutkimus-tarjoaa-uutta-tietoa-lentoveron-toteutusvaihtoehdoista-ja-vaikutuksista-suomessa>
+
+        Report (in Finnish): <https://urn.fi/URN:ISBN:978-952-383-346-3>
     email:
       - name: tuomo.lapp@flou.io
         role:
