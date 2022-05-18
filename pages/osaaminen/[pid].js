@@ -7,7 +7,7 @@ import ReferenceProjects from '@components/ReferenceProjects';
 import SEO from '@components/metacomponents/SEO';
 import TextAndImageModule from "@components/general_components/TextAndImageModule";
 import TitleModule from "@components/general_components/TitleModule";
-
+import SkillSubCategories from '@components/general_components/SkillSubCategories';
 
 // Content
 import { attributes as seoContent } from '../../content/SEO/competences.md';
@@ -77,23 +77,15 @@ export default function SkillArea({ lan }) {
                     imagealt={'img alt'}
                     text = {skillarea.long}
                     hideIfMobile = {false}
-                    />
-            </div>
-            <div className='powder'>
-                <div className={styles.container}>
-                    <div><Markdown>{skillarea.long[lan]}</Markdown></div>
-                    <h1>Kategoriat TODO</h1>
-                    <div className={styles.subcategories}>
-                        {skillarea.subcategories.map((val,ind) => (
-                            <div key={ind} className={styles.subcategory}>
-                                <h4>{val.title[lan]}</h4>
-                                <p>{val.description[lan]}</p>
-                            </div>
-                        ))}
-                    </div>
-                    <h1>Projekteja TODO</h1>
-                    <ReferenceProjects  item = {skillarea} lan={lan}/>
-                </div>
+                />
+                <SkillSubCategories
+                    lan={lan}
+                    subcategories = {skillarea.subcategories}
+                />
+                <ReferenceProjects  
+                    item = {skillarea} 
+                    lan={lan}
+                />
             </div>
         </>
     )

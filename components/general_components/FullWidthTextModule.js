@@ -9,5 +9,4 @@ export default function FullWidthTextModule({text, lan}) {
             </div>
         </div>
     )
-  }
-  
+}
