@@ -21,5 +21,5 @@ openings:
 
 
         Uskomme, että tulevaisuuden ratkaisujen tunnistaminen edellyttää monitieteellistä ja analyyttistä lähestymistapaa, ja haluamme olla mukana tukemassa tietoon perustuvaa päätöksentekoa. Teemme yhteistyötä muun muassa tutkimuslaitosten ja yritysten kanssa.
-      en: not yet in English
+      en: not yet in English dasdasd
 ---
