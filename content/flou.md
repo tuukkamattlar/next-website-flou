@@ -32,6 +32,24 @@ description:
     We believe that the solutions of future require a multidisciplinary analytical approach and a bold attitude. As the world around us changes, the importance of scientifically informed decision-making is paramount. We provide our clients with independent, unbiased impact assessments. We believe that a responsible actor identifies the facts, manages risks, anticipates threats, understands the economic and social impact, sustainability requirements and the big picture - and acts on the right information. In this work, we are your best partner.
 bodyIMG: img/flou_street.png
 timeline:
+  - year: 2016
+    yeardescription:
+      fi: Perustusvuosi
+      en: The year of foundation
+    events:
+      - event:
+          fi: "FLOU perustetaan ratkomaan liikennejärjestelmään liittyviä kysymyksiä. Oma
+            kehitystyö uusien liikkumispalveluiden analytiikan saralla alkaa.
+            Ensimmäisinä asiakasprojekteina analysoidaan Helsingin
+            kantakaupungin joukkoliikenteen suunnitelmia, rataliikenteen
+            ohjauksen palveluita ja kehitetään liikkuminen palveluna -konseptin
+            tietoarkkitehtuuria. "
+          en: "FLOU is founded to solve issues related to the Transport System. In-house
+            development work on analytics for new mobility services begins. The
+            first customer projects will analyze public transportation plans for
+            the Helsinki metropolitan area, rail traffic management services and
+            develop the information architecture for the Mobility as a Service
+            concept. "
   - year: 2022
     events:
       - event:
@@ -126,22 +144,4 @@ timeline:
     yeardescription:
       fi: Ensimmäiset selvitystyöt
       en: First projects
-  - year: 2016
-    yeardescription:
-      fi: Perustusvuosi
-      en: The year of foundation
-    events:
-      - event:
-          fi: "FLOU perustetaan ratkomaan liikennejärjestelmään liittyviä kysymyksiä. Oma
-            kehitystyö uusien liikkumispalveluiden analytiikan saralla alkaa.
-            Ensimmäisinä asiakasprojekteina analysoidaan Helsingin
-            kantakaupungin joukkoliikenteen suunnitelmia, rataliikenteen
-            ohjauksen palveluita ja kehitetään liikkuminen palveluna -konseptin
-            tietoarkkitehtuuria. "
-          en: "FLOU is founded to solve issues related to the Transport System. In-house
-            development work on analytics for new mobility services begins. The
-            first customer projects will analyze public transportation plans for
-            the Helsinki metropolitan area, rail traffic management services and
-            develop the information architecture for the Mobility as a Service
-            concept. "
 ---
