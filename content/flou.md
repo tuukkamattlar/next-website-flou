@@ -38,15 +38,15 @@ timeline:
       en: The year of foundation
     events:
       - event:
-          fi: "FLOU perustetaan vuonna 2016 ratkomaan liikennejärjestelmään liittyviä
-            kysymyksiä. Oma kehitystyö uusien liikkumispalveluiden analytiikan
-            saralla alkaa. Ensimmäisinä asiakasprojekteina analysoidaan
-            Helsingin kantakaupungin joukkoliikenteen suunnitelmia,
-            rataliikenteen ohjauksen palveluita ja kehitetään liikkuminen
-            palveluna -konseptin tietoarkkitehtuuria. "
-          en: "FLOU is founded in 2016 to tackle issues related to the transportation
-            system. In-house development work on analytics for new mobility
-            services begins. The first customer projects will analyze public
+          fi: "FLOU perustetaan ratkomaan liikennejärjestelmään liittyviä kysymyksiä. Oma
+            kehitystyö uusien liikkumispalveluiden analytiikan saralla alkaa.
+            Ensimmäisinä asiakasprojekteina analysoidaan Helsingin
+            kantakaupungin joukkoliikenteen suunnitelmia, rataliikenteen
+            ohjauksen palveluita ja kehitetään liikkuminen palveluna -konseptin
+            tietoarkkitehtuuria. "
+          en: "FLOU is founded to tackle issues related to the transportation system.
+            In-house development work on analytics for new mobility services
+            begins. The first customer projects will analyze public
             transportation plans for the Helsinki metropolitan area, rail
             traffic management services and develop the information architecture
             for the Mobility as a Service concept. "
