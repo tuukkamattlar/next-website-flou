@@ -1,7 +1,7 @@
 ---
 title:
   fi: Meistä
-  en: About us
+  en: About Us
 headerIMG: img/flou_street.png
 description:
   fi: >-
