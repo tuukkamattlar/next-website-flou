@@ -36,7 +36,7 @@ timeline:
     events:
       - event:
           fi: "Maaliskuussa 2022 alussa FLOUlaisia on jo 12. "
-          en: english
+          en: In March of 2022 there are 12 people working at FLOU
     yeardescription:
       fi: FLOU laajenee
       en: FLOU expands
@@ -49,7 +49,11 @@ timeline:
             mallinnusosaamistamme mm. alueellisen junaliikenteen,
             paloasemaverkoston, kanavien vedenkorkeuden ja ratojen
             käyttäjämaksujen arvioinnissa.
-          en: english
+          en: We examine the impact of the air travel tax. On the smart mobility front,
+            the Helsinki Region and the whole country are planning the next
+            steps to enable transport automation. We get to use our modelling
+            expertise to assess regional rail traffic, fire station networks,
+            canal water levels and railway user charges, among other things.
     yeardescription:
       fi: Projektien määrä kasvaa
       en: The number of projects grows
