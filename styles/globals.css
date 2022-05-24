@@ -110,6 +110,7 @@ h4 {
    scroll-snap-type: y mandatory;
    overflow: scroll;
    height: 100vh;
+       overflow-x: hidden!important;
 }
 p {
   font-size: 1.3rem;
