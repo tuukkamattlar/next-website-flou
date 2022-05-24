@@ -29,5 +29,5 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Local Netlify folder
-.netlify
+# And to make sure, also this here:
+.env
