@@ -121,7 +121,7 @@ export default function NavBar() {
         </div>
       </div>
     : 
-      <div>
+      <div className={styles.mainNav}>
         <div className={styles.mobileLogos}>
           <Link href={'/'}>
             <img src="/img/logo-white-1.svg" height="50" style={{ cursor: 'pointer' }} />
