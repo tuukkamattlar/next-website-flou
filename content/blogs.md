@@ -105,7 +105,7 @@ blogs:
 
         Raportti: <https://urn.fi/URN:ISBN:978-952-383-346-3>
       en: >-
-        Air travel tax - Yes or No? 
+        Air travel tax - Yes or No?
 
 
         Expert analysis lays the groundwork for political decision-making. 
