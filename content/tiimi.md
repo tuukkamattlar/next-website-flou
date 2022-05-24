@@ -3,7 +3,7 @@ name: Tiimi
 description: Kuvauksia tiimistä
 title:
   fi: Tiimimme
-  en: The Team
+  en: Our Team
 headerIMG: img/flou_bridge.png
 persons:
   - skills:
