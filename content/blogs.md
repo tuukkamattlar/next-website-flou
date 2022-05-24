@@ -72,9 +72,8 @@ blogs:
     short:
       fi: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
         päätöksenteolle.
-      en: |-
-        Air travel taxes - Yes or No?
-        Expert analysis lays the groundwork for political decision-making. 
+      en: "Air travel taxes - Yes or No? Expert analysis lays the groundwork for
+        political decision-making. "
     long:
       fi: >-
         Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa
@@ -106,9 +105,8 @@ blogs:
 
         Raportti: <https://urn.fi/URN:ISBN:978-952-383-346-3>
       en: >-
-        Air travel tax - Yes or No?\
-
-        Expert analysis lays the groundwork for political decision-making. 
+        Air travel tax - Yes or No? Expert analysis lays the groundwork for
+        political decision-making. 
 
 
         In 2018, aviation accounted for 2.7% of all carbon dioxide emissions from human activity. It accounted for 12.3% of transport emissions. In Finland, aviation emissions amounted to 2.4 million tonnes of carbon dioxide, which was 4.5% of all carbon dioxide emissions in Finland.
