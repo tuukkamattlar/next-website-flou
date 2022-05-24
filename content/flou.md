@@ -23,7 +23,7 @@ description:
     planning and risk management. Our work highlights a holistic understanding
     of the transport system, encompassing all modes of mobility. For us,
     technology is a tool, not an objective. The scope of our projects varies
-    wildly according to client needs, from congestion to cyber security.
+    wildly according to client needs, from traffic congestion to cyber security.
 
 
     We are chosen as a partner because of our holistic perspective, computational expertise and enthusiastic nature. Our working methods emphasize innovation, engagement and inclusiveness of different stakeholders.
