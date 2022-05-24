@@ -1,6 +1,6 @@
 ---
 title:
-  fi: Meistä
+  fi: FLOU
   en: About Us
 headerIMG: img/flou_street.png
 description:
