@@ -38,7 +38,7 @@ timeline:
       en: The year of foundation
     events:
       - event:
-          fi: "Tarinamme alkaa vuonna 2016, jolloin FLOU perustetaan ratkomaan
+          fi: "Tarinamme alkaa vuonna 2016, kun FLOU perustetaan ratkomaan
             liikennejärjestelmään liittyviä kysymyksiä. Oma kehitystyö uusien
             liikkumispalveluiden analytiikan saralla alkaa. Ensimmäisinä
             asiakasprojekteina analysoidaan Helsingin kantakaupungin
