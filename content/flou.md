@@ -1,7 +1,7 @@
 ---
 title:
   fi: FLOU
-  en: About Us
+  en: FLOU
 headerIMG: img/flou_street.png
 description:
   fi: >-
