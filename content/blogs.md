@@ -72,9 +72,8 @@ blogs:
     short:
       fi: Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa poliittiselle
         päätöksenteolle.
-      en: |-
-        Air travel taxes - Yes or No? 
-        Expert analysis lays the groundwork for political decision-making. 
+      en: "Air travel taxes - Yes or No? Expert analysis lays the groundwork for
+        political decision-making. "
     long:
       fi: >-
         Kannattaako lentovero vai ei? Asiantuntijaselvitys luo pohjaa
@@ -106,7 +105,8 @@ blogs:
 
         Raportti: <https://urn.fi/URN:ISBN:978-952-383-346-3>
       en: >-
-        Air travel tax - Yes or No?\
+        Air travel tax - Yes or No?
+
 
         Expert analysis lays the groundwork for political decision-making. 
 

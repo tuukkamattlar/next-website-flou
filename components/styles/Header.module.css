@@ -48,6 +48,13 @@
   }
 }
 
+.header iframe {
+    z-index: 0;
+      position: absolute;
+      overflow: hidden;
+    overflow-x: hidden!important;
+}
+
 .header:hover > .imgLayer {
   filter: blur(1px) brightness(50%);
   transition: all 0.3s;

@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 import NavBar from '@components/Navbar';
 import HomeSvg from './HomeSvg';
+import HomeAnimation from './HomeAnimation';
 import styles from './styles/Header.module.css';
 
 export default function HomeHeaderAndNav({ title }) {
@@ -15,7 +16,7 @@ export default function HomeHeaderAndNav({ title }) {
   return (
     <>
       <div className={styles.header}>
-        <HomeSvg className={styles.svgLayer} src="/img/wave_white.svg" />
+        <HomeAnimation className={styles.svgLayer} src="/img/animation/animate-smaller-2.html?v2" />
         <NavBar />
         <div className={styles.titlewrapper}>
           <div className={styles.title}>
