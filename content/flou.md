@@ -50,47 +50,40 @@ timeline:
             the Helsinki metropolitan area, rail traffic management services and
             develop the information architecture for the Mobility as a Service
             concept. "
-  - year: 2022
+  - year: 2017
     events:
       - event:
-          fi: "Maaliskuussa 2022 alussa FLOUlaisia on jo 12. "
-          en: In March of 2022 there are 12 people working at FLOU
+          fi: Yhdessä HSL:n kanssa selvitetään liikenteen uusien palvelujen ja
+            yhteiskäyttöautoautojen roolia yhteiskunnassa. Vaikutusarvioinnin
+            eri näkökulmat korostuvat omaisuudenhallintaa ja liikennehankkeiden
+            hankearviointia käsittelevissä kehittämistöissä, joita tehdään
+            yhdessä Liikenneviraston kanssa. Robottiautokokeilu SOHJOA Baltic
+            alkaa kuudessa kaupungissa.
+          en: Together with HSL, the role of new transport services and car sharing in
+            society are explored. The different perspectives of impact
+            assessment will be highlighted in the development work on asset
+            management and project appraisal of transport projects, carried out
+            in cooperation with the Finnish Transport Agency. The SOHJOA Baltic
+            robot car trial starts in six cities.
     yeardescription:
-      fi: FLOU laajenee
-      en: FLOU expands
-  - year: 2021
+      fi: Ensimmäiset selvitystyöt
+      en: First projects
+  - year: 2018
     events:
       - event:
-          fi: Selvitämme lentoveron vaikutuksia. Älyliikennerintamalla suunnitellaan
-            Helsingin seudun ja koko valtakunnan seuraavia toimenpiteitä
-            liikenteen automaation mahdollistamiseksi. Pääsemme hyödyntämään
-            mallinnusosaamistamme mm. alueellisen junaliikenteen,
-            paloasemaverkoston, kanavien vedenkorkeuden ja ratojen
-            käyttäjämaksujen arvioinnissa.
-          en: We examine the impact of the air travel tax. On the smart mobility front,
-            the Helsinki Region and the whole country are planning the next
-            steps to enable transport automation. We get to use our modelling
-            expertise to assess regional rail traffic, fire station networks,
-            canal water levels and railway user charges, among other things.
+          fi: Liikennesuunnittelija, IT-guru, matemaatikko ja valtiotieteilijä ratkovat
+            liikennejärjestelmän haasteita jo 26 eri projektissa, jotka
+            ulottuvat Tartosta Vieremälle. Yhteistyö tiedemaailman kanssa
+            vahvistuu, kun FLOU valitaan vetämään 12 hankepartnerin tutkimusta
+            liikenteen maankäyttövaikutuksista.
+          en: A transportation planner, an IT guru, a mathematician and a political
+            scientist have tackled the challenges of the transport system in 26
+            different projects already, from Tartu to Vieremä. Collaboration
+            with academia is strengthened when FLOU is selected to lead a study
+            on the land-use impacts of transport with 12 project partners.
     yeardescription:
-      fi: Projektien määrä kasvaa
-      en: The number of projects grows
-  - year: 2020
-    events:
-      - event:
-          fi: Voitamme tarjouskilpailun Tallinnan seudun joukkoliikenteen suunnittelusta.
-            Ensimmäinen allianssiprojektimme käynnistyy Kalasatamasta Pasilaan
-            -hankkeen muodossa liikennesuunnittelun, vastuullisuuden ja
-            riskienhallinnan parissa. Muutto Hietalahdenrantaan suurempiin
-            tiloihin.
-          en: We win the tender for the planning of public transport in the Tallinn
-            region. Our first alliance project starts with the Kalasatama to
-            Pasila tramway -project, focusing on transport planning,
-            sustainability and risk management. Our office moves into larger
-            premises in Hietalahdenranta.
-    yeardescription:
-      fi: Uusi toimisto
-      en: A new office
+      fi: FLOU kasvaa
+      en: FLOU grows
   - year: 2019
     events:
       - event:
@@ -110,38 +103,45 @@ timeline:
     yeardescription:
       fi: FLOU työskentelee ulkomailla
       en: FLOU takes projects abroad
-  - year: 2018
+  - year: 2020
     events:
       - event:
-          fi: Liikennesuunnittelija, IT-guru, matemaatikko ja valtiotieteilijä ratkovat
-            liikennejärjestelmän haasteita jo 26 eri projektissa, jotka
-            ulottuvat Tartosta Vieremälle. Yhteistyö tiedemaailman kanssa
-            vahvistuu, kun FLOU valitaan vetämään 12 hankepartnerin tutkimusta
-            liikenteen maankäyttövaikutuksista.
-          en: A transportation planner, an IT guru, a mathematician and a political
-            scientist have tackled the challenges of the transport system in 26
-            different projects already, from Tartu to Vieremä. Collaboration
-            with academia is strengthened when FLOU is selected to lead a study
-            on the land-use impacts of transport with 12 project partners.
+          fi: Voitamme tarjouskilpailun Tallinnan seudun joukkoliikenteen suunnittelusta.
+            Ensimmäinen allianssiprojektimme käynnistyy Kalasatamasta Pasilaan
+            -hankkeen muodossa liikennesuunnittelun, vastuullisuuden ja
+            riskienhallinnan parissa. Muutto Hietalahdenrantaan suurempiin
+            tiloihin.
+          en: We win the tender for the planning of public transport in the Tallinn
+            region. Our first alliance project starts with the Kalasatama to
+            Pasila tramway -project, focusing on transport planning,
+            sustainability and risk management. Our office moves into larger
+            premises in Hietalahdenranta.
     yeardescription:
-      fi: FLOU kasvaa
-      en: FLOU grows
-  - year: 2017
+      fi: Uusi toimisto
+      en: A new office
+  - year: 2021
     events:
       - event:
-          fi: Yhdessä HSL:n kanssa selvitetään liikenteen uusien palvelujen ja
-            yhteiskäyttöautoautojen roolia yhteiskunnassa. Vaikutusarvioinnin
-            eri näkökulmat korostuvat omaisuudenhallintaa ja liikennehankkeiden
-            hankearviointia käsittelevissä kehittämistöissä, joita tehdään
-            yhdessä Liikenneviraston kanssa. Robottiautokokeilu SOHJOA Baltic
-            alkaa kuudessa kaupungissa.
-          en: Together with HSL, the role of new transport services and car sharing in
-            society are explored. The different perspectives of impact
-            assessment will be highlighted in the development work on asset
-            management and project appraisal of transport projects, carried out
-            in cooperation with the Finnish Transport Agency. The SOHJOA Baltic
-            robot car trial starts in six cities.
+          fi: Selvitämme lentoveron vaikutuksia. Älyliikennerintamalla suunnitellaan
+            Helsingin seudun ja koko valtakunnan seuraavia toimenpiteitä
+            liikenteen automaation mahdollistamiseksi. Pääsemme hyödyntämään
+            mallinnusosaamistamme mm. alueellisen junaliikenteen,
+            paloasemaverkoston, kanavien vedenkorkeuden ja ratojen
+            käyttäjämaksujen arvioinnissa.
+          en: We examine the impact of the air travel tax. On the smart mobility front,
+            the Helsinki Region and the whole country are planning the next
+            steps to enable transport automation. We get to use our modelling
+            expertise to assess regional rail traffic, fire station networks,
+            canal water levels and railway user charges, among other things.
     yeardescription:
-      fi: Ensimmäiset selvitystyöt
-      en: First projects
+      fi: Projektien määrä kasvaa
+      en: The number of projects grows
+  - year: 2022
+    events:
+      - event:
+          fi: "Maaliskuussa 2022 alussa FLOUlaisia on jo 12. "
+          en: In March of 2022 there are 12 people working at FLOU
+    yeardescription:
+      fi: FLOU laajenee
+      en: FLOU expands
 ---
