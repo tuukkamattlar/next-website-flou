@@ -44,12 +44,12 @@ timeline:
             kantakaupungin joukkoliikenteen suunnitelmia, rataliikenteen
             ohjauksen palveluita ja kehitetään liikkuminen palveluna -konseptin
             tietoarkkitehtuuria. "
-          en: "FLOU is founded to solve issues related to the Transport System. In-house
-            development work on analytics for new mobility services begins. The
-            first customer projects will analyze public transportation plans for
-            the Helsinki metropolitan area, rail traffic management services and
-            develop the information architecture for the Mobility as a Service
-            concept. "
+          en: "FLOU is founded to solve issues related to the transportation system.
+            In-house development work on analytics for new mobility services
+            begins. The first customer projects will analyze public
+            transportation plans for the Helsinki metropolitan area, rail
+            traffic management services and develop the information architecture
+            for the Mobility as a Service concept. "
   - year: 2017
     events:
       - event:
