@@ -52,6 +52,7 @@ const getUserTweets = async () => {
       hasNextPage = false;
     }
   }
+  
 
   return userTweets;
 };
