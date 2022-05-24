@@ -4,3 +4,9 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "/get_tweets"
+  to = "/.netlify/functions/twitter"
+  status = 200
+  force = true
