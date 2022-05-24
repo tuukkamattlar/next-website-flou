@@ -138,13 +138,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.viivatanim();
-	this.instance.setTransform(1982.1,961.95,1,1,0,0,0,1982.1,1750);
+	this.instance.setTransform(1552.05,1302,0.5383,0.5383,0,0,0,1982.1,1749.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.animfull, new cjs.Rectangle(0,0,2694.5,2711.9), null);
+}).prototype = getMCSymbolPrototype(lib.animfull, new cjs.Rectangle(485,784.2,1450.5,1459.8), null);
 
 
 // stage content:
@@ -169,7 +169,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(153,-263.7,2054.5,2311.7999999999997);
+p.nominalBounds = new cjs.Rectangle(638,520.5,810.5,1059.8);
 // library properties:
 lib.properties = {
 	id: '9B5EAC1AB2D149FF830E191C51C20FE6',
