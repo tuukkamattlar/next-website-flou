@@ -65,7 +65,11 @@ timeline:
             -hankkeen muodossa liikennesuunnittelun, vastuullisuuden ja
             riskienhallinnan parissa. Muutto Hietalahdenrantaan suurempiin
             tiloihin.
-          en: english
+          en: We win the tender for the planning of public transport in the Tallinn
+            region. Our first alliance project starts with the Kalasatama to
+            Pasila tramway -project, focusing on transport planning,
+            sustainability and risk management. Our office moves into larger
+            premises in Hietalahdenranta.
     yeardescription:
       fi: Uusi toimisto
       en: A new office
@@ -78,7 +82,13 @@ timeline:
             päästöjen vähentämiseksi. Selvitämme maan arvon hyödyntämistä
             liikenteen rahoituskeinona. Kehitämme liikenteen sosiaalisten
             vaikutusten arviointia yhdessä HSL:n kanssa.
-          en: english
+          en: The objectives of transport policy emphasise the different aspects of an
+            increasingly holistic sustainability. Congestion charges, low
+            emission zones and electrification of the road network are being
+            explored as measures to reduce transport emissions. We will explore
+            the use of land value as a means of financing transport. We will
+            develop social impact assessments for transport in cooperation with
+            HSL.
     yeardescription:
       fi: FLOU työskentelee ulkomailla
       en: FLOU takes projects abroad
@@ -90,7 +100,11 @@ timeline:
             ulottuvat Tartosta Vieremälle. Yhteistyö tiedemaailman kanssa
             vahvistuu, kun FLOU valitaan vetämään 12 hankepartnerin tutkimusta
             liikenteen maankäyttövaikutuksista.
-          en: in english
+          en: A transportation planner, an IT guru, a mathematician and a political
+            scientist have tackled the challenges of the transport system in 26
+            different projects already, from Tartu to Vieremä. Collaboration
+            with academia is strengthened when FLOU is selected to lead a study
+            on the land-use impacts of transport with 12 project partners.
     yeardescription:
       fi: FLOU kasvaa
       en: FLOU grows
@@ -98,12 +112,17 @@ timeline:
     events:
       - event:
           fi: Yhdessä HSL:n kanssa selvitetään liikenteen uusien palvelujen ja
-            yhteiskäyttöautoautojen roolia yhdyskunnassa. Vaikutusarvioinnin eri
-            näkökulmat korostuvat omaisuudenhallintaa ja liikennehankkeiden
+            yhteiskäyttöautoautojen roolia yhteiskunnassa. Vaikutusarvioinnin
+            eri näkökulmat korostuvat omaisuudenhallintaa ja liikennehankkeiden
             hankearviointia käsittelevissä kehittämistöissä, joita tehdään
             yhdessä Liikenneviraston kanssa. Robottiautokokeilu SOHJOA Baltic
             alkaa kuudessa kaupungissa.
-          en: english
+          en: Together with HSL, the role of new transport services and car sharing in
+            society are explored. The different perspectives of impact
+            assessment will be highlighted in the development work on asset
+            management and project appraisal of transport projects, carried out
+            in cooperation with the Finnish Transport Agency. The SOHJOA Baltic
+            robot car trial starts in six cities.
     yeardescription:
       fi: Ensimmäiset selvitystyöt
       en: First projects
@@ -119,5 +138,10 @@ timeline:
             kantakaupungin joukkoliikenteen suunnitelmia, rataliikenteen
             ohjauksen palveluita ja kehitetään liikkuminen palveluna -konseptin
             tietoarkkitehtuuria. "
-          en: in english
+          en: "FLOU is founded to solve issues related to the Transport System. In-house
+            development work on analytics for new mobility services begins. The
+            first customer projects will analyze public transportation plans for
+            the Helsinki metropolitan area, rail traffic management services and
+            develop the information architecture for the Mobility as a Service
+            concept. "
 ---
