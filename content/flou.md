@@ -67,7 +67,7 @@ timeline:
             in cooperation with the Finnish Transport Agency. The SOHJOA Baltic
             robot car trial starts in six cities.
     yeardescription:
-      fi: Ensimmäiset selvitystyöt
+      fi: FLOUn ensimmäiset selvitystyöt
       en: First projects
   - year: 2018
     events:
