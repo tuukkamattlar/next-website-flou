@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: 30vw;
+  height: 40vw;
   min-height: 300px;
   max-height: 500px;
 }
@@ -30,6 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
 }
 
 .title > h1 {
