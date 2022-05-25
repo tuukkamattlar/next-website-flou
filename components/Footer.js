@@ -11,18 +11,17 @@ export default function Footer() {
       <footer id="footer" className={styles.footer}>
         <div className={styles['row-centered']}>
           <div className={styles['col-left'] + ' ' + styles['footerbox']}>
+            
+          <img src="/img/logo-white-1.svg" height="50" style={{ cursor: 'pointer' }} className={styles['footerlogo'] } />
             <p>
-              FLOU
-              <br />
+             
               <a href="https://goo.gl/maps/BPSCtrcfcuUDTqcF6">
                 Köydenpunojankatu 2a D,
                 <br />
                 00180 Helsinki
               </a>
             </p>
-          </div>
-          <div className={styles['col-centered'] + ' ' + styles['footerbox']}>
-            <p>
+             <p>
               <a href="https://twitter.com/flou_ltd">
                 <img src="/img/twitter-white.svg" />
               </a>
@@ -30,15 +29,19 @@ export default function Footer() {
                 <img src="/img/linkedin.png" />
               </a>
             </p>
-          </div>
-          <div className={styles['col-right'] + ' ' + styles['footerbox']}>
-            <p>
+             <p>
               <Link href={'/media'}>MEDIA</Link>
               <br />
               <Link href={'/jobs'}>TYÖPAIKAT</Link>
               <br />
               <Link href={'/yhteystiedot'}>YHTEYSTIEDOT</Link>
             </p>
+          </div>
+          <div className={styles['col-centered'] + ' ' + styles['footerbox']}>
+           
+          </div>
+          <div className={styles['col-right'] + ' ' + styles['footerbox']}>
+           
           </div>
         </div>
       </footer>

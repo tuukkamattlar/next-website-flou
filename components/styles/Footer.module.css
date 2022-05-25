@@ -1,5 +1,5 @@
 .footer {
-  width: 90vw;
+  width: 100vw;
   height: 50vh;
 
   background-color: rgb(0, 0, 0);
@@ -10,13 +10,14 @@
   display: flex;
    scroll-snap-align: start;
    font-size: 1.2rem;
-   margin-left: 5vw;
-   margin-right: 5vw;
+  
+     background: #292442 url('/img/footer-hires.png') no-repeat right;
+  background-size: contain;
+  /*  background: rgb(85,162,170); */
+  color: #efebe1;
 }
 
-.logo {
 
-}
 
 /* centered columns styles */
 .row-centered {
@@ -50,14 +51,7 @@
   background: #efebe1;
   min-height: 600px;
 }
-.footer {
-  background: #292442;
-  /*  background: rgb(85,162,170); */
-  color: #efebe1;
- 
 
-
-}
 
 .footer a {
   color: #efebe1;
@@ -79,6 +73,11 @@
   cursor: pointer;
   transition: all 0.2s;
   filter: invert(25%) sepia(39%) saturate(182%) hue-rotate(301deg) brightness(106%) contrast(90%);
+}
+
+.footer img.footerlogo {
+  width: 20vw;
+  height: auto;
 }
 
 .media {
