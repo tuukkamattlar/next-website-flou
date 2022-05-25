@@ -5,12 +5,10 @@ import { Button, Drawer, Icon, Menu, MenuDivider, MenuItem, Position } from '@bl
 import { PageContext } from 'pages/_app';
 import { useContext, useState } from 'react';
 import styles from './styles/Navbar.module.css';
-import useWindowSize from '@components/hooks/useWindowSize'
 
 export default function NavBar() {
   const { lan, setLan } = useContext(PageContext);
   const [drawerOpen, setDrawer] = useState(false);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const router = useRouter();
 
   // imo vois hardcodaa nää tänne,
@@ -63,27 +61,35 @@ export default function NavBar() {
     );
   });
 
-  if (typeof window === "undefined") { 
-    /* we're on the server */ 
-  }  else {
-      let firstHandlerScroll = debounce(handleScroll, 20);
-      window.addEventListener('scroll',firstHandlerScroll);
-      var scroller = document.getElementById('__next');
-      scroller.addEventListener('scroll',firstHandlerScroll);
+  if (typeof window === "undefined") { /* we're on the server */ }
 
-      function handleScroll(){
-        let scrollPosition = scroller.pageYOffset || scroller.scrollY || scroller.scrollTop ;
-        let scrollPosition2 = window.pageYOffset || window.scrollY || window.scrollTop ;
-        if(scrollPosition >=50 || scrollPosition2 >=50){
+    else {
+
+let firstHandlerScroll = debounce(handleScroll, 20);
+window.addEventListener('scroll',firstHandlerScroll);
+var scroller = document.getElementById('__next');
+scroller.addEventListener('scroll',firstHandlerScroll);
+
+function handleScroll(){
+      let scrollPosition = scroller.pageYOffset || scroller.scrollY || scroller.scrollTop ;
+       let scrollPosition2 = window.pageYOffset || window.scrollY || window.scrollTop ;
+      
+       if(scrollPosition >=50 || scrollPosition2 >=50){
+        
          /* add scrolled class to nav */
+
+
           var element = document.getElementsByClassName(styles.mainNav);
           element[0].classList.add(styles.scrolled);
-         //console.log('more than 50 ' +element[0].classList);
-        } else {
+
+   console.log('more than 50 ' +element[0].classList);
+       } 
+       else {
          console.log('less than 50');
-          var element = document.getElementsByClassName(styles.mainNav);
-          element[0].classList.remove(styles.scrolled);
-        }
+      
+        var element = document.getElementsByClassName(styles.mainNav);
+        element[0].classList.remove(styles.scrolled);
+         }
    }
    
    function debounce(fn, delay) {
@@ -98,60 +104,12 @@ export default function NavBar() {
 
 }
 
+
+  
+
+
   return (
     <>
-      {useWindowSize().width > 900 
-    ? 
-      <div className={styles.mainNav}>
-        <div className={styles.logo}>
-          <Link href={'/'}>
-            <img src="/img/logo-white-1.svg"  style={{ cursor: 'pointer' }} />
-          </Link>
-        </div>
-        <div className={styles.links}>
-          <nav>
-            {pages.map((val, i) => (
-              <Link key={i} href={val.to} passHref>
-                <a>{val[lan]}</a>
-              </Link>
-            ))}
-            <a key="fi" onClick={() => setLan('fi')} disabled={lan === 'fi'}>FI</a>
-            <a key="en" onClick={() => setLan('en')} disabled={lan === 'en'}>EN</a>
-          </nav>
-        </div>
-      </div>
-    : 
-      <div className={styles.mainNav}>
-        <div className={styles.mobileLogos}>
-          <Link href={'/'}>
-            <img src="/img/logo-white-1.svg" height="50" style={{ cursor: 'pointer' }} />
-          </Link>
-          <button  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-            <img src="/img/bars-waves.svg" className={styles.waves} />
-          </button>
-        </div>
-        <div className={mobileMenuOpen ? styles.mobileVisible : styles.mobileHidden}>
-          {pages.map((val, i) => (
-                <Link key={i} href={val.to} passHref>
-                  <a >{val[lan]}</a>
-                </Link>
-          ))}
-          <a key="fi" onClick={() => {setLan('fi');setMobileMenuOpen(!mobileMenuOpen)}} disabled={lan === 'fi'} >FI</a>
-          <a key="en" onClick={() => {setLan('en'); setMobileMenuOpen(!mobileMenuOpen)}} disabled={lan === 'en'} >EN</a>
-        </div>
-      </div>
-    }
-    </>
-  );
-}
-
-
-
-
-{/**
-
-
-
       <Drawer
         isOpen={drawerOpen}
         title={
@@ -206,4 +164,11 @@ export default function NavBar() {
           </Button>
         </div>
       </div>
-*/}
+    </>
+  );
+}
+
+
+
+
+

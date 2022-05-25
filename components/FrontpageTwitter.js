@@ -1,39 +1,36 @@
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import { useContext, useEffect, useRef, useState } from 'react';
-import styles from '@components/styles/Home.module.css';
-import general from '@components/styles/FrontpageGeneral.module.css'
-import twitter from '@components/styles/Twitter.module.css'
+import general from '@components/styles/FrontpageGeneral.module.css';
+import twitter from '@components/styles/Twitter.module.css';
 import useWindowSize from '@components/hooks/useWindowSize';
-
-
+import twitterSample from '@components/twitterSample.json'
 
 export default function FrontpageTwitter() {
   const size = useWindowSize();
   const ref = useRef();
-  const [twitterHeight, setTwitterHeight] = useState(1000);
-  const setHeightTweetsDiv = () => {
-    const height = ref?.current?.clientHeight;
-    setTwitterHeight(height);
-  };
+  const [tweets, setTweets] = useState([]);
   useEffect(() => {
-    setHeightTweetsDiv();
-  }, [size.width]);
-  const twitterProps = {
-    sourceType: 'profile',
-    screenName: 'flou_ltd',
-    options: { width: 500 },
-    noHeader: true,
-    noFooter: true,
-    autoHeight: true,
-    transparent: true
-  };
+    try {
+      fetch('/get_tweets')
+      .then((response) => response.json())
+      .then((data) => {
+        setTweets(data);
+      });
+    } catch(error) {
+      console.log("Twitter connection down...")
+    }
+  }, []);
+
   return (
     <div className={general.pageHeightBox}>
-      <div className={styles.newscontainer}>
-      <h1>Twitter TODO</h1>
-        <div className={styles.twittercontainer} style={{ height: twitterHeight }}>
-            {size.width > 1250 ? <TwitterTimelineEmbed {...twitterProps} className={twitter.main}/> : ''}
-        </div>
+      Twitter
+      <div className={twitter.twittercontainer}>
+        {/**local testing: replace "tweets" with "twitterSample" */}
+        {tweets.map((tweet) => (
+          <div>
+            <a>{tweet.created_at.split('T')[0]}</a>
+            <p>{tweet.text}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
