@@ -191,11 +191,16 @@ transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
 
 /* NEW PART */
 
+#mobilemenu {
+  transition: opacity 0.5s linear;
+}
+
 .mobileHidden {
-  display: none !important;
+  height: 0!important;
   position: absolute;
   bottom: 100vh;
   left: 0px;
+  opacity: 0;
 }
 
 .mobileVisible {
@@ -204,10 +209,11 @@ transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
   top: 0px;
   left: 0px;
   overflow: hidden;
-  height: 100vh;
+  height: 100vh!important;
+  opacity: 1;
   width: 100vw;
   z-index: +1;
-  transition: all 1s ease-out;
+ transition: opacity 0.2s linear;
   text-align: center;
   padding-top: 0px;
   position: fixed;

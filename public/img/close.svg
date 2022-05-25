@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-<g><path  stroke="#ffffff" fill="#ffffff" d="M990,114.3L885.6,10.1L500,395.7L114.4,10.1L10,114.3l385.9,385.6L10,885.7l104.4,104.1L500,604.3l385.6,385.6L990,885.7L604.1,499.9L990,114.3z"/></g>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.7714;}
+</style>
+<g>
+	<path class="st0" d="M878,202.5l-80.5-80.4L500,419.5L202.5,122.1L122,202.5l297.7,297.5L122,797.5l80.5,80.3L500,580.5
+		l297.5,297.5l80.5-80.4L580.3,499.9L878,202.5z"/>
+</g>
 </svg>

@@ -130,7 +130,7 @@ export default function NavBar() {
             <img src={ mobileMenuOpen ? "/img/close.svg" :"/img/bars-waves.svg"} className={styles.waves} />
           </button>
         </div>
-        <div className={mobileMenuOpen ? styles.mobileVisible : styles.mobileHidden} onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+        <div id="mobilemenu" className={mobileMenuOpen ? styles.mobileVisible : styles.mobileHidden} onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
           {pages.map((val, i) => (
                 <Link key={i} href={val.to} passHref >
                   <a >{val[lan]}</a>
