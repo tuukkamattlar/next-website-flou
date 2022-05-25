@@ -127,7 +127,7 @@ export default function NavBar() {
             <img src="/img/logo-white-1.svg" height="50" style={{ cursor: 'pointer' }} />
           </Link>
           <button  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-            <img src="/img/bars-waves.svg" className={styles.waves} />
+            <img src={ mobileMenuOpen ? "/img/close.svg" :"/img/bars-waves.svg"} className={styles.waves} />
           </button>
         </div>
         <div className={mobileMenuOpen ? styles.mobileVisible : styles.mobileHidden}>
