@@ -15,9 +15,9 @@ import { attributes as categories} from '../content/competences_list.md';
 // styles
 import GeneralCSS from '@components/general_components/styles/General.module.css'
 
-export default function Projects({ lan }) {
+export default function Skills({ lan }) {
     return(
-        <>
+        <div className='skillsPage'>
             <SEO 
                 title={'FLOU - '+competences.title[lan]} 
                 OGimage={seoContent.OGPimg} 
@@ -43,6 +43,6 @@ export default function Projects({ lan }) {
                     lan = {lan}
                 />
             </div>
-        </>
+        </div>
     )
   }

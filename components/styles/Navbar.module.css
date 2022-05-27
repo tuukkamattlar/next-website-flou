@@ -25,11 +25,11 @@
   margin-left: 5vw;
   margin-right: 5vw;
   margin-top: 30px;
-   position: relative;
+  position: relative;
   z-index: 9999;
   background-color: #29244!important;
-   position: fixed;
-   transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
+  position: fixed;
+  transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);;
 }
 
 .logo {

@@ -13,6 +13,16 @@
     padding-top: 20px;
 }
 
+.jobListing {
+    margin: auto;
+    max-width: 800px;
+}
+
+.contact {
+    margin: auto;
+    max-width: 800px;
+    padding-bottom: 40px;
+}
 
 /* FOR SMALL (<600px) SCREENS */
 @media only screen and (max-width: 800px) {

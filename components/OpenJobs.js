@@ -3,6 +3,9 @@ import Link from 'next/link'
 import Markdown from 'markdown-to-jsx';
 import { attributes } from '../content/job_openings.md';
 
+import GeneralCSS from '@components/general_components/styles/General.module.css'
+import JobCSS from '@components/styles/Job.module.css'
+
 export default function OpenJobs({lan }) {
   function timeStampper(input){
     if(!input){
@@ -15,9 +18,9 @@ export default function OpenJobs({lan }) {
     return(output)
   }
   return (
-      <div >
+      <div className={GeneralCSS.container}>
         {attributes.openings.map((value, key) => (
-          <div key={key}>
+          <div key={key} className={JobCSS.jobListing}>
             <h3>{value.title[lan]}</h3>
             <h4>{timeStampper(value.timeperiod.starttime)} - {timeStampper(value.timeperiod.endtime)}</h4>
             <Markdown >{value.description[lan]}</Markdown>

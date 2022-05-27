@@ -17,7 +17,7 @@ import GeneralCSS from '@components/general_components/styles/General.module.css
 
 export default function Contact({ lan }) {
     return(
-        <>
+        <div className='contactPage'>
             <SEO 
                 title={'FLOU - '+contact.title[lan]} 
                 OGimage={seoContent.OGPimg} 
@@ -40,7 +40,7 @@ export default function Contact({ lan }) {
                 />
                 <ContactInfoLinks item={contact} lan={lan}/>
             </div>
-        </>
+        </div>
     )
   }
   

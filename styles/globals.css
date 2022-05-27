@@ -152,7 +152,7 @@ p {
   min-height: 50vh;
 }
 
-
+/****************************************************************/
 /* PAGE SPECIFIC  */
 
 /* HOMEPAGE (scroll snap applied through homeLayout) */
@@ -171,8 +171,45 @@ p {
 /* FLOU  */
 
 .flouPage {
-  padding: 0px;
-  margin: 0px;
+
 }
 
 /* SKILLS  */
+
+.skillsPage {
+
+}
+
+.skillSubPage {
+
+}
+
+/* BLOGS */
+
+.blogsPage {
+
+}
+
+.singleBlogPage {
+
+}
+
+/* TEAM  */
+
+.flouPage {
+}
+
+/* CONTACT  */
+.contactPage {
+
+}
+
+/* JOB PAGE */
+
+.jobPage {
+
+}
+
+.mediaPage {
+  
+}

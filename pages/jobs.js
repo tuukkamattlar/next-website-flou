@@ -9,19 +9,22 @@ import { attributes } from '../content/job_description.md';
 
 // Styles
 import GeneralCSS from '@components/general_components/styles/General.module.css'
+import JobCSS from '@components/styles/Job.module.css'
 
 export default function Jobs({ lan }) {
   return (
-    <div className={GeneralCSS.container}>
+    <div className='jobPage'>
       <GeneralHeader title={attributes.title} img={attributes.headerIMG} lan={lan} description={''} />
+      <div className={GeneralCSS.container}>
         <FullWidthTextModule 
           text={attributes.description}
           lan = {lan}
         />
         <OpenJobs lan={lan}/>
-        <div>
+        <div className={JobCSS.contact}>
           <Markdown>{attributes.contact[lan]}</Markdown>
         </div>
+      </div>
     </div>
   );
 }

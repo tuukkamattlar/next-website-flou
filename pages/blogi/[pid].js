@@ -44,7 +44,7 @@ export default function SingleBlog({ lan }) {
     ]
 
     return(
-        <>
+        <div className='singleBlogPage'>
             <div className={GeneralCSS.container}>
                 { 
                 loading
@@ -66,6 +66,6 @@ export default function SingleBlog({ lan }) {
                 </>
                 }
             </div>
-        </>
+        </div>
     )
 }

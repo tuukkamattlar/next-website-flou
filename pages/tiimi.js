@@ -13,7 +13,7 @@ import GeneralCSS from '@components/general_components/styles/General.module.css
 
 export default function Tiimi({lan}) {
     return(
-        <>
+        <div className='teamPage'>
             <SEO 
                 title={'FLOU - '+team.title[lan]} 
                 OGimage={seoContent.OGPimg} 
@@ -25,6 +25,6 @@ export default function Tiimi({lan}) {
             <div className={GeneralCSS.container}>
                 <TeamList items={team.persons} lan={lan}/>
             </div>
-        </>
+        </div>
     )
   }

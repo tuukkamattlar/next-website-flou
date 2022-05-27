@@ -46,7 +46,7 @@ export default function SkillArea({ lan }) {
     });
     return(
         loading ? 
-        <>
+        <div className='skillSubPage'>
             <GeneralHeader title={{en: '', fi: ''}} img={''} lan={lan} description={''}/>
             <div className={GeneralCSS.container}>
                 <TitleModule 
@@ -54,10 +54,10 @@ export default function SkillArea({ lan }) {
                     lan={lan}
                 />
             </div>
-        </>
+        </div>
 
         :
-        <>
+        <div className='skillSubPage'>
             <SEO 
                 title={'FLOU - '+skillarea.title["fi"]} 
                 OGimage={seoContent.OGPimg.replace("](img/", "](../img/")} 
@@ -87,6 +87,6 @@ export default function SkillArea({ lan }) {
                     lan={lan}
                 />
             </div>
-        </>
+        </div>
     )
   }

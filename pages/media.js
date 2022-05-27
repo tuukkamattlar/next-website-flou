@@ -11,6 +11,7 @@ import styles from '../components/styles/Media.module.css';
 export default function Media({ lan }) {
   let { title, headerIMG, description, items } = attributes;
   return (
+    <div className='mediaPage'>
     <div className={GeneralCSS.container}>
       <GeneralHeader title={title} img={headerIMG} lan={lan} description={description} />
       <div className={styles.frame}>
@@ -77,6 +78,7 @@ export default function Media({ lan }) {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

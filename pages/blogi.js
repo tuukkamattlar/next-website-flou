@@ -14,7 +14,7 @@ import GeneralCSS from '@components/general_components/styles/General.module.css
 
 export default function Blogi({ lan }) {
   return (
-    <>
+    <div className='blogsPage'>
       <SEO 
           title={'FLOU -'+blogs.title[lan]} 
           OGimage={seoContent.OGPimg} 
@@ -30,6 +30,6 @@ export default function Blogi({ lan }) {
         />
         <BlogBoxes lan={lan} />
       </div>
-    </>
+    </div>
   );
 }
