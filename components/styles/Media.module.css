@@ -4,26 +4,32 @@
 }
 
 .content {
-  width: 100vw;
+  width: 100%;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1400px;
 }
 
 .media {
-padding: 5vw;
+  padding: 20px;
   width: 90vw;
-  margin: 5vw;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
 }
+
 .black {
-  background: #efebe1;
   color: #000000;
 }
 .plum {
-  background: #efebe1;
   color: #292442;
 }
 .powder {
   background: #292442;
-  color: #efebe1;
+  color: #ffffff;
 }
 .white {
   background: #292442;
@@ -31,10 +37,10 @@ padding: 5vw;
 }
 
 .media img {
-  width: 80vw;
-  height: auto;
-  padding: 2vw;
-  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+  height: 100px;
+  max-width: 100%;
   
 }
 
