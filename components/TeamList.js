@@ -62,7 +62,7 @@ function TeamItem({ item, lan }) {
           { !showPhone ?
             <a onClick={() => setShowPhone(!showPhone)}>{phoneText[lan]}</a>
             :
-            <a onClick={() => setShowPhone(!showPhone)}>{item.phone}</a>
+            <a onClick={() => copyToClipboard(!showPhone)}>{item.phone}</a>
           }
           {
             !showEmail ?
