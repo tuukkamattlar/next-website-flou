@@ -1,8 +1,9 @@
 import { useContext, useEffect, useRef, useState } from 'react';
 import general from '@components/styles/FrontpageGeneral.module.css';
-import twitter from '@components/styles/Twitter.module.css';
+import twitterCSS from '@components/styles/Twitter.module.css';
 import useWindowSize from '@components/hooks/useWindowSize';
 import twitterSample from '@components/twitterSample.json'
+import Link from 'next/link';
 
 export default function FrontpageTwitter() {
   const size = useWindowSize();
@@ -20,18 +21,28 @@ export default function FrontpageTwitter() {
     }
   }, []);
 
+
   return (
     <div className={general.pageHeightBox}>
-      Twitter
-      <div className={twitter.twittercontainer}>
-        {/**local testing: replace "tweets" with "twitterSample" */}
-        {tweets.map((tweet) => (
-          <div>
-            <a>{tweet.created_at.split('T')[0]}</a>
-            <p>{tweet.text}</p>
-          </div>
-        ))}
+      <div className={twitterCSS.container}>
+        <div className={twitterCSS.twittercontainer}>
+          {/**local testing: replace "tweets" with "twitterSample" */}
+          {tweets.slice(0,10).map((tweet) => (
+          <TwitterBox tweet={tweet}/>
+          ))}
+        </div>
       </div>
     </div>
   );
+}
+
+function TwitterBox({tweet}) {
+  return(
+    <Link href={'https://twitter.com/FLOU_ltd/status/'+tweet.id}>
+      <div className={twitterCSS.boxContainer}>
+        <a>{tweet.created_at.split('T')[0]}</a>
+        <p>{tweet.text}</p>
+      </div>
+    </Link>
+  )
 }
