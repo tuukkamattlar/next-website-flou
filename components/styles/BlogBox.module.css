@@ -32,7 +32,6 @@
 .box {
   width: 36vw;
   height: 20vw;
-  max-height: 300px;
   position: relative;
   padding: 0px;
   overflow: hidden;
