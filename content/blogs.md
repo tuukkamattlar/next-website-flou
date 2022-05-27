@@ -3,22 +3,12 @@ title:
   fi: Blogit
   en: Blogs
 description:
-  fi: >-
-    
-
-    Teemme jatkuvasti töitä uusien haasteiden kanssa. Osasta projekteistamme kirjoitamme myös lyhyitä blogitekstejä, joiden kautta toimintaamme ja osaamiseemme voi tutustua paremmin.
-
-
-    Lisää
-  en: >-
-    We are constantly working on new challenges. We write blogposts from some of
+  fi: Teemme jatkuvasti töitä uusien haasteiden kanssa. Osasta projekteistamme
+    kirjoitamme myös lyhyitä blogitekstejä, joiden kautta toimintaamme ja
+    osaamiseemme voi tutustua paremmin.
+  en: We are constantly working on new challenges. We write blogposts from some of
     our projects, which offer a better look into our work and areas of
-    expertise. 
-
-
-    \
-
-    Another
+    expertise.
 headerIMG: img/pexels-aleksejs-bergmanis-681335.jpg
 blogs:
   - img: img/pexels-inga-seliverstova-3243241.jpg
