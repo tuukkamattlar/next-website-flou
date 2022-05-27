@@ -37,8 +37,8 @@ function TeamItem({ item, lan }) {
   const [showPhone, setShowPhone] = useState(false)
   const [showEmail, setShowEmail] = useState(false)
 
-  const phoneText = {en: 'Show phone', fi: 'Näytä puhelin'}
-  const emailText = {en: 'Show email', fi: 'Näytä sähköposti'}
+  const phoneText = {en: 'Show and copy phone', fi: 'Näytä ja kopioi puhelin'}
+  const emailText = {en: 'Show and copy email', fi: 'Näytä ja kopioi sähköposti'}
 
   const copyToClipboard = (text) => navigator.clipboard.writeText(text);
   return(
@@ -60,13 +60,13 @@ function TeamItem({ item, lan }) {
         <p>{item.description[lan]}</p>
         <div className={teamstyles.contact}>
           { !showPhone ?
-            <a onClick={() => setShowPhone(!showPhone)}>{phoneText[lan]}</a>
+            <a onClick={() => {setShowPhone(!showPhone); copyToClipboard(item.phone)}}>{phoneText[lan]}</a>
             :
             <a onClick={() => copyToClipboard(!showPhone)}>{item.phone}</a>
           }
           {
             !showEmail ?
-            <a onClick={() => {setShowEmail(!showEmail)}}>{emailText[lan]}</a>
+            <a onClick={() => {setShowEmail(!showEmail); copyToClipboard(item.email)}}>{emailText[lan]}</a>
             :
             <a onClick={() => {copyToClipboard(item.email)}}>{item.email}</a>
           }
