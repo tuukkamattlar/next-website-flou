@@ -15,9 +15,11 @@ import GeneralCSS from '../components/general_components/styles/General.module.c
 
 
 export default function Flou({ lan }) {
+
     const titleCompany = {fi: "Yrityksenä", en: "As a company"}
+
     return(
-        <>
+        <div className='flouPage'>
             <SEO 
                 title={'FLOU - '+titleCompany[lan]} 
                 OGimage={seoContent.OGPimg} 
@@ -40,7 +42,7 @@ export default function Flou({ lan }) {
                     />
                 <FlouHistory item={flou} lan={lan}/>
             </div>
-        </>
+        </div>
     )
   }
   

@@ -1,17 +1,15 @@
 .footer {
-  width: 100vw;
+  width: 100%;
   height: 50vh;
-
   background-color: rgb(0, 0, 0);
   color: aliceblue;
   justify-content: center;
   align-items: center;
   text-align: center;
   display: flex;
-   scroll-snap-align: start;
-   font-size: 1.2rem;
-  
-     background: #292442 url('/img/footer-hires.png') no-repeat right;
+  scroll-snap-align: start;
+  font-size: 1.2rem;
+  background: #292442 url('/img/footer-hires.png') no-repeat right;
   background-size: contain;
   /*  background: rgb(85,162,170); */
   color: #efebe1;
@@ -43,7 +41,6 @@
 }
 .footerbox {
   width: 30vw;
- 
   vertical-align: top;
 }
 

@@ -12,15 +12,11 @@ export default function HomeAnimation({ src, className }) {
     return (
       <iframe
         style={{
-         
-       
-       
           height: '100vh',
           width: '100vw',
           padding: '0px',
           bottom: '0px',
-       
-        
+          border: '0',
         }}
         src={src}
       />

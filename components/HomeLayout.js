@@ -6,12 +6,14 @@ import React from 'react';
 
 export default function HomeLayout({ children }) {
 
+  if (typeof window !== "undefined") { 
+    document.body.classList.add('home');
+  }
+
   return (
     <>
-        
-          {children}
-      
-        <Footer />
+      {children}
+      <Footer />
     </>
   );
 }
