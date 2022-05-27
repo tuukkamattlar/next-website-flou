@@ -26,7 +26,7 @@ export default function Home() {
         keywords={seoContent.keywords}
       />
       <div className='homePage'>
-        <HomeHeaderAndNav title={title[lan]} />
+        <HomeHeaderAndNav title={title[lan]} lan={lan} />
         <FrontpageCompetences lan={lan} />
         <FrontpageNews lan={lan}/>
         <FrontpageTwitter/>

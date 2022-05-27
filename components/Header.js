@@ -6,12 +6,22 @@ import HomeSvg from './HomeSvg';
 import HomeAnimation from './HomeAnimation';
 import styles from './styles/Header.module.css';
 
-export default function HomeHeaderAndNav({ title }) {
-  const placeholderTitle = (
-    <span>
-      Tarjoamme palveluita <span className={styles.highlight}>liikennejärjestelmiin ja riskienhallintaan</span> liittyvän päätöksenteon tueksi
-    </span>
-  );
+export default function HomeHeaderAndNav({ title, lan }) {
+  const placeholderTitle = {
+    fi: (<span>
+          Tarjoamme palveluita <span className={styles.highlight}>liikennejärjestelmiin ja riskienhallintaan</span> liittyvän päätöksenteon tueksi
+        </span>),
+    en: (<span>
+          We offer services for <span className={styles.highlight}>transportation planning management and risk assessment</span> 
+        </span>)
+  }
+    
+
+  const ourTeam = {fi: "Tutustu meidän tiimiin", en: "Say hi to our team"}
+  const flightTaxes = {
+                  fi: "Lue lentoveroselvityksen tuloksista", 
+                  en: "Read about our assessment on Flight Taxes"
+                }
 
   return (
     <>
@@ -20,17 +30,17 @@ export default function HomeHeaderAndNav({ title }) {
         <NavBar />
         <div className={styles.titlewrapper}>
           <div className={styles.title}>
-            <h1>{placeholderTitle}</h1>
+            <h1>{placeholderTitle[lan]}</h1>
 
             <Link href={'/tiimi'}>
               <h3>
-                Tutustu meidän tiimiin <Icon icon="arrow-right" />
+                {ourTeam[lan]} <Icon icon="arrow-right" />
               </h3>
             </Link>
 
             <Link href={'/blogi/lentovero'}>
               <h3>
-                Lue lentoveroselvityksen tuloksista <Icon icon="arrow-right" />
+                {flightTaxes[lan]} <Icon icon="arrow-right" />
               </h3>
             </Link>
           </div>
