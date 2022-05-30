@@ -17,8 +17,24 @@ collections:
           name: 'title'
           widget: 'object'
           fields:
-          - { label: "Suomeksi", name: "fi", widget: "markdown"}
-          - { label: "In English", name: "en", widget: "markdown"}
+            - label: 'Alkuosa'
+              name: 'firstPart'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
+            - label: 'Korostus'
+              name: 'highlight'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
+            - label: 'Loppuosa'
+              name: 'lastPart'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
         - label: 'Items'
           name: "items"
           widget: list
