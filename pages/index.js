@@ -1,6 +1,6 @@
 import HomeHeaderAndNav from '@components/Header';
 import FrontpageCompetences from '@components/FrontpageCompetences';
-import { attributes, react as HomeContent } from '../content/home.md';
+//import { attributes, react as HomeContent } from '../content/home.md';
 import { useContext, useEffect, useRef, useState } from 'react';
 import { PageContext } from './_app';
 import HomeLayout from '@components/HomeLayout';
@@ -11,7 +11,8 @@ import FrontpageNews from '@components/FrontpageNews';
 import FrontpageTwitter from '@components/FrontpageTwitter';
 
 export default function Home() {
-  const { title, items } = attributes;
+  //const { title, items } = attributes;
+  const title = 'FLOU'
 
   const ref = useRef();
   const { lan } = useContext(PageContext);
