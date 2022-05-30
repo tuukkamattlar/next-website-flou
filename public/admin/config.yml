@@ -9,19 +9,28 @@ collections:
   - name: "Frontpage"
     label: "Etusivu"
     files:
-    - label: "Osa 1"
-      name: "part1"
+    - label: "Etusivun alkunäkymä"
+      name: "homeHeader"
       file: "content/home.md"
       fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Otsikko'
+          name: 'title'
+          widget: 'object'
+          fields:
+          - { label: "Suomeksi", name: "fi", widget: "markdown"}
+          - { label: "In English", name: "en", widget: "markdown"}
         - label: 'Items'
           name: "items"
           widget: list
           fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
+            - label: 'Linkit'
+              name: 'links'
+              widget: 'object'
+              fields:
+              - { label: "Suomeksi", name: "fi", widget: "string"}
+              - { label: "In English", name: "en", widget: "string"}
+              - { label: "URL", name: "url", widget: "string"}
+
 
 
 # FLOU - the company
