@@ -13,7 +13,7 @@ items:
   - links:
       en: Say hi to your team
       fi: Tutustu meidän tiimiin
-      url: /team
+      url: /tiimi
   - links:
       fi: Lue lentoveroselvityksen tuloksista
       en: Read about our assessment on Flight Taxes in Finland
