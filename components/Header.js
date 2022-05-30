@@ -6,22 +6,32 @@ import HomeSvg from './HomeSvg';
 import HomeAnimation from './HomeAnimation';
 import styles from './styles/Header.module.css';
 
-export default function HomeHeaderAndNav({ title, lan }) {
-  const placeholderTitle = {
-    fi: (<span>
-          Tarjoamme palveluita <span className={styles.highlight}>liikennejärjestelmiin ja riskienhallintaan</span> liittyvän päätöksenteon tueksi
-        </span>),
-    en: (<span>
-          We offer services for <span className={styles.highlight}>transportation planning management and risk assessment</span> 
-        </span>)
-  }
-    
+import { attributes as HomeContent } from '../content/home.md';
 
-  const ourTeam = {fi: "Tutustu meidän tiimiin", en: "Say hi to our team"}
-  const flightTaxes = {
-                  fi: "Lue lentoveroselvityksen tuloksista", 
-                  en: "Read about our assessment on Flight Taxes"
-                }
+
+export default function HomeHeaderAndNav({ lan }) {
+  console.log(HomeContent)
+  const headerText = HomeContent.title
+  const linkItems = HomeContent.items
+  const titleItem = {
+    fi: (
+        <span>
+          {headerText.firstPart.fi+" "}
+          <span className={styles.highlight}>
+            {headerText.highlight.fi+" "}
+          </span> 
+          {headerText.lastPart.fi}
+        </span>),
+    en: (
+        <span>
+          {headerText.firstPart.en+" "} 
+          <span className={styles.highlight}>
+            {headerText.highlight.en+" "}
+          </span> 
+          {headerText.lastPart.en}
+        </span>)
+    }
+
 
   return (
     <>
@@ -30,19 +40,14 @@ export default function HomeHeaderAndNav({ title, lan }) {
         <NavBar />
         <div className={styles.titlewrapper}>
           <div className={styles.title}>
-            <h1>{placeholderTitle[lan]}</h1>
-
-            <Link href={'/tiimi'}>
-              <h3>
-                {ourTeam[lan]} <Icon icon="arrow-right" />
-              </h3>
-            </Link>
-
-            <Link href={'/blogi/lentovero'}>
-              <h3>
-                {flightTaxes[lan]} <Icon icon="arrow-right" />
-              </h3>
-            </Link>
+            <h1>{titleItem[lan]}</h1>
+            { linkItems.map((value, key) => (
+              <Link href={value.links.url}>
+                <h3>
+                  {value.links[lan]} <Icon icon="arrow-right" />
+                </h3>
+              </Link>
+              ))}
           </div>
         </div>
       </div>

@@ -1,6 +1,5 @@
 import HomeHeaderAndNav from '@components/Header';
 import FrontpageCompetences from '@components/FrontpageCompetences';
-//import { attributes, react as HomeContent } from '../content/home.md';
 import { useContext, useEffect, useRef, useState } from 'react';
 import { PageContext } from './_app';
 import HomeLayout from '@components/HomeLayout';
@@ -11,23 +10,21 @@ import FrontpageNews from '@components/FrontpageNews';
 import FrontpageTwitter from '@components/FrontpageTwitter';
 
 export default function Home() {
-  //const { title, items } = attributes;
   const title = 'FLOU'
-
   const ref = useRef();
   const { lan } = useContext(PageContext);
  
   return (
     <>
       <SEO 
-        title={'FLOU'} 
+        title={title} 
         OGimage={seoContent.OGPimg} 
         metadata={seoContent.metatags} 
         OGdata={seoContent.ogp}
         keywords={seoContent.keywords}
       />
       <div className='homePage'>
-        <HomeHeaderAndNav title={title[lan]} lan={lan} />
+        <HomeHeaderAndNav lan={lan} />
         <FrontpageCompetences lan={lan} />
         <FrontpageNews lan={lan}/>
         <FrontpageTwitter/>
