@@ -107,7 +107,7 @@ persons:
     name: Pekka Iikkanen
     thumbnail: img/hlokuva.jpg
     phone: "1"
-    visibility: visible
+    visibility: hidden
     role:
       fi: Projektipäällikkö
       en: Project manager
