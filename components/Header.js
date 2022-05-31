@@ -10,7 +10,6 @@ import { attributes as HomeContent } from '../content/home.md';
 
 
 export default function HomeHeaderAndNav({ lan }) {
-  console.log(HomeContent)
   const headerText = HomeContent.title
   const linkItems = HomeContent.items
   const titleItem = {
@@ -42,7 +41,7 @@ export default function HomeHeaderAndNav({ lan }) {
           <div className={styles.title}>
             <h1>{titleItem[lan]}</h1>
             { linkItems.map((value, key) => (
-              <Link href={value.links.url}>
+              <Link href={value.links.url} key={key}>
                 <h3>
                   {value.links[lan]} <Icon icon="arrow-right" />
                 </h3>
