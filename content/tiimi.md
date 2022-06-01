@@ -92,7 +92,7 @@ persons:
     role:
       fi: Projektipäällikkö
       en: Project manager
-    profileIMG: img/pexels-stefan-stefancik-91227.jpg
+    profileIMG: img/christoph.jpg
     email: christoph.krause@flou.io
     description:
       fi: Esim osaa tehdä kaikkea oikein hyvin
