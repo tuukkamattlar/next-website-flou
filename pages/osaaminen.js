@@ -27,10 +27,6 @@ export default function Skills({ lan }) {
             />
             <GeneralHeader title={competences.title} img={competences.headerIMG} lan={lan}/>
             <div className={GeneralCSS.container}>
-                <TitleModule 
-                    title={competences.title} 
-                    lan={lan}
-                />
                 <TextAndImageModule 
                     lan={lan}
                     image={competences.headerIMG} 

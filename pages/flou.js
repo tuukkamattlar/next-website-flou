@@ -29,10 +29,6 @@ export default function Flou({ lan }) {
             />
             <GeneralHeader title={flou.title} img={flou.headerIMG} lan={lan} description={''}/>
             <div className={GeneralCSS.container}>
-                <TitleModule 
-                    title={flou.title} 
-                    lan={lan}
-                />
                 <TextAndImageModule 
                     lan={lan}
                     image={flou.headerIMG} 
