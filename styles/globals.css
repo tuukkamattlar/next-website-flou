@@ -26,24 +26,6 @@
   font-display: swap;
 }
 
-/* MOBILE BLOCKS */
-@media only screen and (max-width: 600px) {
-  :root {
-    --boxWidth: 200px;
-    --boxHeight: 300px;
-    --boxTitleFont: 20px;
-    --boxPadding: 0px;
-  }
-}
-/* DESKTOP BLOCKS */
-@media only screen and (min-width: 600px) {
-  :root {
-    --boxWidth: 400px;
-    --boxHeight: 500px;
-    --boxTitleFont: 3rem;
-    --boxPadding: 20px;
-  }
-}
 
 html,
 body {
@@ -114,6 +96,42 @@ p {
   height: auto;
 }
 
+@media only screen and (max-width: 900px) {
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+  
+  h3 {
+    font-size: 23px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  p, a {
+    font-size: 16px;
+  }
+  
+}
+
+@media only screen and (max-width: 1300px) {
+
+  html {
+    font-size: 16px;
+    }
+
+  p, a {
+    font-size: 14px;
+  }
+}
+
+
 .container {
   height: 100vh;
   display: flex;
@@ -131,9 +149,8 @@ p {
     padding-inline: 20px;
   }
   html {
-  
   font-size: 16px;
-}
+  }
 }
 /* DESKTOP BLOCKS */
 @media only screen and (min-width: 700px) {

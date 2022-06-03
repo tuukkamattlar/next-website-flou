@@ -45,11 +45,10 @@ export default function SingleBlog({ lan }) {
 
     return(
         <div className='singleBlogPage'>
-            <div className={GeneralCSS.container}>
-                { 
+            { 
                 loading
                 ? 
-                <div>
+                <div className={GeneralCSS.container}>
                     Loading or not found
                 </div>
                 :
@@ -62,10 +61,11 @@ export default function SingleBlog({ lan }) {
                         keywords={blogItem.seo.keywords ? blogItem.seo.keywords : []}
                     />
                     <GeneralHeader title={blogItem.title} img={blogItem.img} lan={lan} description={''}/>
-                    <BlogView blogItem={blogItem} lan={lan}/>
-                </>
-                }
-            </div>
+                    <div className={GeneralCSS.container}>
+                        <BlogView blogItem={blogItem} lan={lan}/>
+                    </div>
+            </>
+            }
         </div>
     )
 }

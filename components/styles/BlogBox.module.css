@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 900px) {
 .container {
   align-items: center;
   height: fit-content;
@@ -6,12 +6,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 90vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  width: 100%;
   gap: 1vw;
   padding-bottom: 5vw;
-  background-color: #fff;
 }
 .intro {
   width: 100%;
@@ -21,22 +18,24 @@
 }
 
 .arrow {
-    width: 4rem;
-    height: auto;
-    position: absolute;
-    align-self: center;
-    right: 29px;
-    bottom: 20px;
+  width: 4rem;
+  height: auto;
+  position: absolute;
+  align-self: center;
+  right: 29px;
+  bottom: 20px;
 }
 
 .box {
-  width: 36vw;
+  width: 30vw;
+  min-width: 400px;
   height: 20vw;
+  min-height: 300px;
   position: relative;
   padding: 0px;
   overflow: hidden;
   cursor: pointer;
-  background-color: rgba(4,4,4,0.1);
+  background-color: #f2c7cf;
 }
 
 .bgimg {
@@ -61,30 +60,28 @@
   margin: 0px;
   padding: 1vw;
   font-size: 1.5rem;
-  padding-bottom: 0.5vw;
+  padding-bottom: 1vw;
   line-height: 1;
 }
 
 .mainText {
-  
   color: rgb(255, 255, 255);
   transition: all 0.3s;
-  font-size: 1.1rem;
   padding: 1vw;
   padding-top: 0;
   max-height: 5.4vw;
-
-   max-width: 30vw;
+  max-width: 30vw;
   overflow: hidden;
+  font-size: calc(13px + 0.1rem);
 }
-
+}
 
 
 
 /*
     FOR SMALL SCREENS
 */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
  .container {
   align-items: center;
   height: fit-content;
@@ -93,34 +90,35 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 90vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
   gap: 1vw;
   padding-bottom: 5vw;
-  background-color: #fff;
 }
 .title {
   color: rgb(255, 255, 255);
   margin: 0px;
   padding: 1vw;
-  font-size: 1.3rem;
   padding-bottom: 0.5vw;
   line-height: 1;
 }
 .box {
   width: 80vw;
-  height: 40vw;
-  position: relative;
-  
+  height: fit-content;
   padding: 0px;
   overflow: hidden;
   cursor: pointer;
-  background-color: rgba(4,4,4,0.1);
-}
-.box {
   display: none;
   margin-bottom: 20px;
+  overflow: hidden;
 }
+
+.textLayer {
+  background-color: rgb(41, 36, 66);
+  width: 100%;
+  height: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
 .box:nth-of-type(1) {
   display: block;
 }
@@ -131,28 +129,23 @@
   display: block;
 }
 .mainText {
-  
   color: rgb(255, 255, 255);
   transition: all 0.3s;
-  font-size: 1.1rem;
+  font-size: calc(13px + 0.1rem);
   padding: 1vw;
   padding-top: 2vw;
-  max-height: 20vw;
   text-overflow: ellipsis;
-   max-width: 60vw;
+  max-width: 60vw;
   overflow: hidden;
 }
 .arrow {
     width: 3rem;
     height: auto;
-    position: absolute;
     align-self: center;
     right: 29px;
-    bottom: 20px;
 }
 .bgimg {
-display: none;
-
+  display: none;
 }
 .textLayer {
   background-color: rgb(41, 36, 66);
@@ -160,5 +153,5 @@ display: none;
   height: 100%;
   margin: 0px;
   padding: 20px;
-}
+  }
 }

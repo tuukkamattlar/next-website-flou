@@ -1,28 +1,32 @@
 .container {
   background-color: white;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .containerNews {
-  background-color: white;
-    width: 100vw;
-    max-width: 1200px;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 100vw;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.containerNews div {
+  max-height: 70vh;
+}
+
+
 .bgtriangle {
-       background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);
+  background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);
 }
 
 
