@@ -75,7 +75,7 @@
     font-size: 2rem;
      display: none;
 }
-.container p, span {
+.container p, .container span {
     font-size:calc(16px + 0.1vw);
 }
 
