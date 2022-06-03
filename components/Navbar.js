@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { Button, Drawer, Icon, Menu, MenuDivider, MenuItem, Position } from '@blueprintjs/core';
 import { PageContext } from 'pages/_app';
 import { useContext, useState } from 'react';
 import styles from './styles/Navbar.module.css';
@@ -51,17 +50,6 @@ export default function NavBar() {
     to: '/'
   };
 
-  const NextMenuItem = React.forwardRef(({ onClick, href, text, isActive }, ref) => {
-    return (
-      <MenuItem
-        href={href}
-        onClick={onClick}
-        ref={ref}
-        text={text}
-        className={isActive ? styles.highlight : undefined}
-      />
-    );
-  });
 
   if (typeof window === "undefined") { 
     /* we're on the server */ 
