@@ -92,6 +92,7 @@
   width: 90vw;
   gap: 1vw;
   padding-bottom: 5vw;
+  margin: auto;
 }
 .title {
   color: rgb(255, 255, 255);

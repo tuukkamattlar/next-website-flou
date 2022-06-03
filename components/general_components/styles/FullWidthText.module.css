@@ -2,6 +2,24 @@
     padding-top: 5vw;
     padding-bottom: 5vw;
 }
+
+.text span {
+    font-size: 1.3rem;
+  }
+  
+
+@media only screen and (max-width: 900px) {
+    .text span {
+      font-size: 16px;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .text span {
+      font-size: 14px;
+    }
+  }
 /* MOBILE BLOCKS */
 @media only screen and (max-height: 500px) {
     .text {
