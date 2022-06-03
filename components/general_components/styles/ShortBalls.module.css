@@ -6,7 +6,6 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-
 }
 
 .ball {
@@ -26,15 +25,11 @@
 }
 
 .ball:hover {
-   
-      transform: translateY(-2vw);
-      background-color: #f2c7cf;
-      color: #292442 ;
+    transform: translateY(-2vw);
+    background-color: #f2c7cf;
+    color: #292442 ;
 }
 
-.ball > * {
-    
-}
 
 .ball h3 {
     font-size: 2rem;
@@ -64,8 +59,25 @@
 .arrow {
     width: 4rem;
     height: auto;
-
     align-self: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .ball {
+        height: 300px;
+        width: 300px;
+    }
+    .ball h3 {
+        font-size: 1.6rem;
+    }
+    .ball p {
+        font-size: 0.9rem;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .arrow {
+        opacity: 0;
+    }
 }
 
 /* FOR SMALL (<700px) SCREENS */
@@ -82,16 +94,14 @@
   .ball {
     margin-inline: 10px;
     background-color: #292442;
-    height: 37vw;
-    width: 37vw;
+    height: 35vw;
+    width: 35vw;
     border-radius: 50%;
     text-align: center;
     display: flex;
     cursor: pointer;
     flex-direction: column;
     justify-content: center;
-
-   
     transition: transform 250ms, background 250ms, color 250ms;
     color: rgb(255, 255, 255);
 
@@ -123,6 +133,9 @@
     position: relative;
 
 
+}
+.arrow {
+    opacity: 1;
 }
 
 }
