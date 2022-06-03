@@ -1,13 +1,16 @@
 .container {
-    background-color: white;
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    width: 100%;
+    align-items: center;
 }
-
-.text {
-    width: 40vw;
+.text{
+    min-width: 400px;
+    width: 45%;
 }
 
 .imageHiddenMobile {
@@ -15,9 +18,31 @@
 }
 
 .imageShownMobile {
- width: 35vw;
+ width: 45%;
+ min-width: 400px;
  margin-left: 5vw; 
 }
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+     }
+     
+    .text{
+        width: 100%;
+        min-width: 200px;
+        padding-bottom: 5vh;
+    }
+    
+    
+    .imageShownMobile {
+        width: 100%;
+        max-width: 600px;
+        min-width: 200px;
+        margin: auto;
+        }
+    }
+
 
 .imageShownMobile>img {
    width: 100%;
@@ -33,23 +58,14 @@
      display: none;
 }
 .container p {
-    font-size: 1.3rem;
-
+    font-size:calc(16px + 0.1vw);
 }
 
-/*
-    FOR SMALL SCREENS
-*/
-@media only screen and (max-width: 700px) {
-.container {
-   flex-direction: column;
-}
-.text {
-    width: 90vw;
-     margin:5vw;
-}
-.imageShownMobile {
- width: 90vw;
- margin:5vw;
-}
+/* MOBILE BLOCKS */
+@media only screen and (max-height: 500px) {
+    .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
+    
+}

@@ -5,7 +5,7 @@ export default function TextAndImageModule({image, imagealt, text, hideIfMobile,
     return (
         <div className={TextAndImageCSS.container}>
             <div className={TextAndImageCSS.text}>
-            <Markdown>{text[lan]}</Markdown>
+                <Markdown>{text[lan]}</Markdown>
             </div>
             <div className={ hideIfMobile ? TextAndImageCSS.imageHiddenMobile : TextAndImageCSS.imageShownMobile}>
                 <img src={image} alt={imagealt}/>

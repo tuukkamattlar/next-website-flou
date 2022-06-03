@@ -27,10 +27,6 @@ export default function Contact({ lan }) {
             />
             <GeneralHeader title={contact.title} img={contact.headerIMG} lan={lan} description={''}/>
             <div className={GeneralCSS.container}>
-                <TitleModule 
-                title={contact.title} 
-                lan={lan}
-                />
                 <TextAndImageModule 
                 lan={lan}
                 image={contact.headerIMG} 
