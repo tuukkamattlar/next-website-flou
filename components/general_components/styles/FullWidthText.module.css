@@ -3,7 +3,7 @@
     padding-bottom: 5vw;
 }
 
-.text p, .text span {
+.text p, .text span, .text a {
   font-size:calc(16px + 0.1vw);
 }
   
