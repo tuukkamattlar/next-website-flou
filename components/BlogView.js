@@ -34,7 +34,6 @@ export default function BlogView({ blogItem, lan }) {
   return (
       <div className={styles.container} >
           {/* <Link href='/blogi'><a>{backButton[lan]}</a></Link> */}
-          <h1>{blogItem.title[lan]}</h1>
           <Markdown>{fixedBlogContent}</Markdown>
           <div className={styles.team}>
             <h2>Mukana tekemässä</h2>
