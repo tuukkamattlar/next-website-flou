@@ -1,12 +1,15 @@
+//COMPONENTS
 import { Icon } from '@blueprintjs/core';
 import Link from 'next/link';
-
 import NavBar from '@components/Navbar';
-import HomeSvg from './HomeSvg';
-import HomeAnimation from './HomeAnimation';
+import HomeSvg from '../HomeSvg';
+import HomeAnimation from '../HomeAnimation';
+
+//STYLE
 import styles from './styles/Header.module.css';
 
-import { attributes as HomeContent } from '../content/home.md';
+// CONTENT
+import { attributes as HomeContent } from '../../content/home.md';
 
 
 export default function HomeHeaderAndNav({ lan }) {
