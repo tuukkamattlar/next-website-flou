@@ -1,3 +1,31 @@
+/****************************************************************/
+/* VARIABLES  */
+
+/* Global font sizes, colors etc */
+html {
+ --color-white: #FFFFFF;
+ --color-black: #000000;
+ --color-plum: #292442;
+ --color-blue: #6b80bf;
+ --color-powder: #efebe1;
+ --color-rosa:  #f2c7cf;
+ --color-sitrus:  #fff26e;
+ --color-lavender:  #b59ed4;
+
+
+ --heading-h1:  3rem;
+
+
+
+  --heading-h1-mobile:  2rem;
+
+
+  /* BACKGROUNDS */
+  --bg-triangle-lavender: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);
+  --bg-triangle-powder: linear-gradient(to bottom right, #fff 0%, #fff 50%, #efebe1 50%, #efebe1 100%);
+
+}
+
 /* FONTS */
 @font-face {
   font-family: 'Futura Std';
