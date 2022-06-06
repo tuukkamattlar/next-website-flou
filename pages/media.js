@@ -12,8 +12,8 @@ export default function Media({ lan }) {
   let { title, headerIMG, description, items } = attributes;
   return (
     <div className='mediaPage'>
+    <GeneralHeader title={title} img={headerIMG} lan={lan} description={description} />
     <div className={GeneralCSS.container}>
-      <GeneralHeader title={title} img={headerIMG} lan={lan} description={description} />
       <div className={styles.frame}>
         <div className={styles.content}>
           <div className={`${styles.media} ${styles.black}`}>
