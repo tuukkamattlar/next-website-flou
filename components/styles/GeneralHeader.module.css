@@ -36,7 +36,8 @@
 .title > h1 {
   text-align: center;
   vertical-align: middle;
-  font-size: 60px;
+  font-size: var(--hero-heading-h1);
+  color: var(--color-white);
   word-wrap: break-word;
   padding-inline: 20px;
 }
@@ -44,12 +45,12 @@
 /* FOR SMALL (<600px) SCREENS */
 @media only screen and (max-width: 900px) {
   .title > h1 {
-    font-size: 40px;
+     font-size: var(--hero-heading-h1-mobile);
   }
 
   @media only screen and (max-width: 500px) {
     .title > h1 {
-      font-size: 30px;
+      font-size: var(--hero-heading-h1-mobile);
     }
     
   }

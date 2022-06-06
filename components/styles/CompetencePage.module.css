@@ -15,6 +15,7 @@
 .subcategories {
     width: 100%;
     min-height: 200px;
+    display: none;
 }
 
 .subcategory {
@@ -23,6 +24,11 @@
     width: 33%;
     min-width: 100px;
     height: 100%;
+}
+
+.skillBox {
+background-color: var(--color-plum);
+color: var(--color-white);
 }
 
 /* FOR SMALL (<900px) SCREENS */

@@ -13,11 +13,12 @@ html {
  --color-lavender:  #b59ed4;
 
 
- --heading-h1:  3rem;
+ /* FONT SIZES */
+--heading-h1:  3rem;
+--heading-h1-mobile:  2rem;
 
-
-
-  --heading-h1-mobile:  2rem;
+--hero-heading-h1: 3rem;
+--hero-heading-h1-mobile: 2rem;
 
 
   /* BACKGROUNDS */
@@ -258,3 +259,34 @@ p {
 .mediaPage {
   
 }
+
+/* skillbox styles */
+.skillBox {
+  background-color: var(--color-plum);
+  color: var(--color-white);
+  padding: 3rem;
+  margin-top: 3rem;
+}
+
+.skillbox p {
+  font-size: 1.2rem;
+}
+
+.skillBox .skillButtons {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.skillBox .skillButton {
+  border: 1px solid white;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+      align-items: center;
+}
+.skillBox .skillButton img {
+   width: 2rem;
+
+   }
