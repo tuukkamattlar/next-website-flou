@@ -16,6 +16,13 @@ export default function BlogBox({ item, lan }) {
                   }}
               >
             </div>
+            <p>{item.date}</p>
+            {
+              /**.date tosiaan on datetime-kenttä. 
+               * Tohon voi heittää varmaan valmiin 
+               * parserin tai voin muotoilla tosta 
+               * oleelliset tiedot erikseen 
+              */}
             <div className={blogBoxes.textLayer}>
               <h2 className={blogBoxes.title} >
                   {item.title[lan]}
