@@ -12,11 +12,10 @@
 
 .timeline {
     width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    max-width: 1200px;
+    margin: auto;
     margin-top: 5vw;
     background: #fff url('/img/wave-vertical.svg') center repeat-y; 
-    
     padding-bottom: 5vw;
 }
 .timeline h1 {
