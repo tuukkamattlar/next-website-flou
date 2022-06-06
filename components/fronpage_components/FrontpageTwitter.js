@@ -1,9 +1,17 @@
+// GENERAL
 import { useContext, useEffect, useRef, useState } from 'react';
-import general from '@components/styles/FrontpageGeneral.module.css';
-import twitterCSS from '@components/styles/Twitter.module.css';
+
+// COMPONENTS
+import general from './styles/FrontpageGeneral.module.css';
+import twitterCSS from './styles/Twitter.module.css';
 import useWindowSize from '@components/hooks/useWindowSize';
-import twitterSample from '@components/twitterSample.json'
+
 import Link from 'next/link';
+
+// STYLES
+
+// CONTENT
+import twitterSample from '@components/fronpage_components/twitterSample.json'
 
 export default function FrontpageTwitter() {
   const size = useWindowSize();

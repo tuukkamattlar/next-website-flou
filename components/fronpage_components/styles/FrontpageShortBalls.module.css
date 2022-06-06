@@ -1,0 +1,141 @@
+.container {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.ball {
+    margin-inline: 20px;
+    background-color: #292442;
+    height: 27rem;
+    width: 27rem;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: start;
+    transition: transform 250ms, background 250ms, color 250ms;
+    color: rgb(255, 255, 255);
+
+}
+
+.ball:hover {
+    transform: translateY(-2vw);
+    background-color: #f2c7cf;
+    color: #292442 ;
+}
+
+
+.ball h3 {
+    font-size: 2rem;
+    width: 80%;
+    display: block;
+    margin:  0 auto 0;
+    margin-top: 6vw;
+    min-height: 5vw;
+}
+.ball p {
+    font-size: 1.2rem;
+     width: 90%;
+    display: block;
+    margin:  0 auto 0;
+    hyphens: auto;
+    min-height: 10rem;
+}
+
+.bgtriangle {
+       /*background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);*/
+}
+
+.home .bgtriangle {
+    background: initial!important;
+}
+
+.arrow {
+    width: 4rem;
+    height: auto;
+    align-self: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .ball {
+        height: 300px;
+        width: 300px;
+    }
+    .ball h3 {
+        font-size: 1.6rem;
+    }
+    .ball p {
+        font-size: 0.9rem;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .arrow {
+        opacity: 0;
+    }
+}
+
+/* FOR SMALL (<700px) SCREENS */
+@media only screen and (max-width: 700px) {
+  .blogcontainer {
+    width: 100%;
+  }
+
+  .twittercontainer {
+    visibility: hidden;
+    width: 0vw;
+    min-width: 0vw;
+  }
+  .ball {
+    margin-inline: 10px;
+    background-color: #292442;
+    height: 35vw;
+    width: 35vw;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 250ms, background 250ms, color 250ms;
+    color: rgb(255, 255, 255);
+
+}
+.ball h3 {
+    font-size: 1rem;
+    width: 90%;
+    display: block;
+    margin:  0 auto 0;
+    margin-top: 0vw;
+    min-height: 5vw;
+}
+.ball p {
+    font-size: 0.9rem;
+     width: 90%;
+    display: block;
+    margin:  0 auto 0;
+    hyphens: auto;
+    display: none;
+}
+.container {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+
+}
+.arrow {
+    opacity: 1;
+}
+
+}

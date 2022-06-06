@@ -1,13 +1,20 @@
-import HomeHeaderAndNav from '@components/Header';
-import FrontpageCompetences from '@components/FrontpageCompetences';
+// GENERAL
 import { useContext, useEffect, useRef, useState } from 'react';
 import { PageContext } from './_app';
-import HomeLayout from '@components/HomeLayout';
-import { attributes as seoContent } from '../content/SEO/frontpage.md';
-import SEO from '@components/metacomponents/SEO';
 
-import FrontpageNews from '@components/FrontpageNews';
-import FrontpageTwitter from '@components/FrontpageTwitter';
+// COMPONENTS
+import HomeLayout from '@components/fronpage_components/HomeLayout';
+import SEO from '@components/metacomponents/SEO';
+import FrontpageNews from '@components/fronpage_components/FrontpageNews';
+import FrontpageTwitter from '@components/fronpage_components/FrontpageTwitter';
+import HomeHeaderAndNav from '@components/fronpage_components/Header';
+import FrontpageCompetences from '@components/fronpage_components/FrontpageCompetences';
+
+// STYLES
+
+
+//CONTENT
+import { attributes as seoContent } from '../content/SEO/frontpage.md';
 
 export default function Home() {
   const title = 'FLOU'
