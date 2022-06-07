@@ -67,10 +67,7 @@ export default function SkillArea({ lan }) {
             />
             <GeneralHeader title={skillarea.title} img={skillarea.skillIMG} lan={lan} description={''}/>
             <div className={GeneralCSS.container}>
-                <TitleModule 
-                    title={skillarea.title} 
-                    lan={lan}
-                />
+               
                 <TextAndImageModule 
                     lan={lan}
                     image={skillarea.skillIMG.replace("img/", "../img/")} 
