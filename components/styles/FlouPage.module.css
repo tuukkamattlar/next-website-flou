@@ -35,6 +35,7 @@ background-color: #fff;
     margin-bottom: 70px;
     background-color: #fff;
     border: 1px solid #292442;
+    align-items: center;
 }
 
 .yearBlock:nth-of-type(odd) {
@@ -120,9 +121,11 @@ background-color: #fff;
     }
     .yearBlock>div>p {
         margin-top: 10px;
+
     }
 
     .yearBlock>h1 {
+        margin-bottom: 0;
         padding-top: 0px;
         margin-top: 0px;
         padding-right: 20px;
