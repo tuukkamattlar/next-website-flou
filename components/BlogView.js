@@ -34,13 +34,14 @@ export default function BlogView({ blogItem, lan }) {
   return (
       <div className={styles.container} >
           {/* <Link href='/blogi'><a>{backButton[lan]}</a></Link> */}
-          <p>DATE: {blogItem.date}</p>
-          {
-            /**.date tosiaan on datetime-kenttä. 
-             * Tohon voi heittää varmaan valmiin 
-             * parserin tai voin muotoilla tosta 
-             * oleelliset tiedot erikseen 
-            */}
+           <p className={styles.devdate}>12.5.2022</p>
+            <p className={styles.realdate}>{blogItem.date}</p>
+            {
+              /**.date tosiaan on datetime-kenttä. 
+               * Tohon voi heittää varmaan valmiin 
+               * parserin tai voin muotoilla tosta 
+               * oleelliset tiedot erikseen 
+              */}
           <Markdown>{fixedBlogContent}</Markdown>
           <div className={styles.team}>
             <h2>Mukana tekemässä</h2>

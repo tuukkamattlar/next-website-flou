@@ -10,6 +10,7 @@
   font-size: 20px;
   font-style: italic;
   quotes: "\201C""\201D""\2018""\2019";
+  margin-top: 3rem;
 }
 .container blockquote:before {
     color: #ccc;
@@ -31,12 +32,27 @@
     font-size: 3rem;
 }
 
+.realdate {
+  display: none;
+   color: #fff;
+ 
+   padding-top: 2rem;
+  padding-bottom: 0;
+ 
+}
+.devdate {
+  display: block;
+  color:   var(--color-black);;
+ 
+  padding-top: 2rem;
+  padding-bottom: 0;
+   
+}
 
 @media only screen and (max-width: 900px) {
     .container {
         margin: auto;
-        padding-bottom: 50px;
-        padding-top: 20px;
+        
     }
     /* digging into the markdown file*/
     .container > div > p > img {
@@ -48,25 +64,18 @@
         padding-bottom: 10px;
     }
     .container > div > p {
-        margin: 10px;
-        padding: 20px;
+        font-size: var(--text-mobile);  
     }
     .team > * {
         text-align: center;
     }
-    @media only screen and (max-width: 500px) {
-        .container > div > p {
-            margin: 10px;
-            padding: 10px;
-        }
-
-    }
+   
 }
 
 
 @media only screen and (min-width: 900px) {
     .container {
-        max-width: 800px;
+        max-width: 1200px;
         margin: auto;
         padding-bottom: 50px;
         padding-top: 20px;
