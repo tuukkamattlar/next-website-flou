@@ -16,5 +16,6 @@ export default function FrontpageBlogBoxes({ items = blogs.blogs, lan, maxLen = 
             </>
           ))}
       </div>
+      
   )
 }

@@ -48,6 +48,7 @@ function TwitterBox({tweet}) {
   return(
     <Link href={'https://twitter.com/FLOU_ltd/status/'+tweet.id}>
       <div className={twitterCSS.boxContainer}>
+     
         <a>{tweet.created_at.split('T')[0]}</a>
         <p>{tweet.text}</p>
       </div>

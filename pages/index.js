@@ -34,7 +34,7 @@ export default function Home() {
         <HomeHeaderAndNav lan={lan} />
         <FrontpageCompetences lan={lan} />
         <FrontpageNews lan={lan}/>
-        <FrontpageTwitter/>
+     
       </div>
     </>
   );

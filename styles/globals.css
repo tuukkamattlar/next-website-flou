@@ -16,6 +16,8 @@ html {
  /* FONT SIZES */
 --heading-h1:  3rem;
 --heading-h1-mobile:  2rem;
+--heading-h2:  2rem;
+--heading-h2-mobile:  1.8rem;
 
 --hero-heading-h1: 3rem;
 --hero-heading-h1-mobile: 2rem;
@@ -290,3 +292,30 @@ p {
    width: 2rem;
 
    }
+
+   .buttonlink {
+      color: #292442 ;
+   }
+      .buttonlink:hover {
+      text-decoration: none;
+      color: #fff ;
+   }
+
+   .button {
+    display: flex;
+    padding: 0.8rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    border: 1px solid #292442;
+    font-size: 1.3rem;
+    font-weight: normal;
+   transition: all 0.4s;
+   }
+
+    .button:hover {
+
+    background: #292442;
+    border: 1px solid #292442;
+   
+   }
+

@@ -16,17 +16,21 @@ export default function BlogBox({ item, lan }) {
                   }}
               >
             </div>
-            <p>{item.date}</p>
+           
+            <div className={blogBoxes.textLayer}>
+              <h2 className={blogBoxes.title} >
+                  {item.title[lan]}
+                </h2>
+
+                 <p className={blogBoxes.devdate}>12.5.2022</p>
+            <p className={blogBoxes.realdate}>{item.date}</p>
             {
               /**.date tosiaan on datetime-kenttä. 
                * Tohon voi heittää varmaan valmiin 
                * parserin tai voin muotoilla tosta 
                * oleelliset tiedot erikseen 
               */}
-            <div className={blogBoxes.textLayer}>
-              <h2 className={blogBoxes.title} >
-                  {item.title[lan]}
-                </h2>
+                
                 <p className={blogBoxes.mainText}>
                     {item.short[lan]}
                 </p>

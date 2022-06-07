@@ -7,8 +7,8 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  gap: 1vw;
-  padding-bottom: 5vw;
+  gap: 1.7vw;
+  
 }
 .intro {
   width: 100%;
@@ -27,7 +27,7 @@
 }
 
 .box {
-  width: 30vw;
+  width: 40vw;
   min-width: 400px;
   height: 20vw;
   min-height: 300px;
@@ -48,6 +48,26 @@
   padding: 0px;
 
 }
+
+.realdate {
+  display: none;
+   color: #fff;
+  padding: 1vw;
+   padding-top: 0;
+  padding-bottom: 0;
+     font-size: 0.9rem;
+       margin: 0;
+}
+.devdate {
+  display: block;
+  color: #fff;
+  padding: 1vw;
+  padding-top: 0;
+  padding-bottom: 0;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
 .textLayer {
   background-color: rgb(41, 36, 66);
   width: 100%;
@@ -60,7 +80,7 @@
   margin: 0px;
   padding: 1vw;
   font-size: 1.5rem;
-  padding-bottom: 1vw;
+  padding-bottom: 0vw;
   line-height: 1;
 }
 
@@ -72,7 +92,7 @@
   max-height: 5.4vw;
   max-width: 30vw;
   overflow: hidden;
-  font-size: calc(13px + 0.1rem);
+  font-size: 0.9rem;
 }
 }
 

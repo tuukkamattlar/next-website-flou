@@ -7,14 +7,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 
 .containerNews {
   width: 100vw;
-  max-width: 1200px;
-  margin: auto;
-  padding-top: 50px;
-  height: 90vh;
+ 
+  margin: 0;
+  padding-top: 4rem;
+    padding-bottom: 2rem;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -36,6 +38,18 @@
     color: var(--color-plum);
     text-align: center;
     width: 100%;
+}
+
+h2.heading {
+    text-transform: none;
+    font-style: italic;
+    font-size: var(--heading-h2);
+    color: var(--color-plum);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.2rem;
+    margin-top: 3rem;
+    display: none;
 }
 
 

@@ -1,11 +1,13 @@
 .pageHeightBox {
   height: 100vh;
+  display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
   background-color: white;
   overflow: hidden;
   border: none;
+  flex-direction: column;
 }
 
 /*
