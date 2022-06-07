@@ -319,3 +319,35 @@ p {
    
    }
 
+   /*
+    FOR SMALL SCREENS
+*/
+@media only screen and (max-width: 900px) {
+
+   .buttonlink {
+      color: #292442 ;
+   }
+      .buttonlink:hover {
+      text-decoration: none;
+      color: #fff ;
+   }
+
+   .button {
+    display: flex;
+    padding: 0.8rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    border: 1px solid #292442;
+    font-size: 1rem;
+    font-weight: normal;
+   transition: all 0.4s;
+   }
+
+    .button:hover {
+
+    background: #292442;
+    border: 1px solid #292442;
+   
+   }
+}
+
