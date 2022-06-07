@@ -219,7 +219,7 @@ p {
 /* FLOU  */
 
 .flouPage {
-
+     
 }
 
 /* SKILLS  */
@@ -293,15 +293,16 @@ p {
 
    }
 
-   .buttonlink {
+
+.buttonlink {
       color: #292442 ;
    }
-      .buttonlink:hover {
+.buttonlink:hover {
       text-decoration: none;
       color: #fff ;
    }
 
-   .button {
+.button {
     display: flex;
     padding: 0.8rem;
     padding-left: 1.3rem;
@@ -323,6 +324,41 @@ p {
     FOR SMALL SCREENS
 */
 @media only screen and (max-width: 900px) {
+
+
+  /* skillbox styles */
+.skillBox {
+ 
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.skillbox p {
+  font-size: 1.2rem;
+}
+
+.skillBox .skillButtons {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.skillBox .skillButton {
+  border: 1px solid white;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+      align-items: center;
+}
+.skillBox .skillButton img {
+   width: 2rem;
+
+   }
+
+
+
 
    .buttonlink {
       color: #292442 ;
@@ -350,4 +386,6 @@ p {
    
    }
 }
+
+
 

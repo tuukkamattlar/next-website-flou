@@ -110,7 +110,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 90vw;
+  width: 100%;
   gap: 1vw;
   padding-bottom: 5vw;
   margin: auto;
@@ -118,12 +118,13 @@
 .title {
   color: rgb(255, 255, 255);
   margin: 0px;
-  padding: 1vw;
-  padding-bottom: 0.5vw;
+  padding: 0vw;
+  padding-bottom: 5px;
   line-height: 1;
+  font-size: 18px;
 }
 .box {
-  width: 80vw;
+  width: 100%;
   height: fit-content;
   padding: 0px;
   overflow: hidden;
@@ -141,6 +142,25 @@
   padding: 0px;
 }
 
+.realdate {
+  display: none;
+   color: #fff;
+  padding: 0px;
+   padding-top: 5px;
+  padding-bottom: 0;
+     font-size: 12px;
+}
+.devdate {
+  display: block;
+  color: #fff;
+  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 0;
+    font-size: 12px;
+}
+
+
+
 .box:nth-of-type(1) {
   display: block;
 }
@@ -154,8 +174,8 @@
   color: rgb(255, 255, 255);
   transition: all 0.3s;
   font-size: calc(13px + 0.1rem);
-  padding: 1vw;
-  padding-top: 2vw;
+  padding: 0vw;
+  padding-top: 0vw;
   text-overflow: ellipsis;
   max-width: 60vw;
   overflow: hidden;
