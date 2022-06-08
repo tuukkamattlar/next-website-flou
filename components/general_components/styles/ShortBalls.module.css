@@ -1,18 +1,22 @@
 .container {
-  padding-top: 4rem;
-    padding-bottom: 2rem;
+  padding-top: 6rem;
+    padding-bottom: 6rem;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+        position: absolute;
+    width: 100vw;
+    left: 0;
+
 }
 
 .ball {
-    margin-inline: 20px;
+    margin-inline: 10px;
     background-color: #292442;
-    height: 27rem;
-    width: 27rem;
+    height: 25rem;
+    width: 25rem;
     border-radius: 50%;
     text-align: center;
     display: flex;
@@ -36,8 +40,8 @@
     width: 80%;
     display: block;
     margin:  0 auto 0;
-    margin-top: 6vw;
-    min-height: 5vw;
+    margin-top: 4rem;
+    min-height: 5rem;
 }
 .ball p {
     font-size: 1.2rem;
@@ -49,7 +53,7 @@
 }
 
 .bgtriangle {
-       /*background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);*/
+       background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);
 }
 
 .home .bgtriangle {

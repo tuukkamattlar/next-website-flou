@@ -7,6 +7,8 @@
     padding-bottom: 5vw;
     width: 100%;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 0;
 }
 .text{
     min-width: 400px;
