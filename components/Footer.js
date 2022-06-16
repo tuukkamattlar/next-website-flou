@@ -23,10 +23,10 @@ export default function Footer() {
             </p>
              <p>
               <a href="https://twitter.com/flou_ltd">
-                <img src="/img/twitter-white.svg" />
+                <img src="/img/twitter-white.svg" className={styles.someicons} />
               </a>
               <a href="https://fi.linkedin.com/company/floultd">
-                <img src="/img/linkedin.png" />
+                <img src="/img/linkedin.png" className={styles.someicons} />
               </a>
             </p>
              <p>

@@ -66,6 +66,12 @@
   margin-bottom: 20px;
   margin-top: 10px;
 }
+
+img.someicons {
+  width: 40px;
+  height:  auto;
+}
+
 .footer img:hover {
   cursor: pointer;
   transition: all 0.2s;

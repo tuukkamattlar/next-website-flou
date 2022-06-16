@@ -31,6 +31,7 @@ html {
   --bg-triangle-lavender: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);
   --bg-triangle-powder: linear-gradient(to bottom right, #fff 0%, #fff 50%, #efebe1 50%, #efebe1 100%);
 
+/* use global variables like this: */
 font-size: var(--text);
 
 }
@@ -73,7 +74,7 @@ body {
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
   background-color: rgb(255, 255, 255);
   font-size: var(--text);
-  
+
 }
 
 .home #__next {
@@ -301,6 +302,10 @@ p {
 
    }
 
+   .skillBox .skillButtons a div {
+color: #fff!important;
+}
+
 
 .buttonlink {
       color: #292442 ;
@@ -360,6 +365,9 @@ p {
   gap: 1rem;
       align-items: center;
 }
+
+
+
 .skillBox .skillButton img {
    width: 2rem;
 

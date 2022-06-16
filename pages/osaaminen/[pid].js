@@ -80,7 +80,7 @@ export default function SkillArea({ lan }) {
                  <h1>Ennusteet & mallit</h1>
                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
                  <div class="skillButtons">
-                         <div class="skillButton"><img src="../img/arrow-waved.svg" />Espoontori <br/>(Espoo 2022)</div>
+                         <a href="#"><div class="skillButton"><img src="../img/city.svg" />Espoontori <br/>(Espoo 2022)</div></a>
                          <div class="skillButton"><img src="../img/arrow-waved.svg" />Tallinnan seudun joukkoliikenneselvitys <br/>(Viron elinkeino- ja liikenneministeriö 2021)
 </div>
                          <div class="skillButton"><img src="../img/arrow-waved.svg" />Pietarsaaren
