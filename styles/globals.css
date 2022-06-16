@@ -19,6 +19,8 @@ html {
 --heading-h2:  2rem;
 --heading-h2-mobile:  1.8rem;
 
+--text:  18px;
+
 --text-mobile: 16px;
 
 --hero-heading-h1: 3rem;
@@ -28,6 +30,8 @@ html {
   /* BACKGROUNDS */
   --bg-triangle-lavender: linear-gradient(to bottom right, #fff 0%, #fff 50%, #b59ed4 50%, #b59ed4 100%);
   --bg-triangle-powder: linear-gradient(to bottom right, #fff 0%, #fff 50%, #efebe1 50%, #efebe1 100%);
+
+font-size: var(--text);
 
 }
 
@@ -68,6 +72,8 @@ body {
   font-family: Futura Std, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
   background-color: rgb(255, 255, 255);
+  font-size: var(--text);
+  
 }
 
 .home #__next {
@@ -156,11 +162,11 @@ p {
 @media only screen and (max-width: 1300px) {
 
   html {
-    font-size: 15px;
+    font-size: 16px;
     }
 
   p, a {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -392,7 +398,7 @@ p {
 /* MOBILE BLOCKS */
 @media only screen and (min-width:1400px) {
      html {
-      font-size: 14px;
+      font-size: 16px;
     }
 }
 

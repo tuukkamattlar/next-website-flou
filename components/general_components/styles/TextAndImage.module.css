@@ -16,7 +16,7 @@
 }
 
 .text span {
-    font-size: 1.3rem;
+    font-size: var(--text);
   }
   
 
@@ -78,7 +78,7 @@
      display: none;
 }
 .container p, .container span, .container a {
-    font-size:calc(16px + 0.1vw);
+   
 }
 
 /* MOBILE BLOCKS */
