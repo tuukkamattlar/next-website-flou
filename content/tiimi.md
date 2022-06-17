@@ -4,7 +4,7 @@ description: Kuvauksia tiimistä
 title:
   fi: Tiimimme
   en: Our Team
-headerIMG: img/flou_bridge.png
+headerIMG: img/header-image-lines-1380x500.jpg
 persons:
   - skills:
       - fi: Mallinnus
