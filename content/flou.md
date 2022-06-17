@@ -2,7 +2,7 @@
 title:
   fi: FLOU
   en: FLOU
-headerIMG: img/flou_train.png
+headerIMG: img/header-image-lines-1380x500.jpg
 description:
   fi: >-
     Olemme itsenäinen strategiseen liikennesuunnitteluun ja riskienhallintaan

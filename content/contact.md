@@ -2,7 +2,7 @@
 title:
   fi: Ota yhteyttä
   en: Contact us
-headerIMG: img/flou_cykler.png
+headerIMG: img/header-image-lines-1380x500.jpg
 bodyObject:
   fi: |-
     ### Osoite
