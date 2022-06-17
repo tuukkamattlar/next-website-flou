@@ -4,7 +4,7 @@ category:
       fi: Vaikutusten arviointi
       en: Impact assessment
     url: vaikutusten_arviointi
-    skillIMG: img/flou_bridge.png
+    skillIMG: img/header-image-lines-1380x500.jpg
     short:
       fi: Palvelumme kattavat monipuolisesti eri vaikutuslajit ja niiden
         mallinnusmenetelmät. Tarvittaessa kehitämme olemassa olevan teoriapohjan
