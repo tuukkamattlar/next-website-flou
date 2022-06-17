@@ -2,7 +2,7 @@
 title:
   fi: Osaaminen
   en: Competences
-headerIMG: img/flou_bridge.png
+headerIMG: img/header-image-lines-1380x500.jpg
 description:
   fi: Keskeisimmät osaamisalueemme ovat vaikutusten arviointi, strategiat sekä
     riskienhallinta. Meiltä löytyy laaja ja monialainen [tiimi](/tiimi), jolta
