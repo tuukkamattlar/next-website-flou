@@ -161,38 +161,24 @@ collections:
                   fields:
                   - { label: "Suomeksi", name: "fi", widget: "text"}
                   - { label: "In English", name: "en", widget: "text"}
-    - label: "Osaaminen - Projektireferenssit"
-      name: "refs"
-      file: "content/competences_refs.md"
-      fields:
-        - label: 'Referenssiprojektit'
-          name: "refs"
-          widget: list
-          fields:
-            - label: 'Otsikko'
-              name: 'title'
-              widget: 'object'
-              fields:
-              - { label: "Suomeksi", name: "fi", widget: "string"}
-              - { label: "In English", name: "en", widget: "string"}
-            - { label: "Kuva", name: "skillIMG", widget: "image", required: true}
-            - label: 'Lyhyt kuvaus'
-              name: 'short'
-              widget: 'object'
-              fields:
-              - { label: "Suomeksi", name: "fi", widget: "text"}
-              - { label: "In English", name: "en", widget: "text"}
-            - label: 'Asiakas'
-              name: 'customer'
-              widget: 'object'
-              fields:
-              - { label: "Suomeksi", name: "fi", widget: "string"}
-              - { label: "In English", name: "en", widget: "string"}
-            - label: 'Kategoria'
-              name: 'category'
-              widget: 'select'
-              multiple: true
-              options: ["strategia", "vaikutusten_arviointi", "riskienhallinta"]
+                - label: 'Projektireffit'
+                  name: "refs"
+                  widget: list
+                  fields:
+                    - label: 'Otsikko'
+                      name: 'title'
+                      widget: 'object'
+                      fields:
+                      - { label: "Suomeksi", name: "fi", widget: "string"}
+                      - { label: "In English", name: "en", widget: "string"}
+                    - label: 'Asiakas'
+                      name: 'customer'
+                      widget: 'object'
+                      fields:
+                      - { label: "Suomeksi", name: "fi", widget: "string"}
+                      - { label: "In English", name: "en", widget: "string"}
+                    - {label: "Vuosi", name: "year", widget: "string"}
+                    - { label: "Kuvake", name: "icon", widget: "image", required: true}
 
 
 # the team

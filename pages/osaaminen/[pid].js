@@ -44,6 +44,7 @@ export default function SkillArea({ lan }) {
     useEffect(() => {
         filterSearch()
     });
+    console.log(skillarea)
     return(
         loading ? 
         <div className='skillSubPage'>
@@ -76,18 +77,26 @@ export default function SkillArea({ lan }) {
                     hideIfMobile = {false}
                 />
            
-                 <div className='skillBox'>
-                 <h1>Ennusteet & mallit</h1>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                 <div class="skillButtons">
-                         <a href="#"><div class="skillButton"><img src="../img/city.svg" />Espoontori <br/>(Espoo 2022)</div></a>
-                         <div class="skillButton"><img src="../img/arrow-waved.svg" />Tallinnan seudun joukkoliikenneselvitys <br/>(Viron elinkeino- ja liikenneministeriö 2021)
-</div>
-                         <div class="skillButton"><img src="../img/arrow-waved.svg" />Pietarsaaren
-liikennemalli</div>
+                 
+                    {
+                        skillarea.subcategories.map((c, i) => (
+                            <div className='skillBox'>
+                                <h1>{c.title[lan]}</h1>
+                                <p>Lorem </p>
+                                <div class="skillButtons">
+                                    <div class="skillButton"><img src="../img/city.svg" />Espoontori <br/>(Espoo 2022)</div>
+                                    <div class="skillButton"><img src="../img/arrow-waved.svg" />Tallinnan seudun joukkoliikenneselvitys <br/>(Viron elinkeino- ja liikenneministeriö 2021)</div>
+                                    <div class="skillButton"><img src="../img/arrow-waved.svg" />Pietarsaaren liikennemalli</div>
+                                </div>
+                            </div>
+                        ))
+                    }
+                 
+                 
 
-                 </div>
-                 </div>
+
+                 
+                 
 
                     <div className='skillBox'>
                  <h1>Ennusteet & mallit</h1>
