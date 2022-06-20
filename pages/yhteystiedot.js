@@ -16,7 +16,6 @@ import GeneralCSS from '@components/general_components/styles/General.module.css
 
 
 export default function Contact({ lan }) {
-    console.log(contact)
     return(
         <div className='contactPage'>
             <SEO 

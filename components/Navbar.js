@@ -68,7 +68,6 @@ export default function NavBar() {
           element[0].classList.add(styles.scrolled);
          //console.log('more than 50 ' +element[0].classList);
         } else {
-         console.log('less than 50');
           var element = document.getElementsByClassName(styles.mainNav);
           element[0].classList.remove(styles.scrolled);
         }
