@@ -3,6 +3,7 @@ title:
   fi: Osaaminen
   en: Competences
 headerIMG: img/header-image-lines-1380x500.jpg
+bodyIMG: img/flou_cykler.png
 description:
   fi: Keskeisimmät osaamisalueemme ovat vaikutusten arviointi, strategiat sekä
     riskienhallinta. Meiltä löytyy laaja ja monialainen [tiimi](/tiimi), jolta
