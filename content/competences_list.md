@@ -29,6 +29,23 @@ category:
         description:
           fi: a
           en: a
+        refs:
+          - title:
+              fi: Alueellisen junaliikenteen alueelliset tarkastelut
+              en: a
+            customer:
+              fi: Väylävirasto
+              en: a
+            year: "2021"
+            icon: img/city.svg
+          - title:
+              fi: Aluekehityksen prosessit megaprojekteissa
+              en: a
+            customer:
+              fi: Uudenmaan liitto
+              en: a
+            year: "2021"
+            icon: img/city.svg
       - id: ennusteet_ja_mallit
         title:
           fi: Ennusteet ja mallit
@@ -36,6 +53,15 @@ category:
         description:
           fi: aa
           en: a
+        refs:
+          - title:
+              fi: Espoontori
+              en: a
+            customer:
+              fi: Espoo
+              en: Espoo
+            year: "2022"
+            icon: img/city.svg
       - id: taloudelliset_arvioinnit
         title:
           fi: Taloudelliset arvioinnit
@@ -43,6 +69,15 @@ category:
         description:
           fi: a
           en: a
+        refs:
+          - title:
+              fi: Kaskisten rata
+              en: a
+            customer:
+              fi: Väylävirasto
+              en: a
+            year: "2021"
+            icon: img/city.svg
   - title:
       fi: Strategiat
       en: Strategies
