@@ -49,8 +49,9 @@ const size = useWindowSize();
          
           <FrontpageBlogBoxes lan={lan} maxLen={2} />
         </div>
-         <a href="/blogi" class="buttonlink"><div class="button plum">Katso kaikki kirjoitukset</div></a>
-
+        <Link href="/blogi">
+         <a className="buttonlink"><div class="button plum">Katso kaikki kirjoitukset</div></a>
+         </Link>
 
       <div className={twitterCSS.container}>
 

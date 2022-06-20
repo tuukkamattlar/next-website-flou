@@ -31,7 +31,7 @@ export default function Flou({ lan }) {
             <div className={GeneralCSS.container}>
                 <TextAndImageModule 
                     lan={lan}
-                    image={flou.headerIMG} 
+                    image={flou.bodyIMG} 
                     imagealt={'img alt'}
                     text = {flou.description}
                     hideIfMobile = {false}
