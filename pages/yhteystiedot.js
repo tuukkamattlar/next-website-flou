@@ -16,6 +16,7 @@ import GeneralCSS from '@components/general_components/styles/General.module.css
 
 
 export default function Contact({ lan }) {
+    console.log(contact)
     return(
         <div className='contactPage'>
             <SEO 
@@ -29,7 +30,7 @@ export default function Contact({ lan }) {
             <div className={GeneralCSS.container}>
                 <TextAndImageModule 
                 lan={lan}
-                image={contact.headerIMG} 
+                image={contact.fillIMG} 
                 imagealt={'img alt'}
                 text = {contact.bodyObject}
                 hideIfMobile = {false}

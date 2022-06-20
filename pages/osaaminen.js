@@ -16,7 +16,6 @@ import { attributes as categories} from '../content/competences_list.md';
 import GeneralCSS from '@components/general_components/styles/General.module.css'
 
 export default function Skills({ lan }) {
-    console.log(competences)
     return(
         <div className='skillsPage'>
             <SEO 
@@ -30,7 +29,7 @@ export default function Skills({ lan }) {
             <div className={GeneralCSS.container}>
                 <TextAndImageModule
                     lan={lan}
-                    image={competences.headerIMG} 
+                    image={competences.bodyIMG} 
                     imagealt={'img alt'}
                     text = {competences.description}
                     hideIfMobile = {false}
