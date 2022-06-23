@@ -11,7 +11,7 @@ description:
     expertise.
 headerIMG: img/pexels-aleksejs-bergmanis-681335.jpg
 blogs:
-  - img: img/pexels-inga-seliverstova-3243241.jpg
+  - img: img/header-image-lines-1380x500.jpg
     date: 2022-02-09T19:19:51.814Z
     url: paloasemien-paikatietoanalyysi
     visibility: visible
