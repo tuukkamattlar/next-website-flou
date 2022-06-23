@@ -62,8 +62,10 @@ export default function SingleBlog({ lan }) {
                     />
                     <GeneralHeader title={blogItem.title} img={blogItem.img} lan={lan} description={''}/>
                     <div className={GeneralCSS.container}>
+                       <div className={GeneralCSS.content}>
                         <BlogView blogItem={blogItem} lan={lan}/>
                     </div>
+                     </div>
             </>
             }
         </div>

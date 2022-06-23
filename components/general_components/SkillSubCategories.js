@@ -6,12 +6,14 @@ import Link from 'next/link';
 export default function SkillSubCategories({lan, subcategories}) {
     return (
             <div className={SkillSubCategoryCSS.container}>
+            <div className={SkillSubCategoryCSS.content}>
             {subcategories.map((value, index) => (
                 <div className={SkillSubCategoryCSS.category}>
                     <h3>{value.title[lan]}</h3>
                     <p>{value.description[lan]}</p>
                 </div>
             ))}
+            </div>
         </div>
     )
   }

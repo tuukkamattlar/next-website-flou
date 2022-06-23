@@ -1,13 +1,25 @@
 .container {
-    min-height: 50vh;
-    width: 90vw;
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
-    padding-bottom: 50px;
+        height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    
+    align-items: center;
+   width: 100%;
+    margin: 0 auto 0;
 }
 
-
+.content {
+    max-width: var(--module-max-width);
+    width: var(--module-width);
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     
+}
 
 /* MOBILE BLOCKS */
 @media only screen and (max-width: 700px) {

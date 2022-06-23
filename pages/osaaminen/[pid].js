@@ -67,7 +67,8 @@ export default function SkillArea({ lan }) {
                 keywords={filteredSEOContent.keywords}
             />
             <GeneralHeader title={skillarea.title} img={skillarea.skillIMG} lan={lan} description={''}/>
-            <div className={GeneralCSS.container}>
+          
+            
                
                 <TextAndImageModule 
                     lan={lan}
@@ -76,8 +77,8 @@ export default function SkillArea({ lan }) {
                     text = {skillarea.long}
                     hideIfMobile = {false}
                 />
-           
-                 
+             <div className={GeneralCSS.container}>
+            <div className={GeneralCSS.content}>
                     {
                         skillarea.subcategories.map((c, i) => (
                             <div className='skillBox'>
@@ -123,6 +124,7 @@ export default function SkillArea({ lan }) {
 
 
             </div>
+        </div>
         </div>
 
      
