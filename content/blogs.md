@@ -133,7 +133,7 @@ blogs:
     seo:
       OGPtitle: Lentoverot Suomessa
       OGPimg: img/wave_big_whiteonplum_ssm.png
-  - img: img/flou_arrows.png
+  - img: img/header-image-lines-1380x500.jpg
     date: 2022-01-13T13:04:40.285Z
     url: digitaaliset-liikennesaannot
     visibility: visible
@@ -189,7 +189,7 @@ blogs:
     seo:
       OGPtitle: Liikennesäännöt digitalisoituvat
       OGPimg: img/wave_big_whiteonplum_ssm.png
-  - img: img/flou_bridge.png
+  - img: img/header-image-lines-1380x500.jpg
     date: 2021-12-20T13:13:39.875Z
     url: SUMP
     visibility: visible
@@ -254,7 +254,7 @@ blogs:
       metatag_description: []
       OGPtitle: SUMP-toimintamalli
       OGPimg: img/wave_big_whiteonplum_ssm.png
-  - img: img/flou_bridge.png
+  - img: img/header-image-lines-1380x500.jpg
     date: 2021-09-29T12:17:09.778Z
     url: liikenteen-megahankkeet
     visibility: visible
