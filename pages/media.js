@@ -10,75 +10,53 @@ import styles from '../components/styles/Media.module.css';
 
 export default function Media({ lan }) {
   let { title, headerIMG, description, items } = attributes;
+
+  let imgSrcColor = [
+    {
+      code: 'black',
+      fi: 'Musta',
+      en: 'Black'
+    },{
+      code: 'plum',
+      fi: 'Luumu',
+      en: 'Plum'
+    },{
+      code: 'powder',
+      fi: 'Jauhe',
+      en: 'Powder'
+    },{
+      code: 'white',
+      fi: 'Valkoinen',
+      en: 'White'
+    }
+  ]
+  let imgSrcNaming = [1, 2, 3]
   return (
     <div className='mediaPage'>
-    <GeneralHeader title={title} img={headerIMG} lan={lan} description={description} />
-    <div className={GeneralCSS.container}>
-      <div className={styles.frame}>
-        <div className={styles.content}>
-          <div className={`${styles.media} ${styles.black}`}>
-            <h1>Logo black</h1>
-            <a href="/img/media/logo-black-1.svg" download="logo_black">
-              <img src="/img/media/logo-black-1.svg" />
-            </a>
-            <br />
-            <a href="/img/media/logo-black-2.svg" download>
-              <img src="/img/media/logo-black-2.svg" />
-            </a>
-            <br />
-            <a href="/img/media/logo-black-3.svg" download>
-              <img src="/img/media/logo-black-3.svg" />
-            </a>
-            <br />
-          </div>
-          <div className={`${styles.media} ${styles.plum}`}>
-            <h1>Logo plum</h1>
-            <a href="/img/media/logo-plum-1.svg">
-              <img src="/img/media/logo-plum-1.svg" />
-            </a>
-            <br />
-            <a href="/img/media/logo-plum-2.svg">
-              <img src="/img/media/logo-plum-2.svg" />
-            </a>
-            <br />
-            <a href="/img/media/logo-plum-3.svg">
-              <img src="/img/media/logo-plum-3.svg" />
-            </a>
-            <br />
-          </div>
-          <div className={`${styles.media} ${styles.powder}`}>
-            <h1>Logo powder</h1>
-            <a href="/img/media/logo-powder-1.svg">
-              <img src="/img/media/logo-powder-1.svg" />
-            </a>
-            <br />
-            <a href="/img/media/logo-powder-2.svg">
-              <img src="/img/media/logo-powder-2.svg" />
-            </a>
-            <br />
-            <a href="/img/media/logo-powder-3.svg">
-              <img src="/img/media/logo-powder-3.svg" />
-            </a>
-            <br />
-          </div>
-          <div className={`${styles.media} ${styles.white}`}>
-            <h1>Logo white</h1>
-            <a href="/img/media/logo-white-1.svg">
-              <img src="/img/media/logo-white-1.svg" />
-            </a>
-            <br />
-            <a href="/img/media/logo-white-2.svg">
-              <img src="/img/media/logo-white-2.svg" />
-            </a>
-            <br />
-            <a href="/img/media/logo-white-3.svg">
-              <img src="/img/media/logo-white-3.svg" />
-            </a>
-            <br />
+      <GeneralHeader title={title} img={headerIMG} lan={lan} description={description} />
+      <div className={GeneralCSS.container}>
+        <div className={styles.frame}>
+          <div className={styles.content}>
+            <div className={styles.content}>
+              <div className={styles.media}>
+                <h2>{{en: 'Download logo', fi: "Lataa logo"}[lan]}</h2>
+                {imgSrcNaming.map((indexValue, keyI) => (
+                  <div key={keyI} className={styles.row}>
+                    <img src={'/img/media/logo-black-'+indexValue+'.svg'} className={styles.rowIMG} />
+                    <div className={styles.rowText}>
+                    {imgSrcColor.map((colorValue, keyC) => (
+                      <a href={'/img/media/logo-'+colorValue.code+"-"+indexValue+".svg"} download="logo_black">
+                        {colorValue[lan]}
+                      </a>
+                    ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }

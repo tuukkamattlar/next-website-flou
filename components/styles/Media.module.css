@@ -37,13 +37,34 @@
 }
 
 .media img {
-  margin: auto;
-  padding: 10px;
-  height: 100px;
-  max-width: 100%;
   
 }
 
 .media h1 {
   font-size: 2rem;
+}
+
+.row {
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+
+.rowIMG {
+  margin: auto;
+  padding: 10px;
+  height: 100px;
+  width: 30vw;
+  max-width: 200px;
+  float: left;
+}
+
+.rowText {
+  vertical-align: middle;
+  margin: auto;
+}
+
+.rowText a {
+  padding-right: 10px;
+
 }
