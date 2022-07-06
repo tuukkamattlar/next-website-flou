@@ -5,10 +5,19 @@
     justify-content: center;
     padding-top: 5vw;
     padding-bottom: 5vw;
-    width: 100%;
+    
     align-items: center;
-    max-width: 1200px;
+   width: 100%;
     margin: 0 auto 0;
+
+}
+.content {
+    max-width: var(--module-max-width);
+    width: var(--module-width);
+    
+    display: flex;
+    justify-content: center;
+     align-items: center;
 }
 .text{
     min-width: 400px;

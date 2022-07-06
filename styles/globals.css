@@ -33,7 +33,10 @@ html {
 
 /* use global variables like this: */
 font-size: var(--text);
-
+ 
+/* GENERAL MODULE WIDTH SETTINGS */
+    --module-width: 90vw;
+    --module-max-width: 1200px;
 }
 
 /* FONTS */
@@ -277,6 +280,7 @@ p {
   color: var(--color-white);
   padding: 3rem;
   margin-top: 3rem;
+  width: 100%;
 }
 
 .skillbox p {

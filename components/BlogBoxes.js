@@ -10,9 +10,11 @@ export default function BlogBoxes({ items = blogs.blogs, lan, maxLen = -1 }) {
   
   return (
       <div className={blogBoxes.container}>
+      <div className={blogBoxes.content}>
           {items.map((item, key) => (
             <BlogBox item={item} lan={lan} key={key}/>
           ))}
+      </div>
       </div>
   )
 }

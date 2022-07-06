@@ -9,6 +9,14 @@
 
 }
 
+.content {
+    max-width: var(--module-max-width);
+    width: var(--module-width);
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+
 .category {
     margin-inline: 20px;
     height: 27rem;

@@ -6,7 +6,15 @@
 .text p, .text span, .text a {
   font-size:calc(16px + 0.1vw);
 }
-  
+
+.content {
+    max-width: var(--module-max-width);
+    width: var(--module-width);
+    
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
 
 /* MOBILE BLOCKS */
 @media only screen and (max-height: 500px) {

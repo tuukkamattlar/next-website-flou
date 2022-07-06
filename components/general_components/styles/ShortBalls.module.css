@@ -6,10 +6,17 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-        position: absolute;
-    width: 100vw;
+       
+    width: 100%;
     left: 0;
 
+}
+.content {
+    max-width: var(--module-max-width);
+    width: var(--module-width);
+    display: flex;
+    justify-content: center;
+     align-items: center;
 }
 
 .ball {

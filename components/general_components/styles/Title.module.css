@@ -2,7 +2,15 @@
     padding-top: 50px;
     padding-bottom: 20px;
     background-color: white;
+    width: 100%;
 
+}
+.content {
+    max-width: var(--module-max-width);
+    width: var(--module-width);
+    display: flex;
+    justify-content: center;
+     align-items: center;
 }
 .container > h1 {
     text-align: center;
